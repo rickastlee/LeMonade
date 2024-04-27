@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.AutoCenteredLabelView
+        android:id="@id/id_7f0b046c"
+        style="@style/style_7f150339" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0478"
+        style="@style/style_7f150379" />
+</merge>

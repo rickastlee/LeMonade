@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            template_id="@id/id_7f0b1cb1">
+            <softkey
+                id="@id/id_7f0b14f7"
+                press_data="e" />
+            <softkey
+                id="@id/id_7f0b1556"
+                press_data="r" />
+            <softkey
+                id="@id/id_7f0b1582"
+                press_data="t" />
+            <softkey
+                id="@id/id_7f0b15b3"
+                press_data="y" />
+            <softkey
+                id="@id/id_7f0b159f"
+                press_data="u" />
+            <softkey
+                id="@id/id_7f0b151a"
+                press_data="i" />
+            <softkey
+                id="@id/id_7f0b153e"
+                press_data="o" />
+            <softkey
+                id="@id/id_7f0b154f"
+                press_data="p" />
+            <softkey
+                id="@id/id_7f0b0a2c"
+                press_data="̃" />
+            <softkey
+                id="@id/id_7f0b14cc"
+                press_data="a" />
+            <softkey
+                id="@id/id_7f0b155c"
+                press_data="s" />
+            <softkey
+                id="@id/id_7f0b14eb"
+                press_data="d" />
+            <softkey
+                id="@id/id_7f0b150a"
+                press_data="g" />
+            <softkey
+                id="@id/id_7f0b1515"
+                press_data="h" />
+            <softkey
+                id="@id/id_7f0b1527"
+                press_data="j" />
+            <softkey
+                id="@id/id_7f0b152a"
+                press_data="k" />
+            <softkey
+                id="@id/id_7f0b152d"
+                press_data="l" />
+            <softkey
+                id="@id/id_7f0b153a"
+                press_data="ṅ" />
+            <softkey
+                id="@id/id_7f0b14df"
+                press_data="c" />
+            <softkey
+                id="@id/id_7f0b15ad"
+                press_data="v" />
+            <softkey
+                id="@id/id_7f0b14db"
+                press_data="b" />
+            <softkey
+                id="@id/id_7f0b1536"
+                press_data="n" />
+            <softkey
+                id="@id/id_7f0b1534"
+                press_data="m" />
+            <softkey
+                id="@id/id_7f0b0a28"
+                press_data="̅" />
+            <softkey
+                id="@id/id_7f0b0a1e"
+                press_data="̣" />
+        </softkey_list>
+    </softkeys>
+</framework>

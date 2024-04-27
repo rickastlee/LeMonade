@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b0fca"
+                long_press_data="ჭ"
+                merge_index="1"
+                press_data="წ" />
+            <softkey
+                id="@id/id_7f0b0fcd"
+                long_press_data="ჱ"
+                press_data="ე" />
+            <softkey
+                id="@id/id_7f0b0fde"
+                long_press_data="ღ"
+                merge_index="1"
+                press_data="რ" />
+            <softkey
+                id="@id/id_7f0b0fe2"
+                long_press_data="თ"
+                merge_index="1"
+                press_data="ტ" />
+            <softkey
+                id="@id/id_7f0b0fdd"
+                long_press_data="ჸ"
+                press_data="ყ" />
+            <softkey
+                id="@id/id_7f0b0fd2"
+                long_press_data="ჲ"
+                press_data="ი" />
+            <softkey
+                id="@id/id_7f0b0fc5"
+                long_press_data="ჺ"
+                press_data="ა" />
+            <softkey
+                id="@id/id_7f0b0fdf"
+                long_press_data="შ"
+                press_data="ს" />
+            <softkey
+                id="@id/id_7f0b0fdc"
+                long_press_data="ჶ"
+                press_data="ფ" />
+            <softkey
+                id="@id/id_7f0b0fce"
+                long_press_data="ჹ"
+                press_data="გ" />
+            <softkey
+                id="@id/id_7f0b0fd0"
+                long_press_data="ჵ"
+                press_data="ჰ" />
+            <softkey
+                id="@id/id_7f0b0fd3"
+                long_press_data="ჟ,ჷ"
+                press_data="ჯ" />
+            <softkey
+                id="@id/id_7f0b0fd5"
+                long_press_data="ჷ"
+                press_data="კ" />
+            <softkey
+                id="@id/id_7f0b0fe7"
+                long_press_data="ძ"
+                press_data="ზ" />
+            <softkey
+                id="@id/id_7f0b0fe5"
+                long_press_data="ჴ"
+                press_data="ხ" />
+            <softkey
+                id="@id/id_7f0b0fc7"
+                long_press_data="ჩ"
+                press_data="ც" />
+            <softkey
+                id="@id/id_7f0b0fe4"
+                long_press_data="ჳ"
+                press_data="ვ" />
+            <softkey
+                id="@id/id_7f0b0fd9"
+                long_press_data="ჼ"
+                press_data="ნ" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cb1">
+            <softkey
+                id="@id/id_7f0b0fd6"
+                press_data="ქ" />
+            <softkey
+                id="@id/id_7f0b0fe3"
+                press_data="უ" />
+            <softkey
+                id="@id/id_7f0b0fda"
+                press_data="ო" />
+            <softkey
+                id="@id/id_7f0b0fdb"
+                press_data="პ" />
+            <softkey
+                id="@id/id_7f0b0fcb"
+                press_data="დ" />
+            <softkey
+                id="@id/id_7f0b0fd7"
+                press_data="ლ" />
+            <softkey
+                id="@id/id_7f0b0fc6"
+                press_data="ბ" />
+            <softkey
+                id="@id/id_7f0b0fd8"
+                press_data="მ" />
+            <softkey
+                id="@id/id_7f0b0fc8"
+                press_data="ჭ" />
+            <softkey
+                id="@id/id_7f0b0fcf"
+                press_data="ღ" />
+            <softkey
+                id="@id/id_7f0b0fe1"
+                press_data="თ" />
+            <softkey
+                id="@id/id_7f0b0fcc"
+                press_data="ჸ" />
+            <softkey
+                id="@id/id_7f0b0fd1"
+                press_data="ჲ" />
+            <softkey
+                id="@id/id_7f0b0fe0"
+                press_data="შ" />
+            <softkey
+                id="@id/id_7f0b0fe8"
+                press_data="ჟ" />
+            <softkey
+                id="@id/id_7f0b0fe6"
+                press_data="ჷ" />
+            <softkey
+                id="@id/id_7f0b0fd4"
+                press_data="ძ" />
+            <softkey
+                id="@id/id_7f0b0fc9"
+                press_data="ჩ" />
+        </softkey_list>
+    </softkeys>
+</framework>

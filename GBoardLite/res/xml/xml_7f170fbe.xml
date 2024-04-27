@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170fbc" />
+    <softkeys>
+        <softkey
+            id="@id/id_7f0b19b3"
+            layout="@layout/layout_7f0e0757"
+            multi_touch="false"
+            slide_sensitivity="NORMAL">
+            <action
+                data=","
+                keycode="COMMA"
+                popup_label=","
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="@string/string_7f140451" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b19b8"
+            layout="@layout/layout_7f0e0757"
+            multi_touch="false"
+            slide_sensitivity="NORMAL">
+            <action
+                data=";"
+                keycode="SEMICOLON"
+                popup_label=";"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="@string/string_7f140486" />
+        </softkey>
+    </softkeys>
+</framework>

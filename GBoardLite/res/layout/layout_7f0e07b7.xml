@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="0.0dip"
+    android:layout_height="fill_parent"
+    android:layout_weight="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:tag=".keyboard-body-area.for-preview"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f1501b7" />
+    <View
+        android:id="@id/id_7f0b1ebf"
+        android:tag=".space_bar"
+        android:background="@drawable/drawable_7f080578"
+        android:layout_width="0.0dip"
+        android:layout_height="8.0dip"
+        android:layout_marginBottom="11.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405e8="id_7f0b053e"
+        app:attr_7f0405fa="0.4" />
+    <ImageView
+        android:layout_gravity="bottom"
+        android:tag=".background-icon.for-action-key.for-preview"
+        android:layout_width="0.0dip"
+        android:layout_height="@dimen/dimen_7f0707d2"
+        android:layout_marginLeft="2.0dip"
+        android:layout_marginBottom="@dimen/dimen_7f0707d3"
+        android:src="@drawable/drawable_7f080576"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405e9="@id/id_7f0b1ebf"
+        app:attr_7f0405ec="id_7f0b053e"
+        app:attr_7f0405f8="@dimen/dimen_7f0707d4"
+        app:attr_7f0405f9="@dimen/dimen_7f0707d2"
+        app:attr_7f0405fa="0.25" />
+</androidx.constraintlayout.widget.ConstraintLayout>

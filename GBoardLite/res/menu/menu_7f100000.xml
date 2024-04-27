@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/drawable_7f0803fa"
+        android:id="@id/id_7f0b05c6"
+        android:title="@string/string_7f140875"
+        app:attr_7f0402bf="android.support.v7.widget.SearchView"
+        app:attr_7f04078d="id_7f0b0077|id_7f0b0110" />
+</menu>

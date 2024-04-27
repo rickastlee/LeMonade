@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f14030a"
+            id="@id/id_7f0b1181"
+            layout="@layout/layout_7f0e0711">
+            <action
+                keycode="HIDE_KEYBOARD"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@attr/attr_7f04010f" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f14036c"
+            id="@id/id_7f0b1a4f"
+            layout="@layout/layout_7f0e0711">
+            <action
+                data=""
+                keycode="LAUNCH_PREFERENCE_ACTIVITY"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f0803fb" />
+        </softkey>
+    </softkeys>
+</framework>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:tag=".featured-sticker-pack-background"
+    android:background="@drawable/drawable_7f0801e0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen_7f070763"
+    android:layout_marginBottom="16.0dip"
+    android:layout_marginStart="@dimen/dimen_7f070763"
+    android:layout_marginEnd="@dimen/dimen_7f070763"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="23.0dip"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b1ee4"
+        android:tag=".label"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:layout_marginTop="16.0dip"
+        android:maxLines="1"
+        android:fontFamily="@font/font_7f090012" />
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="15.0dip"
+        android:textColor="@color/color_7f060af7"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b1edd"
+        android:tag=".label.secondary.for-sticker-pack-author"
+        android:layout_width="fill_parent"
+        android:layout_height="20.0dip"
+        android:layout_marginTop="6.0dip"
+        android:layout_marginBottom="8.0dip"
+        android:maxLines="1"
+        android:fontFamily="@font/font_7f090012" />
+    <LinearLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7.0dip">
+        <com.google.android.material.button.MaterialButton
+            android:textSize="17.0dip"
+            android:textColor="@color/color_7f060595"
+            android:gravity="center"
+            android:id="@id/id_7f0b0542"
+            android:tag=".featured-sticker-pack-pass-btn"
+            android:paddingTop="@dimen/dimen_7f07076a"
+            android:paddingBottom="@dimen/dimen_7f07076a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_7f14026f"
+            android:fontFamily="@font/font_7f090012"
+            android:layout_marginEnd="9.0dip"
+            app:attr_7f040761="?android:colorControlHighlight"
+            style="@style/style_7f150ba5" />
+        <com.google.android.material.button.MaterialButton
+            android:textSize="17.0dip"
+            android:textColor="@color/color_7f0606c2"
+            android:id="@id/id_7f0b006f"
+            android:tag=".featured-sticker-pack-add-button"
+            android:paddingTop="@dimen/dimen_7f07076a"
+            android:paddingBottom="@dimen/dimen_7f07076a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_7f14035b"
+            android:fontFamily="@font/font_7f090012"
+            android:paddingStart="10.0dip"
+            android:paddingEnd="@dimen/dimen_7f070769"
+            android:backgroundTint="@color/color_7f060595"
+            app:attr_7f040447="@dimen/dimen_7f07076c"
+            app:attr_7f04056f="@drawable/drawable_7f0804e4"
+            app:attr_7f040573="@dimen/dimen_7f07076d"
+            app:attr_7f040576="@color/color_7f0606c2"
+            app:attr_7f040761="?android:colorControlHighlight"
+            style="@style/style_7f150bac" />
+    </LinearLayout>
+</LinearLayout>

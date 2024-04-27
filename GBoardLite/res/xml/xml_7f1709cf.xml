@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class="com.google.android.apps.inputmethod.libs.translate.TranslateKeyboard">
+        <view
+            layout="@attr/attr_7f04027e"
+            type="header" />
+        <view
+            direction="locale"
+            scalable="false"
+            type="header">
+            <softkeys
+                href="@xml/xml_7f170fe2" />
+            <include
+                href="@xml/xml_7f170c4e" />
+        </view>
+    </keyboard>
+</framework>

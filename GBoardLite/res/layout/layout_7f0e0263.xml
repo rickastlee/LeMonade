@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    style="@style/style_7f1501b7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.motion.widget.MotionLayout
+        android:id="@id/id_7f0b02ba"
+        app:attr_7f0405c5="@xml/xml_7f170c72"
+        style="@style/style_7f1501cc">
+        <include
+            layout="@layout/layout_7f0e01cc" />
+        <FrameLayout
+            style="@style/style_7f1502cc">
+            <LinearLayout
+                style="@style/style_7f1501c5">
+                <include
+                    layout="@layout/layout_7f0e0268" />
+                <include
+                    layout="@layout/layout_7f0e01df" />
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.motion.widget.MotionLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

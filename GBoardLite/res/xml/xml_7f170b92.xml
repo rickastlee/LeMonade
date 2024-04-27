@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b1990"
+            view_id="@id/key_pos_password_header_number_1" />
+        <mapping
+            key_id="@id/id_7f0b1991"
+            view_id="@id/key_pos_password_header_number_2" />
+        <mapping
+            key_id="@id/id_7f0b1992"
+            view_id="@id/key_pos_password_header_number_3" />
+        <mapping
+            key_id="@id/id_7f0b1993"
+            view_id="@id/key_pos_password_header_number_4" />
+        <mapping
+            key_id="@id/id_7f0b1994"
+            view_id="@id/key_pos_password_header_number_5" />
+        <mapping
+            key_id="@id/id_7f0b1995"
+            view_id="@id/key_pos_password_header_number_6" />
+        <mapping
+            key_id="@id/id_7f0b1996"
+            view_id="@id/key_pos_password_header_number_7" />
+        <mapping
+            key_id="@id/id_7f0b1997"
+            view_id="@id/key_pos_password_header_number_8" />
+        <mapping
+            key_id="@id/id_7f0b1998"
+            view_id="@id/key_pos_password_header_number_9" />
+        <mapping
+            key_id="@id/id_7f0b198f"
+            view_id="@id/key_pos_password_header_number_0" />
+    </key_mapping>
+    <key_mapping
+        state="MANUAL_SHIFT">
+        <mapping
+            key_id="@id/id_7f0b1611"
+            view_id="@id/key_pos_password_header_number_1" />
+        <mapping
+            key_id="@id/id_7f0b160f"
+            view_id="@id/key_pos_password_header_number_2" />
+        <mapping
+            key_id="@id/id_7f0b1615"
+            view_id="@id/key_pos_password_header_number_3" />
+        <mapping
+            key_id="@id/id_7f0b1610"
+            view_id="@id/key_pos_password_header_number_4" />
+        <mapping
+            key_id="@id/id_7f0b1614"
+            view_id="@id/key_pos_password_header_number_5" />
+        <mapping
+            key_id="@id/id_7f0b1612"
+            view_id="@id/key_pos_password_header_number_6" />
+        <mapping
+            key_id="@id/id_7f0b160e"
+            view_id="@id/key_pos_password_header_number_7" />
+        <mapping
+            key_id="@id/id_7f0b1617"
+            view_id="@id/key_pos_password_header_number_8" />
+        <mapping
+            key_id="@id/id_7f0b1613"
+            view_id="@id/key_pos_password_header_number_9" />
+        <mapping
+            key_id="@id/id_7f0b1616"
+            view_id="@id/key_pos_password_header_number_0" />
+    </key_mapping>
+</framework>

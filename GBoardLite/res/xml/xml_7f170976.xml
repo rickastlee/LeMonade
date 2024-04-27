@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f17096a" />
+    </if>
+    <else>
+        <keyboard
+            class=".latin.keyboard.LatinSymbolsKeyboard"
+            popup="@attr/attr_7f0401f3"
+            recent_key_layout="@layout/layout_7f0e0746"
+            recent_key_popup_layout="@layout/layout_7f0e066e">
+            <view
+                direction="locale"
+                layout="@layout/layout_7f0e0576"
+                scalable="false"
+                type="header">
+                <softkeys
+                    href="@xml/xml_7f170cc4" />
+                <softkeys
+                    href="@xml/xml_7f170cad" />
+                <include
+                    href="@xml/xml_7f170b38" />
+            </view>
+            <include
+                href="@xml/xml_7f17096f" />
+            <view
+                type="body">
+                <motion_event_handler
+                    class=".motioneventhandler.BasicMotionEventHandler" />
+                <motion_event_handler
+                    class=".motioneventhandler.ScrubDeleteMotionEventHandler"
+                    preference_key="@string/string_7f1406b0"
+                    reverse_preference="false" />
+                <motion_event_handler
+                    class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+                <motion_event_handler
+                    class=".motioneventhandler.ScrubMoveMotionEventHandler"
+                    preference_key="@string/string_7f1406b1"
+                    reverse_preference="false" />
+                <softkeys
+                    href="@xml/xml_7f170fc1" />
+                <softkeys
+                    href="@xml/xml_7f170cad" />
+                <softkeys
+                    href="@xml/xml_7f170cb2" />
+                <softkeys
+                    href="@xml/xml_7f170fc5" />
+                <softkeys
+                    href="@xml/xml_7f170eb4" />
+                <softkeys
+                    href="@xml/xml_7f170c9e" />
+                <softkeys
+                    href="@xml/xml_7f170cbd" />
+                <include
+                    href="@xml/xml_7f170a7c" />
+                <include
+                    href="@xml/xml_7f170a6a" />
+                <include
+                    href="@xml/xml_7f170a1f" />
+                <include
+                    href="@xml/xml_7f170b22" />
+            </view>
+        </keyboard>
+    </else>
+</framework>

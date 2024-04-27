@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@id/id_7f0b0494"
+    android:importantForAccessibility="noHideDescendants"
+    style="@style/style_7f150315"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/id_7f0b0497"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:foreground="?android:selectableItemBackground"
+        android:src="@color/color_7f060127"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null" />
+    <include
+        layout="@layout/layout_7f0e06d7" />
+</androidx.cardview.widget.CardView>

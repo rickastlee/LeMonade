@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:gravity="center"
+    android:duplicateParentState="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b026a"
+        android:tag=".icon.for-emojify-key"
+        android:background="@drawable/drawable_7f0802de"
+        android:duplicateParentState="true"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:scaleType="centerInside"
+        android:contentDescription="@null" />
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b0193"
+        android:tag=".background-icon.for-emojify-key.progress-circle"
+        android:layout_width="32.0dip"
+        android:layout_height="32.0dip"
+        android:max="360"
+        android:progressDrawable="@drawable/drawable_7f0802ae"
+        style="?android:progressBarStyleHorizontal" />
+    <ProgressBar
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b0194"
+        android:tag=".background-icon.for-emojify-key.second-progress-circle"
+        android:background="@drawable/drawable_7f0802ad"
+        android:visibility="invisible"
+        android:layout_width="34.0dip"
+        android:layout_height="34.0dip"
+        android:max="360"
+        android:progressDrawable="@drawable/drawable_7f0802ac"
+        style="?android:progressBarStyleHorizontal" />
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="16.0dip"
+    android:layout_marginBottom="8.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="14.0dip"
+        android:id="@id/id_7f0b027d"
+        android:tag=".label.secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_7f14034e"
+        android:fontFamily="?attr_7f0400f3"
+        android:layout_marginStart="16.0dip"
+        android:layout_marginEnd="8.0dip"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/id_7f0b027f"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:text="@string/string_7f140350"
+        app:attr_7f0405d5="@id/id_7f0b027e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b027d"
+        style="@style/style_7f1502b5" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/id_7f0b027e"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:text="@string/string_7f14034f"
+        app:attr_7f0405d5="@id/id_7f0b027c"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b027f"
+        style="@style/style_7f1502b5" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/id_7f0b027c"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:text="@string/string_7f14034d"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b027e"
+        style="@style/style_7f1502b5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

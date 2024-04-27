@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:visibility="invisible"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+        android:textSize="?attr_7f040296"
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b1fb9"
+        android:paddingEnd="0.0dip"
+        style="@style/style_7f15034c" />
+</FrameLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.companionwidget.widget.WidgetInnerHolder
+    android:id="@id/id_7f0b1fd7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="2.0dip"
+    app:attr_7f0405ce="true"
+    app:attr_7f0405d4="id_7f0b053e"
+    app:attr_7f0405db="@id/id_7f0b1fd4"
+    app:attr_7f0405ed="@id/id_7f0b1fd6"
+    app:attr_7f0405f2="id_7f0b053e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:visibility="invisible"
+        layout="@layout/layout_7f0e05b4"
+        style="@style/style_7f150c12" />
+    <include
+        android:visibility="gone"
+        app:attr_7f0407f4="@id/softkey_holder_fixed_candidates"
+        layout="@layout/layout_7f0e06b7"
+        style="@style/style_7f150c12" />
+    <include
+        android:visibility="gone"
+        layout="@layout/layout_7f0e07e1"
+        style="@style/style_7f150c12" />
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b1eef"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:layout_gravity="start|center"
+            android:contentDescription="@null"
+            style="@style/style_7f150c2f" />
+        <ImageView
+            android:layout_gravity="end|center"
+            android:contentDescription="@null"
+            style="@style/style_7f150c2f" />
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.companionwidget.widget.WidgetInnerHolder>

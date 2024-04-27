@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f1501c0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        style="@style/style_7f1501cb">
+        <com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.MonolithicCandidatesRecyclerView
+            android:id="@id/id_7f0b1189"
+            app:attr_7f04035b="@layout/layout_7f0e0736"
+            candidate_background="@android:color/transparent"
+            last_column_candidate_background="@android:color/transparent"
+            style="@style/style_7f1502d2" />
+        <FrameLayout
+            android:layout_gravity="center|right|top"
+            android:id="@id/id_7f0b04d5"
+            android:layout_width="?attr_7f04015f"
+            android:layout_height="?attr_7f04015f">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@id/key_pos_show_more_candidates"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

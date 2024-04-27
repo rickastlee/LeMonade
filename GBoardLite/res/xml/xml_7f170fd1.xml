@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b0874"
+                long_press_data="ഃ ഽ ൹"
+                param_data="ം"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                hint_label="ঁ​ং​ঃ"
+                id="@id/id_7f0b0877"
+                long_press_data="ং ঃ ঁ ় ʼ"
+                long_press_label="ং ঃ ঁ ় ʼ"
+                param_data="্"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074e" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1ca6">
+            <softkey
+                id="@id/id_7f0b0879"
+                long_press_data="҇ ̀ ҃ ̑ ҆́ ҆̀ ҆ ҅ ̾ ꙽ ̇ ꙼ ⸯ ꙿ ̈ ꙾"
+                long_press_label="◌҇ ◌̀ ◌҃ ◌̑ ◌҆́ ◌҆̀ ◌҆ ◌҅ ◌̾ ◌꙽ ◌̇ ◌꙼ ⸯ ꙿ ◌̈ ꙾"
+                press_data="́"
+                press_label="◌́" />
+        </softkey_list>
+        <softkey
+            id="@id/id_7f0b087b"
+            layout="@layout/layout_7f0e074c"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="⹁"
+                intention="COMMIT"
+                keycode="COMMA"
+                popup_label="⹁"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046d"
+                value="⹁" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b087c"
+            layout="@layout/layout_7f0e074c"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="،"
+                intention="COMMIT"
+                keycode="COMMA"
+                popup_label="،"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046d"
+                value="،" />
+        </softkey>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b087d"
+                param_data="᭞"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b087e"
+                param_data="꛵"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                desc="@string/string_7f14028c"
+                id="@id/id_7f0b087f"
+                param_data="，"
+                param_keycode="PLAIN_TEXT"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey
+            id="@id/id_7f0b0881"
+            layout="@layout/layout_7f0e074c"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="፣"
+                intention="COMMIT"
+                keycode="COMMA"
+                popup_label="፣"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046d"
+                value="፣" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0883"
+            layout="@layout/layout_7f0e074c"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="꫰"
+                intention="COMMIT"
+                keycode="COMMA"
+                popup_label="꫰"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046d"
+                value="꫰" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0884"
+            layout="@layout/layout_7f0e074c"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="၊"
+                intention="COMMIT"
+                keycode="COMMA"
+                popup_label="၊"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046d"
+                value="၊" />
+        </softkey>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b0882"
+                param_data="꓾"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey
+            id="@id/id_7f0b0885"
+            layout="@layout/layout_7f0e074c"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="߸"
+                intention="COMMIT"
+                keycode="COMMA"
+                popup_label="߸"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046d"
+                value="߸" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0886"
+            layout="@layout/layout_7f0e074c"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="᜵"
+                intention="COMMIT"
+                keycode="COMMA"
+                popup_label="᜵"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046d"
+                value="᜵" />
+        </softkey>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b0888"
+                param_data="।"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b0889"
+                param_data="𑅁"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b088a"
+                param_data="꣎"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b088b"
+                param_data="॥"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b088c"
+                long_press_data="፟ ፞ ፝"
+                param_data="፡"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b088d"
+                param_data="׳"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey
+            id="@id/id_7f0b088e"
+            layout="@layout/layout_7f0e074c"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="ַ"
+                intention="COMMIT"
+                keycode="ALPHABET"
+                popup_label="◌ַ"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046d"
+                value="◌ַ" />
+        </softkey>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b088f"
+                long_press_data="'"
+                long_press_label="'"
+                param_data="-"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1ca6">
+            <softkey
+                id="@id/id_7f0b0893"
+                press_data="ʰ"
+                press_label="◌ʰ" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b0894"
+                param_data="ˈ"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b0895"
+                param_data="."
+                param_keycode="PERIOD"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b0896"
+                long_press_data=", ՞ ՜ . ՚ ՙ ? ! ՝ ՛ ֊ » « ՟ ; :"
+                param_data="։"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b0897"
+                param_data="᭟"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b0898"
+                param_data="꛳"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b0899"
+                param_data="᙮"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b089a"
+                param_data="꩞"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                desc="@string/string_7f140290"
+                id="@id/id_7f0b089b"
+                param_data="。"
+                param_keycode="PLAIN_TEXT"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b089c"
+                param_data="።"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b089d"
+                long_press_data="઼ ઁ ં ઃ ઽ ૐ લૃ ।"
+                long_press_label="઼ ઁ ં ઃ ઽ ૐ લૃ ।"
+                param_data="."
+                param_keycode="PERIOD"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b089e"
+                param_data="꓿"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b089f"
+                long_press_data="꫱ ꫰ ꯭ ꯬ ꫲ ꫳ ꫴ ꫵ ꫶"
+                param_data="꯫"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b08a0"
+                param_data="။"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b08a1"
+                param_data="᜶"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b08a2"
+                param_data="۔"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b08a3"
+                long_press_data=": ·"
+                long_press_label=": ·"
+                param_data=";"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6d">
+            <softkey
+                id="@id/id_7f0b08a9"
+                long_press_data="༒ ༑ ༐ ༏ ༎ ༈ ࿓ ࿔ ༇ ༆ ༄ ༅ ࿙ ࿚ ༼ ༽ ༺ ༻"
+                param_data="།"
+                param_keycode="PERIOD"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey
+            id="@id/id_7f0b0890"
+            layout="@layout/layout_7f0e074c"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="꧈"
+                intention="COMMIT"
+                keycode="COMMA"
+                popup_label="꧈"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046d"
+                value="꧈" />
+        </softkey>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b0891"
+                param_data="꧉"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b0892"
+                param_data="꤯"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b08ac"
+                param_data="᰻"
+                param_keycode="PERIOD"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey
+            id="@id/id_7f0b1c17"
+            layout="@layout/layout_7f0e074c"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="ஃ"
+                intention="COMMIT"
+                keycode="COMMA"
+                popup_label="ஃ"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046d"
+                value="ஃ" />
+        </softkey>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b08ad"
+                param_data="༔"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6d">
+            <softkey
+                id="@id/id_7f0b08af"
+                long_press_data="༷ ༵ ༸ ཿ ཾ ྃ ༹ ྄ ྅ ྂ ྆ ྇ ༀ ༁ ༂ ༃ ༴ ࿒"
+                param_data="་"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+            <softkey
+                id="@id/id_7f0b08ae"
+                long_press_data="༷ ༵ ༸ ཿ ཾ ྃ ༹ ྄ ྅ ྂ ྆ ྇ ࿑ ࿐ ༊ ༉ ༴ ࿒"
+                param_data="་"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b08b1"
+                param_data="ꘌ"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b08b2"
+                param_data="્"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b08b3"
+                param_data="ꀕ"
+                param_keycode="ALPHABET"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1c69"
+            layout="$param_layout$"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="$param_data$"
+                intention="COMMIT"
+                keycode="$param_keycode$"
+                popup_label="$param_data$"
+                type="PRESS" />
+            <action
+                data="$long_press_data$"
+                intention="COMMIT"
+                keycode="$param_keycode$"
+                popup_label="$long_press_data$"
+                popup_layout="@attr/attr_7f0401fc"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$param_data$" />
+        </softkey_template>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c69">
+            <if
+                language="zh-CN">
+                <softkey
+                    id="@id/id_7f0b0878"
+                    long_press_data="@string/string_7f140436"
+                    param_data=".com"
+                    param_keycode="PLAIN_TEXT"
+                    param_layout="@layout/layout_7f0e0756" />
+            </if>
+            <else_if
+                language="zh-HK">
+                <softkey
+                    id="@id/id_7f0b0878"
+                    long_press_data="@string/string_7f140437"
+                    param_data=".com"
+                    param_keycode="PLAIN_TEXT"
+                    param_layout="@layout/layout_7f0e0756" />
+            </else_if>
+            <else_if
+                language="zh-TW">
+                <softkey
+                    id="@id/id_7f0b0878"
+                    long_press_data="@string/string_7f140438"
+                    param_data=".com"
+                    param_keycode="PLAIN_TEXT"
+                    param_layout="@layout/layout_7f0e0756" />
+            </else_if>
+            <else_if
+                language="ko">
+                <softkey
+                    id="@id/id_7f0b0878"
+                    long_press_data="@string/string_7f140435"
+                    param_data=".com"
+                    param_keycode="PLAIN_TEXT"
+                    param_layout="@layout/layout_7f0e0756" />
+            </else_if>
+            <else_if
+                language="ja">
+                <softkey
+                    id="@id/id_7f0b0878"
+                    long_press_data="@string/string_7f140434"
+                    param_data=".com"
+                    param_keycode="PLAIN_TEXT"
+                    param_layout="@layout/layout_7f0e0756" />
+            </else_if>
+            <else>
+                <softkey
+                    id="@id/id_7f0b0878"
+                    long_press_data="@string/string_7f140433"
+                    param_data=".com"
+                    param_keycode="PLAIN_TEXT"
+                    param_layout="@layout/layout_7f0e0756" />
+            </else>
+        </softkey_list>
+        <softkey_list
+            splitter=",">
+            <softkey
+                id="@id/id_7f0b0880"
+                layout="@layout/layout_7f0e074f"
+                multi_touch="false"
+                popup_timing="@string/string_7f14084b"
+                slide_sensitivity="NORMAL">
+                <action
+                    data="，"
+                    intention="COMMIT"
+                    keycode="PLAIN_TEXT"
+                    popup_label="，"
+                    type="PRESS" />
+                <action
+                    data="。"
+                    intention="COMMIT"
+                    keycode="PLAIN_TEXT"
+                    popup_label="｡"
+                    type="SLIDE_UP" />
+                <action
+                    data="。,.,！,？,、,「,」,『,』,…,：,；,XD,:P,:D,:(,:),^_^"
+                    intention="COMMIT"
+                    keycode="PLAIN_TEXT"
+                    popup_label="。,.,！,？,、,「,」,『,』,…,：,；,XD,:P,:D,:(,:),^_^"
+                    popup_layout="@attr/attr_7f0401f9"
+                    type="LONG_PRESS" />
+                <label
+                    location="@id/id_7f0b046d"
+                    value="，" />
+                <label
+                    location="@id/id_7f0b0479"
+                    value="。" />
+            </softkey>
+        </softkey_list>
+        <softkey
+            id="@id/id_7f0b1eb2"
+            layout="@layout/layout_7f0e0714"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="‌"
+                intention="D"
+                keycode="ALPHABET"
+                popup_icon="@drawable/drawable_7f080421"
+                popup_layout="@attr/attr_7f0401fe"
+                type="PRESS" />
+            <action
+                data="‍"
+                intention="D"
+                keycode="ALPHABET"
+                popup_icon="@drawable/drawable_7f080420"
+                popup_layout="@attr/attr_7f0401fe"
+                type="LONG_PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080421" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b1eb3"
+            layout="@layout/layout_7f0e0714"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="‌"
+                intention="C"
+                keycode="ALPHABET"
+                popup_icon="@drawable/drawable_7f080421"
+                popup_layout="@attr/attr_7f0401fe"
+                type="PRESS" />
+            <action
+                data="‍"
+                intention="C"
+                keycode="ALPHABET"
+                popup_icon="@drawable/drawable_7f080420"
+                popup_layout="@attr/attr_7f0401fe"
+                type="LONG_PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080421" />
+        </softkey>
+    </softkeys>
+</framework>

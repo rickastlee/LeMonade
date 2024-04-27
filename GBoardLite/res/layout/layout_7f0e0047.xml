@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/id_7f0b00e6"
+    style="@style/style_7f1501e1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@id/id_7f0b00ef"
+        style="@style/style_7f1501e8">
+        <FrameLayout
+            android:id="@id/id_7f0b00f2"
+            style="@style/style_7f1501eb">
+            <ImageView
+                android:id="@id/id_7f0b00f1"
+                style="@style/style_7f1501ea" />
+        </FrameLayout>
+        <ImageView
+            android:id="@id/id_7f0b00f0"
+            style="@style/style_7f1501e9" />
+        <com.google.android.libraries.inputmethod.widgets.TransformationTextView
+            android:id="@id/id_7f0b00e7"
+            style="@style/style_7f1501e7" />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@id/id_7f0b00ee"
+        android:visibility="gone"
+        android:duplicateParentState="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:selectableItemBackground">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@id/id_7f0b00ec"
+                app:attr_7f0405d4="id_7f0b053e"
+                app:attr_7f0405da="id_7f0b053e"
+                app:attr_7f0405ee="id_7f0b053e"
+                app:attr_7f0405f2="id_7f0b053e"
+                style="@style/style_7f1501e5" />
+            <ImageView
+                android:id="@id/id_7f0b00ed"
+                app:attr_7f0405d4="id_7f0b053e"
+                app:attr_7f0405d9="1:1"
+                app:attr_7f0405da="id_7f0b053e"
+                app:attr_7f0405ee="id_7f0b053e"
+                app:attr_7f0405f2="id_7f0b053e"
+                style="@style/style_7f1501e6" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/id_7f0b00e9"
+        style="@style/style_7f1501e2">
+        <ImageView
+            android:id="@id/id_7f0b00ea"
+            android:tag=".icon.clipboard-item-selector"
+            android:src="@drawable/drawable_7f08052b"
+            style="@style/style_7f1501e4" />
+        <include
+            layout="@layout/layout_7f0e0048" />
+        <CheckBox
+            android:id="@id/id_7f0b00e8"
+            style="@style/style_7f1501e3" />
+    </FrameLayout>
+</FrameLayout>

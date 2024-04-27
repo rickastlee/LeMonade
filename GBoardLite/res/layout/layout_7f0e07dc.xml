@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:duplicateParentState="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerInParent="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/id_7f0b026a"
+        android:tag=".icon.for-function-key.for-header-icon.voice-inactive-mic-circle.item-ripple.on-surface"
+        android:background="@drawable/drawable_7f0801f1"
+        android:visibility="gone"
+        android:duplicateParentState="true"
+        android:scaleType="centerInside"
+        style="@style/style_7f15021a" />
+</FrameLayout>

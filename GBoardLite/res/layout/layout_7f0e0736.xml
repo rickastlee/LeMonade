@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f1502d6"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/id_7f0b00be"
+        style="@style/style_7f1505e4" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.HorizontalCompressionTextView
+            android:layout_gravity="center"
+            android:id="@id/id_7f0b046c"
+            android:layout_width="0.0dip"
+            android:singleLine="true"
+            android:layout_weight="1.0"
+            app:attr_7f040866="ja-JP"
+            style="@style/style_7f15033d" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b0470"
+            style="@style/style_7f150386" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b046e"
+            app:attr_7f040866="ja-JP"
+            style="@style/style_7f150382" />
+    </LinearLayout>
+</FrameLayout>

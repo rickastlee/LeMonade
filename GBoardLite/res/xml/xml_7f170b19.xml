@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170b18" />
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal">
+        <key_mapping
+            state="AUTO_CAPS,CAPS_LOCK,MANUAL_SHIFT">
+            <mapping
+                key_id="@id/id_7f0b1a55"
+                view_id="@id/key_pos_shift" />
+        </key_mapping>
+    </if>
+</framework>

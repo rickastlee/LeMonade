@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:tag=".expression-search-box"
+    android:background="@drawable/drawable_7f08027d"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:elevation="@dimen/dimen_7f070128"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b01a7"
+        android:tag=".expression-search-entry-icon"
+        android:layout_width="@dimen/dimen_7f070759"
+        android:layout_height="@dimen/dimen_7f070759"
+        android:scaleType="centerInside" />
+</FrameLayout>

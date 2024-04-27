@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="?attr_7f0400ce"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/id_7f0b00a8"
+        android:tag=".bitmoji-logo-text"
+        android:src="@drawable/drawable_7f08029d"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f1501b2" />
+    <ImageView
+        android:src="@drawable/drawable_7f08029c"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f1501b2" />
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="14.0dip"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b00a8"
+        style="@style/style_7f1501b3" />
+    <com.google.android.material.button.MaterialButton
+        android:textSize="16.0dip"
+        android:id="@id/id_7f0b019c"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b029e"
+        style="@style/style_7f1501b1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

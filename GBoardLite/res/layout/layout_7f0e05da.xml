@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f1501c1">
+    <LinearLayout
+        style="@style/style_7f1501ca">
+        <include
+            layout="@layout/layout_7f0e0128" />
+        <include
+            layout="@layout/layout_7f0e0126" />
+        <include
+            layout="@layout/layout_7f0e05d7" />
+    </LinearLayout>
+</FrameLayout>

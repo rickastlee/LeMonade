@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170fc8" />
+    <softkeys>
+        <softkey_template
+            alpha="204"
+            content_description="$desc$"
+            id="@id/id_7f0b1cb8"
+            layout="@layout/layout_7f0e071b"
+            multi_touch="false"
+            popup_timing="ON_GESTURE"
+            slide_sensitivity="NORMAL">
+            <action
+                data="$press_data$"
+                intention="DECODE"
+                keycode="$keycode$"
+                type="PRESS" />
+            <action
+                data="$long_press_data$"
+                intention="COMMIT"
+                keycode="$keycode$"
+                popup_label="$long_press_data$"
+                popup_layout="@attr/attr_7f0401fe"
+                type="LONG_PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="$key_image$" />
+            <label
+                location="@id/id_7f0b0478"
+                value="$long_press_data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1cb8">
+            <softkey
+                desc="@string/string_7f140a5c"
+                id="@id/id_7f0b1aa5"
+                key_image="@drawable/drawable_7f080407"
+                keycode="KEYCODE_1"
+                long_press_data="1"
+                press_data="h" />
+            <softkey
+                desc="@string/string_7f140a5e"
+                id="@id/id_7f0b1aa9"
+                key_image="@drawable/drawable_7f080409"
+                keycode="KEYCODE_2"
+                long_press_data="2"
+                press_data="s" />
+            <softkey
+                desc="@string/string_7f140a5d"
+                id="@id/id_7f0b1aa7"
+                key_image="@drawable/drawable_7f080408"
+                keycode="KEYCODE_3"
+                long_press_data="3"
+                press_data="p" />
+            <softkey
+                desc="@string/string_7f140a5b"
+                id="@id/id_7f0b1aa3"
+                key_image="@drawable/drawable_7f080406"
+                keycode="KEYCODE_4"
+                long_press_data="4"
+                press_data="n" />
+            <softkey
+                desc="@string/string_7f140a60"
+                id="@id/id_7f0b1aaa"
+                key_image="@drawable/drawable_7f08040b"
+                keycode="KEYCODE_5"
+                long_press_data="5"
+                press_data="z" />
+            <softkey
+                desc="@string/string_7f140a5f"
+                id="@id/id_7f0b1aa6"
+                key_image="@drawable/drawable_7f08040a"
+                keycode="KEYCODE_6"
+                long_press_data="6"
+                press_data="*" />
+        </softkey_list>
+        <softkey_template
+            id="@id/id_7f0b1cb9"
+            layout="@layout/layout_7f0e06e7"
+            multi_touch="false"
+            popup_timing="ON_GESTURE"
+            slide_sensitivity="NORMAL">
+            <action
+                data="$press_data$"
+                intention="COMMIT"
+                keycode="$keycode$"
+                type="PRESS" />
+            <action
+                data="$long_press_data$"
+                intention="COMMIT"
+                keycode="$keycode$"
+                popup_label="$long_press_data$"
+                popup_layout="@attr/attr_7f0401fe"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$press_data$" />
+            <label
+                location="@id/id_7f0b0478"
+                value="$long_press_data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1cb9">
+            <softkey
+                id="@id/id_7f0b1aa4"
+                keycode="KEYCODE_8"
+                long_press_data="8"
+                press_data="！" />
+            <softkey
+                id="@id/id_7f0b1aa8"
+                keycode="KEYCODE_9"
+                long_press_data="9"
+                press_data="？" />
+        </softkey_list>
+        <softkey
+            content_description="@string/string_7f140a2c"
+            id="@id/id_7f0b0621"
+            layout="@layout/layout_7f0e077d"
+            multi_touch="false"
+            popup_timing="ON_GESTURE">
+            <action
+                data=" "
+                keycode="SPACE"
+                type="PRESS" />
+            <action
+                data="0"
+                intention="COMMIT"
+                keycode="KEYCODE_0"
+                popup_label="0"
+                popup_layout="@attr/attr_7f0401fe"
+                type="LONG_PRESS" />
+            <if
+                language="zh-HK">
+                <label
+                    location="@id/id_7f0b046c"
+                    value="@string/string_7f140474" />
+            </if>
+            <else>
+                <label
+                    location="@id/id_7f0b046c"
+                    value="@string/string_7f140473" />
+            </else>
+            <label
+                location="@id/id_7f0b0478"
+                value="0" />
+        </softkey>
+        <softkey
+            alpha="204"
+            content_description="@string/string_7f14088d"
+            id="@id/id_7f0b1aa2"
+            layout="@layout/layout_7f0e071b"
+            multi_touch="false"
+            popup_timing="ON_GESTURE"
+            slide_sensitivity="NORMAL">
+            <action
+                data="'"
+                intention="DECODE"
+                keycode="KEYCODE_7"
+                type="PRESS" />
+            <action
+                data="7"
+                intention="COMMIT"
+                keycode="KEYCODE_7"
+                popup_label="7"
+                popup_layout="@attr/attr_7f0401fe"
+                type="LONG_PRESS" />
+            <if
+                language="zh-HK|zh-TW|zh-XG">
+                <icon
+                    location="@id/id_7f0b026a"
+                    value="@drawable/drawable_7f0803a1" />
+            </if>
+            <else>
+                <icon
+                    location="@id/id_7f0b026a"
+                    value="@drawable/drawable_7f0803a0" />
+            </else>
+            <label
+                location="@id/id_7f0b0478"
+                value="7" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f1401db"
+            id="@id/id_7f0b0a01"
+            layout="@layout/layout_7f0e0706">
+            <action
+                data="@string/string_7f1403ca"
+                keycode="SWITCH_KEYBOARD"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f0803ea" />
+        </softkey>
+        <softkey
+            alpha="@integer/integer_7f0c0066"
+            content_description=""
+            id="@id/id_7f0b0759"
+            layout="@layout/layout_7f0e0706">
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f08039b" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f14009a"
+            id="@id/id_7f0b075a"
+            layout="@layout/layout_7f0e0706">
+            <action
+                data="SUB_CATEGORY_1"
+                keycode="SWITCH_SUB_CATEGORY"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f08039d" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f14009b"
+            id="@id/id_7f0b075b"
+            layout="@layout/layout_7f0e0706">
+            <action
+                data="SUB_CATEGORY_2"
+                keycode="SWITCH_SUB_CATEGORY"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f08039d" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140098"
+            id="@id/id_7f0b0756"
+            layout="@layout/layout_7f0e0706">
+            <action
+                data="SUB_CATEGORY_2"
+                keycode="SWITCH_SUB_CATEGORY"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080399" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140099"
+            id="@id/id_7f0b0757"
+            layout="@layout/layout_7f0e0706">
+            <action
+                data="SUB_CATEGORY_3"
+                keycode="SWITCH_SUB_CATEGORY"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080399" />
+        </softkey>
+        <softkey
+            alpha="@integer/integer_7f0c0066"
+            content_description=""
+            id="@id/id_7f0b0758"
+            layout="@layout/layout_7f0e0706">
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080397" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f140176"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1839"
+            layout="@layout/layout_7f0e075d">
+            <action
+                data="prime"
+                keycode="SWITCH_KEYBOARD"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@attr/attr_7f040114" />
+        </softkey>
+    </softkeys>
+</framework>

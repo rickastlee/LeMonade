@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <if
+        device="tablet"
+        device_size="large">
+        <softkeys
+            href="@xml/xml_7f170d3c" />
+    </if>
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1ca6">
+            <softkey
+                id="@id/id_7f0b15c4"
+                press_data="}"
+                press_label="{" />
+            <softkey
+                id="@id/id_7f0b19f5"
+                press_data="{"
+                press_label="}" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b1686"
+                long_press_data="',&quot;,׳,״"
+                press_data="_" />
+            <softkey
+                id="@id/id_7f0b0684"
+                long_press_data="&quot;,׳,״"
+                press_data="'" />
+            <softkey
+                id="@id/id_7f0b118f"
+                long_press_data="־"
+                press_data="-" />
+            <softkey
+                id="@id/id_7f0b1166"
+                long_press_data="ָ,ֳ,ֻ"
+                press_data="ק" />
+            <softkey
+                id="@id/id_7f0b1167"
+                long_press_data="ֿ"
+                press_data="ר" />
+            <softkey
+                id="@id/id_7f0b116e"
+                long_press_data="וּ,וֹ"
+                press_data="ו" />
+            <softkey
+                id="@id/id_7f0b1165"
+                long_press_data="ַ,ֲ"
+                press_data="פ" />
+            <softkey
+                id="@id/id_7f0b1169"
+                long_press_data="ְ,שׂ,שׁ"
+                press_data="ש" />
+            <softkey
+                id="@id/id_7f0b1156"
+                long_press_data="ּ"
+                press_data="ד" />
+            <softkey
+                id="@id/id_7f0b115d"
+                long_press_data="ג׳"
+                press_data="ג" />
+            <softkey
+                id="@id/id_7f0b1154"
+                long_press_data="֫"
+                press_data="ע" />
+            <softkey
+                id="@id/id_7f0b1171"
+                long_press_data="ײַ"
+                press_data="י" />
+            <softkey
+                id="@id/id_7f0b115f"
+                long_press_data="ח׳,ִ,ֹ"
+                press_data="ח" />
+            <softkey
+                id="@id/id_7f0b1172"
+                long_press_data="ז׳"
+                press_data="ז" />
+            <softkey
+                id="@id/id_7f0b1168"
+                long_press_data="ֶ,ֱ"
+                press_data="ס" />
+            <softkey
+                id="@id/id_7f0b116d"
+                long_press_data="צ׳,ֵ"
+                press_data="צ" />
+            <softkey
+                id="@id/id_7f0b116b"
+                long_press_data="ת׳"
+                press_data="ת" />
+            <softkey
+                id="@id/id_7f0b115c"
+                long_press_data="ץ׳"
+                press_data="ץ" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cb1">
+            <softkey
+                id="@id/id_7f0b1153"
+                press_data="א" />
+            <softkey
+                id="@id/id_7f0b116c"
+                press_data="ט" />
+            <softkey
+                id="@id/id_7f0b115a"
+                press_data="ן" />
+            <softkey
+                id="@id/id_7f0b1159"
+                press_data="ם" />
+            <softkey
+                id="@id/id_7f0b1160"
+                press_data="כ" />
+            <softkey
+                id="@id/id_7f0b1161"
+                press_data="ל" />
+            <softkey
+                id="@id/id_7f0b1158"
+                press_data="ך" />
+            <softkey
+                id="@id/id_7f0b115b"
+                press_data="ף" />
+            <softkey
+                id="@id/id_7f0b1155"
+                press_data="ב" />
+            <softkey
+                id="@id/id_7f0b115e"
+                press_data="ה" />
+            <softkey
+                id="@id/id_7f0b1164"
+                press_data="נ" />
+            <softkey
+                id="@id/id_7f0b1163"
+                press_data="מ" />
+            <softkey
+                id="@id/id_7f0b1157"
+                press_data="ײַ" />
+            <softkey
+                id="@id/id_7f0b116a"
+                press_data="שׁ" />
+            <softkey
+                id="@id/id_7f0b1178"
+                press_data="ֿ" />
+            <softkey
+                id="@id/id_7f0b1179"
+                press_data="ֵ" />
+            <softkey
+                id="@id/id_7f0b116f"
+                press_data="וּ" />
+            <softkey
+                id="@id/id_7f0b1170"
+                press_data="וֹ " />
+            <softkey
+                id="@id/id_7f0b1177"
+                press_data="ָ" />
+            <softkey
+                id="@id/id_7f0b1176"
+                press_data="ּ" />
+            <softkey
+                id="@id/id_7f0b1162"
+                press_data="לֹ" />
+            <softkey
+                id="@id/id_7f0b1688"
+                press_data="„" />
+            <softkey
+                id="@id/id_7f0b16f6"
+                press_data="-" />
+            <softkey
+                id="@id/id_7f0b19fe"
+                press_data="’" />
+        </softkey_list>
+    </softkeys>
+</framework>

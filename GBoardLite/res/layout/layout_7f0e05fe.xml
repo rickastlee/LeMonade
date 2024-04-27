@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f1502d7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/style_7f1501d1">
+        <RelativeLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+            <com.google.android.libraries.inputmethod.widgets.AutoScaleXTextView
+                android:id="@id/id_7f0b046c"
+                android:layout_centerInParent="true"
+                app:attr_7f0406a0="0.7"
+                style="@style/style_7f150343" />
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@id/id_7f0b0470"
+                android:layout_toRightOf="@id/id_7f0b046c"
+                style="@style/style_7f150c10" />
+        </RelativeLayout>
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b046e"
+            android:visibility="gone"
+            style="@style/style_7f150382" />
+    </LinearLayout>
+</FrameLayout>

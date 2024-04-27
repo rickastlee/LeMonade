@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            content_description="@string/string_7f140e0c"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1e18"
+            layout="@layout/layout_7f0e06f7"
+            multi_touch="false">
+            <action
+                data="SINGLE_CHARACTER_CANDIDATE"
+                keycode="KEYBOARD_STATE_ON"
+                type="PRESS" />
+            <if
+                language="zh-TW|zh-HK">
+                <label
+                    location="@id/id_7f0b046c"
+                    value="@string/string_7f140a14" />
+            </if>
+            <else>
+                <label
+                    location="@id/id_7f0b046c"
+                    value="@string/string_7f140a13" />
+            </else>
+            <icon
+                location="@id/id_7f0b026c"
+                value="@attr/attr_7f040104" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140e0b"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1e16"
+            layout="@layout/layout_7f0e06f8"
+            multi_touch="false">
+            <action
+                data="SINGLE_CHARACTER_CANDIDATE"
+                keycode="KEYBOARD_STATE_OFF"
+                type="PRESS" />
+            <if
+                language="zh-TW|zh-HK">
+                <label
+                    location="@id/id_7f0b046c"
+                    value="@string/string_7f140a14" />
+            </if>
+            <else>
+                <label
+                    location="@id/id_7f0b046c"
+                    value="@string/string_7f140a13" />
+            </else>
+            <icon
+                location="@id/id_7f0b026c"
+                value="@drawable/drawable_7f080353" />
+        </softkey>
+    </softkeys>
+</framework>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="16.0dip"
+        android:ellipsize="end"
+        android:layout_gravity="start|center"
+        android:id="@id/id_7f0b01aa"
+        android:tag=".expression-search-query"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:fontFamily="?attr_7f0400f3"
+        android:fontFeatureSettings="calt off" />
+</FrameLayout>

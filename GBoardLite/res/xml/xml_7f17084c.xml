@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e0424"
+                type="body">
+                <if
+                    ja_candidate_ux_v2="true">
+                    <attrs
+                        layout="@layout/layout_7f0e0425" />
+                </if>
+            </view>
+        </if>
+        <else_if
+            device="tablet"
+            enable_show_foldable_layout_on_small_tablet="false"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e0299"
+                type="body" />
+        </else_if>
+        <else_if
+            keyboard_mode="split">
+            <if
+                split_with_duplicate_keys="true">
+                <view
+                    layout="@layout/layout_7f0e0216"
+                    type="body">
+                    <if
+                        ja_candidate_ux_v2="true">
+                        <attrs
+                            layout="@layout/layout_7f0e0219" />
+                    </if>
+                </view>
+            </if>
+            <else>
+                <view
+                    layout="@layout/layout_7f0e0217"
+                    type="body">
+                    <if
+                        ja_candidate_ux_v2="true">
+                        <attrs
+                            layout="@layout/layout_7f0e0218" />
+                    </if>
+                </view>
+            </else>
+        </else_if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e0215"
+                type="body">
+                <if
+                    ja_candidate_ux_v2="true">
+                    <attrs
+                        layout="@layout/layout_7f0e021a" />
+                </if>
+            </view>
+        </else>
+        <view
+            type="body">
+            <softkeys
+                href="@xml/xml_7f170fc1" />
+            <include
+                href="@xml/xml_7f170bcf" />
+            <include
+                href="@xml/xml_7f170b8f" />
+        </view>
+    </keyboard>
+</framework>

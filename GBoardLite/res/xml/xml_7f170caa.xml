@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1ca1"
+            layout="@layout/layout_7f0e0769"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b"
+            slide_sensitivity="NORMAL">
+            <action
+                data="$long_press_data$"
+                intention="$long_press_intention=DECODE$"
+                keycode="PLAIN_TEXT"
+                popup_label="$long_press_data$"
+                popup_layout="@attr/attr_7f0401fa"
+                type="LONG_PRESS" />
+            <action
+                data="$long_press_data$"
+                intention="$long_press_intention=DECODE$"
+                keycode="PLAIN_TEXT"
+                popup_label="$long_press_data$"
+                popup_layout="@attr/attr_7f0401fa"
+                type="SLIDE_UP">
+                <if
+                    ja_enable_popup_slideup_padding="true">
+                    <attrs
+                        popup_layout="@attr/attr_7f0401fb" />
+                </if>
+            </action>
+            <label
+                location="@id/id_7f0b0472"
+                value="$long_press_data$" />
+        </softkey_template>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1ca1">
+            <softkey
+                id="@id/id_7f0b0f5e"
+                long_press_data="\?" />
+            <softkey
+                id="@id/id_7f0b0ee0"
+                long_press_data="!" />
+            <softkey
+                id="@id/id_7f0b0f69"
+                long_press_data=";" />
+            <softkey
+                id="@id/id_7f0b0e74"
+                long_press_data=":" />
+            <softkey
+                id="@id/id_7f0b0e32"
+                long_press_data="'" />
+            <softkey
+                id="@id/id_7f0b0f5f"
+                long_press_data="&quot;" />
+            <softkey
+                id="@id/id_7f0b0e4c"
+                long_press_data="*" />
+            <softkey
+                id="@id/id_7f0b0f66"
+                long_press_data=")" />
+            <softkey
+                id="@id/id_7f0b0f1d"
+                long_press_data="(" />
+            <softkey
+                id="@id/id_7f0b0f5d"
+                long_press_data="+" />
+            <softkey
+                id="@id/id_7f0b0f02"
+                long_press_data="-" />
+            <softkey
+                id="@id/id_7f0b0f6a"
+                long_press_data="/" />
+            <softkey
+                id="@id/id_7f0b0f2b"
+                long_press_data="_" />
+            <softkey
+                id="@id/id_7f0b0f5b"
+                long_press_data="%" />
+            <softkey
+                id="@id/id_7f0b0f7c"
+                long_press_data="¥" />
+            <softkey
+                id="@id/id_7f0b0f50"
+                long_press_data="\#" />
+            <softkey
+                id="@id/id_7f0b0e75"
+                long_press_data="\@" />
+            <softkey
+                id="@id/id_7f0b0f61"
+                long_press_data="@string/string_7f141015" />
+            <softkey
+                id="@id/id_7f0b0e31"
+                long_press_data="&amp;" />
+            <softkey
+                id="@id/id_7f0b0f7a"
+                long_press_data="|" />
+            <softkey
+                id="@id/id_7f0b0ede"
+                long_press_data="=" />
+            <softkey
+                id="@id/id_7f0b0f1e"
+                long_press_data="[" />
+            <softkey
+                id="@id/id_7f0b0f67"
+                long_press_data="]" />
+            <softkey
+                id="@id/id_7f0b0f29"
+                long_press_data="&lt;" />
+            <softkey
+                id="@id/id_7f0b0f2d"
+                long_press_data=">" />
+            <softkey
+                id="@id/id_7f0b0f1b"
+                long_press_data="{" />
+            <softkey
+                id="@id/id_7f0b0f64"
+                long_press_data="}" />
+        </softkey_list>
+    </softkeys>
+</framework>

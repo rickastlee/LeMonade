@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            id="@id/id_7f0b0a00"
+            layout="@layout/layout_7f0e0749"
+            multi_touch="false">
+            <action
+                keycode="SHIFT_DOWN"
+                type="DOWN" />
+            <action
+                keycode="SHIFT_UP"
+                type="UP" />
+            <action
+                data=";"
+                intention="DECODE"
+                keycode="SEMICOLON"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value=";" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040191"
+            content_description="@string/string_7f14088d"
+            id="@id/id_7f0b0a03"
+            layout="@layout/layout_7f0e0714"
+            multi_touch="false">
+            <action
+                keycode="SHIFT_DOWN"
+                type="DOWN" />
+            <action
+                keycode="SHIFT_UP"
+                type="UP" />
+            <action
+                data="'"
+                intention="DECODE"
+                keycode="APOSTROPHE"
+                type="PRESS" />
+            <if
+                language="zh-HK|zh-TW|zh-XG">
+                <icon
+                    location="@id/id_7f0b026a"
+                    value="@drawable/drawable_7f0803a1" />
+            </if>
+            <else>
+                <icon
+                    location="@id/id_7f0b026a"
+                    value="@drawable/drawable_7f0803a0" />
+            </else>
+        </softkey>
+        <softkey
+            id="@id/id_7f0b09ff"
+            layout="@layout/layout_7f0e074a"
+            multi_touch="false">
+            <action
+                data=";"
+                intention="DECODE"
+                keycode="SEMICOLON"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value=";" />
+        </softkey>
+    </softkeys>
+</framework>

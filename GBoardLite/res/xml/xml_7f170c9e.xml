@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            content_description="@string/string_7f1404f0"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b0762"
+            layout="@layout/layout_7f0e070d">
+            <action
+                action_on_down="true"
+                data="prime"
+                keycode="SWITCH_KEYBOARD"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="@string/string_7f1403f7" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f1404f0"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b0760"
+            layout="@layout/layout_7f0e070d">
+            <action
+                data="prime"
+                keycode="SWITCH_KEYBOARD"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="@string/string_7f1403f7" />
+        </softkey>
+        <softkey_template
+            id="@id/id_7f0b1c67">
+            <label
+                location="@id/id_7f0b046c"
+                value="$param_label$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1c67">
+            <softkey
+                id="@id/id_7f0b0d60"
+                param_label="@string/string_7f1403e2" />
+            <softkey
+                id="@id/id_7f0b0d62"
+                param_label="@string/string_7f1403e3" />
+            <softkey
+                id="@id/id_7f0b0d64"
+                param_label="@string/string_7f1403e4" />
+            <softkey
+                id="@id/id_7f0b0d66"
+                param_label="@string/string_7f1403e5" />
+            <softkey
+                id="@id/id_7f0b0d68"
+                param_label="@string/string_7f1403e6" />
+            <softkey
+                id="@id/id_7f0b0d6a"
+                param_label="@string/string_7f1403e7" />
+            <softkey
+                id="@id/id_7f0b0d6b"
+                param_label="@string/string_7f1403e8" />
+            <softkey
+                id="@id/id_7f0b0dae"
+                param_label="@string/string_7f1403e9" />
+            <softkey
+                id="@id/id_7f0b0daf"
+                param_label="@string/string_7f1403ea" />
+            <softkey
+                id="@id/id_7f0b0db0"
+                param_label="@string/string_7f1403eb" />
+            <softkey
+                id="@id/id_7f0b0db1"
+                param_label="@string/string_7f1403ec" />
+            <if
+                language="ccp-BD">
+                <softkey
+                    id="@id/id_7f0b0db2"
+                    param_label="@string/string_7f1403ed" />
+            </if>
+            <softkey
+                id="@id/id_7f0b0db5"
+                param_label="@string/string_7f1403ee" />
+            <softkey
+                id="@id/id_7f0b0db6"
+                param_label="@string/string_7f1403ef" />
+            <if
+                device="tv">
+                <if
+                    language="zh-CN">
+                    <softkey
+                        id="@id/id_7f0b0db7"
+                        param_label="@string/string_7f140470" />
+                </if>
+                <if
+                    language="zh-TW">
+                    <softkey
+                        id="@id/id_7f0b0db7"
+                        param_label="@string/string_7f140476" />
+                </if>
+            </if>
+            <else>
+                <softkey
+                    id="@id/id_7f0b0db7"
+                    param_label="@string/string_7f1403f0" />
+            </else>
+            <softkey
+                id="@id/id_7f0b0db8"
+                param_label="@string/string_7f1403f1" />
+            <softkey
+                id="@id/id_7f0b0dba"
+                param_label="@string/string_7f1403f2" />
+            <softkey
+                id="@id/id_7f0b0dbb"
+                param_label="@string/string_7f1403f3" />
+            <softkey
+                id="@id/id_7f0b0dc0"
+                param_label="@string/string_7f1403f4" />
+            <softkey
+                id="@id/id_7f0b0dc1"
+                param_label="@string/string_7f1403f5" />
+            <softkey
+                id="@id/id_7f0b0dc4"
+                param_label="@string/string_7f1403f6" />
+            <softkey
+                id="@id/id_7f0b0dc5"
+                param_label="@string/string_7f1403f8" />
+            <softkey
+                id="@id/id_7f0b0dc7"
+                param_label="@string/string_7f1403f9" />
+            <softkey
+                id="@id/id_7f0b0dc8"
+                param_label="@string/string_7f1403fb" />
+            <softkey
+                id="@id/id_7f0b0dc9"
+                param_label="@string/string_7f1403fa" />
+            <softkey
+                id="@id/id_7f0b0dca"
+                param_label="@string/string_7f1403fc" />
+            <softkey
+                id="@id/id_7f0b0dcb"
+                param_label="@string/string_7f1403fd" />
+            <softkey
+                id="@id/id_7f0b0dcd"
+                param_label="@string/string_7f1403fe" />
+            <softkey
+                id="@id/id_7f0b0dcf"
+                param_label="@string/string_7f1403ff" />
+            <softkey
+                id="@id/id_7f0b0dd0"
+                param_label="@string/string_7f140400" />
+            <softkey
+                id="@id/id_7f0b0dd4"
+                param_label="@string/string_7f140401" />
+            <softkey
+                id="@id/id_7f0b0dd7"
+                param_label="@string/string_7f140403" />
+            <softkey
+                id="@id/id_7f0b0dd8"
+                param_label="@string/string_7f140404" />
+            <softkey
+                id="@id/id_7f0b0ddb"
+                param_label="@string/string_7f140405" />
+            <softkey
+                id="@id/id_7f0b0ddd"
+                param_label="@string/string_7f140406" />
+            <softkey
+                id="@id/id_7f0b0de0"
+                param_label="@string/string_7f140407" />
+            <softkey
+                id="@id/id_7f0b0de1"
+                param_label="@string/string_7f140408" />
+            <softkey
+                id="@id/id_7f0b0de2"
+                param_label="@string/string_7f140409" />
+            <softkey
+                id="@id/id_7f0b0de3"
+                param_label="@string/string_7f14040a" />
+            <softkey
+                id="@id/id_7f0b0de5"
+                param_label="@string/string_7f14040b" />
+            <softkey
+                id="@id/id_7f0b0de7"
+                param_label="@string/string_7f14040c" />
+            <softkey
+                id="@id/id_7f0b0de8"
+                param_label="@string/string_7f14040d" />
+            <softkey
+                id="@id/id_7f0b0de9"
+                param_label="@string/string_7f14040e" />
+            <softkey
+                id="@id/id_7f0b0ded"
+                param_label="@string/string_7f14040f" />
+            <softkey
+                id="@id/id_7f0b0def"
+                param_label="@string/string_7f140410" />
+            <softkey
+                id="@id/id_7f0b0df1"
+                param_label="@string/string_7f140411" />
+            <softkey
+                id="@id/id_7f0b0df3"
+                param_label="@string/string_7f140412" />
+            <softkey
+                id="@id/id_7f0b0df5"
+                param_label="@string/string_7f140413" />
+            <softkey
+                id="@id/id_7f0b0df7"
+                param_label="@string/string_7f140414" />
+            <softkey
+                id="@id/id_7f0b0df9"
+                param_label="@string/string_7f140415" />
+            <softkey
+                id="@id/id_7f0b0dfa"
+                param_label="@string/string_7f140416" />
+            <softkey
+                id="@id/id_7f0b0e2a"
+                param_label="@string/string_7f140417" />
+            <softkey
+                id="@id/id_7f0b0e2b"
+                param_label="@string/string_7f140418" />
+            <softkey
+                id="@id/id_7f0b0e2d"
+                param_label="@string/string_7f140419" />
+            <softkey
+                id="@id/id_7f0b0e2e"
+                param_label="@string/string_7f14041a" />
+            <softkey
+                id="@id/id_7f0b0f7d"
+                param_label="@string/string_7f14041b" />
+            <softkey
+                id="@id/id_7f0b0f7e"
+                param_label="@string/string_7f14041c" />
+            <softkey
+                id="@id/id_7f0b0f80"
+                param_label="@string/string_7f14041d" />
+            <softkey
+                id="@id/id_7f0b0f81"
+                param_label="@string/string_7f14041e" />
+            <softkey
+                id="@id/id_7f0b0f82"
+                param_label="@string/string_7f14041f" />
+            <softkey
+                id="@id/id_7f0b0f83"
+                param_label="@string/string_7f140420" />
+            <softkey
+                id="@id/id_7f0b0f84"
+                param_label="@string/string_7f140421" />
+            <softkey
+                id="@id/id_7f0b0f85"
+                param_label="@string/string_7f140422" />
+            <softkey
+                id="@id/id_7f0b0f86"
+                param_label="@string/string_7f140423" />
+            <softkey
+                id="@id/id_7f0b0f87"
+                param_label="@string/string_7f140424" />
+            <softkey
+                id="@id/id_7f0b0f8d"
+                param_label="@string/string_7f140425" />
+            <softkey
+                id="@id/id_7f0b0f8e"
+                param_label="@string/string_7f140426" />
+            <softkey
+                id="@id/id_7f0b0f91"
+                param_label="@string/string_7f140427" />
+            <softkey
+                id="@id/id_7f0b0f92"
+                param_label="@string/string_7f140428" />
+            <softkey
+                id="@id/id_7f0b0f93"
+                param_label="@string/string_7f140429" />
+            <softkey
+                id="@id/id_7f0b0f94"
+                param_label="@string/string_7f14042a" />
+            <softkey
+                id="@id/id_7f0b0f95"
+                param_label="@string/string_7f14042b" />
+        </softkey_list>
+    </softkeys>
+</framework>

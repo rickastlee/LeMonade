@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.emoji.view.EmojiView
+    android:textSize="30.0dip"
+    android:textColor="?attr_7f0400b9"
+    android:gravity="center"
+    android:id="@id/id_7f0b018d"
+    android:tag=".emoji-picker-item"
+    android:background="@drawable/drawable_7f08054f"
+    android:padding="2.0dip"
+    android:layout_width="@dimen/dimen_7f070144"
+    android:layout_height="@dimen/dimen_7f07013f"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

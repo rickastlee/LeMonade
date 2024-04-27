@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="672.0"
+        style="@style/style_7f150335">
+        <FrameLayout
+            style="@style/style_7f15061c">
+            <com.google.android.libraries.inputmethod.keyboard.widget.ReadingTextCandidateHolderView
+                android:id="@id/id_7f0b1185"
+                default_sub_view_count="4"
+                style="@style/style_7f150227" />
+        </FrameLayout>
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_main_panel_left_fun"
+            android:layout_weight="250.0"
+            style="@style/style_7f15058d" />
+    </LinearLayout>
+    <include
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="2016.0"
+        layout="@layout/layout_7f0e013a" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="672.0"
+        style="@style/style_7f150335">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_del"
+            android:layout_weight="250.0"
+            style="@style/style_7f15058d" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_move_cursor"
+            android:layout_weight="250.0"
+            style="@style/style_7f15058d" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_shift"
+            android:layout_weight="250.0"
+            style="@style/style_7f15058d" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_ime_action"
+            android:layout_weight="250.0"
+            style="@style/style_7f150598" />
+    </LinearLayout>
+</merge>

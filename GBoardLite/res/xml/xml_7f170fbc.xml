@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170fbf" />
+    <include
+        href="@xml/xml_7f170fbd" />
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1c9b"
+            layout="@layout/layout_7f0e0744"
+            multi_touch="false"
+            slide_sensitivity="NORMAL">
+            <action
+                data="$press_data$"
+                keycode="$keycode$"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$press_data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1c9b">
+            <softkey
+                id="@id/id_7f0b19b0"
+                keycode="PLAIN_TEXT"
+                press_data="(" />
+            <softkey
+                id="@id/id_7f0b19b6"
+                keycode="SLASH"
+                press_data="/" />
+            <softkey
+                id="@id/id_7f0b19b5"
+                keycode="PLAIN_TEXT"
+                press_data=")" />
+            <softkey
+                id="@id/id_7f0b19b2"
+                keycode="PLAIN_TEXT"
+                press_data="N" />
+            <softkey
+                id="@id/id_7f0b19af"
+                keycode="STAR"
+                press_data="*" />
+            <softkey
+                id="@id/id_7f0b19b4"
+                keycode="POUND"
+                press_data="\#" />
+            <softkey
+                id="@id/id_7f0b19b1"
+                keycode="MINUS"
+                press_data="-" />
+            <softkey
+                desc="@string/string_7f14060f"
+                id="@id/id_7f0b19ae"
+                keycode="PLUS"
+                press_data="+" />
+        </softkey_list>
+        <softkey
+            id="@id/id_7f0b19b3"
+            layout="@layout/layout_7f0e0750"
+            multi_touch="false"
+            slide_sensitivity="NORMAL">
+            <action
+                data=","
+                keycode="COMMA"
+                popup_label=","
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="@string/string_7f140451" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b19b8"
+            layout="@layout/layout_7f0e0750"
+            multi_touch="false"
+            slide_sensitivity="NORMAL">
+            <action
+                data=";"
+                keycode="SEMICOLON"
+                popup_label=";"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="@string/string_7f140486" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140d49"
+            id="@id/id_7f0b19b7"
+            layout="@layout/layout_7f0e0749">
+            <action
+                keycode="LOCK_SHIFT"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="* #" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140601"
+            id="@id/id_7f0b19a5"
+            layout="@layout/layout_7f0e0749">
+            <action
+                keycode="UNLOCK_SHIFT"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="123" />
+        </softkey>
+    </softkeys>
+</framework>

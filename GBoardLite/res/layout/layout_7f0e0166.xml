@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView
+    app:attr_7f0402d1="false"
+    app:attr_7f040821="id_7f0b0180"
+    style="@style/style_7f1501bc"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        style="@style/style_7f150256">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="?attr_7f040166">
+            <FrameLayout
+                android:id="@id/id_7f0b05da"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="@integer/integer_7f0c000b" />
+            <FrameLayout
+                android:layout_weight="@integer/integer_7f0c000b"
+                style="@style/style_7f1502c1">
+                <com.google.android.libraries.inputmethod.emoji.widget.PageableEmojiListHolderView
+                    android:id="@id/id_7f0b0452"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    background_emoji_filter="false"
+                    emoji_filter="true"
+                    offscreen_page_limit="2"
+                    page_layout="@layout/layout_7f0e0165"
+                    page_margin_ratio="15" />
+            </FrameLayout>
+        </LinearLayout>
+        <include
+            layout="@layout/layout_7f0e0170" />
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

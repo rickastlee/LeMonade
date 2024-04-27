@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1ca5"
+            layout="@layout/layout_7f0e0714">
+            <action
+                action_on_down="true"
+                data="$press_data$"
+                intention="DECODE"
+                keycode="$key_code$"
+                play_media_effect="false"
+                type="PRESS" />
+            <action
+                keycode="$key_code$"
+                type="UP" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="$param_icon$" />
+        </softkey_template>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1ca5">
+            <softkey
+                desc="dot"
+                id="@id/id_7f0b171a"
+                key_code="MORSE_DOT"
+                param_icon="@drawable/drawable_7f0803f0"
+                press_data="." />
+            <softkey
+                desc="dash"
+                id="@id/id_7f0b1719"
+                key_code="MORSE_DASH"
+                param_icon="@drawable/drawable_7f0803ef"
+                press_data="-" />
+        </softkey_list>
+        <softkey
+            id="@id/id_7f0b0deb"
+            layout="@layout/layout_7f0e072d" />
+        <softkey
+            id="@id/id_7f0b0dec"
+            layout="@layout/layout_7f0e0778" />
+        <softkey
+            content_description="@string/string_7f1409ec"
+            id="@id/id_7f0b171d"
+            layout="@layout/layout_7f0e071f"
+            multi_touch="false">
+            <action
+                keycode="LOCK_SHIFT"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@attr/attr_7f04011e" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f1409ec"
+            id="@id/id_7f0b171e"
+            layout="@layout/layout_7f0e0720"
+            multi_touch="false">
+            <action
+                keycode="UNLOCK_SHIFT"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@attr/attr_7f04011d" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140a2c"
+            id="@id/id_7f0b1718"
+            layout="@layout/layout_7f0e075a">
+            <action
+                data=" "
+                intention="DECODE"
+                keycode="KEYCODE_SPACE"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b0474"
+                value=" " />
+            <label
+                location="@id/id_7f0b0475"
+                value=" " />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f14053e"
+            id="@id/id_7f0b171b"
+            layout="@layout/layout_7f0e0706"
+            multi_touch="false">
+            <action
+                keycode="DISPLAY_MORSE_HINT_CARD"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f08050d" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f14053f"
+            id="@id/id_7f0b171c"
+            layout="@layout/layout_7f0e0706"
+            multi_touch="false">
+            <action
+                keycode="HIDE_MORSE_HINT_CARD"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f08050e" />
+        </softkey>
+    </softkeys>
+</framework>

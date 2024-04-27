@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_7f120000">
+        <item quantity="other">%d näppäintä määritetty</item>
+        <item quantity="one">%d näppäintä määritetty</item>
+    </plurals>
+    <plurals name="plurals_7f120002">
+        <item quantity="other">%s on nyt asennettu.</item>
+        <item quantity="one">%s on nyt asennettu.</item>
+    </plurals>
+</resources>

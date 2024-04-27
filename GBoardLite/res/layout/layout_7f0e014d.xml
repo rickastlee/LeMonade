@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/id_7f0b0441"
+    android:splitMotionEvents="false"
+    style="@style/style_7f1502ff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.keyboardmode.MultiTouchDelegateView
+        android:id="@id/id_7f0b0440"
+        style="@style/style_7f1502fb" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include
+            layout="@layout/layout_7f0e0161" />
+        <include
+            layout="@layout/layout_7f0e015f" />
+        <include
+            layout="@layout/layout_7f0e0154" />
+    </LinearLayout>
+    <include
+        layout="@layout/layout_7f0e014a" />
+</FrameLayout>

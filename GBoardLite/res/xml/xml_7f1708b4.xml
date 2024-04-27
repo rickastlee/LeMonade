@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class=".latin.keyboard.LatinDigitsKeyboard"
+        initial_states="LOCK_KEYBOARD">
+        <view
+            direction="locale"
+            layout="@layout/layout_7f0e0571"
+            scalable="false"
+            type="header">
+            <softkeys
+                href="@xml/xml_7f170cc4" />
+            <include
+                href="@xml/xml_7f170b38" />
+        </view>
+        <if
+            device="tablet"
+            device_size="large">
+            <view
+                layout="@layout/layout_7f0e05e9"
+                type="body" />
+        </if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e05e8"
+                type="body" />
+        </else>
+        <view
+            type="body">
+            <motion_event_handler
+                class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubDeleteMotionEventHandler"
+                preference_key="@string/string_7f1406b0"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubMoveMotionEventHandler"
+                preference_key="@string/string_7f1406b1"
+                reverse_preference="false" />
+            <softkeys
+                href="@xml/xml_7f170d54" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <softkeys
+                href="@xml/xml_7f170fd0" />
+            <softkeys
+                href="@xml/xml_7f170fc5" />
+            <softkeys
+                href="@xml/xml_7f170fc7" />
+            <softkeys
+                href="@xml/xml_7f170fd6" />
+            <softkeys
+                href="@xml/xml_7f170c9e" />
+            <softkeys
+                href="@xml/xml_7f170fdb"
+                id="@id/id_7f0b1eb8" />
+            <softkeys
+                href="@xml/xml_7f170fdc"
+                id="@id/id_7f0b1eb9" />
+            <softkeys
+                href="@xml/xml_7f170eb4" />
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <softkeys
+                    href="@xml/xml_7f170fcc" />
+            </if>
+            <include
+                href="@xml/xml_7f170b7f" />
+            <include
+                href="@xml/xml_7f170b82" />
+            <include
+                href="@xml/xml_7f170bc9" />
+            <include
+                href="@xml/xml_7f170a1e" />
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170b23" />
+                <include
+                    href="@xml/xml_7f170bcb" />
+            </if>
+            <else>
+                <include
+                    href="@xml/xml_7f170bca" />
+            </else>
+        </view>
+    </keyboard>
+</framework>

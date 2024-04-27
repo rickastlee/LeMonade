@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b0a0f"
+                press_data=":" />
+            <softkey
+                id="@id/id_7f0b1a49"
+                press_data=";" />
+            <softkey
+                id="@id/id_7f0b118f"
+                press_data="-" />
+            <softkey
+                id="@id/id_7f0b19c4"
+                press_data="\?" />
+            <softkey
+                id="@id/id_7f0b1a8d"
+                long_press_data="\?"
+                press_data="/" />
+            <softkey
+                id="@id/id_7f0b19c7"
+                long_press_data="!,'"
+                press_data="&quot;" />
+            <softkey
+                id="@id/id_7f0b1a91"
+                press_data="/" />
+            <softkey
+                id="@id/id_7f0b0a34"
+                press_data="\@" />
+            <softkey
+                id="@id/id_7f0b0684"
+                long_press_data="!,&quot;"
+                press_data="'" />
+            <softkey
+                id="@id/id_7f0b1040"
+                long_press_data="."
+                press_data=">" />
+            <softkey
+                id="@id/id_7f0b0f98"
+                long_press_data=">"
+                press_data="." />
+            <softkey
+                id="@id/id_7f0b19bc"
+                long_press_data="*"
+                press_data="+" />
+            <softkey
+                id="@id/id_7f0b1aa1"
+                long_press_data="+"
+                press_data="*" />
+            <softkey
+                id="@id/id_7f0b14e5"
+                long_press_data="Ç"
+                press_data="ç" />
+            <softkey
+                id="@id/id_7f0b1430"
+                long_press_data="ç"
+                press_data="Ç" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b1687"
+                long_press_data="\? &lt;"
+                press_data="," />
+            <softkey
+                id="@id/id_7f0b1689"
+                long_press_data="\? ,"
+                press_data="&lt;" />
+        </softkey_list>
+    </softkeys>
+</framework>

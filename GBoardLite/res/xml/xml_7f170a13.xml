@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys
+        href="@xml/xml_7f170fc1" />
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b06f7"
+            view_id="@id/key_pos_input_symbol_2" />
+    </key_mapping>
+</framework>

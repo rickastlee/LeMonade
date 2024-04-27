@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.EmojiVariableHeightSoftKeyboardView
+    app:attr_7f0402d1="false"
+    style="@style/style_7f1501bc"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            app:attr_7f0405ca="@string/string_7f140856"
+            style="@style/style_7f1502c1">
+            <FrameLayout
+                android:id="@id/id_7f0b011e"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:keyboardNavigationCluster="true" />
+            <include
+                layout="@layout/layout_7f0e0088" />
+        </LinearLayout>
+        <include
+            layout="@layout/layout_7f0e0170" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.google.android.apps.inputmethod.libs.search.widget.EmojiVariableHeightSoftKeyboardView>

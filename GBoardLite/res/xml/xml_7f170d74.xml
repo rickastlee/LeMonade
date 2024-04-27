@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkey_list
+        template_id="@id/id_7f0b1c9a">
+        <softkey
+            param_data="@string/string_7f1401e7" />
+        <softkey
+            param_data="@string/string_7f1401eb" />
+        <softkey
+            param_data="@string/string_7f1401ec" />
+        <softkey
+            param_data="@string/string_7f1401ed" />
+        <softkey
+            param_data="┐( ∵ )┌" />
+        <softkey
+            param_data="@string/string_7f1401ee" />
+        <softkey
+            param_data="╮(. ❛ ᴗ ❛.)╭" />
+        <softkey
+            param_data="乁༼☯‿☯✿༽ㄏ" />
+        <softkey
+            param_data="@string/string_7f1401ef" />
+        <softkey
+            param_data="@string/string_7f1401f0" />
+        <softkey
+            param_data="@string/string_7f1401f1" />
+        <softkey
+            param_data="╮(＾▽＾)╭" />
+        <softkey
+            param_data="乁[ ◕ ᴥ ◕ ]ㄏ" />
+        <softkey
+            param_data="乁[ᓀ˵▾˵ᓂ]ㄏ" />
+        <softkey
+            param_data="┐(´(エ)｀)┌" />
+        <softkey
+            param_data="┐( ˘_˘)┌" />
+        <softkey
+            param_data="┐(´ー｀)┌" />
+        <softkey
+            param_data="╮(╯_╰)╭" />
+        <softkey
+            param_data="@string/string_7f1401f2" />
+        <softkey
+            param_data="乁( ⁰͡ Ĺ̯ ⁰͡ ) ㄏ" />
+        <softkey
+            param_data="@string/string_7f1401e8" />
+        <softkey
+            param_data="乁( •_• )ㄏ" />
+        <softkey
+            param_data="乁| ･ 〰 ･ |ㄏ" />
+        <softkey
+            param_data="┐(‘～`;)┌" />
+        <softkey
+            param_data="┐(￣ヘ￣)┌" />
+        <softkey
+            param_data="┐(´д`)┌" />
+        <softkey
+            param_data="乁( . ര ʖ̯ ര . )ㄏ" />
+        <softkey
+            param_data="乁 ˘ o ˘ ㄏ" />
+        <softkey
+            param_data="乁ʕ •̀ ۝ •́ ʔㄏ" />
+        <softkey
+            param_data="@string/string_7f1401e9" />
+        <softkey
+            param_data="@string/string_7f1401ea" />
+        <softkey
+            param_data="乁║ ˙ 益 ˙ ║ㄏ" />
+    </softkey_list>
+</framework>

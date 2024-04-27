@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:tint="@color/color_7f060594"
+        android:drawable="@drawable/drawable_7f0804ea"
+        android:right="5.0dip" />
+</layer-list>

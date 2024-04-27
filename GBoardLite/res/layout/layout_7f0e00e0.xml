@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@id/id_7f0b0223"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/id_7f0b022b"
+        android:paddingStart="@dimen/dimen_7f070711"
+        android:paddingEnd="@dimen/dimen_7f070711"
+        style="@style/style_7f150519" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@id/id_7f0b0227"
+        android:paddingStart="@dimen/dimen_7f070712"
+        android:paddingEnd="@dimen/dimen_7f070712"
+        style="@style/style_7f150516" />
+    <ImageView
+        android:id="@id/id_7f0b022b"
+        android:paddingStart="@dimen/dimen_7f070711"
+        android:paddingEnd="@dimen/dimen_7f070711"
+        style="@style/style_7f150519" />
+    <com.google.android.libraries.inputmethod.widgets.LinkableTextView
+        android:id="@id/id_7f0b022a"
+        android:layout_marginTop="14.0dip"
+        android:text="@string/string_7f1402a6"
+        android:paddingStart="@dimen/dimen_7f070711"
+        style="@style/style_7f15047c" />
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:id="@id/id_7f0b0229"
+        android:layout_width="wrap_content"
+        android:layout_height="50.0dip"
+        android:layout_marginTop="30.0dip"
+        android:text="@string/string_7f140361"
+        android:textAllCaps="true" />
+</LinearLayout>

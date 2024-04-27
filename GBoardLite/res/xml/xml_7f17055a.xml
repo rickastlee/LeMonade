@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme"
+        display_app_completions="true"
+        indicator_label="速"
+        inline_composing="false"
+        keyevent_interpreter="com.google.android.apps.inputmethod.libs.chinese.PositionBasedKeyEventInterpreter"
+        language="zh-XJ"
+        language_specific_settings="@xml/xml_7f170fe8"
+        language_tag="zh-Hant-HK-t-i0-quick"
+        string_id="ime_zh_hk_quick"
+        use_ascii_password_keyboard="true">
+        <if
+            enable_chinese_inline_composing_shape_based="true">
+            <if
+                pref_enable_chinese_inline_composing_hk="true">
+                <attrs
+                    inline_composing="true" />
+            </if>
+        </if>
+        <keyboard_group
+            pk_language_tag="en"
+            pk_layout_type="qwerty"
+            supports_split_mode="true"
+            variant="quick"
+            variant_label="@string/string_7f1411e2"
+            variant_name_mandatory="true">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <layout_specific_settings
+                resource_id="@xml/xml_7f170fe7" />
+            <keyboard
+                def="@xml/xml_7f1707a4"
+                type="prime">
+                <merge
+                    def="@xml/xml_7f1705d3" />
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f170852" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <extra_values>
+            <item
+                id="@id/id_7f0b01da"
+                value="true" />
+            <item
+                id="@id/id_7f0b01ec"
+                value="@string/string_7f140471" />
+            <item
+                id="@id/id_7f0b01e7"
+                value="。" />
+            <item
+                id="@id/id_7f0b01d1"
+                value="@string/string_7f14068d" />
+            <item
+                id="@id/id_7f0b01cc"
+                value="cangjie_standard_express" />
+            <item
+                id="@id/id_7f0b01e6"
+                value="hmm" />
+            <if
+                enable_transliteration_tablet_floating_ui_v2="true">
+                <item
+                    id="@id/id_7f0b01c7"
+                    res="@xml/xml_7f1705d5" />
+            </if>
+            <else>
+                <item
+                    id="@id/id_7f0b01c7"
+                    res="@xml/xml_7f1705d4" />
+            </else>
+        </extra_values>
+        <processors>
+            <if
+                enable_voice_in_chinese="true">
+                <processor
+                    class="com.google.android.apps.inputmethod.libs.hmmvoice.ChineseHmmVoiceInputProcessor" />
+            </if>
+            <processor
+                class="com.google.android.apps.inputmethod.latin.hmm.LatinCantoneseCangjieDecodeProcessor" />
+            <processor
+                class="com.google.android.apps.inputmethod.libs.chinese.ime.hmm.ChineseDoubleSpaceProcessor" />
+            <processor
+                class="com.google.android.libraries.inputmethod.ime.processor.ScrubMoveProcessor" />
+            <processor
+                class="com.google.android.libraries.inputmethod.ime.processor.OutputProcessor" />
+        </processors>
+    </ime>
+</framework>

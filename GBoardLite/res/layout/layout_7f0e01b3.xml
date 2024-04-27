@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f150335"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        style="@style/style_7f15032f" />
+    <ImageView
+        style="@style/style_7f150330" />
+    <LinearLayout
+        android:weightSum="800.0"
+        style="@style/style_7f1503da">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_undo"
+            android:layout_weight="200.0"
+            style="@style/style_7f15058d" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_left_arrow"
+            android:layout_weight="200.0"
+            style="@style/style_7f15058d" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_0_0"
+            android:layout_weight="200.0"
+            style="@style/style_7f15058d" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_0_1"
+            android:layout_weight="200.0"
+            style="@style/style_7f15058d" />
+    </LinearLayout>
+</FrameLayout>

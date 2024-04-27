@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <extra_values>
+        <item
+            id="@id/id_7f0b01e2"
+            value="true" />
+        <item
+            id="@id/id_7f0b01e3"
+            value="20" />
+        <item
+            id="@id/id_7f0b01da"
+            value="true" />
+        <item
+            id="@id/id_7f0b01d0"
+            value="false" />
+        <if
+            enable_transliteration_tablet_floating_ui_v2="true">
+            <item
+                id="@id/id_7f0b01c7"
+                res="@xml/xml_7f1707d4" />
+        </if>
+        <else>
+            <item
+                id="@id/id_7f0b01c7"
+                res="@xml/xml_7f1707d3" />
+        </else>
+    </extra_values>
+</framework>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        ascii_capable="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="en-US"
+        string_id="ime_english_united_states_morse"
+        supports_access_points="false">
+        <keyboard_group
+            variant="morse_2"
+            variant_label="@string/string_7f1411a5">
+            <layout_specific_settings
+                resource_id="@xml/xml_7f170107" />
+            <keyboard
+                def="@xml/xml_7f17093e"
+                type="prime" />
+        </keyboard_group>
+        <extra_values>
+            <item
+                id="@id/id_7f0b01ed"
+                value="false" />
+        </extra_values>
+    </ime>
+</framework>

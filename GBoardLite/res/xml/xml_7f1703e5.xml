@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if
+        burmese_zawgyi="true">
+        <ime
+            announce_auto_selected_candidate="true"
+            auto_capital="false"
+            class="com.google.android.apps.inputmethod.libs.latin5.ZawgyiWrappedLatinIme"
+            display_app_completions="true"
+            is_unicode="false"
+            language="my"
+            localization_language="my-ZG"
+            string_id="ime_burmese">
+            <keyboard_group
+                layout_theme="@style/style_7f150317"
+                supports_split_mode="true"
+                variant="burmese"
+                variant_label="@string/string_7f141083">
+                <keyboard
+                    def="@xml/xml_7f17094a"
+                    type="prime" />
+                <include
+                    href="@xml/xml_7f170a01" />
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/string_7f140a35"
+                        value="true" />
+                </override_keyboard_xml_conditions>
+                <include
+                    href="@xml/xml_7f170c76" />
+            </keyboard_group>
+            <extra_values>
+                <item
+                    id="@id/id_7f0b01ce"
+                    value="။ " />
+            </extra_values>
+        </ime>
+    </if>
+    <else>
+        <ime
+            announce_auto_selected_candidate="true"
+            auto_capital="false"
+            class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+            display_app_completions="true"
+            language="my"
+            string_id="ime_burmese">
+            <keyboard_group
+                layout_theme="@style/style_7f150317"
+                supports_split_mode="true"
+                variant="burmese"
+                variant_label="@string/string_7f141083">
+                <keyboard
+                    def="@xml/xml_7f170949"
+                    type="prime" />
+                <include
+                    href="@xml/xml_7f170a01" />
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/string_7f140a35"
+                        value="true" />
+                </override_keyboard_xml_conditions>
+                <include
+                    href="@xml/xml_7f170c76" />
+            </keyboard_group>
+            <extra_values>
+                <item
+                    id="@id/id_7f0b01ce"
+                    value="။ " />
+            </extra_values>
+        </ime>
+    </else>
+</framework>

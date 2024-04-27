@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f17059d" />
+    <keyboard>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e0435"
+                type="body" />
+        </if>
+        <else_if
+            device="tablet"
+            enable_show_foldable_layout_on_small_tablet="false"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e02ca"
+                type="body" />
+        </else_if>
+        <else_if
+            keyboard_mode="split">
+            <if
+                split_with_duplicate_keys="true">
+                <view
+                    layout="@layout/layout_7f0e01fd"
+                    type="body" />
+            </if>
+            <else>
+                <view
+                    layout="@layout/layout_7f0e01fe"
+                    type="body" />
+            </else>
+        </else_if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e01fc"
+                type="body" />
+        </else>
+        <view
+            override="motion_event_handler"
+            type="body">
+            <motion_event_handler
+                class=".motioneventhandler.BasicMotionEventHandler"
+                preference_key="@string/string_7f1406b8"
+                reverse_preference="true" />
+            <motion_event_handler
+                class=".motioneventhandler.SpatialModelMotionEventHandler"
+                preference_key="@string/string_7f1406b8"
+                reverse_preference="false" />
+            <motion_event_handler
+                class="com.google.android.apps.inputmethod.libs.zhuyin.ZhuyinGestureHandler"
+                preference_key="@string/string_7f14069b"
+                reverse_preference="false" />
+            <motion_event_handler
+                class="com.google.android.apps.inputmethod.libs.zhuyin.ZhuyinKeyboardLayoutHandler"
+                preference_key="@string/string_7f14069b"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler
+                class="com.google.android.libraries.inputmethod.motioneventhandler.ScrubMoveMotionEventHandler"
+                preference_key="@string/string_7f1406b1"
+                reverse_preference="false" />
+            <include
+                href="@xml/xml_7f170c6e" />
+            <include
+                href="@xml/xml_7f170a84" />
+            <include
+                href="@xml/xml_7f170b06" />
+            <include
+                href="@xml/xml_7f170b1f" />
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170a7b" />
+            </if>
+            <else_if
+                device="tablet"
+                enable_show_foldable_layout_on_small_tablet="false"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170a7e" />
+            </else_if>
+            <else>
+                <include
+                    href="@xml/xml_7f170a7f" />
+                <include
+                    href="@xml/xml_7f170ad8" />
+                <include
+                    href="@xml/xml_7f170ad6" />
+            </else>
+        </view>
+    </keyboard>
+</framework>

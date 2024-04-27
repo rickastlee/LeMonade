@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$data$"
+            enable_slide_actions_in_a11y_mode="true"
+            id="@id/id_7f0b1c82"
+            layout="@layout/layout_7f0e0730"
+            multi_touch="false"
+            popup_timing="ON_TOUCH"
+            slide_sensitivity="NORMAL">
+            <action
+                content_description="$data$"
+                data="$data$"
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$data$"
+                popup_layout="@layout/layout_7f0e0663"
+                type="PRESS" />
+            <action
+                content_description="$left_data$"
+                data="$left_data$"
+                icon_background_level="@integer/integer_7f0c008c"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$left_data$"
+                popup_layout="@layout/popup_bubble_ja_label_large"
+                type="SLIDE_LEFT" />
+            <action
+                data=""
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="0"
+                type="SLIDE_UP" />
+            <action
+                content_description="$right_data$"
+                data="$right_data$"
+                icon_background_level="@integer/integer_7f0c008d"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$right_data$"
+                popup_layout="@layout/popup_bubble_ja_label_large"
+                type="SLIDE_RIGHT" />
+            <action
+                data=""
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="0"
+                type="SLIDE_DOWN" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$data$" />
+        </softkey_template>
+        <softkey_template
+            content_description="$data$"
+            id="@id/id_7f0b1c81"
+            layout="@layout/layout_7f0e0730"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b"
+            slide_sensitivity="NORMAL">
+            <action
+                content_description="$data$"
+                data="$data$"
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$data$"
+                popup_layout="@layout/layout_7f0e0663"
+                type="PRESS" />
+            <action
+                data=""
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="0"
+                type="SLIDE_LEFT" />
+            <action
+                data=""
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="0"
+                type="SLIDE_UP" />
+            <action
+                data=""
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="0"
+                type="SLIDE_RIGHT" />
+            <action
+                data=""
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="0"
+                type="SLIDE_DOWN" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1c82">
+            <softkey
+                data="()"
+                id="@id/id_7f0b11c3"
+                left_data="("
+                right_data=")" />
+            <softkey
+                data="[]"
+                id="@id/id_7f0b11c4"
+                left_data="["
+                right_data="]" />
+            <softkey
+                data="{}"
+                id="@id/id_7f0b11a7"
+                left_data="{"
+                right_data="}" />
+            <softkey
+                data="（）"
+                id="@id/id_7f0b11a9"
+                left_data="（"
+                right_data="）" />
+            <softkey
+                data="「」"
+                id="@id/id_7f0b11c1"
+                left_data="「"
+                right_data="」" />
+            <softkey
+                data="【】"
+                id="@id/id_7f0b11c0"
+                left_data="【"
+                right_data="】" />
+        </softkey_list>
+        <softkey_list
+            template_id="@id/id_7f0b1c81">
+            <softkey
+                data="&amp;"
+                id="@id/id_7f0b11a6" />
+            <softkey
+                data="＆"
+                id="@id/id_7f0b11a8" />
+            <softkey
+                data="・"
+                id="@id/id_7f0b11c2" />
+            <softkey
+                data="`"
+                id="@id/id_7f0b11aa" />
+        </softkey_list>
+    </softkeys>
+</framework>

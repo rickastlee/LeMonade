@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/input_area"
+    android:splitMotionEvents="false"
+    style="@style/style_7f1501c4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/layout_7f0e0178" />
+</FrameLayout>

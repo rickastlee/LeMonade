@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5.0dip"
+    android:focusable="true"
+    android:clickable="true"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:id="@id/id_7f0b1f59"
+        android:background="@drawable/drawable_7f08057c"
+        android:padding="12.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="5.0dip">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.airbnb.lottie.LottieAnimationView
+                android:gravity="center"
+                android:id="@id/id_7f0b0291"
+                android:layout_width="wrap_content"
+                android:layout_height="156.0dip"
+                android:layout_centerHorizontal="true"
+                app:attr_7f040631="true"
+                app:attr_7f04063b="true"
+                app:attr_7f04063d="@raw/raw_7f130056" />
+            <ImageView
+                android:id="@id/id_7f0b0296"
+                android:paddingLeft="10.0dip"
+                android:paddingBottom="10.0dip"
+                android:layout_width="34.0dip"
+                android:layout_height="34.0dip"
+                android:src="@drawable/drawable_7f0804f9"
+                android:tint="@android:color/black"
+                android:layout_alignParentRight="true"
+                android:alpha="0.54" />
+        </RelativeLayout>
+        <android.support.v7.widget.AppCompatTextView
+            android:textSize="16.0sp"
+            android:textColor="@color/color_7f06066d"
+            android:gravity="center"
+            android:id="@id/id_7f0b0298"
+            android:paddingTop="12.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_7f14037d"
+            android:fontFamily="@font/font_7f090012" />
+        <com.google.android.libraries.inputmethod.widgets.LinkableTextView
+            android:textSize="14.0sp"
+            android:textColor="@color/color_7f06066c"
+            android:textColorLink="@color/color_7f060594"
+            android:gravity="center"
+            android:id="@id/id_7f0b0297"
+            android:paddingTop="16.0dip"
+            android:paddingBottom="8.0dip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="230.0dip"
+            android:text="@string/string_7f14037c"
+            android:lineSpacingMultiplier="1.2"
+            android:fontFamily="roboto-regular" />
+    </LinearLayout>
+    <ImageView
+        android:id="@id/id_7f0b1f58"
+        android:layout_width="48.0dip"
+        android:layout_height="22.0dip"
+        android:src="@drawable/drawable_7f08057a"
+        android:scaleType="fitXY"
+        android:elevation="5.0dip" />
+</LinearLayout>

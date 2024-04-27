@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        candidate_text_size_ratio="1.0"
+        class=".latin.keyboard.MorseKeyboard"
+        popup="@attr/attr_7f0401f3"
+        session_states="CAPS_LOCK">
+        <view
+            direction="locale"
+            layout="@layout/layout_7f0e058f"
+            scalable="false"
+            type="header">
+            <softkeys
+                href="@xml/xml_7f170cc2" />
+            <include
+                href="@xml/xml_7f170b37" />
+        </view>
+        <view
+            layout="@layout/layout_7f0e054b"
+            type="body">
+            <motion_event_handler
+                class=".libs.latin5.handler.LatinMotionEventHandler" />
+            <motion_event_handler
+                class=".libs.latin5.handler.LatinKeyboardLayoutHandler" />
+            <motion_event_handler
+                class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <softkeys
+                href="@xml/xml_7f170cb5" />
+            <softkeys
+                href="@xml/xml_7f170fd1" />
+            <softkeys
+                href="@xml/xml_7f170e88" />
+            <include
+                href="@xml/xml_7f170b18" />
+            <include
+                href="@xml/xml_7f170b20" />
+            <include
+                href="@xml/xml_7f170b08" />
+            <include
+                href="@xml/xml_7f170b14" />
+            <include
+                href="@xml/xml_7f170bb7" />
+        </view>
+        <view
+            id="@id/id_7f0b04da"
+            layout="@layout/layout_7f0e054d"
+            type="body">
+            <motion_event_handler
+                class=".libs.latin5.handler.LatinMotionEventHandler" />
+            <motion_event_handler
+                class=".libs.latin5.handler.LatinKeyboardLayoutHandler" />
+            <motion_event_handler
+                class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <softkeys
+                href="@xml/xml_7f170cb5" />
+            <softkeys
+                href="@xml/xml_7f170fd1" />
+            <softkeys
+                href="@xml/xml_7f170e88" />
+            <include
+                href="@xml/xml_7f170b18" />
+            <include
+                href="@xml/xml_7f170b20" />
+            <include
+                href="@xml/xml_7f170b08" />
+            <include
+                href="@xml/xml_7f170b14" />
+            <include
+                href="@xml/xml_7f170bb7" />
+        </view>
+    </keyboard>
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f17076f" />
+    </if>
+    <else_if
+        device="tablet"
+        enable_show_foldable_layout_on_small_tablet="false"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f17076f" />
+    </else_if>
+</framework>

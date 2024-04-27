@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.expression.candidatesupplier.ImageCandidatePopupView
+    android:layout_width="@dimen/dimen_7f0702db"
+    android:layout_height="@dimen/dimen_7f0702d6"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

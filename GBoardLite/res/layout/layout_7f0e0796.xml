@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    style="@style/style_7f150603"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b0532"
+            app:attr_7f0405da="id_7f0b053e"
+            app:attr_7f0405ee="id_7f0b053e"
+            app:attr_7f0405f2="id_7f0b053e"
+            style="@style/style_7f1505fe" />
+        <ImageView
+            android:id="@id/id_7f0b1ee5"
+            android:importantForAccessibility="no"
+            app:attr_7f0405d5="@id/id_7f0b1edf"
+            app:attr_7f0405ee="@id/id_7f0b1edf"
+            app:attr_7f0405f1="@id/id_7f0b0532"
+            style="@style/style_7f150609" />
+        <ImageView
+            android:id="@id/id_7f0b1ee6"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/dimen_7f070767"
+            app:attr_7f0405d4="@id/id_7f0b1ee5"
+            app:attr_7f0405ed="@id/id_7f0b1ee5"
+            style="@style/style_7f150609" />
+        <ImageView
+            android:id="@id/id_7f0b1ee7"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/dimen_7f070767"
+            app:attr_7f0405d4="@id/id_7f0b1ee5"
+            app:attr_7f0405ed="@id/id_7f0b1ee6"
+            style="@style/style_7f150609" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/id_7f0b1edf"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405da="id_7f0b053e"
+            style="@style/style_7f1505fd" />
+        <ImageView
+            android:id="@id/id_7f0b1ee3"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_marginTop="@dimen/dimen_7f070766"
+            android:layout_marginBottom="@dimen/dimen_7f070766"
+            android:importantForAccessibility="no"
+            android:layout_marginStart="@dimen/dimen_7f070760"
+            android:layout_marginEnd="@dimen/dimen_7f07075e"
+            app:attr_7f0405d4="@id/id_7f0b1edf"
+            app:attr_7f0405db="@id/id_7f0b1edf"
+            app:attr_7f0405ee="id_7f0b053e"
+            app:attr_7f0405f1="@id/id_7f0b0532" />
+        <ImageView
+            android:id="@id/id_7f0b01fa"
+            android:tag=".sticker-featured-badge"
+            android:background="@drawable/drawable_7f0802e4"
+            android:paddingTop="18.0dip"
+            android:paddingBottom="5.0dip"
+            android:visibility="gone"
+            android:layout_width="@dimen/dimen_7f070175"
+            android:layout_height="@dimen/dimen_7f070175"
+            android:scaleType="fitStart"
+            android:importantForAccessibility="no"
+            android:paddingStart="5.0dip"
+            android:paddingEnd="18.0dip"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405ee="id_7f0b053e" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

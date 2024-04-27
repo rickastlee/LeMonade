@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170a48" />
+    <key_mapping>
+        <if
+            japanese_use_tri_state_mode="true">
+            <mapping
+                key_id="@id/id_7f0b1243"
+                view_id="@id/key_pos_switch_hiragana_alphabet" />
+        </if>
+        <else>
+            <mapping
+                key_id="@id/id_7f0b1af0"
+                view_id="@id/key_pos_switch_hiragana_alphabet" />
+        </else>
+    </key_mapping>
+    <key_mapping
+        state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping
+            key_id="@id/id_7f0b123d"
+            view_id="@id/key_pos_ja_12keys_10" />
+    </key_mapping>
+    <key_mapping
+        state="COMPOSING">
+        <mapping
+            key_id="@id/id_7f0b119c"
+            view_id="@id/key_pos_ja_12keys_10" />
+    </key_mapping>
+</framework>

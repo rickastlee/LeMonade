@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="false"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="th"
+        string_id="ime_thai">
+        <keyboard_group
+            layout_theme="@style/style_7f150317"
+            pk_language_tag="th-Thai-TH"
+            pk_layout_type="extended"
+            supports_split_mode="true"
+            variant="thai"
+            variant_label="@string/string_7f141248">
+            <keyboard
+                def="@xml/xml_7f1709c8"
+                type="prime" />
+            <include
+                href="@xml/xml_7f170a01" />
+            <include
+                href="@xml/xml_7f170c76" />
+        </keyboard_group>
+    </ime>
+</framework>

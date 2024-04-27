@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f1502d7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/id_7f0b00ba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+            <com.google.android.libraries.inputmethod.widgets.AutoScaleXTextView
+                android:textSize="?attr_7f040261"
+                android:id="@id/id_7f0b046c"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                app:attr_7f0406a0="0.7"
+                style="@style/style_7f150342" />
+            <com.google.android.libraries.inputmethod.widgets.AutoScaleXTextView
+                android:textSize="@dimen/dimen_7f0700e7"
+                android:id="@id/id_7f0b046e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr_7f0406a0="0.7"
+                style="@style/style_7f150342" />
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b0470"
+            android:layout_toRightOf="@id/id_7f0b00ba"
+            style="@style/style_7f150c10" />
+    </RelativeLayout>
+</FrameLayout>

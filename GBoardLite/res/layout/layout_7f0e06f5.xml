@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f1502d6"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/id_7f0b00be"
+        style="@style/style_7f1505e4" />
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+        android:textSize="?attr_7f04025e"
+        android:id="@id/id_7f0b046c"
+        app:attr_7f0406a1="?attr_7f0401c0"
+        style="@style/style_7f15033d" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0470"
+        style="@style/style_7f150386" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b046f"
+        style="@style/style_7f150383" />
+</FrameLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:duplicateParentState="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/drawable_7f080283"
+        android:duplicateParentState="true"
+        android:clipChildren="false"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="8.0dip"
+        android:paddingEnd="14.0dip">
+        <android.support.v7.widget.AppCompatTextView
+            android:typeface="sans"
+            android:textColor="?attr_7f0403f2"
+            android:layout_gravity="center"
+            android:id="@id/id_7f0b0470"
+            android:layout_width="8.0sp"
+            android:layout_height="20.0sp"
+            android:layout_marginTop="11.5dip"
+            android:layout_marginBottom="11.5dip"
+            android:singleLine="true"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginEnd="4.0dip"
+            app:attr_7f0402f0="14.0sp"
+            app:attr_7f0402f1="8.0dip"
+            app:attr_7f0402f4="id_7f0b1f85" />
+        <com.google.android.libraries.inputmethod.widgets.AutoCenterScaleTextView
+            android:textSize="@dimen/dimen_7f07030c"
+            android:typeface="sans"
+            android:textColor="?attr_7f0403e5"
+            android:id="@id/id_7f0b046c"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0sp"
+            android:layout_marginTop="7.5dip"
+            android:layout_marginBottom="7.5dip"
+            app:attr_7f040866="ja-JP" />
+        <Space
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0" />
+        <com.google.android.libraries.inputmethod.widgets.AutoCenterScaleTextView
+            android:textSize="@dimen/dimen_7f070306"
+            android:typeface="sans"
+            android:textColor="?attr_7f0403e9"
+            android:layout_gravity="top"
+            android:id="@id/id_7f0b046e"
+            android:layout_width="wrap_content"
+            android:layout_height="28.0sp"
+            android:layout_marginTop="7.5dip"
+            android:layout_marginBottom="7.5dip"
+            android:paddingStart="16.0dip"
+            app:attr_7f0402ca="true"
+            app:attr_7f040866="ja-JP" />
+    </LinearLayout>
+    <ImageView
+        android:id="@id/id_7f0b00be"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:src="?attr_7f0403f3"
+        android:importantForAccessibility="no" />
+</LinearLayout>

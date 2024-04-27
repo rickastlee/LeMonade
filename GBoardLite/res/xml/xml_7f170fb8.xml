@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1c9e"
+            layout="@layout/layout_7f0e0769"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b"
+            slide_sensitivity="NORMAL">
+            <action
+                data="$long_press_data$"
+                intention="$long_press_intention=COMMIT$"
+                keycode="PLAIN_TEXT"
+                popup_label="$long_press_data$"
+                popup_layout="@attr/attr_7f0401fa"
+                type="LONG_PRESS" />
+            <action
+                data="$long_press_data$"
+                intention="$slide_down_intention=COMMIT$"
+                keycode="PLAIN_TEXT"
+                popup_label="$long_press_data$"
+                type="SLIDE_DOWN" />
+            <label
+                location="@id/id_7f0b0472"
+                value="$long_press_data$" />
+        </softkey_template>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c9e">
+            <softkey
+                id="@id/id_7f0b0ea6"
+                long_press_data="1" />
+            <softkey
+                id="@id/id_7f0b0eca"
+                long_press_data="2" />
+            <softkey
+                id="@id/id_7f0b0ec1"
+                long_press_data="3" />
+            <softkey
+                id="@id/id_7f0b0e94"
+                long_press_data="4" />
+            <softkey
+                id="@id/id_7f0b0e8b"
+                long_press_data="5" />
+            <softkey
+                id="@id/id_7f0b0eb8"
+                long_press_data="6" />
+            <softkey
+                id="@id/id_7f0b0eaf"
+                long_press_data="7" />
+            <softkey
+                id="@id/id_7f0b0e82"
+                long_press_data="8" />
+            <softkey
+                id="@id/id_7f0b0e9d"
+                long_press_data="9" />
+            <softkey
+                id="@id/id_7f0b0ed3"
+                long_press_data="0" />
+        </softkey_list>
+    </softkeys>
+</framework>

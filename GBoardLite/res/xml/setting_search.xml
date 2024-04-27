@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/string_7f14036b"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f1408cb"
+        android:key="@string/string_7f14068c"
+        android:summary="@string/string_7f1408cd" />
+</PreferenceScreen>

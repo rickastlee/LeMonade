@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/id_7f0b026b"
+        android:tag=".keytop.for-candidates-expansion-key"
+        android:duplicateParentState="true"
+        style="@style/style_7f1502d1" />
+    <View
+        android:tag=".ja-candidates-expansion-key-highlight"
+        android:background="@drawable/drawable_7f0801fa"
+        android:duplicateParentState="true"
+        style="@style/style_7f1502d1" />
+    <ImageView
+        android:id="@id/id_7f0b026a"
+        style="@style/style_7f1502a2" />
+</merge>

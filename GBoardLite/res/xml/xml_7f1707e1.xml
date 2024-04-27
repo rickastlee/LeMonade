@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class=".latin.keyboard.LatinJapanesePrimeKeyboard"
+        popup="@attr/attr_7f0401f3">
+        <if
+            ja_candidate_ux_v2="true">
+            <attrs
+                class=".latin.keyboard.LatinJapanesePrimeKeyboardV2" />
+            <view
+                direction="locale"
+                layout="@layout/layout_7f0e01d8"
+                scalable="false"
+                type="header">
+                <softkeys
+                    href="@xml/xml_7f170cc2" />
+                <include
+                    href="@xml/xml_7f170b37" />
+            </view>
+        </if>
+        <else>
+            <view
+                direction="locale"
+                layout="@layout/layout_7f0e058c"
+                scalable="false"
+                type="header" />
+        </else>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e01d3"
+                type="body">
+                <if
+                    ja_candidate_ux_v2="true">
+                    <attrs
+                        layout="@layout/layout_7f0e01d4" />
+                </if>
+            </view>
+        </if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e01d2"
+                type="body">
+                <if
+                    ja_candidate_ux_v2="true">
+                    <attrs
+                        layout="@layout/layout_7f0e01d5" />
+                </if>
+            </view>
+        </else>
+        <view
+            type="body">
+            <include
+                href="@xml/xml_7f170c71" />
+            <softkeys
+                href="@xml/xml_7f170df1" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <softkeys
+                href="@xml/xml_7f170df0" />
+            <softkeys
+                href="@xml/xml_7f170c9f" />
+            <softkeys
+                href="@xml/xml_7f170fad" />
+            <include
+                href="@xml/xml_7f170aa2" />
+            <include
+                href="@xml/xml_7f170a55" />
+            <include
+                href="@xml/xml_7f170a3b" />
+            <include
+                href="@xml/xml_7f170b0b" />
+            <include
+                href="@xml/xml_7f170ad9" />
+            <include
+                href="@xml/xml_7f170ada" />
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="center"
+    android:tag=".expression-search-entry-icon-frame"
+    android:background="@drawable/drawable_7f0801f1"
+    android:layout_width="?attr_7f04008d"
+    android:layout_height="?attr_7f04008d"
+    android:layout_marginEnd="@dimen/dimen_7f070776"
+    android:elevation="@dimen/dimen_7f070128"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:gravity="center"
+        android:id="@id/id_7f0b01a7"
+        android:tag=".expression-search-entry-icon"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/drawable_7f080531"
+        android:scaleType="centerInside"
+        android:contentDescription="@string/string_7f1402c4" />
+</FrameLayout>

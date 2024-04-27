@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    android:id="@id/id_7f0b025a"
+    app:attr_7f0402d1="false"
+    style="@style/style_7f15028a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner
+        android:id="@id/id_7f0b118c"
+        style="@style/style_7f150292">
+        <include
+            layout="@layout/layout_7f0e019a" />
+        <include
+            layout="@layout/layout_7f0e019d" />
+        <LinearLayout
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405db="@id/key_pos_header_power_key"
+            app:attr_7f0405ed="@id/key_pos_header_access_points_menu"
+            app:attr_7f0405f2="id_7f0b053e"
+            style="@style/style_7f150293">
+            <com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout
+                style="@style/style_7f15060e">
+                <include
+                    layout="@layout/layout_7f0e0199" />
+                <include
+                    layout="@layout/layout_7f0e019c" />
+                <include
+                    layout="@layout/layout_7f0e019f" />
+                <include
+                    layout="@layout/layout_7f0e01a1" />
+                <include
+                    layout="@layout/layout_7f0e06b7" />
+                <include
+                    layout="@layout/layout_7f0e07e1" />
+            </com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout>
+            <include
+                layout="@layout/layout_7f0e01a3" />
+        </LinearLayout>
+        <include
+            layout="@layout/layout_7f0e01a0" />
+        <include
+            layout="@attr/attr_7f040007" />
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

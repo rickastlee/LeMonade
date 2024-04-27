@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal">
+        <include
+            href="xml/softkeys_input_common_symbols_tablet_large" />
+    </if>
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c96">
+            <softkey
+                hint_label="~"
+                id="@id/id_7f0b100b"
+                long_press_data="~"
+                press_data="`" />
+            <softkey
+                hint_label="!"
+                id="@id/id_7f0b0c63"
+                long_press_data="!,¡,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒"
+                press_data="1" />
+            <softkey
+                hint_label="\@"
+                id="@id/id_7f0b0c8b"
+                long_press_data="\@,²,⅔,⅖"
+                press_data="2" />
+            <softkey
+                hint_label="\#"
+                id="@id/id_7f0b0c81"
+                long_press_data="\#,³,¾,⅗,⅜"
+                press_data="3" />
+            <softkey
+                hint_label="$"
+                id="@id/id_7f0b0c4f"
+                long_press_data="$,⁴,⅘"
+                press_data="4" />
+            <softkey
+                hint_label="%"
+                id="@id/id_7f0b0c45"
+                long_press_data="%,⁵,⅚,⅝"
+                press_data="5" />
+            <softkey
+                hint_label="^"
+                id="@id/id_7f0b0c77"
+                long_press_data="^,⁶"
+                press_data="6" />
+            <softkey
+                hint_label="&amp;"
+                id="@id/id_7f0b0c6d"
+                long_press_data="&amp;,⁷,⅞"
+                press_data="7" />
+            <softkey
+                hint_label="*"
+                id="@id/id_7f0b0c3b"
+                long_press_data="*,⁸"
+                press_data="8" />
+            <softkey
+                hint_label="("
+                id="@id/id_7f0b0c59"
+                long_press_data="(,⁹"
+                press_data="9" />
+            <softkey
+                hint_label=")"
+                id="@id/id_7f0b0c95"
+                long_press_data="),⁰,ⁿ,∅"
+                press_data="0" />
+            <softkey
+                hint_label="_"
+                id="@id/id_7f0b118f"
+                long_press_data="_,–,—,·"
+                press_data="-" />
+            <softkey
+                hint_label="+"
+                id="@id/id_7f0b0cfa"
+                long_press_data="+,∞,≠,≈"
+                press_data="=" />
+            <softkey
+                hint_label="{"
+                id="@id/id_7f0b15ce"
+                long_press_data="{"
+                press_data="[" />
+            <softkey
+                hint_label="}"
+                id="@id/id_7f0b19ff"
+                long_press_data="}"
+                press_data="]" />
+            <softkey
+                hint_label="|"
+                id="@id/id_7f0b19ed"
+                long_press_data="|"
+                press_data="@string/string_7f141015" />
+            <softkey
+                hint_label="\?"
+                id="@id/id_7f0b1a91"
+                long_press_data="\?,¿"
+                press_data="/" />
+            <softkey
+                hint_label=":"
+                id="@id/id_7f0b1a49"
+                long_press_data=":"
+                press_data=";" />
+            <softkey
+                hint_label=">"
+                id="@id/id_7f0b0f98"
+                long_press_data=">"
+                press_data="." />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c96">
+            <softkey
+                hint_label="&lt;"
+                id="@id/id_7f0b1687"
+                long_press_data="&lt;"
+                press_data="," />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c78">
+            <softkey
+                hint_label="&quot;"
+                id="@id/id_7f0b0684"
+                long_press_data="„,“,”,&quot;,‚,‘,’"
+                press_data="'" />
+        </softkey_list>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f140d66"
+            id="@id/id_7f0b1b58"
+            layout="@layout/layout_7f0e0706"
+            multi_touch="false">
+            <action
+                data="\u0009"
+                intention="COMMIT"
+                keycode="TAB"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080518" />
+        </softkey>
+    </softkeys>
+</framework>

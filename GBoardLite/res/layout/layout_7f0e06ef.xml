@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:duplicateParentState="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@id/id_7f0b0013"
+        android:tag=".access-point-item-v2-background.item-ripple.on-surface"
+        android:background="@drawable/drawable_7f0801b5"
+        android:duplicateParentState="true"
+        android:layout_width="fill_parent"
+        android:layout_height="?attr_7f04000d">
+        <ImageView
+            android:id="@id/id_7f0b026a"
+            android:importantForAccessibility="no"
+            style="@style/style_7f1502b3" />
+    </FrameLayout>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_gravity="bottom|center"
+        android:id="@id/id_7f0b046c"
+        style="@style/style_7f150377" />
+</LinearLayout>

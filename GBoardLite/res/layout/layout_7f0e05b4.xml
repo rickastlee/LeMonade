@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/softkey_holder_fixed_candidates"
+    android:visibility="invisible"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    app:attr_7f040645="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.inputmethod.latin.keyboard.widget.LatinFixedCountCandidatesHolderView
+        android:visibility="visible"
+        app:attr_7f04001d="@dimen/dimen_7f070079"
+        app:attr_7f0401bc="@integer/integer_7f0c0009"
+        app:attr_7f040358="@layout/layout_7f0e05fe"
+        app:attr_7f04035b="@layout/layout_7f0e0605"
+        candidate_background="@android:color/transparent"
+        chip_candidate_layout="@layout/layout_7f0e05c1"
+        contextual_candidate_layout="@layout/layout_7f0e05c3"
+        contextual_special_candidate_layout="@layout/layout_7f0e05c5"
+        email_candidate_layout="@layout/layout_7f0e05c8"
+        emoji_candidate_layout="@layout/layout_7f0e05ca"
+        flexible_chip_candidate_layout="@layout/layout_7f0e05cc"
+        icon_holder_candidate_layout="@layout/layout_7f0e05d2"
+        image_candidate_layout="@layout/layout_7f0e05d4"
+        last_column_candidate_background="@android:color/transparent"
+        link_candidate_layout="@layout/layout_7f0e05fb"
+        style="@style/style_7f1501d0" />
+</FrameLayout>

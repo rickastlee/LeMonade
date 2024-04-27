@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1cbe"
+            layout="@layout/layout_7f0e0749"
+            multi_touch="false"
+            slide_sensitivity="NORMAL">
+            <action
+                data="$param_data$"
+                keycode="PLAIN_TEXT"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$param_data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1cbe">
+            <softkey
+                param_data="+" />
+            <softkey
+                param_data="-" />
+            <softkey
+                param_data="*" />
+            <softkey
+                param_data="/" />
+            <softkey
+                param_data="=" />
+            <softkey
+                param_data="&amp;" />
+        </softkey_list>
+    </softkeys>
+</framework>

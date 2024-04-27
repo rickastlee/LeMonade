@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView
+    android:paddingStart="0.0dip"
+    android:paddingEnd="0.0dip"
+    app:attr_7f0402d1="false"
+    style="@style/style_7f1501bc"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            style="@style/style_7f150257">
+            <include
+                layout="@layout/layout_7f0e016e" />
+            <FrameLayout
+                android:paddingTop="@dimen/dimen_7f070159"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <LinearLayout
+                        android:layout_gravity="start"
+                        android:orientation="vertical"
+                        android:id="@id/id_7f0b00c7"
+                        android:layout_width="0.0dip"
+                        android:layout_height="0.0dip"
+                        app:attr_7f0405d4="id_7f0b053e"
+                        app:attr_7f0405db="@id/id_7f0b024b"
+                        app:attr_7f0405e5="id_7f0b1ecd"
+                        app:attr_7f0405ee="id_7f0b053e"
+                        app:attr_7f0405f2="id_7f0b053e"
+                        style="@style/style_7f15061f">
+                        <include
+                            layout="@layout/layout_7f0e0635" />
+                        <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView
+                            android:id="@id/id_7f0b00cd"
+                            android:scrollbars="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_weight="1.0"
+                            android:nestedScrollingEnabled="false" />
+                    </LinearLayout>
+                    <androidx.constraintlayout.widget.Guideline
+                        android:orientation="vertical"
+                        android:id="@id/id_7f0b024b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:attr_7f0405de="@dimen/dimen_7f07079e" />
+                    <com.google.android.libraries.inputmethod.emoji.picker.EmojiPickerBodyRecyclerView
+                        android:scrollbarThumbVertical="@drawable/drawable_7f080551"
+                        android:scrollbarTrackVertical="@null"
+                        android:scrollbarStyle="outsideOverlay"
+                        android:id="@id/id_7f0b018f"
+                        android:visibility="visible"
+                        android:scrollbars="vertical"
+                        app:attr_7f0405d4="id_7f0b053e"
+                        app:attr_7f0405da="id_7f0b053e"
+                        app:attr_7f0405e5="id_7f0b1ecd"
+                        app:attr_7f0405e6="1.0"
+                        app:attr_7f0405ed="@id/id_7f0b024b"
+                        app:attr_7f0405f2="id_7f0b053e"
+                        style="@style/style_7f15061e" />
+                    <FrameLayout
+                        android:id="@id/id_7f0b05da"
+                        android:focusable="true"
+                        android:visibility="gone"
+                        android:layout_width="0.0dip"
+                        android:layout_height="0.0dip"
+                        android:layout_marginStart="?attr_7f0400ff"
+                        android:layout_marginEnd="?attr_7f0400ff"
+                        app:attr_7f0405d4="id_7f0b053e"
+                        app:attr_7f0405da="id_7f0b053e"
+                        app:attr_7f0405e5="id_7f0b1ecd"
+                        app:attr_7f0405e6="1.0"
+                        app:attr_7f0405ee="@id/id_7f0b024b"
+                        app:attr_7f0405f2="id_7f0b053e" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <include
+        layout="@layout/layout_7f0e016f" />
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_weight="?attr_7f0401c3"
+    style="@style/style_7f1503dd"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@id/key_pos_candidates_page_up"
+        android:layout_weight="500.0"
+        style="@style/style_7f150572" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@id/key_pos_candidates_page_down"
+        android:layout_weight="500.0"
+        style="@style/style_7f15055d" />
+</LinearLayout>

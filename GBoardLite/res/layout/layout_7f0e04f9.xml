@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    style="@style/style_7f1501b7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        style="@style/style_7f1501be">
+        <include
+            layout="@layout/layout_7f0e04fc" />
+        <include
+            layout="@layout/layout_7f0e0537" />
+    </LinearLayout>
+    <include
+        layout="@layout/layout_7f0e0125" />
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

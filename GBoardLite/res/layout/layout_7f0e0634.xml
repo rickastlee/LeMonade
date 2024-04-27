@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/style_7f150428"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        style="@style/style_7f150323">
+        <ImageView
+            android:src="@mipmap/ic_app"
+            style="@style/style_7f15031e" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+            android:id="@id/id_7f0b04ed"
+            android:text="@string/string_7f140583"
+            android:contentDescription="@string/string_7f140583"
+            style="@style/style_7f150325" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/id_7f0b04ec"
+        style="@style/style_7f150429">
+        <LinearLayout
+            android:id="@id/id_7f0b04ef"
+            style="@style/style_7f15042c">
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@id/id_7f0b04ee"
+                style="@style/style_7f15042b" />
+        </LinearLayout>
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b04d7"
+            style="@style/style_7f15042a" />
+    </LinearLayout>
+    <RelativeLayout
+        style="@style/style_7f150320">
+        <com.google.android.libraries.inputmethod.widgets.OverlayButton
+            android:id="@id/id_7f0b0519"
+            android:text="@string/string_7f14043c"
+            android:contentDescription="@string/string_7f14043c"
+            android:layout_alignParentEnd="true"
+            style="@style/style_7f150324" />
+        <com.google.android.libraries.inputmethod.widgets.OverlayButton
+            android:id="@id/id_7f0b00b9"
+            android:text="@string/string_7f140454"
+            android:layout_toStartOf="@id/id_7f0b0519"
+            style="@style/style_7f150321" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170b08" />
+    <include
+        href="@xml/xml_7f170b0d" />
+    <include
+        href="@xml/xml_7f170b0e" />
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b19a4"
+            view_id="@id/key_pos_number_line1_1" />
+        <mapping
+            key_id="@id/id_7f0b19a6"
+            view_id="@id/key_pos_number_line1_2" />
+        <mapping
+            key_id="@id/id_7f0b19a7"
+            view_id="@id/key_pos_number_line1_3" />
+        <mapping
+            key_id="@id/id_7f0b19a8"
+            view_id="@id/key_pos_number_line2_1" />
+        <mapping
+            key_id="@id/id_7f0b19a9"
+            view_id="@id/key_pos_number_line2_2" />
+        <mapping
+            key_id="@id/id_7f0b19aa"
+            view_id="@id/key_pos_number_line2_3" />
+        <mapping
+            key_id="@id/id_7f0b19ab"
+            view_id="@id/key_pos_number_line3_1" />
+        <mapping
+            key_id="@id/id_7f0b19ac"
+            view_id="@id/key_pos_number_line3_2" />
+        <mapping
+            key_id="@id/id_7f0b19ad"
+            view_id="@id/key_pos_number_line3_3" />
+        <mapping
+            key_id="@id/id_7f0b0b22"
+            view_id="@id/key_pos_number_line4_1" />
+        <mapping
+            key_id="@id/id_7f0b19a2"
+            view_id="@id/key_pos_number_line4_2" />
+    </key_mapping>
+</framework>

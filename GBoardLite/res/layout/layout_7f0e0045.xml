@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:importantForAccessibility="no"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="12.0dip"
+        android:gravity="start|center"
+        android:id="@id/id_7f0b00cc"
+        android:paddingLeft="7.0dip"
+        android:paddingTop="4.0dip"
+        android:paddingRight="7.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="24.0dip"
+        android:layout_alignParentTop="true"
+        android:importantForAccessibility="yes"
+        android:fontFamily="?attr_7f0400f4"
+        android:layout_alignParentStart="true"
+        android:letterSpacing="0.1"
+        style="?attr_7f0400bf" />
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="12.0dip"
+        android:gravity="end|center"
+        android:id="@id/id_7f0b1ef7"
+        android:background="?android:selectableItemBackground"
+        android:paddingLeft="7.0dip"
+        android:paddingTop="4.0dip"
+        android:paddingRight="7.0dip"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="24.0dip"
+        android:layout_alignParentTop="true"
+        android:importantForAccessibility="yes"
+        android:fontFamily="?attr_7f0400f4"
+        android:layout_toEndOf="@id/id_7f0b00cc"
+        android:layout_alignParentEnd="true"
+        android:letterSpacing="0.1"
+        style="?attr_7f0400bf" />
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class=".latin.keyboard.LatinSymbolsKeyboard"
+        popup="@attr/attr_7f0401f3"
+        recent_key_layout="@layout/layout_7f0e0746"
+        recent_key_popup_layout="@layout/layout_7f0e066e">
+        <view
+            direction="locale"
+            layout="@layout/layout_7f0e0576"
+            scalable="false"
+            type="header">
+            <softkeys
+                href="@xml/xml_7f170cc4" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <include
+                href="@xml/xml_7f170b38" />
+        </view>
+        <if
+            keyboard_mode="split">
+            <view
+                layout="@layout/layout_7f0e0542"
+                type="body" />
+        </if>
+        <else_if
+            device="foldable|tablet"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e0543"
+                type="body" />
+        </else_if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e0541"
+                type="body" />
+        </else>
+        <view
+            type="body">
+            <motion_event_handler
+                class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubDeleteMotionEventHandler"
+                preference_key="@string/string_7f1406b0"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubMoveMotionEventHandler"
+                preference_key="@string/string_7f1406b1"
+                reverse_preference="false" />
+            <softkeys
+                href="@xml/xml_7f170d7a" />
+            <softkeys
+                href="@xml/xml_7f170fd2" />
+            <if
+                language="zh">
+                <softkeys
+                    href="@xml/xml_7f170fc3" />
+            </if>
+            <else>
+                <softkeys
+                    href="@xml/xml_7f170fc1" />
+            </else>
+            <softkeys
+                href="@xml/xml_7f170fc2" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <softkeys
+                href="@xml/xml_7f170cb5" />
+            <softkeys
+                href="@xml/xml_7f170cb2" />
+            <softkeys
+                href="@xml/xml_7f170fc5" />
+            <softkeys
+                href="@xml/xml_7f170c9e" />
+            <if
+                device="foldable|tablet"
+                keyboard_mode="normal|split">
+                <include
+                    href="@xml/xml_7f170a64" />
+            </if>
+            <else>
+                <include
+                    href="@xml/xml_7f170a63" />
+            </else>
+            <include
+                href="@xml/xml_7f170b14" />
+            <include
+                href="@xml/xml_7f170b0c" />
+        </view>
+    </keyboard>
+</framework>

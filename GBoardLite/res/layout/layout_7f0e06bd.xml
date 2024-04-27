@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/id_7f0b05a0"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="20.0dip"
+        android:textColor="@color/color_7f060af7"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:layout_gravity="start"
+        android:tag=".label"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:text="@string/string_7f140885"
+        android:maxLines="1"
+        android:layout_weight="1.0"
+        android:fontFamily="@font/font_7f090012" />
+    <FrameLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b059e"
+        android:tag=".nav_back_key.tablet"
+        android:background="@drawable/drawable_7f080569"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="36.0dip"
+        android:layout_height="36.0dip"
+        android:foreground="@drawable/drawable_7f0801ef"
+        android:contentDescription="@string/string_7f140254">
+        <android.support.v7.widget.AppCompatImageView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:tag=".label"
+            android:layout_width="28.0dip"
+            android:layout_height="28.0dip"
+            android:src="@drawable/drawable_7f08030f"
+            android:scaleType="centerInside" />
+    </FrameLayout>
+</LinearLayout>

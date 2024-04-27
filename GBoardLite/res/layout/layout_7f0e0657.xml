@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.popup.SilkRectangularPopupView
+    android:id="@id/id_7f0b0553"
+    app:attr_7f0401f1="@dimen/dimen_7f070377"
+    app:attr_7f0401f2="?attr_7f04021d"
+    app:attr_7f040200="?attr_7f04021d"
+    app:attr_7f040202="@dimen/dimen_7f070378"
+    balanced_placement="false"
+    first_key_as_default="true"
+    hide_animation="@animator/animator_7f020025"
+    image_view="@layout/layout_7f0e0680"
+    max_item_per_row="5"
+    show_animation="@animator/animator_7f02004b"
+    style="@style/style_7f150523"
+    text_view="@layout/layout_7f0e068f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/id_7f0b055c"
+        style="@style/style_7f150525">
+        <FrameLayout
+            android:id="@id/id_7f0b055f"
+            style="@style/style_7f15051b" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/id_7f0b055b"
+            style="@style/style_7f150524" />
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.popup.SilkRectangularPopupView>

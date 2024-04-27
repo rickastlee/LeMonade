@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/id_7f0b1ee0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/id_7f0b1ede"
+        android:contentDescription="@string/string_7f140a49"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150218">
+        <android.support.v7.widget.AppCompatImageView
+            style="@style/style_7f150216" />
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton
+        android:textSize="14.0dip"
+        android:id="@id/id_7f0b006f"
+        android:tag=".sticker-pack-details-add-btn"
+        android:paddingTop="0.0dip"
+        android:paddingBottom="0.0dip"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr_7f04008d"
+        android:text="@string/string_7f14035b"
+        android:insetTop="0.0dip"
+        android:insetBottom="0.0dip"
+        android:fontFamily="@font/font_7f090012"
+        android:paddingStart="@dimen/dimen_7f070769"
+        android:paddingEnd="@dimen/dimen_7f070769"
+        android:layout_marginEnd="10.0dip"
+        android:breakStrategy="balanced"
+        app:attr_7f040447="@dimen/dimen_7f07076c"
+        app:attr_7f04056f="@drawable/drawable_7f0804e4"
+        app:attr_7f040573="@dimen/dimen_7f07076d"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        app:attr_7f040761="?android:colorControlHighlight"
+        style="@style/style_7f150ba4" />
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="16.0dip"
+        android:textColor="@color/color_7f0606c2"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:id="@id/id_7f0b1ee4"
+        android:tag=".label"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2.0dip"
+        android:maxLines="1"
+        android:fontFamily="@font/font_7f090012"
+        android:layout_marginStart="@dimen/dimen_7f070770"
+        android:layout_marginEnd="@dimen/dimen_7f070770"
+        app:attr_7f0405d5="@id/id_7f0b1edd"
+        app:attr_7f0405db="@id/id_7f0b006f"
+        app:attr_7f0405ed="@id/id_7f0b1ede"
+        app:attr_7f0405f2="id_7f0b053e" />
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="12.0dip"
+        android:textColor="@color/color_7f060af7"
+        android:ellipsize="end"
+        android:id="@id/id_7f0b1edd"
+        android:tag=".label.secondary.for-sticker-pack-author"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2.0dip"
+        android:maxLines="1"
+        android:fontFamily="@font/font_7f090010"
+        android:layout_marginStart="@dimen/dimen_7f070770"
+        android:layout_marginEnd="@dimen/dimen_7f070770"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b006f"
+        app:attr_7f0405ed="@id/id_7f0b1ede" />
+</androidx.constraintlayout.widget.ConstraintLayout>

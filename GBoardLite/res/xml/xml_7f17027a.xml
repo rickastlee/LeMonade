@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="false"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="gno-XF"
+        string_id="ime_gondi_telugu_dynamic"
+        use_ascii_password_keyboard="true">
+        <keyboard_group
+            layout_theme="@style/style_7f150318"
+            supports_split_mode="true"
+            variant="gondi_telugu"
+            variant_label="@string/string_7f1410e4">
+            <keyboard
+                def="@xml/xml_7f1707bd"
+                type="prime" />
+            <include
+                href="@xml/xml_7f170a01" />
+            <include
+                href="@xml/xml_7f170c76" />
+        </keyboard_group>
+    </ime>
+</framework>

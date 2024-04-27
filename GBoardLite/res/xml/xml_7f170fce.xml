@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            id="@id/id_7f0b0da4">
+            <action
+                keycode="LAUNCH_PREFERENCE_ACTIVITY"
+                popup_icon="@drawable/drawable_7f0803f8"
+                popup_layout="@attr/attr_7f0401ec"
+                type="LONG_PRESS" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0da6">
+            <action
+                keycode="LAUNCH_PREFERENCE_ACTIVITY"
+                popup_icon="@drawable/drawable_7f0803fb"
+                popup_layout="@attr/attr_7f0401f9"
+                type="LONG_PRESS" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0da5">
+            <action
+                keycode="LAUNCH_PREFERENCE_ACTIVITY"
+                popup_icon="@drawable/drawable_7f0803fb"
+                popup_layout="@attr/attr_7f0401fc"
+                type="LONG_PRESS" />
+        </softkey>
+    </softkeys>
+</framework>

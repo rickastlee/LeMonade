@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            content_description="@string/string_7f14029b"
+            id="@id/id_7f0b0a0a"
+            layout="@layout/layout_7f0e0721">
+            <action
+                data="prime"
+                keycode="CLOSE_EXTENSION"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080531" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140299"
+            id="@id/id_7f0b0a07"
+            layout="@layout/layout_7f0e0722">
+            <action
+                keycode="CLEAR_SEARCH"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f0802f1" />
+        </softkey>
+    </softkeys>
+</framework>

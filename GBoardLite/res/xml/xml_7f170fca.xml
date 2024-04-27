@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1cba"
+            layout="@layout/layout_7f0e075e">
+            <action
+                keycode="UNKNOWN"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="$param_icon$" />
+        </softkey_template>
+        <softkey_template
+            alpha="138"
+            content_description="$desc$"
+            id="@id/id_7f0b1cbb"
+            layout="@layout/layout_7f0e075e">
+            <action
+                data="$param_data$"
+                keycode="SWITCH_SUB_CATEGORY"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="$param_icon$" />
+        </softkey_template>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1cbc"
+            layout="@layout/layout_7f0e075b">
+            <action
+                keycode="UNKNOWN"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$param_text$" />
+        </softkey_template>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1cbd"
+            layout="@layout/layout_7f0e075c">
+            <action
+                data="$param_data$"
+                keycode="SWITCH_SUB_CATEGORY"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$param_text$" />
+        </softkey_template>
+    </softkeys>
+</framework>

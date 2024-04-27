@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1cc5"
+            layout="@layout/layout_7f0e077e"
+            multi_touch="false">
+            <action
+                keycode="$keycode$"
+                popup_label="$popup_label$"
+                popup_layout="$popup_layout$"
+                repeatable="$repeatable$"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="$icon$" />
+        </softkey_template>
+        <softkey_template
+            content_description="$desc$"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1cc7"
+            layout="@layout/layout_7f0e0782"
+            multi_touch="false">
+            <action
+                keycode="$keycode$"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$label$" />
+        </softkey_template>
+        <softkey_template
+            additional_content_description="@string/string_7f140da8"
+            content_description="$desc$"
+            id="@id/id_7f0b1cc6"
+            layout="@layout/layout_7f0e077f"
+            multi_touch="false">
+            <icon
+                location="@id/id_7f0b026a"
+                value="$icon$" />
+        </softkey_template>
+        <softkey_template
+            additional_content_description="$addi_desc$"
+            content_description="$desc$"
+            id="@id/id_7f0b1cc8"
+            layout="@layout/layout_7f0e0783"
+            multi_touch="false">
+            <label
+                location="@id/id_7f0b046c"
+                value="$label$" />
+        </softkey_template>
+        <softkey
+            content_description="@string/string_7f140db2"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1a44"
+            layout="@layout/layout_7f0e0782"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b"
+            slide_sensitivity="LESS">
+            <action
+                keycode="TEXT_EDITING_SELECT"
+                type="PRESS" />
+            <action
+                keycode="DPAD_UP"
+                repeatable="true"
+                type="SLIDE_UP" />
+            <action
+                keycode="DPAD_LEFT"
+                repeatable="true"
+                type="SLIDE_LEFT" />
+            <action
+                keycode="DPAD_RIGHT"
+                repeatable="true"
+                type="SLIDE_RIGHT" />
+            <action
+                keycode="DPAD_DOWN"
+                repeatable="true"
+                type="SLIDE_DOWN" />
+            <label
+                location="@id/id_7f0b046c"
+                value="@string/string_7f140db1" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140db0"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1a48"
+            layout="@layout/layout_7f0e0785"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b"
+            slide_sensitivity="LESS">
+            <action
+                keycode="TEXT_EDITING_SELECT"
+                type="PRESS" />
+            <action
+                keycode="DPAD_UP"
+                repeatable="true"
+                type="SLIDE_UP" />
+            <action
+                keycode="DPAD_LEFT"
+                repeatable="true"
+                type="SLIDE_LEFT" />
+            <action
+                keycode="DPAD_RIGHT"
+                repeatable="true"
+                type="SLIDE_RIGHT" />
+            <action
+                keycode="DPAD_DOWN"
+                repeatable="true"
+                type="SLIDE_DOWN" />
+            <label
+                location="@id/id_7f0b046c"
+                value="@string/string_7f140db1" />
+        </softkey>
+        <softkey_list
+            template_id="@id/id_7f0b1cc7">
+            <softkey
+                desc="@string/string_7f140dae"
+                id="@id/id_7f0b1a45"
+                keycode="TEXT_EDITING_SELECT_ALL"
+                label="@string/string_7f140daf" />
+            <softkey
+                desc="@string/string_7f140da5"
+                id="@id/id_7f0b0a7b"
+                keycode="TEXT_EDITING_CUT"
+                label="@string/string_7f140da6" />
+            <softkey
+                desc="@string/string_7f140da2"
+                id="@id/id_7f0b0a75"
+                keycode="TEXT_EDITING_COPY"
+                label="@string/string_7f140da3" />
+            <softkey
+                desc="@string/string_7f140dab"
+                id="@id/id_7f0b1999"
+                keycode="TEXT_EDITING_PASTE"
+                label="@string/string_7f140dac" />
+        </softkey_list>
+        <softkey_list
+            template_id="@id/id_7f0b1cc8">
+            <softkey
+                addi_desc="@string/string_7f140da8"
+                desc="@string/string_7f140dae"
+                id="@id/id_7f0b1a46"
+                label="@string/string_7f140daf" />
+            <softkey
+                addi_desc="@string/string_7f140da9"
+                desc="@string/string_7f140da2"
+                id="@id/id_7f0b0a76"
+                label="@string/string_7f140da3" />
+            <softkey
+                addi_desc="@string/string_7f140da8"
+                desc="@string/string_7f140db2"
+                id="@id/id_7f0b1a47"
+                label="@string/string_7f140db1" />
+            <softkey
+                addi_desc="@string/string_7f140da8"
+                desc="@string/string_7f140dab"
+                id="@id/id_7f0b199a"
+                label="@string/string_7f140dac" />
+        </softkey_list>
+        <softkey_list
+            template_id="@id/id_7f0b1cc5">
+            <softkey
+                desc="@string/string_7f1404e1"
+                icon="@drawable/drawable_7f08045c"
+                id="@id/id_7f0b15bf"
+                keycode="DPAD_LEFT"
+                repeatable="true" />
+            <softkey
+                desc="@string/string_7f14085d"
+                icon="@drawable/drawable_7f08045e"
+                id="@id/id_7f0b19f0"
+                keycode="DPAD_RIGHT"
+                repeatable="true" />
+            <softkey
+                desc="@string/string_7f140db3"
+                icon="@drawable/drawable_7f080460"
+                id="@id/id_7f0b1e1d"
+                keycode="DPAD_UP"
+                repeatable="true" />
+            <softkey
+                desc="@string/string_7f140da7"
+                icon="@drawable/drawable_7f08045b"
+                id="@id/id_7f0b0cb1"
+                keycode="DPAD_DOWN"
+                repeatable="true" />
+            <softkey
+                desc="@string/string_7f140daa"
+                icon="@drawable/drawable_7f08045d"
+                id="@id/id_7f0b15ca"
+                keycode="TEXT_EDITING_CURSOR_LEFT_MOST" />
+            <softkey
+                desc="@string/string_7f140dad"
+                icon="@drawable/drawable_7f08045f"
+                id="@id/id_7f0b19fb"
+                keycode="TEXT_EDITING_CURSOR_RIGHT_MOST" />
+        </softkey_list>
+        <softkey
+            alpha="@integer/integer_7f0c013f"
+            content_description="@string/string_7f140360"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b0b24"
+            layout="@layout/layout_7f0e077e"
+            multi_touch="false">
+            <if
+                rtl_layout="true">
+                <attrs
+                    layout="@layout/layout_7f0e0781" />
+            </if>
+            <action
+                keycode="KEYCODE_DEL"
+                repeatable="true"
+                type="PRESS" />
+            <action
+                keycode="DELETE_FINISH"
+                type="UP" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@attr/attr_7f04010a" />
+        </softkey>
+        <softkey_list
+            template_id="@id/id_7f0b1cc6">
+            <softkey
+                desc="@string/string_7f1404e1"
+                icon="@drawable/drawable_7f08045c"
+                id="@id/id_7f0b15c0" />
+            <softkey
+                desc="@string/string_7f14085d"
+                icon="@drawable/drawable_7f08045e"
+                id="@id/id_7f0b19f1" />
+            <softkey
+                desc="@string/string_7f140db3"
+                icon="@drawable/drawable_7f080460"
+                id="@id/id_7f0b1e1e" />
+            <softkey
+                desc="@string/string_7f140da7"
+                icon="@drawable/drawable_7f08045b"
+                id="@id/id_7f0b0cb2" />
+            <softkey
+                desc="@string/string_7f140daa"
+                icon="@drawable/drawable_7f08045d"
+                id="@id/id_7f0b15cb" />
+            <softkey
+                desc="@string/string_7f140dad"
+                icon="@drawable/drawable_7f08045f"
+                id="@id/id_7f0b19fc" />
+        </softkey_list>
+        <softkey
+            additional_content_description="@string/string_7f140da8"
+            alpha="@integer/integer_7f0c013f"
+            content_description="@string/string_7f140360"
+            id="@id/id_7f0b0b25"
+            layout="@layout/layout_7f0e077f"
+            multi_touch="false">
+            <if
+                rtl_layout="true">
+                <attrs
+                    layout="@layout/layout_7f0e0780" />
+            </if>
+            <icon
+                location="@id/id_7f0b026a"
+                value="@attr/attr_7f04010a" />
+        </softkey>
+    </softkeys>
+</framework>

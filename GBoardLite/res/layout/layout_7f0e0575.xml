@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView
+    style="@style/style_7f1501bc"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        style="@style/style_7f150256">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="?attr_7f040166"
+            android:keyboardNavigationCluster="true">
+            <include
+                layout="@layout/layout_7f0e0093" />
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                layout="@layout/layout_7f0e06cc" />
+        </FrameLayout>
+        <include
+            layout="@layout/layout_7f0e0170" />
+    </LinearLayout>
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

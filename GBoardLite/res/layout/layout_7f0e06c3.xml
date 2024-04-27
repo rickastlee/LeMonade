@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b05b1"
+        android:tag=".background.ring-animation-view"
+        android:background="@drawable/drawable_7f0801ec"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no" />
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b05b2"
+        android:tag=".background.ring-animation-view"
+        android:background="@drawable/drawable_7f0801ec"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no" />
+</FrameLayout>

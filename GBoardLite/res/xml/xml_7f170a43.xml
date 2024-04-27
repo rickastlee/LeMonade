@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170b18" />
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b171f"
+            view_id="@id/key_pos_move_cursor" />
+        <mapping
+            key_id="@id/id_7f0b0b22"
+            view_id="@id/key_pos_del" />
+    </key_mapping>
+    <key_mapping
+        state="COMPOSING">
+        <mapping
+            key_id="@id/id_7f0b0a06"
+            view_id="@id/key_pos_move_cursor" />
+        <mapping
+            key_id="@id/id_7f0b0b23"
+            view_id="@id/key_pos_del" />
+    </key_mapping>
+</framework>

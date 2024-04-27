@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+    android:id="@id/id_7f0b046c"
+    app:attr_7f040866="ja-JP"
+    style="@style/style_7f150351"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

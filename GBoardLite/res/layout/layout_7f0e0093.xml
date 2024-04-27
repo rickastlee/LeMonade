@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.emoticon.EmoticonRecyclerView
+    android:scrollbarThumbVertical="@drawable/drawable_7f080551"
+    android:scrollbarTrackVertical="@null"
+    android:scrollbarStyle="outsideOverlay"
+    android:id="@id/id_7f0b053c"
+    android:scrollbars="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

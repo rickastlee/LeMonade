@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkey
+        desc="@string/string_7f1400a4"
+        empty_reason="@string/string_7f1400b5"
+        icon="@drawable/drawable_7f0804fe"
+        id="@id/id_7f0b082a" />
+    <softkey
+        desc="@string/string_7f1400a5"
+        empty_reason="@string/string_7f1400b5"
+        icon="@drawable/drawable_7f080511"
+        id="@id/id_7f0b082c" />
+    <softkey
+        desc="@string/string_7f1400a0"
+        empty_reason="@string/string_7f1400a2"
+        icon="@drawable/drawable_7f0804e4"
+        id="@id/id_7f0b0638" />
+    <softkey
+        desc="@string/string_7f1400a0"
+        empty_reason="@string/string_7f1400a1"
+        icon="@drawable/drawable_7f0804e4"
+        id="@id/id_7f0b0639" />
+    <softkey
+        desc="@string/string_7f1400ad"
+        empty_reason="@string/string_7f1400b6"
+        icon="@drawable/drawable_7f0802f2"
+        id="@id/id_7f0b0cb7" />
+</framework>

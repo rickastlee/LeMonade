@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/id_7f0b01c2"
+        android:tag=".popup.concept-candidate"
+        android:background="@drawable/drawable_7f08027b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginBottom="5.0dip"
+        android:foreground="?android:selectableItemBackground"
+        android:layout_marginStart="5.0dip"
+        android:layout_marginEnd="5.0dip"
+        app:attr_7f0405d5="@id/id_7f0b01c3"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e" />
+    <View
+        android:id="@id/id_7f0b01c3"
+        android:tag=".popup.concept-candidate-arrow"
+        android:background="@drawable/drawable_7f080469"
+        android:layout_width="18.0dip"
+        android:layout_height="18.0dip"
+        android:layout_marginBottom="5.0dip"
+        android:elevation="3.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b01c2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

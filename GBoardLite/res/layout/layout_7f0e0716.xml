@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b0091"
+        android:duplicateParentState="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:layout_gravity="center"
+            android:tag=".background-icon.for-assistant-voice-input-key"
+            android:background="@drawable/drawable_7f0801ec"
+            android:layout_width="?attr_7f04008d"
+            android:layout_height="?attr_7f04008d" />
+        <FrameLayout
+            android:id="@id/id_7f0b0507"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+        <View
+            android:layout_gravity="center"
+            android:tag=".item-ripple.on-surface"
+            android:duplicateParentState="true"
+            android:layout_width="?attr_7f04008d"
+            android:layout_height="?attr_7f04008d"
+            android:foreground="@drawable/drawable_7f0801ef" />
+        <ImageView
+            android:id="@id/id_7f0b026a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            style="@style/style_7f1502a2" />
+    </FrameLayout>
+</merge>

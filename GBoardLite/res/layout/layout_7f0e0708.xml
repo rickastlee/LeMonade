@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:duplicateParentState="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/id_7f0b026a"
+        style="@style/style_7f1502a0" />
+    <com.google.android.libraries.inputmethod.widgets.AutoCenteredLabelView
+        android:id="@id/id_7f0b046c"
+        style="@style/style_7f150351" />
+</FrameLayout>

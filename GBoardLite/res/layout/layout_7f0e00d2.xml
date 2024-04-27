@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/id_7f0b043b"
+    android:clipChildren="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:splitMotionEvents="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/id_7f0b0441"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:splitMotionEvents="false"
+        style="@style/style_7f1502ff">
+        <ImageView
+            android:id="@id/id_7f0b044e"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/dimen_7f070195"
+            android:layout_marginTop="@dimen/dimen_7f070197"
+            android:layout_marginRight="@dimen/dimen_7f070195"
+            android:layout_marginBottom="@dimen/dimen_7f070196"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:importantForAccessibility="no" />
+        <ImageView
+            android:layout_gravity="center|left|top"
+            android:id="@id/id_7f0b0443"
+            android:contentDescription="@string/string_7f14024c"
+            style="@style/style_7f150270" />
+        <ImageView
+            android:layout_gravity="bottom|center|left"
+            android:id="@id/id_7f0b0442"
+            android:contentDescription="@string/string_7f14024a"
+            android:rotation="270.0"
+            style="@style/style_7f150270" />
+        <ImageView
+            android:layout_gravity="center|right|top"
+            android:id="@id/id_7f0b0445"
+            android:contentDescription="@string/string_7f14024f"
+            android:rotation="90.0"
+            style="@style/style_7f150270" />
+        <ImageView
+            android:layout_gravity="bottom|center|right"
+            android:id="@id/id_7f0b0444"
+            android:contentDescription="@string/string_7f14024d"
+            android:rotation="180.0"
+            style="@style/style_7f150270" />
+    </FrameLayout>
+</FrameLayout>

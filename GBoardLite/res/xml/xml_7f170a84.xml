@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal" />
+        <else_if
+            device="tablet"
+            enable_show_foldable_layout_on_small_tablet="false"
+            keyboard_mode="normal" />
+        <else>
+            <mapping
+                key_id="@id/id_7f0b1e92"
+                view_id="@id/key_pos_zwnj_with_zwj" />
+        </else>
+        <mapping
+            key_id="@id/id_7f0b1a93"
+            view_id="@id/key_pos_space" />
+        <mapping
+            key_id="@id/id_7f0b0b22"
+            view_id="@id/key_pos_del" />
+        <mapping
+            key_id="@id/id_7f0b1af3"
+            view_id="@id/key_pos_switch_to_symbol" />
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <mapping
+                key_id="@id/id_7f0b087f"
+                view_id="@id/key_pos_bottom_symbol_1" />
+        </if>
+        <else_if
+            device="tablet"
+            enable_show_foldable_layout_on_small_tablet="false"
+            keyboard_mode="normal">
+            <mapping
+                key_id="@id/id_7f0b087f"
+                view_id="@id/key_pos_bottom_symbol_1" />
+        </else_if>
+        <else>
+            <mapping
+                key_id="@id/id_7f0b0880"
+                view_id="@id/key_pos_bottom_symbol_1" />
+        </else>
+    </key_mapping>
+    <key_mapping
+        state="INPUT_TYPE_URI,INPUT_TYPE_EMAIL_ADDRESS">
+        <mapping
+            key_id="@id/id_7f0b0895"
+            view_id="@id/key_pos_bottom_symbol_1" />
+    </key_mapping>
+    <key_mapping
+        state="NO_IME_PICKER">
+        <mapping
+            key_id="@id/id_7f0b1a94"
+            view_id="@id/key_pos_space" />
+    </key_mapping>
+    <merge_key_mapping
+        state="INPUT_TYPE_URI,INPUT_TYPE_EMAIL_ADDRESS">
+        <merge
+            key_id="@id/id_7f0b0d87"
+            view_id="@id/key_pos_bottom_symbol_1" />
+    </merge_key_mapping>
+</framework>

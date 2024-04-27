@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f140d42"
+            id="@id/id_7f0b1af2"
+            layout="@layout/layout_7f0e0706">
+            <action
+                keycode="SWITCH_TO_NEXT_SPLIT_KEYBOARD_HANDEDNESS"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080539" />
+        </softkey>
+    </softkeys>
+</framework>

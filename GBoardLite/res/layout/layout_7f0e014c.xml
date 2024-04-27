@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/id_7f0b0441"
+    android:splitMotionEvents="false"
+    style="@style/style_7f1502ff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include
+            layout="@layout/layout_7f0e0161" />
+        <include
+            layout="@layout/layout_7f0e015d" />
+        <include
+            layout="@layout/layout_7f0e0154" />
+    </LinearLayout>
+    <include
+        layout="@layout/layout_7f0e0158" />
+    <include
+        layout="@layout/layout_7f0e014a" />
+</FrameLayout>

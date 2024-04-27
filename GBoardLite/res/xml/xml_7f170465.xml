@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="ru-KG"
+        string_id="ime_russian_kyrgyzstan">
+        <keyboard_group
+            supports_split_mode="true"
+            variant="russian"
+            variant_label="@string/string_7f1411f2">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f170993"
+                type="prime">
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f17085d" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <keyboard_group
+            supports_split_mode="true"
+            variant="russian_yawert"
+            variant_label="@string/string_7f1411f5">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f170994"
+                type="prime">
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f17085d" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <keyboard_group
+            supports_split_mode="true"
+            variant="russian_yazhert"
+            variant_label="@string/string_7f1411f6">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f170995"
+                type="prime">
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f17085d" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+    </ime>
+</framework>

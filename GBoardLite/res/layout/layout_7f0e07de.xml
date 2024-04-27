@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadeScrollbars="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="?attr_7f04047b"
+        android:paddingTop="?attr_7f04047b"
+        android:paddingRight="?attr_7f04047b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/drawable_7f0804d9"
+            android:importantForAccessibility="no" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@id/id_7f0b1fa3"
+            android:text="@string/string_7f14128d"
+            style="@style/style_7f15090b" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/drawable_7f0804e2"
+                android:importantForAccessibility="no"
+                style="@style/style_7f150906" />
+            <LinearLayout
+                style="@style/style_7f150908">
+                <com.google.android.material.textview.MaterialTextView
+                    android:text="@string/string_7f14128b"
+                    style="@style/style_7f150909" />
+                <com.google.android.material.textview.MaterialTextView
+                    android:text="@string/string_7f14128a"
+                    style="@style/style_7f150907" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/drawable_7f080529"
+                android:importantForAccessibility="no"
+                style="@style/style_7f150906" />
+            <LinearLayout
+                style="@style/style_7f150908">
+                <com.google.android.material.textview.MaterialTextView
+                    android:text="@string/string_7f141286"
+                    style="@style/style_7f150909" />
+                <com.google.android.libraries.inputmethod.widgets.LinkableTextView
+                    android:id="@id/id_7f0b1fa1"
+                    android:text="@string/string_7f141284"
+                    style="@style/style_7f150907" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/drawable_7f080534"
+                android:importantForAccessibility="no"
+                style="@style/style_7f150906" />
+            <LinearLayout
+                style="@style/style_7f150908">
+                <com.google.android.material.textview.MaterialTextView
+                    android:text="@string/string_7f141289"
+                    style="@style/style_7f150909" />
+                <com.google.android.libraries.inputmethod.widgets.LinkableTextView
+                    android:id="@id/id_7f0b1fa2"
+                    android:text="@string/string_7f141287"
+                    style="@style/style_7f150907" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginTop="4.0dip"
+            android:src="?attr_7f040417"
+            android:contentDescription="@string/string_7f14128c" />
+        <com.google.android.material.textview.MaterialTextView
+            android:textSize="12.0sp"
+            android:textColor="?android:textColorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18.0dip"
+            android:text="@string/string_7f141283"
+            android:fontFamily="@font/font_7f090010" />
+    </LinearLayout>
+</ScrollView>

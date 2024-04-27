@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        candidate_text_size_ratio="1.0"
+        class=".latin.keyboard.LatinPrimeKeyboard"
+        popup="@attr/attr_7f0401f3"
+        session_states="CAPS_LOCK">
+        <view
+            default_show="false"
+            layout="@layout/layout_7f0e01a6"
+            scalable="false"
+            touchable="false"
+            type="floating_candidates" />
+        <if
+            enable_more_candidates_view_for_multilingual="true"
+            enable_multilingual_typing="true">
+            <view
+                direction="locale"
+                layout="@layout/layout_7f0e0593"
+                scalable="false"
+                type="header">
+                <softkeys
+                    href="@xml/xml_7f170cc2" />
+                <include
+                    href="@xml/xml_7f170b37" />
+            </view>
+        </if>
+        <else>
+            <view
+                direction="locale"
+                layout="@layout/layout_7f0e058c"
+                scalable="false"
+                type="header">
+                <softkeys
+                    href="@xml/xml_7f170cc2" />
+                <include
+                    href="@xml/xml_7f170b37" />
+            </view>
+        </else>
+        <view
+            type="body">
+            <motion_event_handler
+                class=".libs.latin5.handler.LatinMotionEventHandler" />
+            <if
+                enable_preemptive_decode="true">
+                <motion_event_handler
+                    class=".libs.latin5.handler.LatinPreemptiveDecodeHandler" />
+            </if>
+            <motion_event_handler
+                class=".libs.latin5.handler.LatinGestureMotionEventHandler"
+                preference_key="@string/string_7f14069b"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubDeleteMotionEventHandler"
+                preference_key="@string/string_7f1406b0"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubMoveMotionEventHandler"
+                preference_key="@string/string_7f1406b1"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".libs.latin5.handler.LatinKeyboardLayoutHandler" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <softkeys
+                href="@xml/xml_7f170cb5" />
+            <softkeys
+                href="@xml/xml_7f170fd0" />
+            <softkeys
+                href="@xml/xml_7f170fd1" />
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <softkeys
+                    href="@xml/xml_7f170ca7" />
+            </if>
+            <else_if
+                device="tablet"
+                enable_show_foldable_layout_on_small_tablet="false"
+                keyboard_mode="normal">
+                <softkeys
+                    href="@xml/xml_7f170ca7" />
+            </else_if>
+            <else>
+                <softkeys
+                    href="@xml/xml_7f170ca6" />
+            </else>
+            <include
+                href="@xml/xml_7f170b18" />
+            <include
+                href="@xml/xml_7f170b20" />
+            <include
+                href="@xml/xml_7f170b09" />
+            <include
+                href="@xml/xml_7f170b14" />
+            <include
+                href="@xml/xml_7f170be1" />
+            <if
+                enable_more_candidates_view_for_multilingual="true"
+                enable_multilingual_typing="true">
+                <softkeys
+                    href="@xml/xml_7f170c9f" />
+                <include
+                    href="@xml/xml_7f170a3b" />
+            </if>
+        </view>
+    </keyboard>
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f17076f" />
+    </if>
+    <else_if
+        device="tablet"
+        enable_show_foldable_layout_on_small_tablet="false"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f17076f" />
+    </else_if>
+</framework>

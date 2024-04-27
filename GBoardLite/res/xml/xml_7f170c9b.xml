@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_list>
+            <softkey_template
+                content_description="$desc$"
+                id="@id/id_7f0b1ca1"
+                layout="@layout/layout_7f0e0769"
+                multi_touch="false"
+                popup_timing="@string/string_7f14084b"
+                slide_sensitivity="NO_SLIDE">
+                <action
+                    data="$long_press_data$"
+                    intention="$long_press_intention=COMMIT$"
+                    keycode="PLAIN_TEXT"
+                    popup_label="$long_press_data$"
+                    popup_layout="@attr/attr_7f0401fa"
+                    type="LONG_PRESS" />
+                <action
+                    data="$long_press_data$"
+                    intention="$slide_down_intention=COMMIT$"
+                    keycode="PLAIN_TEXT"
+                    popup_label="$long_press_data$"
+                    type="SLIDE_DOWN" />
+                <label
+                    location="@id/id_7f0b0472"
+                    value="$long_press_data$" />
+            </softkey_template>
+        </softkey_list>
+    </softkeys>
+</framework>

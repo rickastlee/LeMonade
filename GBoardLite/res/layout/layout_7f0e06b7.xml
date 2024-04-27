@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewStub
+    android:orientation="horizontal"
+    android:id="@id/key_pos_proactive_suggestions"
+    android:visibility="gone"
+    android:layout="@layout/layout_7f0e06b9"
+    android:inflatedId="@id/key_pos_proactive_suggestions"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="?attr_7f04020b"
+    android:paddingEnd="?attr_7f04020b"
+    app:attr_7f040645="true"
+    app:attr_7f0407f4="@id/softkey_holder_fixed_candidates"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

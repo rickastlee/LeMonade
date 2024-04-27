@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="36.0dip"
+    style="@style/style_7f150622"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@id/id_7f0b00c8"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginHorizontal="9.0dip" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b00cb"
+        android:paddingTop="4.0dip"
+        android:paddingBottom="4.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/style_7f150626" />
+</LinearLayout>

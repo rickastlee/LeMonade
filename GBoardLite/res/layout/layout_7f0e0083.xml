@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:gravity="center_vertical"
+        android:tag=".divider.for-content-suggestion"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_7f0700e1"
+        android:layout_marginTop="@dimen/dimen_7f0700e6"
+        android:layout_marginBottom="@dimen/dimen_7f0700e0"
+        android:src="@drawable/drawable_7f0802da"
+        android:scaleType="center"
+        android:importantForAccessibility="no"
+        android:layout_marginHorizontal="16.0dip" />
+</FrameLayout>

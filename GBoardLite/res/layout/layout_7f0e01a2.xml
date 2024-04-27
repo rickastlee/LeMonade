@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyView
+    android:layout_gravity="end|center"
+    android:id="@id/key_pos_show_more_candidates"
+    style="@style/style_7f1505e1"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

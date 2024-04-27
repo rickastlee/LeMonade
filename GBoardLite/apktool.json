@@ -1,0 +1,57 @@
+{
+  "apkFileName": "GBoardLite.apk",
+  "PackageInfo": {
+    "forcedPackageId": "127",
+    "renameManifestPackage": null
+  },
+  "doNotCompress": [
+    "resources.arsc",
+    "webp",
+    "png",
+    "res/raw/raw_7f130004",
+    "res/raw/com_google_android_libraries_consentverifier_registration_info.binarypb",
+    "res/raw/com_google_android_gms_icing_mdd_registration_info.binarypb",
+    "res/raw/com_google_android_libraries_performance_primes_registration_info.binarypb",
+    "res/raw/raw_7f130047",
+    "jpg",
+    "res/raw/raw_7f130045",
+    "res/raw/raw_7f130006",
+    "res/raw/raw_7f130000.pb",
+    "wav",
+    "res/raw/com_google_android_libraries_consentverifier_heterodyne_info",
+    "res/raw/raw_7f130003",
+    "assets/dexopt/baseline.profm",
+    "assets/theme/theme_package_metadata_no_background.binarypb",
+    "assets/phenotype/com_google_android_libraries_consentverifier_package_metadata.binarypb",
+    "assets/phenotype/com_google_android_libraries_performance_primes_package_metadata.binarypb",
+    "assets/phenotype/com_google_android_gms_icing_mdd_package_metadata.binarypb",
+    "lib/arm64-v8a/libimage_processing_util_jni.so",
+    "lib/arm64-v8a/libogg_opus_encoder.so",
+    "lib/arm64-v8a/libexpressive_concepts_model_less_predictor_jni_native.so",
+    "lib/arm64-v8a/libnative_crash_handler_jni.so",
+    "lib/arm64-v8a/libintegrated_shared_object.so"
+  ],
+  "compressionType": false,
+  "sparseResources": false,
+  "version": "2.4.0-240422",
+  "sharedLibrary": false,
+  "VersionInfo": {
+    "versionName": "14.1.04.621126403-lite_release-arm64-v8a",
+    "versionCode": "141527482"
+  },
+  "UsesFramework": {
+    "ids": [1],
+    "tag": null
+  },
+  "unknownFiles": {
+    "okhttp3/internal/publicsuffix/publicsuffixes.gz": "0",
+    "LICENSE_UNICODE": "8",
+    "LICENSE_OFL": "8"
+  },
+  "apkFilePath": "/storage/emulated/0/in/GBoard Lite.apk",
+  "isFrameworkApk": false,
+  "sdkInfo": {
+    "minSdkVersion": "27",
+    "targetSdkVersion": "34"
+  }
+}

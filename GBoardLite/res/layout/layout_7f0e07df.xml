@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fadeScrollbars="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:finsky="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="?attr_7f04047b"
+        android:paddingTop="?attr_7f04047b"
+        android:paddingRight="?attr_7f04047b"
+        android:paddingBottom="@dimen/dimen_7f07080c"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="24.0dip"
+            android:layout_height="24.0dip"
+            android:src="@drawable/drawable_7f0804d9"
+            android:importantForAccessibility="no" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@id/id_7f0b1fa5"
+            android:text="@string/string_7f141292"
+            style="@style/style_7f15090b" />
+        <com.caverock.androidsvg.SVGImageView
+            android:layout_width="@dimen/dimen_7f07080b"
+            android:layout_height="@dimen/dimen_7f07080b"
+            android:scaleType="centerInside"
+            finsky:attr_7f0407f5="@raw/raw_7f13007c" />
+        <com.google.android.material.textview.MaterialTextView
+            android:gravity="center"
+            android:id="@id/id_7f0b1fa4"
+            android:layout_marginLeft="24.0dip"
+            android:layout_marginTop="@dimen/dimen_7f07080e"
+            android:layout_marginRight="24.0dip"
+            android:text="@string/string_7f141291"
+            style="@style/style_7f15090a" />
+    </LinearLayout>
+</ScrollView>

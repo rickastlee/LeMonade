@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <include
+            href="@xml/xml_7f170fdf" />
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1cbf">
+            <softkey
+                id="@id/id_7f0b0a30"
+                param_data=","
+                param_keycode="COMMA" />
+            <softkey
+                id="@id/id_7f0b199e"
+                long_press_data="…"
+                param_data="."
+                param_keycode="PERIOD" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1cc0">
+            <softkey
+                id="@id/id_7f0b09fc"
+                long_press_data="《 ≤ ‹ « ⟨ 〈"
+                param_data="&lt;" />
+            <softkey
+                id="@id/id_7f0b09fb"
+                long_press_data="》 ≥ › » ⟩ 〉"
+                param_data=">" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1cc1">
+            <softkey
+                id="@id/id_7f0b160c"
+                long_press_data="≤ ‹ « ⟨"
+                param_data="&lt;" />
+            <softkey
+                id="@id/id_7f0b1716"
+                long_press_data="≥ › » ⟩"
+                param_data=">" />
+        </softkey_list>
+    </softkeys>
+</framework>

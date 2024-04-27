@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    android:theme="@style/style_7f1508ed"
+    android:layout_height="wrap_content"
+    app:attr_7f0402d1="false"
+    style="@style/style_7f1508e8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner
+        android:id="@id/id_7f0b047c"
+        android:layout_height="?attr_7f040280"
+        app:attr_7f0402cb="true"
+        app:attr_7f0404f0="@dimen/dimen_7f0707f1"
+        style="@style/style_7f150493">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_translate_back"
+            style="@style/style_7f15052d" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@id/id_7f0b047b"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405db="@id/id_7f0b024f"
+            app:attr_7f0405ed="@id/key_pos_translate_back"
+            app:attr_7f0405f2="id_7f0b053e">
+            <FrameLayout
+                android:id="@id/id_7f0b1f6a"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                app:attr_7f0405d4="id_7f0b053e"
+                app:attr_7f0405da="id_7f0b053e"
+                app:attr_7f0405f2="id_7f0b053e"
+                app:attr_7f0405f8="id_7f0b1fe8"
+                app:attr_7f0405fa="0.5">
+                <include
+                    layout="@layout/layout_7f0e07c6" />
+            </FrameLayout>
+            <FrameLayout
+                android:id="@id/id_7f0b1f6c"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginEnd="?attr_7f040284"
+                app:attr_7f0405d4="id_7f0b053e"
+                app:attr_7f0405db="@id/id_7f0b1f6a"
+                app:attr_7f0405ee="id_7f0b053e"
+                app:attr_7f0405f2="id_7f0b053e" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="vertical"
+            android:id="@id/id_7f0b024f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr_7f0405dd="0.0dip" />
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

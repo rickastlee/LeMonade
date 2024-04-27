@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f150905"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+        android:textSize="14.0dip"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:tag=".banner-tooltip-foreground"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/string_7f141282"
+        android:fontFamily="@font/font_7f090012"
+        android:paddingStart="24.0dip"
+        android:paddingEnd="24.0dip" />
+</FrameLayout>

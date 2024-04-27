@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        candidate_text_size_ratio="1.0"
+        class="com.google.android.apps.inputmethod.latin.keyboard.LatinHandwritingPrimeKeyboard"
+        popup="@attr/attr_7f0401f3"
+        session_states="CAPS_LOCK">
+        <view
+            direction="locale"
+            layout="@layout/layout_7f0e0591"
+            scalable="false"
+            type="header">
+            <softkeys
+                href="@xml/xml_7f170cc2" />
+            <include
+                href="@xml/xml_7f170b37" />
+        </view>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e0184"
+                type="body" />
+        </if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e0183"
+                type="body" />
+        </else>
+        <view
+            type="body">
+            <motion_event_handler
+                class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler
+                class=".libs.handwriting.keyboard.HandwritingMotionEventHandler" />
+            <motion_event_handler
+                class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <softkeys
+                href="@xml/xml_7f170cc1" />
+            <softkeys
+                href="@xml/xml_7f170cc0" />
+            <include
+                href="@xml/xml_7f170b14" />
+            <include
+                href="@xml/xml_7f170b07" />
+            <include
+                href="@xml/xml_7f170b35" />
+            <include
+                href="@xml/xml_7f170b0a" />
+            <include
+                href="@xml/xml_7f170a8e" />
+        </view>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                id="@id/id_7f0b021f"
+                layout="@layout/layout_7f0e0174"
+                type="body" />
+        </if>
+        <else>
+            <view
+                id="@id/id_7f0b021f"
+                layout="@layout/layout_7f0e0174"
+                type="body" />
+        </else>
+        <view
+            id="@id/id_7f0b021f"
+            type="body">
+            <motion_event_handler
+                class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler
+                class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <softkeys
+                href="@xml/xml_7f170cc1" />
+            <softkeys
+                href="@xml/xml_7f170fd7" />
+            <softkeys
+                href="@xml/xml_7f170cc0" />
+            <include
+                href="@xml/xml_7f170b14" />
+            <include
+                href="@xml/xml_7f170b07" />
+            <include
+                href="@xml/xml_7f170b05" />
+            <include
+                href="@xml/xml_7f170b0a" />
+            <include
+                href="@xml/xml_7f170a8e" />
+        </view>
+        <view
+            id="@id/id_7f0b0220"
+            layout="@layout/layout_7f0e017b">
+            <motion_event_handler
+                class=".libs.handwriting.keyboard.FullscreenHandwritingMotionEventHandler" />
+        </view>
+    </keyboard>
+</framework>

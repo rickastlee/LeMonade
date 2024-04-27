@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1cb7"
+            layout="@layout/layout_7f0e0749"
+            multi_touch="false"
+            slide_sensitivity="NORMAL">
+            <action
+                data="$press_data$"
+                intention="COMMIT"
+                keycode="$keycode$"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$press_data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1cb7">
+            <softkey
+                desc="@string/string_7f140538"
+                id="@id/id_7f0b16f6"
+                keycode="MINUS"
+                press_data="-" />
+            <softkey
+                desc="@string/string_7f14060f"
+                id="@id/id_7f0b0636"
+                keycode="PLUS"
+                press_data="+" />
+            <softkey
+                id="@id/id_7f0b15c1"
+                keycode="PLAIN_TEXT"
+                press_data="(" />
+            <softkey
+                id="@id/id_7f0b19f2"
+                keycode="PLAIN_TEXT"
+                press_data=")" />
+            <softkey
+                desc="@string/string_7f14022f"
+                id="@id/id_7f0b0cf9"
+                keycode="PLAIN_TEXT"
+                press_data="=" />
+            <softkey
+                id="@id/id_7f0b075c"
+                keycode="STAR"
+                press_data="*" />
+            <softkey
+                id="@id/id_7f0b19c0"
+                keycode="POUND"
+                press_data="\#" />
+        </softkey_list>
+    </softkeys>
+</framework>

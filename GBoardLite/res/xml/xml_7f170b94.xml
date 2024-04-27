@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170b97" />
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b1a4d"
+            view_id="@id/key_pos_number_line2_3" />
+        <mapping
+            key_id="@id/id_7f0b0a0f"
+            view_id="@id/key_pos_number_line3_3" />
+    </key_mapping>
+    <key_mapping
+        state="INPUT_TYPE_DATE">
+        <mapping
+            key_id="@id/id_7f0b1a4c"
+            view_id="@id/key_pos_number_line2_3" />
+        <mapping
+            key_id="@id/id_7f0b0cf9"
+            view_id="@id/key_pos_number_line3_3" />
+    </key_mapping>
+</framework>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b0760"
+            view_id="@id/key_pos_back_to_prime" />
+        <mapping
+            key_id="@id/id_7f0b0760"
+            view_id="@id/key_pos_back_to_prime2" />
+    </key_mapping>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b0a30"
+            view_id="@id/key_pos_non_prime_symbol_1" />
+        <mapping
+            key_id="@id/id_7f0b199e"
+            view_id="@id/key_pos_non_prime_symbol_2" />
+    </key_mapping>
+    <key_mapping
+        state="SUB_CATEGORY_1">
+        <mapping
+            key_id="@id/id_7f0b160c"
+            view_id="@id/key_pos_non_prime_symbol_1" />
+        <mapping
+            key_id="@id/id_7f0b1716"
+            view_id="@id/key_pos_non_prime_symbol_2" />
+        <if
+            language="zh">
+            <mapping
+                key_id="@id/id_7f0b09fc"
+                view_id="@id/key_pos_non_prime_symbol_1" />
+            <mapping
+                key_id="@id/id_7f0b09fb"
+                view_id="@id/key_pos_non_prime_symbol_2" />
+        </if>
+    </key_mapping>
+</framework>

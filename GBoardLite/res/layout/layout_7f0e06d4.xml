@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/dimen_7f070340"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/layout_7f0e06d6" />
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_7f070339"
+        android:layout_marginTop="@dimen/dimen_7f07033d"
+        android:layout_below="@id/id_7f0b0494"
+        android:layout_alignLeft="@id/id_7f0b0494"
+        android:layout_alignRight="@id/id_7f0b0494"
+        android:importantForAccessibility="noHideDescendants">
+        <ImageView
+            android:gravity="center"
+            android:id="@id/id_7f0b0498"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:foreground="@drawable/drawable_7f08047d"
+            android:src="@drawable/drawable_7f08047e" />
+        <ImageView
+            android:id="@id/id_7f0b0495"
+            android:layout_width="@dimen/dimen_7f07033c"
+            android:layout_height="@dimen/dimen_7f07033c"
+            android:layout_marginTop="@dimen/dimen_7f07033b"
+            android:src="@drawable/drawable_7f08047f"
+            android:tint="@color/color_7f060712"
+            android:layout_marginStart="@dimen/dimen_7f07033a" />
+        <android.support.v7.widget.AppCompatTextView
+            android:textSize="@dimen/dimen_7f07033e"
+            android:textColor="@color/color_7f060712"
+            android:ellipsize="marquee"
+            android:gravity="start|center"
+            android:id="@id/id_7f0b0496"
+            android:scrollbars="none"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16.0dip"
+            android:layout_marginRight="12.0dip"
+            android:singleLine="true"
+            android:layout_toEndOf="@id/id_7f0b0495" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:duplicateParentState="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/id_7f0b026a"
+        style="@style/style_7f1502b2" />
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/id_7f0b026a">
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+            android:id="@id/id_7f0b046d"
+            app:attr_7f0402ca="false"
+            style="@style/style_7f15036e" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+            android:id="@id/id_7f0b046c"
+            app:attr_7f0402ca="false"
+            style="@style/style_7f15036e" />
+    </FrameLayout>
+</RelativeLayout>

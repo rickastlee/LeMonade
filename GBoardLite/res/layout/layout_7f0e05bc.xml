@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    style="@style/style_7f15038a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/id_7f0b0484"
+        android:tag=".language-promo-chip-icon"
+        android:contentDescription="@string/string_7f14048d"
+        android:importantForAccessibility="no"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b0485"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150388" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0485"
+        android:tag=".language-promo-chip-text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_7f070371"
+        android:layout_marginEnd="@dimen/dimen_7f070370"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ed="@id/id_7f0b0484"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150389" />
+</androidx.constraintlayout.widget.ConstraintLayout>

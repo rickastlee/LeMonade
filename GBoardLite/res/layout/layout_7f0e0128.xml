@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f15041f"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        style="@style/style_7f15041e" />
+    <LinearLayout
+        style="@style/style_7f1503da">
+        <com.google.android.libraries.inputmethod.keyboard.widget.ReadingTextCandidateHolderView
+            android:id="@id/id_7f0b118a"
+            default_sub_view_count="4"
+            style="@style/style_7f15047b" />
+        <LinearLayout
+            android:layout_weight="250.0"
+            style="@style/style_7f1503d8">
+            <View
+                style="@style/style_7f150277" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@id/key_pos_function_key_on_candidates_view"
+                style="@style/style_7f1505e5" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

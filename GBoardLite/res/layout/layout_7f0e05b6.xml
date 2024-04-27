@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.languageselection.LanguageDraggableView
+    android:background="?android:selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:textDirection="locale"
+    android:layoutDirection="locale"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox
+        android:id="@id/id_7f0b0488"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="?android:listPreferredItemPaddingStart" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b048a"
+        android:layout_toEndOf="@id/id_7f0b0488"
+        style="@style/style_7f15038c" />
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="14.0sp"
+        android:textColor="?android:textColorSecondary"
+        android:id="@id/id_7f0b048b"
+        android:layout_marginTop="-36.0dip"
+        android:layout_below="@id/id_7f0b048a"
+        android:layout_toEndOf="@id/id_7f0b0488"
+        style="@style/style_7f15038c" />
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@id/id_7f0b0489"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignTop="@id/id_7f0b0488"
+        android:layout_alignBottom="@id/id_7f0b0488"
+        android:layout_centerVertical="true"
+        android:importantForAccessibility="no"
+        android:paddingEnd="?android:listPreferredItemPaddingEnd"
+        android:layout_alignParentEnd="true"
+        app:attr_7f0407be="@drawable/drawable_7f0802d8" />
+</com.google.android.apps.inputmethod.libs.languageselection.LanguageDraggableView>

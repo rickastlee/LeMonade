@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1ca6">
+            <softkey
+                id="@id/id_7f0b1b39"
+                long_press_data="ܶ,ܷ"
+                long_press_label="ܶ◌,ܷ◌"
+                press_data="ܸ"
+                press_label="ܸ◌" />
+            <softkey
+                id="@id/id_7f0b1b38"
+                press_data="ܹ"
+                press_label="ܹ◌" />
+            <softkey
+                id="@id/id_7f0b1b3a"
+                long_press_data="ܺ,ܻ,ܽ,ܾ"
+                long_press_label="ܺ◌,ܻ◌,ܽ◌,ܾ◌"
+                press_data="ܼ"
+                press_label="ܼ◌" />
+            <softkey
+                id="@id/id_7f0b1b54"
+                long_press_data="݁,݇,݈,̄,̱"
+                long_press_label="݁◌,݇◌,݈◌,̄◌,̱◌"
+                press_data="݂"
+                press_label="݂◌" />
+            <softkey
+                id="@id/id_7f0b0a16"
+                press_data="̮"
+                press_label="◌̮" />
+            <softkey
+                id="@id/id_7f0b1b53"
+                long_press_data="ܰ,ܱ"
+                long_press_label="ܰ◌,ܱ◌"
+                press_data="ܲ"
+                press_label="ܲ◌" />
+            <softkey
+                id="@id/id_7f0b1b56"
+                long_press_data="ܳ,ܴ"
+                long_press_label="ܳ◌,ܴ◌"
+                press_data="ܵ"
+                press_label="ܵ◌" />
+            <softkey
+                id="@id/id_7f0b1b3b"
+                long_press_data="ܑ"
+                long_press_label="ܑ◌"
+                press_data="ܐ"
+                press_label="ܐ" />
+            <softkey
+                id="@id/id_7f0b0a2d"
+                long_press_data="̃"
+                long_press_label="◌̃"
+                press_data="̰"
+                press_label="◌̰" />
+            <softkey
+                id="@id/id_7f0b1b55"
+                press_data="ܿ"
+                press_label="ܿ◌" />
+            <softkey
+                id="@id/id_7f0b1b4c"
+                long_press_data="݀"
+                long_press_label="݀◌"
+                press_data="ܬ"
+                press_label="ܬ" />
+            <softkey
+                id="@id/id_7f0b0a1b"
+                long_press_data="̤"
+                long_press_label="◌̤"
+                press_data="̈"
+                press_label="◌̈" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b1b47"
+                press_data="ܩ" />
+            <softkey
+                id="@id/id_7f0b1b4e"
+                press_data="ܘ" />
+            <softkey
+                id="@id/id_7f0b1b48"
+                press_data="ܪ" />
+            <softkey
+                id="@id/id_7f0b1b4f"
+                long_press_data="ܞ"
+                press_data="ܝ" />
+            <softkey
+                id="@id/id_7f0b1b3e"
+                press_data="ܥ" />
+            <softkey
+                id="@id/id_7f0b1b46"
+                long_press_data="ܧ"
+                press_data="ܦ" />
+            <softkey
+                id="@id/id_7f0b1b4a"
+                long_press_data="ܤ"
+                press_data="ܣ" />
+            <softkey
+                id="@id/id_7f0b1b3d"
+                long_press_data="ܖ,ܯ"
+                press_data="ܕ" />
+            <softkey
+                id="@id/id_7f0b1b3f"
+                long_press_data="ܔ,ܮ"
+                press_data="ܓ" />
+            <softkey
+                id="@id/id_7f0b1b40"
+                press_data="ܗ" />
+            <softkey
+                id="@id/id_7f0b1b4d"
+                long_press_data="ܜ"
+                press_data="ܛ" />
+            <softkey
+                id="@id/id_7f0b1b42"
+                press_data="ܟ" />
+            <softkey
+                id="@id/id_7f0b1b43"
+                press_data="ܠ" />
+            <softkey
+                id="@id/id_7f0b1b50"
+                press_data="ܙ" />
+            <softkey
+                id="@id/id_7f0b1b49"
+                press_data="ܨ" />
+            <softkey
+                id="@id/id_7f0b1b41"
+                press_data="ܚ" />
+            <softkey
+                id="@id/id_7f0b1b4b"
+                press_data="ܫ" />
+            <softkey
+                id="@id/id_7f0b1b3c"
+                long_press_data="ܭ"
+                press_data="ܒ" />
+            <softkey
+                id="@id/id_7f0b1b45"
+                press_data="ܢ" />
+            <softkey
+                id="@id/id_7f0b1b44"
+                press_data="ܡ" />
+            <softkey
+                id="@id/id_7f0b0689"
+                press_data="،" />
+        </softkey_list>
+    </softkeys>
+</framework>

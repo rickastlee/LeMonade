@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader
+        android:title="@string/string_7f140983">
+        <ListPreference
+            android:entries="@array/array_7f030028"
+            android:title="@string/string_7f140982"
+            android:key="@string/string_7f1407ee"
+            android:summary="%s"
+            android:dialogTitle="@string/string_7f140982"
+            android:entryValues="@array/array_7f030036" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f1408b3"
+            android:key="@string/string_7f140669"
+            android:summary="@string/string_7f1408b1" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f1408b0"
+            android:key="@string/string_7f140668"
+            android:summary="@string/string_7f1408af" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f14090f"
+            android:key="@string/string_7f14069e"
+            android:summary="@string/string_7f14090e" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f14090d"
+            android:key="@string/string_7f140699"
+            android:summary="@string/string_7f14090c" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f1408a2"
+            android:key="@string/string_7f140683"
+            android:summary="@string/string_7f1408a1" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f140909"
+            android:key="@string/string_7f1406cd" />
+        <Preference
+            android:title="@string/string_7f1408fc"
+            android:dependency="@string/string_7f1406cd"
+            android:fragment="com.google.android.libraries.inputmethod.preferencewidgets.CommonPreferenceFragment">
+            <extra
+                android:name="PREFERENCE_FRAGMENT"
+                android:value="setting_fuzzy_pinyin" />
+        </Preference>
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

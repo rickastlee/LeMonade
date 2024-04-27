@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="?attr_7f040286"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/id_7f0b1f73"
+        android:tag=".translate.queryholder"
+        android:background="@drawable/drawable_7f08028f"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/drawable_7f08057f" />
+    <com.google.android.libraries.inputmethod.widgets.EditTextOnKeyboard
+        android:textColorHint="@color/color_7f060af7"
+        android:ellipsize="end"
+        android:id="@id/id_7f0b1f74"
+        android:tag=".translate-query"
+        android:background="#00000000"
+        android:fontFamily="@font/font_7f090010"
+        android:paddingStart="16.0dip"
+        android:paddingEnd="16.0dip"
+        style="@style/style_7f1508f3" />
+    <com.google.android.libraries.material.progress.MaterialProgressBar
+        android:layout_gravity="end|center"
+        android:id="@id/id_7f0b1f72"
+        android:visibility="gone"
+        android:layout_width="20.0dip"
+        android:layout_height="20.0dip"
+        android:layout_marginEnd="8.0dip"
+        style="@style/style_7f15097b" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@id/id_7f0b1f77"
+        android:background="#00000000"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        style="@style/style_7f1508f1">
+        <ImageView
+            android:id="@id/id_7f0b1f75"
+            android:background="@android:color/transparent"
+            android:src="@drawable/quantum_gm_ic_cloud_off_vd_theme_24"
+            android:tint="@color/color_7f0609b2"
+            android:layout_marginStart="10.0dip"
+            style="@style/style_7f1508ea" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b1f76"
+            android:background="@android:color/transparent"
+            style="@style/style_7f1508f2" />
+    </LinearLayout>
+</FrameLayout>

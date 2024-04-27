@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        class="com.google.android.libraries.inputmethod.ime.processor.AsyncProcessorBasedIme"
+        inline_composing="true"
+        keyevent_interpreter="com.google.android.apps.inputmethod.libs.korean.KoreanKeyEventInterpreter"
+        label="@string/string_7f1403d8"
+        language="ko"
+        prime_keyboard_type="HARD_QWERTY"
+        status_icon="@drawable/drawable_7f08042c"
+        string_id="@string/string_7f140a5a"
+        supports_access_points="false">
+        <keyboard_group
+            pk_language_tag="en-US"
+            pk_layout_type="qwerty">
+            <keyboard
+                def="@xml/xml_7f1707fe"
+                type="prime" />
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <extra_values>
+            <item
+                id="@id/id_7f0b01e7"
+                value=". " />
+            <item
+                id="@id/id_7f0b01d1"
+                value="@string/string_7f14068d" />
+            <item
+                id="@id/id_7f0b01eb"
+                value="@string/string_7f140796" />
+        </extra_values>
+        <include
+            href="@xml/xml_7f170c78" />
+    </ime>
+</framework>

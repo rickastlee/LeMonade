@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b00ba"
+        android:duplicateParentState="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0.0dip"
+        android:layout_marginEnd="0.0dip"
+        style="@style/style_7f1501de">
+        <com.google.android.libraries.inputmethod.widgets.AutoScaleXTextView
+            android:textSize="14.0sp"
+            android:textColor="@color/color_7f06066c"
+            android:layout_gravity="center"
+            android:id="@id/id_7f0b046c"
+            android:tag=".chip-item-suggestion-text"
+            android:minWidth="52.0dip"
+            android:fontFamily="@font/font_7f090012"
+            android:layout_marginStart="5.0dip"
+            android:layout_marginEnd="5.0dip"
+            app:attr_7f0404bc="true"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405da="id_7f0b053e"
+            app:attr_7f0405ee="id_7f0b053e"
+            app:attr_7f0405f2="id_7f0b053e"
+            app:attr_7f0406a0="0.7"
+            style="@style/style_7f15033e" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0470"
+        android:layout_toRightOf="@id/id_7f0b00ba"
+        style="@style/style_7f150c10" />
+</RelativeLayout>

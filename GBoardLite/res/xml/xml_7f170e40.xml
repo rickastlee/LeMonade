@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b0c16"
+                press_data="्" />
+            <softkey
+                id="@id/id_7f0b0c1a"
+                press_data="ा" />
+            <softkey
+                id="@id/id_7f0b0c21"
+                press_data="ि" />
+            <softkey
+                id="@id/id_7f0b0c22"
+                press_data="ी" />
+            <softkey
+                id="@id/id_7f0b0c29"
+                press_data="ु" />
+            <softkey
+                id="@id/id_7f0b0c2b"
+                press_data="ू" />
+            <softkey
+                id="@id/id_7f0b0c20"
+                press_data="े" />
+            <softkey
+                id="@id/id_7f0b0c23"
+                press_data="ो" />
+            <softkey
+                id="@id/id_7f0b0c17"
+                press_data="ः" />
+            <softkey
+                id="@id/id_7f0b0c12"
+                press_data="ँ" />
+            <softkey
+                id="@id/id_7f0b0c10"
+                press_data="ं" />
+            <softkey
+                id="@id/id_7f0b0c11"
+                press_data="ऽ" />
+            <softkey
+                id="@id/id_7f0b0b35"
+                press_data="अ" />
+            <softkey
+                id="@id/id_7f0b0b36"
+                press_data="आ" />
+            <softkey
+                id="@id/id_7f0b0b77"
+                press_data="इ" />
+            <softkey
+                id="@id/id_7f0b0b79"
+                press_data="ई" />
+            <softkey
+                id="@id/id_7f0b0c01"
+                press_data="उ" />
+            <softkey
+                id="@id/id_7f0b0c03"
+                press_data="ऊ" />
+            <softkey
+                id="@id/id_7f0b0b67"
+                press_data="ए" />
+            <softkey
+                id="@id/id_7f0b0baf"
+                press_data="ओ" />
+            <softkey
+                id="@id/id_7f0b0b80"
+                press_data="क" />
+            <softkey
+                id="@id/id_7f0b0b68"
+                press_data="ग" />
+            <softkey
+                id="@id/id_7f0b0ba8"
+                press_data="ङ" />
+            <softkey
+                id="@id/id_7f0b0b45"
+                press_data="च" />
+            <softkey
+                id="@id/id_7f0b0b7a"
+                press_data="ज" />
+            <softkey
+                id="@id/id_7f0b0bae"
+                press_data="ञ" />
+            <softkey
+                id="@id/id_7f0b0bfc"
+                press_data="ट" />
+            <softkey
+                id="@id/id_7f0b0b5e"
+                press_data="ड" />
+            <softkey
+                id="@id/id_7f0b0baa"
+                press_data="ण" />
+            <softkey
+                id="@id/id_7f0b0bef"
+                press_data="त" />
+            <softkey
+                id="@id/id_7f0b0b51"
+                press_data="द" />
+            <softkey
+                id="@id/id_7f0b0b9f"
+                press_data="न" />
+            <softkey
+                id="@id/id_7f0b0bb2"
+                press_data="प" />
+            <softkey
+                id="@id/id_7f0b0b3a"
+                press_data="ब" />
+            <softkey
+                id="@id/id_7f0b0b95"
+                press_data="म" />
+            <softkey
+                id="@id/id_7f0b0bbb"
+                press_data="र" />
+            <softkey
+                id="@id/id_7f0b0b8b"
+                press_data="ल" />
+            <softkey
+                id="@id/id_7f0b0b92"
+                press_data="ळ" />
+            <softkey
+                id="@id/id_7f0b0c05"
+                press_data="व" />
+            <softkey
+                id="@id/id_7f0b0bd4"
+                press_data="स" />
+            <softkey
+                id="@id/id_7f0b0b71"
+                press_data="ह" />
+            <softkey
+                id="@id/id_7f0b0c0d"
+                press_data="य" />
+            <softkey
+                id="@id/id_7f0b0b60"
+                long_press_data="ड़"
+                press_data="ड़" />
+        </softkey_list>
+    </softkeys>
+</framework>

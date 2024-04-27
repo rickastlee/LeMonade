@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:focusable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/id_7f0b1f87"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/dimen_7f0707fb">
+        <com.google.android.libraries.inputmethod.emoji.widget.FixedSizeEmojiListHolder
+            android:id="@id/id_7f0b1f86"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:attr_7f040423="?attr_7f04028e"
+            app:attr_7f0404b7="@id/id_7f0b0192"
+            app:attr_7f0404b8="@layout/layout_7f0e07cf"
+            app:attr_7f04056a="true"
+            app:attr_7f040767="1"
+            app:attr_7f0408d7="@id/id_7f0b1f90" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/id_7f0b0085"
+            android:paddingTop="3.0dip"
+            android:paddingBottom="3.0dip"
+            android:focusable="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.apps.inputmethod.libs.search.widget.FixedColumnAnimatedImageSidebarHolderView
+                android:id="@id/id_7f0b0084"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr_7f040423="?attr_7f04028f"
+                image_view_layout="@layout/layout_7f0e07ce" />
+        </LinearLayout>
+        <ProgressBar
+            android:layout_gravity="center"
+            android:id="@id/id_7f0b0086"
+            android:tag=".progress-bar"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </FrameLayout>
+</LinearLayout>

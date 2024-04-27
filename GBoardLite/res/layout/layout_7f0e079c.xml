@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageButton
+        android:id="@id/id_7f0b059c"
+        android:tag=".label"
+        android:background="?attr_7f040779"
+        android:src="@drawable/drawable_7f080501"
+        android:contentDescription="@string/string_7f140a47"
+        android:layout_marginStart="16.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150604" />
+    <ImageView
+        android:id="@id/id_7f0b1ee1"
+        android:importantForAccessibility="no"
+        android:layout_marginStart="@dimen/dimen_7f07077c"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150604" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b1edd"
+        android:tag=".label.secondary.for-sticker-pack-author"
+        android:layout_marginTop="@dimen/dimen_7f07077e"
+        android:fontFamily="@font/font_7f090010"
+        app:attr_7f0405db="@id/id_7f0b059c"
+        app:attr_7f0405ed="@id/id_7f0b1ee1"
+        app:attr_7f0405f1="@id/id_7f0b1f17"
+        style="@style/style_7f150605" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b1ee2"
+        android:tag=".label"
+        android:layout_marginBottom="@dimen/dimen_7f07077e"
+        app:attr_7f0405d5="@id/id_7f0b1f17"
+        app:attr_7f0405db="@id/id_7f0b059c"
+        app:attr_7f0405ed="@id/id_7f0b1ee1"
+        style="@style/style_7f150605" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/id_7f0b1f17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr_7f0405de="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.RectangleWithRoundedArrowDrawableFrameLayout
+    style="@style/style_7f1501f4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        style="@style/style_7f1501f5">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.0">
+            <include
+                layout="@layout/layout_7f0e004c" />
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@id/id_7f0b0102"
+                android:text="@string/string_7f1400b9"
+                style="@style/style_7f1501fb" />
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@id/id_7f0b0101"
+            style="@style/style_7f1501f8" />
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.widgets.RectangleWithRoundedArrowDrawableFrameLayout>

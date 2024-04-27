@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_7f070000">24.0dip</dimen>
+    <dimen name="dimen_7f070001">80.0dip</dimen>
+    <dimen name="dimen_7f070002">64.0dip</dimen>
+    <dimen name="dimen_7f070003">8.0dip</dimen>
+    <dimen name="dimen_7f070004">8.0dip</dimen>
+    <dimen name="dimen_7f070017">580.0dip</dimen>
+    <dimen name="dimen_7f070108">320.0dip</dimen>
+    <dimen name="dimen_7f07010b">0.0dip</dimen>
+    <dimen name="dimen_7f07010d">2.0dip</dimen>
+    <dimen name="dimen_7f070110">576.0dip</dimen>
+    <dimen name="dimen_7f070111">320.0dip</dimen>
+    <item type="dimen" name="dimen_7f070114">@dimen/dimen_7f070113</item>
+    <dimen name="dimen_7f070178">18.0dip</dimen>
+    <dimen name="dimen_7f07017b">18.0dip</dimen>
+    <dimen name="dimen_7f07017c">24.0dip</dimen>
+    <dimen name="dimen_7f07017d">120.0dip</dimen>
+    <dimen name="dimen_7f07017f">22.0dip</dimen>
+    <dimen name="dimen_7f070180">24.0dip</dimen>
+    <dimen name="dimen_7f070182">28.0dip</dimen>
+    <dimen name="dimen_7f070183">20.0dip</dimen>
+    <dimen name="dimen_7f070186">290.0dip</dimen>
+    <item type="dimen" name="dimen_7f070187">@dimen/dimen_7f070186</item>
+    <dimen name="dimen_7f070188">346.0dip</dimen>
+    <item type="dimen" name="dimen_7f070189">@dimen/dimen_7f070188</item>
+    <dimen name="dimen_7f0702b5">16.0dip</dimen>
+    <dimen name="dimen_7f0702b6">20.0dip</dimen>
+    <dimen name="dimen_7f070335">50.0dip</dimen>
+    <dimen name="dimen_7f070336">337.0dip</dimen>
+    <dimen name="dimen_7f070337">341.0dip</dimen>
+    <dimen name="dimen_7f070340">8.0dip</dimen>
+    <dimen name="dimen_7f070594">64.0dip</dimen>
+    <dimen name="dimen_7f070659">64.0dip</dimen>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1cbe"
+            layout="@layout/layout_7f0e0749"
+            multi_touch="false"
+            slide_sensitivity="NORMAL">
+            <action
+                data="$param_data$"
+                keycode="PLAIN_TEXT"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$param_data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1cbe">
+            <softkey
+                id="@id/id_7f0b0cf9"
+                param_data="=" />
+            <softkey
+                id="@id/id_7f0b0680"
+                param_data="am" />
+            <softkey
+                id="@id/id_7f0b19bf"
+                param_data="pm" />
+            <softkey
+                id="@id/id_7f0b199b"
+                param_data="%" />
+            <softkey
+                id="@id/id_7f0b15c1"
+                param_data="(" />
+            <softkey
+                id="@id/id_7f0b19f2"
+                param_data=")" />
+            <softkey
+                desc="@string/string_7f14086c"
+                id="@id/id_7f0b1a01"
+                param_data="￥" />
+            <softkey
+                id="@id/id_7f0b0ca3"
+                param_data="$" />
+            <softkey
+                id="@id/id_7f0b160c"
+                param_data="&lt;" />
+            <softkey
+                id="@id/id_7f0b1716"
+                param_data=">" />
+            <softkey
+                id="@id/id_7f0b1aa1"
+                param_data="*" />
+            <softkey
+                id="@id/id_7f0b19c0"
+                param_data="\#" />
+        </softkey_list>
+        <softkey
+            id="@id/id_7f0b0a30"
+            layout="@layout/layout_7f0e0749"
+            multi_touch="false"
+            slide_sensitivity="NORMAL">
+            <action
+                data=","
+                keycode="COMMA"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="," />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b199e"
+            layout="@layout/layout_7f0e0749"
+            multi_touch="false"
+            slide_sensitivity="NORMAL">
+            <action
+                data="."
+                keycode="PERIOD"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="." />
+        </softkey>
+    </softkeys>
+</framework>

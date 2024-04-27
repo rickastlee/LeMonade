@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    android:id="@id/id_7f0b1f16"
+    style="@style/style_7f1501b7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include
+        layout="@layout/layout_7f0e05af" />
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

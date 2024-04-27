@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.proactivesuggestion.ProactiveSuggestionsHolderView
+    android:orientation="horizontal"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingStart="?attr_7f04020b"
+    android:paddingEnd="?attr_7f04020b"
+    app:attr_7f040645="true"
+    app:attr_7f0407f4="@id/softkey_holder_fixed_candidates"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

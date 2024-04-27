@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/id_7f0b026b"
+    style="@style/style_7f1502d0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView
+        android:textColor="?attr_7f040084"
+        android:gravity="center"
+        android:id="@id/id_7f0b046c"
+        android:tag=".label.for-function-key"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="1.0dip"
+        app:attr_7f0402f0="?attr_7f04014a"
+        app:attr_7f0402f1="10.0dip"
+        app:attr_7f0402f4="id_7f0b1f85"
+        style="@style/style_7f150338" />
+</FrameLayout>

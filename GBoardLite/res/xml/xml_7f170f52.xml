@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c96">
+            <softkey
+                id="@id/id_7f0b1a91"
+                press_data="/" />
+            <softkey
+                id="@id/id_7f0b1686"
+                press_data="_" />
+            <softkey
+                id="@id/id_7f0b1d1b"
+                press_data="ภ" />
+            <softkey
+                id="@id/id_7f0b1d37"
+                press_data="ถ" />
+            <softkey
+                id="@id/id_7f0b1d03"
+                press_data="ค" />
+            <softkey
+                id="@id/id_7f0b1d39"
+                press_data="ต" />
+            <softkey
+                id="@id/id_7f0b1cf6"
+                press_data="จ" />
+            <softkey
+                id="@id/id_7f0b1d00"
+                press_data="ข" />
+            <softkey
+                id="@id/id_7f0b1cf7"
+                press_data="ช" />
+            <softkey
+                id="@id/id_7f0b1d10"
+                press_data="ๆ" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1cb0">
+            <softkey
+                id="@id/id_7f0b1d2c"
+                press_data="ู"
+                press_label=" ู" />
+            <softkey
+                id="@id/id_7f0b1d29"
+                press_data="ุ"
+                press_label=" ุ" />
+            <softkey
+                id="@id/id_7f0b1d2a"
+                press_data="ึ"
+                press_label=" ึ" />
+            <softkey
+                id="@id/id_7f0b1d13"
+                press_data="ํ"
+                press_label=" ํ" />
+            <softkey
+                id="@id/id_7f0b1d0e"
+                press_data="๊"
+                press_label=" ๊" />
+            <softkey
+                id="@id/id_7f0b1d0c"
+                press_data="ั"
+                press_label=" ั" />
+            <softkey
+                id="@id/id_7f0b1d27"
+                press_data="ี"
+                press_label=" ี" />
+            <softkey
+                id="@id/id_7f0b1d0f"
+                press_data="็"
+                press_label=" ็" />
+            <softkey
+                id="@id/id_7f0b1d0a"
+                press_data="๋"
+                press_label=" ๋" />
+            <softkey
+                id="@id/id_7f0b1d0d"
+                press_data="้"
+                press_label=" ้" />
+            <softkey
+                id="@id/id_7f0b1d0b"
+                press_data="่"
+                press_label=" ่" />
+            <softkey
+                id="@id/id_7f0b1d18"
+                press_data="ฺ"
+                press_label=" ฺ" />
+            <softkey
+                id="@id/id_7f0b1d31"
+                press_data="์"
+                press_label=" ์" />
+            <softkey
+                id="@id/id_7f0b1d26"
+                press_data="ิ"
+                press_label=" ิ" />
+            <softkey
+                id="@id/id_7f0b1d2b"
+                press_data="ื"
+                press_label=" ื" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1cb1">
+            <softkey
+                id="@id/id_7f0b19bc"
+                press_data="+" />
+            <softkey
+                id="@id/id_7f0b1d42"
+                press_data="๑" />
+            <softkey
+                id="@id/id_7f0b1d46"
+                press_data="๒" />
+            <softkey
+                id="@id/id_7f0b1d45"
+                press_data="๓" />
+            <softkey
+                id="@id/id_7f0b1d40"
+                press_data="๔" />
+            <softkey
+                id="@id/id_7f0b1d3d"
+                press_data="฿" />
+            <softkey
+                id="@id/id_7f0b1d3f"
+                press_data="๕" />
+            <softkey
+                id="@id/id_7f0b1d44"
+                press_data="๖" />
+            <softkey
+                id="@id/id_7f0b1d43"
+                press_data="๗" />
+            <softkey
+                id="@id/id_7f0b1d3e"
+                press_data="๘" />
+            <softkey
+                id="@id/id_7f0b1d41"
+                press_data="๙" />
+            <softkey
+                id="@id/id_7f0b1d06"
+                press_data="ๅ" />
+            <softkey
+                id="@id/id_7f0b1d47"
+                press_data="๐" />
+            <softkey
+                id="@id/id_7f0b19c7"
+                press_data="&quot;" />
+            <softkey
+                id="@id/id_7f0b1cfa"
+                press_data="ฎ" />
+            <softkey
+                id="@id/id_7f0b1d32"
+                press_data="ฑ" />
+            <softkey
+                id="@id/id_7f0b1d36"
+                press_data="ธ" />
+            <softkey
+                id="@id/id_7f0b1d14"
+                press_data="ณ" />
+            <softkey
+                id="@id/id_7f0b1d17"
+                press_data="ฯ" />
+            <softkey
+                id="@id/id_7f0b1d3c"
+                press_data="ญ" />
+            <softkey
+                id="@id/id_7f0b1d35"
+                press_data="ฐ" />
+            <softkey
+                id="@id/id_7f0b1687"
+                press_data="," />
+            <softkey
+                id="@id/id_7f0b1d22"
+                press_data="ไ" />
+            <softkey
+                id="@id/id_7f0b1d24"
+                press_data="ำ" />
+            <softkey
+                id="@id/id_7f0b1d19"
+                press_data="พ" />
+            <softkey
+                id="@id/id_7f0b1d1f"
+                press_data="ะ" />
+            <softkey
+                id="@id/id_7f0b1d1d"
+                press_data="ร" />
+            <softkey
+                id="@id/id_7f0b1d15"
+                press_data="น" />
+            <softkey
+                id="@id/id_7f0b1d3b"
+                press_data="ย" />
+            <softkey
+                id="@id/id_7f0b1cf5"
+                press_data="บ" />
+            <softkey
+                id="@id/id_7f0b1d08"
+                press_data="ล" />
+            <softkey
+                id="@id/id_7f0b1d01"
+                press_data="ฅ" />
+            <softkey
+                id="@id/id_7f0b1d02"
+                press_data="ฃ" />
+            <softkey
+                id="@id/id_7f0b1d1e"
+                press_data="ฤ" />
+            <softkey
+                id="@id/id_7f0b1d04"
+                press_data="ฆ" />
+            <softkey
+                id="@id/id_7f0b1d38"
+                press_data="ฏ" />
+            <softkey
+                id="@id/id_7f0b1d28"
+                press_data="โ" />
+            <softkey
+                id="@id/id_7f0b1cf9"
+                press_data="ฌ" />
+            <softkey
+                id="@id/id_7f0b1d2d"
+                press_data="ษ" />
+            <softkey
+                id="@id/id_7f0b1d2e"
+                press_data="ศ" />
+            <softkey
+                id="@id/id_7f0b1d2f"
+                press_data="ซ" />
+            <softkey
+                id="@id/id_7f0b0f98"
+                press_data="." />
+            <softkey
+                id="@id/id_7f0b1cfd"
+                press_data="ฟ" />
+            <softkey
+                id="@id/id_7f0b1cfe"
+                press_data="ห" />
+            <softkey
+                id="@id/id_7f0b1d05"
+                press_data="ก" />
+            <softkey
+                id="@id/id_7f0b1cfb"
+                press_data="ด" />
+            <softkey
+                id="@id/id_7f0b1d25"
+                press_data="เ" />
+            <softkey
+                id="@id/id_7f0b1d20"
+                press_data="า" />
+            <softkey
+                id="@id/id_7f0b1d30"
+                press_data="ส" />
+            <softkey
+                id="@id/id_7f0b1d3a"
+                press_data="ว" />
+            <softkey
+                id="@id/id_7f0b1d12"
+                press_data="ง" />
+            <softkey
+                id="@id/id_7f0b15cc"
+                press_data="(" />
+            <softkey
+                id="@id/id_7f0b19fd"
+                press_data=")" />
+            <softkey
+                id="@id/id_7f0b1cf8"
+                press_data="ฉ" />
+            <softkey
+                id="@id/id_7f0b1cff"
+                press_data="ฮ" />
+            <softkey
+                id="@id/id_7f0b19c4"
+                press_data="\?" />
+            <softkey
+                id="@id/id_7f0b1d33"
+                press_data="ฒ" />
+            <softkey
+                id="@id/id_7f0b1d07"
+                press_data="ฬ" />
+            <softkey
+                id="@id/id_7f0b1d09"
+                press_data="ฦ" />
+            <softkey
+                id="@id/id_7f0b1d1a"
+                press_data="ผ" />
+            <softkey
+                id="@id/id_7f0b1d1c"
+                press_data="ป" />
+            <softkey
+                id="@id/id_7f0b1d21"
+                press_data="แ" />
+            <softkey
+                id="@id/id_7f0b1d16"
+                press_data="อ" />
+            <softkey
+                id="@id/id_7f0b1d34"
+                press_data="ท" />
+            <softkey
+                id="@id/id_7f0b1d11"
+                press_data="ม" />
+            <softkey
+                id="@id/id_7f0b1d23"
+                press_data="ใ" />
+            <softkey
+                id="@id/id_7f0b1cfc"
+                press_data="ฝ" />
+        </softkey_list>
+    </softkeys>
+</framework>

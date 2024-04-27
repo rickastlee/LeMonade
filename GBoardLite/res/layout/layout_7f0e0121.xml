@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView
+    app:attr_7f0402d1="false"
+    style="@style/style_7f1501bc"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/id_7f0b0239"
+        style="@style/style_7f150256">
+        <com.google.android.apps.inputmethod.libs.search.widget.CategoryViewPager
+            android:id="@id/expression_view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:attr_7f0405ca="@string/string_7f140856" />
+        <include
+            layout="@layout/layout_7f0e0170" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <if
+            keyboard_mode="split">
+            <if
+                split_with_duplicate_keys="true">
+                <view
+                    layout="@layout/layout_7f0e025d"
+                    type="body" />
+            </if>
+            <else>
+                <view
+                    layout="@layout/layout_7f0e025e"
+                    type="body" />
+            </else>
+        </if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e025c"
+                type="body" />
+        </else>
+        <view
+            type="body">
+            <softkeys
+                href="@xml/xml_7f170d3b" />
+            <include
+                href="@xml/xml_7f170aa1" />
+            <include
+                href="@xml/xml_7f170ade" />
+        </view>
+    </keyboard>
+</framework>

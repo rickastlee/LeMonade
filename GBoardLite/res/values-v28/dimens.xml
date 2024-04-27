@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="dimen_7f070291">0.2</item>
+    <item type="dimen" name="dimen_7f070292">0.4</item>
+    <item type="dimen" name="dimen_7f070293">0.8</item>
+    <item type="dimen" name="dimen_7f070294">0.2</item>
+    <item type="dimen" name="dimen_7f070297">0.1</item>
+    <item type="dimen" name="dimen_7f070298">0.2</item>
+    <item type="dimen" name="dimen_7f070299">0.2</item>
+    <item type="dimen" name="dimen_7f07029a">0.1</item>
+    <item type="dimen" name="dimen_7f070500">0.16</item>
+    <item type="dimen" name="dimen_7f070501">0.17</item>
+    <item type="dimen" name="dimen_7f070502">0.4</item>
+    <item type="dimen" name="dimen_7f070503">0.1</item>
+    <item type="dimen" name="dimen_7f0705fa">0.24</item>
+    <item type="dimen" name="dimen_7f0705fb">0.4</item>
+    <item type="dimen" name="dimen_7f0705fc">0.4</item>
+    <item type="dimen" name="dimen_7f0705fd">0.24</item>
+    <item type="dimen" name="dimen_7f070611">0.12</item>
+    <item type="dimen" name="dimen_7f070612">0.2</item>
+    <item type="dimen" name="dimen_7f070613">0.2</item>
+    <item type="dimen" name="dimen_7f070614">0.12</item>
+</resources>

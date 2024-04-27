@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f17059b" />
+    <keyboard>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e03e9"
+                type="body" />
+        </if>
+        <else_if
+            device="tablet"
+            enable_show_foldable_layout_on_small_tablet="false"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e042e"
+                type="body" />
+        </else_if>
+        <else_if
+            keyboard_mode="split">
+            <if
+                split_with_duplicate_keys="true">
+                <view
+                    layout="@layout/layout_7f0e0419"
+                    type="body" />
+            </if>
+            <else>
+                <view
+                    layout="@layout/layout_7f0e041a"
+                    type="body" />
+            </else>
+        </else_if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e0418"
+                type="body" />
+        </else>
+        <view
+            type="body">
+            <softkeys
+                href="@xml/xml_7f170d8c" />
+            <softkeys
+                href="@xml/xml_7f170fb3" />
+            <include
+                href="@xml/xml_7f170ace" />
+            <include
+                href="@xml/xml_7f170b85" />
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170acf" />
+            </if>
+            <else_if
+                device="tablet"
+                enable_show_foldable_layout_on_small_tablet="false"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170acf" />
+            </else_if>
+            <include
+                href="@xml/xml_7f170add" />
+        </view>
+    </keyboard>
+    <include
+        href="@xml/xml_7f170744" />
+</framework>

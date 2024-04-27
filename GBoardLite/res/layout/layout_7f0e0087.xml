@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="76.0dip"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b05f0"
+        android:tag=".content-suggestion-primary-color"
+        android:background="?android:selectableItemBackground"
+        android:padding="8.0dip"
+        android:duplicateParentState="true"
+        android:layout_width="44.0dip"
+        android:layout_height="44.0dip"
+        android:src="@drawable/drawable_7f080534"
+        android:tint="@drawable/drawable_7f0802d9"
+        android:contentDescription="@string/string_7f1405d4" />
+</FrameLayout>

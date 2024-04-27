@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkey_template
+        content_description="$desc$"
+        id="@id/id_7f0b1cac"
+        layout="@layout/layout_7f0e0767"
+        multi_touch="false"
+        popup_timing="@string/string_7f14084b"
+        slide_sensitivity="NORMAL">
+        <action
+            data="$press_data$"
+            intention="$press_intent=COMMIT$"
+            keycode="ALPHABET"
+            popup_label="$press_data$"
+            type="PRESS" />
+        <action
+            data="$long_press_data$"
+            intention="$long_press_intention=COMMIT$"
+            keycode="ALPHABET"
+            merge_insertion_index="$merge_index=0$"
+            popup_label="$long_press_data$"
+            popup_layout="@attr/attr_7f0401fa"
+            type="LONG_PRESS" />
+        <label
+            location="@id/id_7f0b046c"
+            value="$press_data$" />
+    </softkey_template>
+    <softkey_template
+        content_description="$desc$"
+        id="@id/id_7f0b1c78"
+        layout="@layout/layout_7f0e0769"
+        multi_touch="false"
+        popup_timing="@string/string_7f14084b"
+        slide_sensitivity="NORMAL">
+        <action
+            data="$press_data$"
+            intention="$press_intent=COMMIT$"
+            keycode="ALPHABET"
+            popup_label="$press_data$"
+            type="PRESS" />
+        <action
+            data="$long_press_data$"
+            intention="$long_press_intention=COMMIT$"
+            keycode="ALPHABET"
+            merge_insertion_index="$merge_index=0$"
+            popup_label="$long_press_data$"
+            popup_layout="@attr/attr_7f0401ef"
+            type="LONG_PRESS" />
+        <label
+            location="@id/id_7f0b046c"
+            value="$press_data$" />
+        <label
+            location="@id/id_7f0b0472"
+            value="$hint_label$" />
+    </softkey_template>
+    <softkey_template
+        content_description="$desc$"
+        id="@id/id_7f0b1cb1"
+        layout="@layout/layout_7f0e0767"
+        multi_touch="false"
+        popup_timing="@string/string_7f14084b"
+        slide_sensitivity="NORMAL">
+        <action
+            data="$press_data$"
+            intention="$press_intent=COMMIT$"
+            keycode="ALPHABET"
+            popup_label="$press_data$"
+            type="PRESS" />
+        <label
+            location="@id/id_7f0b046c"
+            value="$press_data$" />
+    </softkey_template>
+</framework>

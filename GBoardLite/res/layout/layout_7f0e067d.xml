@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.popup.BasicPopupView
+    style="@style/style_7f1501af"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        style="@style/style_7f1505fa">
+        <com.google.android.libraries.inputmethod.widgets.TransformationTextView
+            android:id="@id/id_7f0b0561"
+            android:visibility="gone"
+            style="@style/style_7f1505fc" />
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.popup.BasicPopupView>

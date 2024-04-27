@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewStub
+    android:id="@id/id_7f0b04d4"
+    android:visibility="gone"
+    android:layout="@layout/layout_7f0e0124"
+    android:inflatedId="@id/id_7f0b04d4"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

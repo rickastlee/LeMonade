@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f17059c" />
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f17076f" />
+    </if>
+    <else_if
+        device="tablet"
+        enable_show_foldable_layout_on_small_tablet="false"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f17076f" />
+    </else_if>
+    <keyboard>
+        <view
+            direction="locale"
+            layout="@layout/layout_7f0e0591"
+            type="header" />
+        <view
+            type="body">
+            <include
+                href="@xml/xml_7f170b15" />
+        </view>
+    </keyboard>
+</framework>

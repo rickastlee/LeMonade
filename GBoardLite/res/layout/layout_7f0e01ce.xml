@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    style="@style/style_7f1501c2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.FloatingMonolithicCandidatesRecyclerView
+        android:id="@id/id_7f0b1189"
+        android:paddingLeft="@dimen/dimen_7f07030d"
+        android:paddingRight="@dimen/dimen_7f07030d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/dimen_7f07030e"
+        app:attr_7f04035b="@layout/layout_7f0e073c"
+        app:attr_7f040680="?attr_7f0400d3" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/id_7f0b053a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:paddingLeft="@dimen/dimen_7f070309"
+            android:paddingRight="@dimen/dimen_7f070309"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:src="@color/color_7f060184"
+            android:contentDescription="@null" />
+        <android.support.v7.widget.AppCompatTextView
+            android:textSize="@dimen/dimen_7f070308"
+            android:textColor="@color/color_7f060185"
+            android:layout_gravity="center_horizontal"
+            android:id="@id/id_7f0b053b"
+            android:paddingTop="@dimen/dimen_7f070307"
+            android:paddingBottom="@dimen/dimen_7f070307"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

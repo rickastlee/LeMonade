@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b02c4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24.0dip"
+            android:layout_marginRight="24.0dip"
+            android:layout_marginBottom="8.0dip" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b02c5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24.0dip"
+            android:layout_marginRight="24.0dip"
+            android:text="@string/string_7f1403bb" />
+        <Button
+            android:id="@id/id_7f0b02c7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/string_7f1403bc" />
+        <ListView
+            android:id="@id/id_7f0b02c6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:nestedScrollingEnabled="true" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

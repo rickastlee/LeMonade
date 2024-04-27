@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:paddingTop="24.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b1f36"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150806" />
+    <ImageView
+        android:id="@id/id_7f0b1f36"
+        android:layout_marginEnd="24.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150805" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b13fb"
+                long_press_data="໑"
+                press_data="ຢ" />
+            <softkey
+                id="@id/id_7f0b13e1"
+                long_press_data="໒"
+                press_data="ຟ" />
+            <softkey
+                id="@id/id_7f0b1414"
+                long_press_data="໓"
+                press_data="ໂ" />
+            <softkey
+                id="@id/id_7f0b13f7"
+                long_press_data="໔"
+                press_data="ຖ" />
+            <softkey
+                id="@id/id_7f0b13e9"
+                long_press_data="໕"
+                press_data="ຄ" />
+            <softkey
+                id="@id/id_7f0b13f9"
+                long_press_data="໖"
+                press_data="ຕ" />
+            <softkey
+                id="@id/id_7f0b13df"
+                long_press_data="໗"
+                press_data="ຈ" />
+            <softkey
+                id="@id/id_7f0b13e8"
+                long_press_data="໘"
+                press_data="ຂ" />
+            <softkey
+                id="@id/id_7f0b13f6"
+                long_press_data="໙"
+                press_data="ຊ" />
+            <softkey
+                id="@id/id_7f0b1406"
+                long_press_data="໐"
+                press_data="ໄ" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1cb1">
+            <softkey
+                id="@id/id_7f0b1415"
+                press_data="ຸ" />
+            <softkey
+                id="@id/id_7f0b1416"
+                press_data="ູ" />
+            <softkey
+                id="@id/id_7f0b13fc"
+                press_data="ໍ" />
+            <softkey
+                id="@id/id_7f0b1412"
+                press_data="ົ" />
+            <softkey
+                id="@id/id_7f0b1407"
+                press_data="ຳ" />
+            <softkey
+                id="@id/id_7f0b13f3"
+                press_data="ພ" />
+            <softkey
+                id="@id/id_7f0b1404"
+                press_data="ະ" />
+            <softkey
+                id="@id/id_7f0b140c"
+                press_data="ິ" />
+            <softkey
+                id="@id/id_7f0b140e"
+                press_data="ີ" />
+            <softkey
+                id="@id/id_7f0b13e5"
+                press_data="ຮ" />
+            <softkey
+                id="@id/id_7f0b13ef"
+                press_data="ນ" />
+            <softkey
+                id="@id/id_7f0b13f0"
+                press_data="ຍ" />
+            <softkey
+                id="@id/id_7f0b13de"
+                press_data="ບ" />
+            <softkey
+                id="@id/id_7f0b13ec"
+                press_data="ລ" />
+            <softkey
+                id="@id/id_7f0b1410"
+                press_data="ັ" />
+            <softkey
+                id="@id/id_7f0b13e3"
+                press_data="ຫ" />
+            <softkey
+                id="@id/id_7f0b13ea"
+                press_data="ກ" />
+            <softkey
+                id="@id/id_7f0b13e0"
+                press_data="ດ" />
+            <softkey
+                id="@id/id_7f0b140a"
+                press_data="ເ" />
+            <softkey
+                id="@id/id_7f0b1402"
+                press_data="້" />
+            <softkey
+                id="@id/id_7f0b1401"
+                press_data="່" />
+            <softkey
+                id="@id/id_7f0b1405"
+                press_data="າ" />
+            <softkey
+                id="@id/id_7f0b13f5"
+                press_data="ສ" />
+            <softkey
+                id="@id/id_7f0b13fa"
+                press_data="ວ" />
+            <softkey
+                id="@id/id_7f0b13ee"
+                press_data="ງ" />
+            <softkey
+                id="@id/id_7f0b15c8"
+                press_data="“" />
+            <softkey
+                id="@id/id_7f0b13f2"
+                press_data="ຜ" />
+            <softkey
+                id="@id/id_7f0b13f4"
+                press_data="ປ" />
+            <softkey
+                id="@id/id_7f0b140b"
+                press_data="ແ" />
+            <softkey
+                id="@id/id_7f0b13f1"
+                press_data="ອ" />
+            <softkey
+                id="@id/id_7f0b1417"
+                press_data="ຶ" />
+            <softkey
+                id="@id/id_7f0b1419"
+                press_data="ື" />
+            <softkey
+                id="@id/id_7f0b13f8"
+                press_data="ທ" />
+            <softkey
+                id="@id/id_7f0b13ed"
+                press_data="ມ" />
+            <softkey
+                id="@id/id_7f0b1409"
+                press_data="ໃ" />
+            <softkey
+                id="@id/id_7f0b13e2"
+                press_data="ຝ" />
+            <softkey
+                id="@id/id_7f0b13d4"
+                press_data="໑" />
+            <softkey
+                id="@id/id_7f0b13d8"
+                press_data="໒" />
+            <softkey
+                id="@id/id_7f0b13d7"
+                press_data="໓" />
+            <softkey
+                id="@id/id_7f0b13d2"
+                press_data="໔" />
+            <softkey
+                id="@id/id_7f0b13cf"
+                press_data="໌" />
+            <softkey
+                id="@id/id_7f0b13fe"
+                press_data="ຼ" />
+            <softkey
+                id="@id/id_7f0b13d1"
+                press_data="໕" />
+            <softkey
+                id="@id/id_7f0b13d6"
+                press_data="໖" />
+            <softkey
+                id="@id/id_7f0b13d5"
+                press_data="໗" />
+            <softkey
+                id="@id/id_7f0b13d0"
+                press_data="໘" />
+            <softkey
+                id="@id/id_7f0b13d3"
+                press_data="໙" />
+            <softkey
+                id="@id/id_7f0b13fd"
+                press_data="ໍ່" />
+            <softkey
+                id="@id/id_7f0b1413"
+                press_data="ົ້" />
+            <softkey
+                id="@id/id_7f0b13d9"
+                press_data="໐" />
+            <softkey
+                id="@id/id_7f0b1408"
+                press_data="ຳ້" />
+            <softkey
+                id="@id/id_7f0b1686"
+                press_data="_" />
+            <softkey
+                id="@id/id_7f0b19bc"
+                press_data="+" />
+            <softkey
+                id="@id/id_7f0b140d"
+                press_data="ິ້" />
+            <softkey
+                id="@id/id_7f0b140f"
+                press_data="ີ້" />
+            <softkey
+                id="@id/id_7f0b13eb"
+                press_data="ຣ" />
+            <softkey
+                id="@id/id_7f0b13dc"
+                press_data="ໜ" />
+            <softkey
+                id="@id/id_7f0b13ff"
+                press_data="ຽ" />
+            <softkey
+                id="@id/id_7f0b13e4"
+                press_data="ຫຼ" />
+            <softkey
+                id="@id/id_7f0b19f9"
+                press_data="”" />
+            <softkey
+                id="@id/id_7f0b1411"
+                press_data="ັ້" />
+            <softkey
+                id="@id/id_7f0b1a49"
+                press_data=";" />
+            <softkey
+                id="@id/id_7f0b0f98"
+                press_data="." />
+            <softkey
+                id="@id/id_7f0b1687"
+                press_data="," />
+            <softkey
+                id="@id/id_7f0b0a0f"
+                press_data=":" />
+            <softkey
+                id="@id/id_7f0b1403"
+                press_data="໊" />
+            <softkey
+                id="@id/id_7f0b1400"
+                press_data="໋" />
+            <softkey
+                id="@id/id_7f0b0d43"
+                press_data="!" />
+            <softkey
+                id="@id/id_7f0b19c4"
+                press_data="\?" />
+            <softkey
+                id="@id/id_7f0b199c"
+                press_data="%" />
+            <softkey
+                id="@id/id_7f0b0cfa"
+                press_data="=" />
+            <softkey
+                id="@id/id_7f0b13ce"
+                press_data="₭" />
+            <softkey
+                id="@id/id_7f0b15cc"
+                press_data="(" />
+            <softkey
+                id="@id/id_7f0b13da"
+                press_data="ຯ" />
+            <softkey
+                id="@id/id_7f0b0a34"
+                press_data="\@" />
+            <softkey
+                id="@id/id_7f0b1418"
+                press_data="ຶ້" />
+            <softkey
+                id="@id/id_7f0b141a"
+                press_data="ື້" />
+            <softkey
+                id="@id/id_7f0b13dd"
+                press_data="ໆ" />
+            <softkey
+                id="@id/id_7f0b13db"
+                press_data="ໝ" />
+            <softkey
+                id="@id/id_7f0b0ca8"
+                press_data="$" />
+            <softkey
+                id="@id/id_7f0b19fd"
+                press_data=")" />
+        </softkey_list>
+    </softkeys>
+</framework>

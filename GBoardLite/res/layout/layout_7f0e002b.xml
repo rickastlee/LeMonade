@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/id_7f0b049f"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:fitsSystemWindows="true"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@id/id_7f0b0089"
+            android:fitsSystemWindows="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr_7f0405ca="com.google.android.libraries.inputmethod.appcompat.ExpandableAppBarLayoutBehavior">
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@id/id_7f0b0111"
+                android:layout_width="fill_parent"
+                android:layout_height="?attr_7f0403b6"
+                app:attr_7f04060a="id_7f0b01a2|id_7f0b05bc|id_7f0b0612"
+                app:attr_7f0408a5="@id/id_7f0b0048"
+                style="?attr_7f0403b7">
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:id="@id/id_7f0b0048"
+                    android:layout_width="fill_parent"
+                    android:layout_height="?attr_7f04029f"
+                    android:elevation="0.0dip"
+                    app:attr_7f0405cb="id_7f0b0550" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:layout_gravity="top"
+            android:id="@id/id_7f0b0588"
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            app:attr_7f0405ca="@string/string_7f140051" />
+        <FrameLayout
+            android:id="@id/id_7f0b011b"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:attr_7f0405ca="@string/string_7f140051" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout
+        android:id="@id/id_7f0b00ae"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

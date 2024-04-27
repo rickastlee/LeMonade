@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping
+        state="SECONDARY_ACTION_SEND">
+        <merge
+            key_id="@id/id_7f0b0d5f"
+            view_id="@id/key_pos_ime_action" />
+    </merge_key_mapping>
+</framework>

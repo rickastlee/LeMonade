@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    style="@style/style_7f1501b7">
+    <FrameLayout
+        style="@style/style_7f1501cc">
+        <include
+            layout="@layout/layout_7f0e01cd" />
+        <FrameLayout
+            style="@style/style_7f1502cc">
+            <LinearLayout
+                style="@style/style_7f1501c5">
+                <LinearLayout
+                    style="@style/style_7f1502c9">
+                    <include
+                        layout="@layout/layout_7f0e028a" />
+                </LinearLayout>
+                <include
+                    layout="@layout/layout_7f0e01db" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

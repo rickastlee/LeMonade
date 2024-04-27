@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    android:id="@id/id_7f0b00fa"
+    style="@style/style_7f1501f2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner
+        android:id="@id/id_7f0b00fd"
+        android:baselineAligned="false"
+        style="@style/style_7f150494">
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="vertical"
+            android:id="@id/id_7f0b0250"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr_7f0405dc="0.0dip" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_clipboard_back_to_prime"
+            android:tag=".oval-navigation-highlight"
+            android:layout_height="wrap_content"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405ed="@id/id_7f0b0250"
+            app:attr_7f0405f2="id_7f0b053e"
+            style="@style/style_7f15052e" />
+        <FrameLayout
+            android:id="@id/id_7f0b00fc"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405db="@id/key_pos_clipboard_icons"
+            app:attr_7f0405ed="@id/key_pos_clipboard_back_to_prime"
+            app:attr_7f0405f2="id_7f0b053e">
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_gravity="start"
+                android:id="@id/id_7f0b00fb"
+                android:text="@string/string_7f1400b0"
+                style="@style/style_7f15034d" />
+        </FrameLayout>
+        <LinearLayout
+            android:id="@id/key_pos_clipboard_icons"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405db="@id/id_7f0b024f"
+            app:attr_7f0405f2="id_7f0b053e">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@id/key_pos_clipboard_batch_delete"
+                android:visibility="invisible"
+                android:layout_marginStart="0.0dip"
+                style="@style/style_7f1501f3" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@id/key_pos_clipboard_batch_pin"
+                style="@style/style_7f1501f3" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@id/key_pos_clipboard_edit_and_add"
+                style="@style/style_7f1501f3" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="vertical"
+            android:id="@id/id_7f0b024f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr_7f0405dd="0.0dip" />
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

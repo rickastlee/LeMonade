@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme"
+        display_app_completions="true"
+        indicator_label="注"
+        inline_composing="false"
+        keyevent_interpreter="com.google.android.apps.inputmethod.libs.chinese.PositionBasedKeyEventInterpreter"
+        language="zh-XD"
+        language_specific_settings="@xml/xml_7f170fec"
+        language_tag="zh-Hant-TW-t-i0-bopomofo"
+        secondary_ime_def="@xml/xml_7f170564"
+        string_id="ime_zh_tw_zhuyin"
+        use_ascii_password_keyboard="true">
+        <if
+            enable_chinese_inline_composing_shape_based="true">
+            <if
+                pref_enable_chinese_inline_composing_tw="true">
+                <attrs
+                    inline_composing="true" />
+            </if>
+        </if>
+        <keyboard_group
+            layout_theme="@style/style_7f150317"
+            pk_language_tag="en"
+            pk_layout_type="qwerty"
+            supports_split_mode="true"
+            variant="zhuyin"
+            variant_label="@string/string_7f141277"
+            variant_name_mandatory="true">
+            <layout_specific_settings
+                resource_id="@xml/xml_7f170fed" />
+            <keyboard
+                def="@xml/xml_7f1707a8"
+                type="prime">
+                <merge
+                    def="@xml/xml_7f1705dd" />
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a01" />
+            <include
+                href="@xml/xml_7f170c76" />
+        </keyboard_group>
+        <extra_values>
+            <item
+                id="@id/id_7f0b01da"
+                value="true" />
+            <item
+                id="@id/id_7f0b01e9"
+                value="false" />
+            <item
+                id="@id/id_7f0b01ec"
+                value="@string/string_7f140476" />
+            <item
+                id="@id/id_7f0b01e7"
+                value="。" />
+            <item
+                id="@id/id_7f0b01d1"
+                value="@string/string_7f14068d" />
+            <item
+                id="@id/id_7f0b01e6"
+                value="hmm" />
+            <if
+                enable_transliteration_tablet_floating_ui_v2="true">
+                <item
+                    id="@id/id_7f0b01c7"
+                    res="@xml/xml_7f1709f5" />
+            </if>
+            <else>
+                <item
+                    id="@id/id_7f0b01c7"
+                    res="@xml/xml_7f1709f4" />
+            </else>
+        </extra_values>
+        <include
+            href="@xml/xml_7f170c7f" />
+    </ime>
+</framework>

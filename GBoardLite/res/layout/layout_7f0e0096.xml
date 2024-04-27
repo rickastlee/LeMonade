@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@id/id_7f0b019d"
+    android:paddingStart="@dimen/dimen_7f070152"
+    android:paddingEnd="@dimen/dimen_7f070152"
+    style="@style/style_7f15027b"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.inputmethod.libs.expression.widget.ShowIfRoomImageView
+        android:id="@id/id_7f0b019e"
+        android:tag=".icon"
+        android:layout_width="40.0dip"
+        android:layout_height="40.0dip"
+        android:contentDescription="@string/string_7f14059e"
+        android:importantForAccessibility="no" />
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="?attr_7f0400cc"
+        android:textColor="@color/color_7f0606c2"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:id="@id/id_7f0b019f"
+        android:tag=".label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginBottom="5.0dip"
+        android:text="@string/string_7f140a29"
+        android:fontFamily="?attr_7f0400eb" />
+    <com.google.android.material.button.MaterialButton
+        android:textSize="14.0dip"
+        android:id="@id/id_7f0b019c"
+        android:tag=".error-card-btn"
+        android:paddingLeft="12.0dip"
+        android:paddingTop="8.0dip"
+        android:paddingRight="12.0dip"
+        android:paddingBottom="8.0dip"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="45.0dip"
+        android:layout_marginTop="5.0dip"
+        android:text="@string/string_7f1402aa"
+        android:fontFamily="?attr_7f0400f3"
+        app:attr_7f04056f="@drawable/drawable_7f080531"
+        app:attr_7f040573="20.0dip"
+        app:attr_7f040761="?android:colorControlHighlight"
+        style="@style/style_7f150ba4" />
+</LinearLayout>

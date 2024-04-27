@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1c86"
+            layout="$key_layout=@layout/softkey_ja_godan$"
+            multi_touch="false"
+            popup_timing="ON_TOUCH"
+            slide_sensitivity="LESS">
+            <action
+                data="$press_data$"
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$press_icon$"
+                popup_label="$press_label$"
+                popup_layout="$press_layout=@layout/popup_bubble_ja_support$"
+                type="PRESS" />
+            <action
+                data="$slideleft_data$"
+                icon_background_level="@integer/integer_7f0c008c"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$slideleft_icon$"
+                popup_label="$slideleft_label$"
+                popup_layout="$slideleft_layout=@layout/popup_bubble_ja_label_large$"
+                type="SLIDE_LEFT" />
+            <action
+                data="$slideup_data$"
+                icon_background_level="@integer/integer_7f0c008e"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$slideup_icon$"
+                popup_label="$slideup_label$"
+                popup_layout="$slideup_layout=@layout/popup_bubble_ja_label_large$"
+                type="SLIDE_UP" />
+            <action
+                data="$slideright_data$"
+                icon_background_level="@integer/integer_7f0c008d"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$slideright_icon$"
+                popup_label="$slideright_label$"
+                popup_layout="$slideright_layout=@layout/popup_bubble_ja_label_large$"
+                type="SLIDE_RIGHT" />
+            <action
+                data="$slidedown_data$"
+                icon_background_level="@integer/integer_7f0c008b"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$slidedown_icon$"
+                popup_label="$slidedown_label$"
+                popup_layout="$slidedown_layout=@layout/popup_bubble_ja_label_large$"
+                type="SLIDE_DOWN" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="$key_icon$" />
+            <icon
+                location="@id/id_7f0b0270"
+                value="$key_icon_secondary$" />
+        </softkey_template>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1c88"
+            layout="$key_layout=@layout/softkey_ja_godan$"
+            multi_touch="false"
+            popup_timing="ON_TOUCH"
+            slide_sensitivity="LESS">
+            <action
+                data="$press_data$"
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$press_icon$"
+                popup_label="$press_label$"
+                popup_layout="$press_layout=@layout/popup_bubble_ja_support$"
+                type="PRESS" />
+            <action
+                data=""
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                type="SLIDE_LEFT" />
+            <action
+                data="$slideup_data$"
+                icon_background_level="@integer/integer_7f0c008e"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$slideup_icon$"
+                popup_label="$slideup_label$"
+                popup_layout="$slideup_layout=@layout/popup_bubble_ja_label_large$"
+                type="SLIDE_UP" />
+            <action
+                data="$slideright_data$"
+                icon_background_level="@integer/integer_7f0c008d"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$slideright_icon$"
+                popup_label="$slideright_label$"
+                popup_layout="$slideright_layout=@layout/popup_bubble_ja_label_large$"
+                type="SLIDE_RIGHT" />
+            <action
+                data="$slidedown_data$"
+                icon_background_level="@integer/integer_7f0c008b"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$slidedown_icon$"
+                popup_label="$slidedown_label$"
+                popup_layout="$slidedown_layout=@layout/popup_bubble_ja_label_large$"
+                type="SLIDE_DOWN" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="$key_icon$" />
+            <icon
+                location="@id/id_7f0b0270"
+                value="$key_icon_secondary$" />
+        </softkey_template>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1c87"
+            layout="$key_layout=@layout/softkey_ja_godan$"
+            multi_touch="false"
+            popup_timing="ON_TOUCH"
+            slide_sensitivity="LESS">
+            <action
+                data="$press_data$"
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$press_icon$"
+                popup_label="$press_label$"
+                popup_layout="$press_layout=@layout/popup_bubble_ja_support$"
+                type="PRESS" />
+            <action
+                data="$slideleft_data$"
+                icon_background_level="@integer/integer_7f0c008c"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$slideleft_icon$"
+                popup_label="$slideleft_label$"
+                popup_layout="$slideleft_layout=@layout/popup_bubble_ja_label_large$"
+                type="SLIDE_LEFT" />
+            <action
+                data="$slideup_data$"
+                icon_background_level="@integer/integer_7f0c008e"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$slideup_icon$"
+                popup_label="$slideup_label$"
+                popup_layout="$slideup_layout=@layout/popup_bubble_ja_label_large$"
+                type="SLIDE_UP" />
+            <action
+                data="$slideright_data$"
+                icon_background_level="@integer/integer_7f0c008d"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                popup_icon="$slideright_icon$"
+                popup_label="$slideright_label$"
+                popup_layout="$slideright_layout=@layout/popup_bubble_ja_label_large$"
+                type="SLIDE_RIGHT" />
+            <action
+                data=""
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="$press_keycode$"
+                type="SLIDE_DOWN" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="$key_icon$" />
+            <icon
+                location="@id/id_7f0b0270"
+                value="$key_icon_secondary$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1c86">
+            <softkey
+                desc="アー"
+                id="@id/id_7f0b1206"
+                key_icon="@drawable/drawable_7f0803c1"
+                key_icon_secondary="@drawable/drawable_7f0803ca"
+                press_data="a"
+                press_keycode="A"
+                press_label="A    1"
+                slidedown_data="1"
+                slidedown_label="1"
+                slideleft_data="$"
+                slideleft_label="あっ"
+                slideleft_layout="@layout/layout_7f0e0663"
+                slideright_data="\#"
+                slideright_label="ゃ"
+                slideright_layout="@layout/layout_7f0e0663"
+                slideup_data="&lt;"
+                slideup_label="あん"
+                slideup_layout="@layout/layout_7f0e0663" />
+            <softkey
+                desc="イー"
+                id="@id/id_7f0b1209"
+                key_icon="@drawable/drawable_7f0803cf"
+                key_icon_secondary="@drawable/drawable_7f0803d0"
+                press_data="i"
+                press_keycode="I"
+                press_label="I    4"
+                slidedown_data="4"
+                slidedown_label="4"
+                slideleft_data="%"
+                slideleft_label="いっ"
+                slideleft_layout="@layout/layout_7f0e0663"
+                slideright_data="+"
+                slideright_label="ぃ"
+                slideright_layout="@layout/layout_7f0e0663"
+                slideup_data=">"
+                slideup_label="いん"
+                slideup_layout="@layout/layout_7f0e0663" />
+            <softkey
+                desc="ウー"
+                id="@id/id_7f0b1211"
+                key_icon="@drawable/drawable_7f0803d5"
+                key_icon_secondary="@drawable/drawable_7f0803d6"
+                press_data="u"
+                press_keycode="U"
+                press_label="U    7"
+                slidedown_data="7"
+                slidedown_label="7"
+                slideleft_data="&amp;"
+                slideleft_label="うっ"
+                slideleft_layout="@layout/layout_7f0e0663"
+                slideright_data="^"
+                slideright_label="ゅ"
+                slideright_layout="@layout/layout_7f0e0663"
+                slideup_data="{"
+                slideup_label="うん"
+                slideup_layout="@layout/layout_7f0e0663" />
+            <softkey
+                desc="ナー"
+                id="@id/id_7f0b120c"
+                key_icon="@drawable/drawable_7f0803c3"
+                key_icon_secondary="@drawable/drawable_7f0803c4"
+                press_data="n"
+                press_keycode="N"
+                press_label="N : ん ・ 0"
+                slidedown_data="0"
+                slidedown_label="0"
+                slideleft_data=":"
+                slideleft_label=":"
+                slideleft_layout="@layout/layout_7f0e0663"
+                slideright_data=";"
+                slideright_label="・"
+                slideright_layout="@layout/layout_7f0e0663"
+                slideup_data="@string/string_7f141015"
+                slideup_label="ん"
+                slideup_layout="@layout/layout_7f0e0663" />
+            <softkey
+                desc="ハー"
+                id="@id/id_7f0b1208"
+                key_icon="@drawable/drawable_7f0803cd"
+                key_icon_secondary="@drawable/drawable_7f0803ce"
+                press_data="h"
+                press_keycode="H"
+                press_label="H P F B 3"
+                slidedown_data="3"
+                slidedown_label="3"
+                slideleft_data="p"
+                slideleft_label="P"
+                slideright_data="b"
+                slideright_label="B"
+                slideup_data="f"
+                slideup_label="F" />
+            <softkey
+                desc="マー"
+                id="@id/id_7f0b120b"
+                key_icon="@drawable/drawable_7f0803d3"
+                key_icon_secondary="@drawable/drawable_7f0803d4"
+                press_data="m"
+                press_keycode="M"
+                press_label="M / L ー 6"
+                slidedown_data="6"
+                slidedown_label="6"
+                slideleft_data="/"
+                slideleft_label="／"
+                slideleft_layout="@layout/layout_7f0e0663"
+                slideright_data="-"
+                slideright_label="ー"
+                slideright_layout="@layout/layout_7f0e0663"
+                slideup_data="l"
+                slideup_label="L" />
+            <softkey
+                desc="ヤー"
+                id="@id/id_7f0b1213"
+                key_icon="@drawable/drawable_7f0803d9"
+                key_icon_secondary="@drawable/drawable_7f0803da"
+                press_data="y"
+                press_keycode="Y"
+                press_label="Y ( X ) 9"
+                slidedown_data="9"
+                slidedown_label="9"
+                slideleft_data="("
+                slideleft_label="("
+                slideleft_layout="@layout/layout_7f0e0663"
+                slideright_data=")"
+                slideright_label=")"
+                slideright_layout="@layout/layout_7f0e0663"
+                slideup_data="x"
+                slideup_label="X" />
+            <softkey
+                desc="ラー"
+                id="@id/id_7f0b120e"
+                key_icon="@drawable/drawable_7f0803c5"
+                key_icon_secondary="@drawable/drawable_7f0803c6"
+                press_data="r"
+                press_keycode="R"
+                press_label="R 。 ? ! 、"
+                slidedown_data=","
+                slidedown_label="、"
+                slidedown_layout="@layout/layout_7f0e0663"
+                slideleft_data="."
+                slideleft_label="。"
+                slideleft_layout="@layout/layout_7f0e0663"
+                slideright_data="!"
+                slideright_label="!"
+                slideright_layout="@layout/layout_7f0e0663"
+                slideup_data="\?"
+                slideup_label="\?"
+                slideup_layout="@layout/layout_7f0e0663" />
+        </softkey_list>
+        <softkey_list
+            template_id="@id/id_7f0b1c88">
+            <softkey
+                desc="カー"
+                id="@id/id_7f0b120a"
+                key_icon="@drawable/drawable_7f0803cb"
+                key_icon_secondary="@drawable/drawable_7f0803cc"
+                press_data="k"
+                press_keycode="K"
+                press_label="K  Q G 2"
+                slidedown_data="2"
+                slidedown_label="2"
+                slideright_data="g"
+                slideright_label="G"
+                slideup_data="q"
+                slideup_label="Q" />
+            <softkey
+                desc="サー"
+                id="@id/id_7f0b120f"
+                key_icon="@drawable/drawable_7f0803d1"
+                key_icon_secondary="@drawable/drawable_7f0803d2"
+                press_data="s"
+                press_keycode="S"
+                press_label="S  J Z 5"
+                slidedown_data="5"
+                slidedown_label="5"
+                slideright_data="z"
+                slideright_label="Z"
+                slideup_data="j"
+                slideup_label="J" />
+            <softkey
+                desc="ター"
+                id="@id/id_7f0b1210"
+                key_icon="@drawable/drawable_7f0803d7"
+                key_icon_secondary="@drawable/drawable_7f0803d8"
+                press_data="t"
+                press_keycode="T"
+                press_label="T  C D 8"
+                slidedown_data="8"
+                slidedown_label="8"
+                slideright_data="d"
+                slideright_label="D"
+                slideup_data="c"
+                slideup_label="C" />
+        </softkey_list>
+        <softkey_list
+            template_id="@id/id_7f0b1c87">
+            <softkey
+                desc="エー"
+                id="@id/id_7f0b1207"
+                key_icon="@drawable/drawable_7f0803c2"
+                press_data="e"
+                press_keycode="E"
+                press_label="E"
+                slideleft_data="="
+                slideleft_label="えっ"
+                slideleft_layout="@layout/layout_7f0e0663"
+                slideright_data="_"
+                slideright_label="ぇ"
+                slideright_layout="@layout/layout_7f0e0663"
+                slideup_data="}"
+                slideup_label="えん"
+                slideup_layout="@layout/layout_7f0e0663" />
+            <softkey
+                desc="オー"
+                id="@id/id_7f0b120d"
+                key_icon="@drawable/drawable_7f0803c7"
+                press_data="o"
+                press_keycode="O"
+                press_label="O"
+                slideleft_data="\@"
+                slideleft_label="おっ"
+                slideleft_layout="@layout/layout_7f0e0663"
+                slideright_data="|"
+                slideright_label="ょ"
+                slideright_layout="@layout/layout_7f0e0663"
+                slideup_data="~"
+                slideup_label="おん"
+                slideup_layout="@layout/layout_7f0e0663" />
+            <softkey
+                desc="ワー"
+                id="@id/id_7f0b1212"
+                key_icon="@drawable/drawable_7f0803c8"
+                key_icon_secondary="@drawable/drawable_7f0803c9"
+                press_data="w"
+                press_keycode="W"
+                press_label="W 「 V 」"
+                slideleft_data="["
+                slideleft_label="「"
+                slideleft_layout="@layout/layout_7f0e0663"
+                slideright_data="]"
+                slideright_label="」"
+                slideright_layout="@layout/layout_7f0e0663"
+                slideup_data="v"
+                slideup_label="V" />
+            <softkey
+                desc="@string/string_7f140085"
+                id="@id/id_7f0b1204"
+                key_icon="@drawable/drawable_7f0803db"
+                key_layout="@layout/layout_7f0e073f"
+                press_data="*"
+                press_icon="@drawable/drawable_7f0803db"
+                press_keycode="MOZC_NO_START_COMPOSING"
+                press_layout="@layout/layout_7f0e065e"
+                slideleft_data="'"
+                slideleft_icon="@drawable/drawable_7f0803df"
+                slideleft_layout="@layout/layout_7f0e065e"
+                slideright_data="&quot;"
+                slideright_icon="@drawable/drawable_7f0803e6"
+                slideright_layout="@layout/layout_7f0e065e"
+                slideup_data="`"
+                slideup_icon="@drawable/drawable_7f0803e1"
+                slideup_layout="@layout/layout_7f0e065e" />
+        </softkey_list>
+    </softkeys>
+</framework>

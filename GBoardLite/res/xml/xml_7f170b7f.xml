@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170bc8" />
+    <keygroup_mapping
+        group_view_id="@id/id_7f0b1186">
+        <keys
+            softkeys_id="@id/id_7f0b1eb8" />
+    </keygroup_mapping>
+    <keygroup_mapping
+        group_view_id="@id/id_7f0b1187">
+        <keys
+            softkeys_id="@id/id_7f0b1eb9" />
+    </keygroup_mapping>
+    <include
+        href="@xml/xml_7f170b7d" />
+</framework>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b02a2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginHorizontal="@dimen/dimen_7f070166"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f15025d" />
+    <ImageView
+        android:id="@id/id_7f0b029f"
+        android:tag=".fast-access-bar-arrow"
+        android:layout_width="55.0dip"
+        android:layout_height="25.0dip"
+        android:src="@drawable/drawable_7f080391"
+        android:scaleType="fitCenter"
+        android:contentDescription="@null"
+        android:layout_marginEnd="@dimen/dimen_7f07015f"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e" />
+</androidx.constraintlayout.widget.ConstraintLayout>

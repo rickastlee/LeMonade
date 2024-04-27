@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    android:gravity="center"
+    android:id="@id/id_7f0b018c"
+    android:tag=".emoji-variant-popup-view"
+    android:background="@drawable/drawable_7f080550"
+    android:padding="2.0dip"
+    android:layout_width="@dimen/dimen_7f070144"
+    android:layout_height="@dimen/dimen_7f07013f"
+    android:contentDescription="@string/string_7f1401c3"
+    android:importantForAccessibility="yes"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

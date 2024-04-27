@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="end|bottom|center"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:gravity="center"
+        android:id="@id/id_7f0b01bb"
+        android:tag=".expression-navigation-del-button"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="18.0dip"
+        android:src="@drawable/drawable_7f0804f0"
+        android:contentDescription="@string/string_7f140360"
+        app:attr_7f040332="0.0dip"
+        app:attr_7f0404a4="5.0dip"
+        app:attr_7f040734="0.0dip"
+        app:attr_7f04077e="@style/style_7f150221" />
+</FrameLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:paddingBottom="@dimen/dimen_7f07018a"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_gravity="center|left"
+        android:id="@id/id_7f0b0214"
+        android:tag=".icon.item-ripple.no-background.for-floating-close-button"
+        android:background="@drawable/drawable_7f0801e7"
+        android:layout_width="@dimen/dimen_7f07018c"
+        android:layout_height="@dimen/dimen_7f07018c"
+        android:layout_marginLeft="@dimen/dimen_7f07018e"
+        android:src="@drawable/drawable_7f080316"
+        android:tint="?attr_7f0403e9"
+        android:contentDescription="@string/string_7f140309"
+        android:paddingHorizontal="@dimen/dimen_7f07018d"
+        android:paddingVertical="@dimen/dimen_7f07018d" />
+    <include
+        layout="@layout/layout_7f0e00cc" />
+    <include
+        layout="@layout/layout_7f0e011b" />
+</FrameLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader
+        android:title="@string/string_7f140962">
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f140936"
+            android:key="@string/string_7f1407c4"
+            android:summary="@string/string_7f140966" />
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.InlineSeekBarPreference
+            android:persistent="true"
+            android:title="@string/string_7f140963"
+            android:key="@string/string_7f1407b8"
+            android:dependency="@string/string_7f1407c4"
+            seek_bar_display_scale="0.001"
+            seek_bar_max_value="@integer/integer_7f0c00e2"
+            seek_bar_min_value="@integer/integer_7f0c00e6"
+            seek_bar_text_left="@string/string_7f140964"
+            seek_bar_text_right="@string/string_7f140965"
+            seek_bar_unit="sec" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f140937"
+            android:key="@string/string_7f1407c7"
+            android:summary="@string/string_7f140968" />
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.InlineSeekBarPreference
+            android:persistent="true"
+            android:title="@string/string_7f14096a"
+            android:key="@string/string_7f1407b9"
+            android:dependency="@string/string_7f1407c7"
+            seek_bar_display_scale="0.001"
+            seek_bar_max_value="@integer/integer_7f0c00e5"
+            seek_bar_min_value="@integer/integer_7f0c00e9"
+            seek_bar_text_left="@string/string_7f14096b"
+            seek_bar_text_right="@string/string_7f14096c"
+            seek_bar_unit="sec" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f140938"
+            android:key="@string/string_7f1407c5"
+            android:summary="@string/string_7f140969" />
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.InlineSeekBarPreference
+            android:persistent="true"
+            android:title="@string/string_7f140996"
+            android:key="@string/string_7f1407c9"
+            android:dependency="@string/string_7f1407c5"
+            seek_bar_display_scale="0.001"
+            seek_bar_max_value="@integer/integer_7f0c00e4"
+            seek_bar_min_value="@integer/integer_7f0c00e8"
+            seek_bar_text_left="@string/string_7f140994"
+            seek_bar_text_right="@string/string_7f140995"
+            seek_bar_unit="sec" />
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.InlineSeekBarPreference
+            android:persistent="true"
+            android:title="@string/string_7f140993"
+            android:key="@string/string_7f1407c8"
+            android:dependency="@string/string_7f1407c5"
+            seek_bar_display_scale="0.001"
+            seek_bar_max_value="@integer/integer_7f0c00e3"
+            seek_bar_min_value="@integer/integer_7f0c00e7"
+            seek_bar_text_left="@string/string_7f140991"
+            seek_bar_text_right="@string/string_7f140992"
+            seek_bar_unit="sec" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f1409b7"
+            android:key="@string/string_7f1406b7" />
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.VolumePreference
+            android:persistent="true"
+            android:title="@string/string_7f1409b8"
+            android:key="@string/string_7f14081b"
+            android:dependency="@string/string_7f1406b7" />
+        <com.google.android.apps.inputmethod.libs.languageselection.preference.MorseKeyComboPreference
+            android:persistent="true"
+            android:title="@string/string_7f1407c3"
+            android:key="@string/string_7f1407c1"
+            android:summary="@string/string_7f1407c2" />
+        <com.google.android.apps.inputmethod.libs.languageselection.preference.MorseKeyComboPreference
+            android:persistent="true"
+            android:title="@string/string_7f1407c0"
+            android:key="@string/string_7f1407be"
+            android:summary="@string/string_7f1407bf" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f140967"
+            android:key="@string/string_7f1407c6" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

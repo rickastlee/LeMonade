@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f1502d6"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/id_7f0b00be"
+        style="@style/style_7f1505e4" />
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        style="@style/style_7f1501d1">
+        <com.google.android.libraries.inputmethod.widgets.AutoScaleXTextView
+            android:id="@id/id_7f0b046c"
+            android:paddingRight="2.0dip"
+            android:layout_width="wrap_content"
+            app:attr_7f0404bc="false"
+            app:attr_7f0406a0="0.7"
+            style="@style/style_7f15033e" />
+        <ImageView
+            android:visibility="visible"
+            android:layout_width="18.0dip"
+            android:layout_height="18.0dip"
+            android:layout_marginRight="@dimen/dimen_7f07073f"
+            android:src="@drawable/drawable_7f080506"
+            style="@style/style_7f1502a0" />
+    </LinearLayout>
+</FrameLayout>

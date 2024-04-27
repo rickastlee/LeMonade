@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="cu-RU"
+        string_id="ime_church_slavonic_cyrillic">
+        <keyboard_group
+            pk_language_tag="ru"
+            supports_split_mode="true"
+            variant="church_slavonic"
+            variant_label="@string/string_7f141099">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f1705e9"
+                type="prime">
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f170861" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <keyboard_group
+            pk_language_tag="ru"
+            supports_split_mode="true"
+            variant="russian_jcuken"
+            variant_label="@string/string_7f1411f3">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f1705ea"
+                type="prime">
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f170858" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+    </ime>
+</framework>

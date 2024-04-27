@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@id/id_7f0b04a5"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:typeface="monospace"
+        android:id="@id/id_7f0b04a6"
+        android:paddingLeft="@dimen/dimen_7f070381"
+        android:paddingTop="@dimen/dimen_7f070382"
+        android:paddingRight="@dimen/dimen_7f070381"
+        android:paddingBottom="@dimen/dimen_7f070382"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen_7f070381"
+        android:paddingEnd="@dimen/dimen_7f070381" />
+</ScrollView>

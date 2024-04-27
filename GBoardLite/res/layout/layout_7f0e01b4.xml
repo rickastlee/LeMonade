@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f1502cc"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        style="@style/style_7f1501c6">
+        <include
+            layout="@layout/layout_7f0e01ba" />
+        <include
+            layout="@layout/layout_7f0e01bd" />
+        <include
+            layout="@layout/layout_7f0e01be" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.translate.TranslateLanguageBar
+    android:id="@id/id_7f0b1f6b"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@id/id_7f0b1f7c"
+        android:tag=".translate.language.bg"
+        android:background="@drawable/drawable_7f0801e1"
+        android:paddingTop="?attr_7f040282"
+        android:paddingBottom="?attr_7f040282"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr_7f040281"
+        android:layout_marginTop="?attr_7f040289"
+        android:layout_marginBottom="?attr_7f040288"
+        android:foreground="@drawable/drawable_7f0801e2"
+        android:paddingStart="16.0dip"
+        android:paddingEnd="16.0dip"
+        android:layout_marginStart="4.0dip"
+        android:layout_marginEnd="4.0dip" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@id/id_7f0b1f7d"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr_7f040281"
+        android:layout_marginTop="?attr_7f040289"
+        android:layout_marginBottom="?attr_7f040288"
+        android:foreground="@drawable/drawable_7f0801e2" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@id/id_7f0b1f80"
+        android:tag=".translate.language.bg"
+        android:background="@drawable/drawable_7f0801e1"
+        android:paddingTop="?attr_7f040282"
+        android:paddingBottom="?attr_7f040282"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr_7f040281"
+        android:layout_marginTop="?attr_7f040289"
+        android:layout_marginBottom="?attr_7f040288"
+        android:foreground="@drawable/drawable_7f0801e2"
+        android:paddingStart="16.0dip"
+        android:paddingEnd="16.0dip"
+        android:layout_marginStart="@dimen/dimen_7f0707f1"
+        android:layout_marginEnd="@dimen/dimen_7f0707f1" />
+</com.google.android.apps.inputmethod.libs.translate.TranslateLanguageBar>

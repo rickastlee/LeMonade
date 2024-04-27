@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class="com.google.android.apps.inputmethod.libs.search.richsymbol.RichSymbolKeyboard"
+        initial_states="LOCK_KEYBOARD+SUB_CATEGORY_2"
+        persistent_states="@string/string_7f140a23"
+        persistent_states_pref_key="@string/string_7f14085b"
+        recent_key_layout="@layout/layout_7f0e074b"
+        recent_key_type="rich_symbol"
+        remember_recent_key="COMMITTED_ACTION_ONLY">
+        <if
+            enable_nav_redesign_for_expression="true">
+            <view
+                direction="locale"
+                layout="@layout/layout_7f0e0169"
+                scalable="false"
+                type="header" />
+        </if>
+        <else>
+            <view
+                direction="locale"
+                layout="@layout/layout_7f0e0168"
+                scalable="false"
+                type="header" />
+        </else>
+        <view
+            direction="locale"
+            layout="@layout/layout_7f0e057a"
+            type="body">
+            <motion_event_handler
+                class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubDeleteMotionEventHandler"
+                preference_key="@string/string_7f1406b0"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubMoveMotionEventHandler"
+                preference_key="@string/string_7f1406b1"
+                reverse_preference="false" />
+            <include
+                href="@xml/xml_7f170ca1" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <softkeys
+                href="@xml/xml_7f170fc5" />
+            <softkeys
+                href="@xml/xml_7f170cbf" />
+            <softkeys
+                href="@xml/xml_7f170eb4" />
+            <softkeys
+                href="@xml/xml_7f170c9e" />
+            <softkeys
+                href="@xml/xml_7f170ca2" />
+            <include
+                href="@xml/xml_7f170a5b" />
+            <include
+                href="@xml/xml_7f170a78" />
+            <include
+                href="@xml/xml_7f170a8f" />
+            <include
+                href="@xml/xml_7f170ad4" />
+        </view>
+    </keyboard>
+</framework>

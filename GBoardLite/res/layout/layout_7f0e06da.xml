@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/id_7f0b0487"
+    android:background="?attr_7f040410"
+    android:layout_width="fill_parent"
+    android:layout_height="65.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/id_7f0b048f"
+        android:background="?attr_7f0403f3"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e" />
+    <Button
+        android:id="@id/language_specific_setting_done_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_7f140361"
+        android:textAllCaps="false"
+        android:fontFamily="@font/font_7f090010"
+        android:layout_marginEnd="16.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405f2="@id/id_7f0b048f" />
+    <Button
+        android:id="@id/id_7f0b048c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_7f14035d"
+        android:textAllCaps="false"
+        android:fontFamily="@font/font_7f090010"
+        android:layout_marginEnd="16.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/language_specific_setting_done_button"
+        app:attr_7f0405f2="@id/id_7f0b048f"
+        style="?attr_7f040654" />
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="14.0sp"
+        android:textColor="?attr_7f0403e5"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:id="@id/id_7f0b048e"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:text="@string/string_7f140946"
+        android:maxLines="2"
+        android:fontFamily="@font/font_7f090010"
+        android:layout_marginStart="24.0dip"
+        android:layout_marginEnd="16.0dip"
+        app:attr_7f0405ce="true"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b048c"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="@id/id_7f0b048f" />
+</androidx.constraintlayout.widget.ConstraintLayout>

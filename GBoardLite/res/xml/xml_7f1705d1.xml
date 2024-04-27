@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class=".latin.keyboard.LatinPrimeKeyboard"
+        popup="@attr/attr_7f0401f3"
+        recent_key_layout="@layout/layout_7f0e0746"
+        recent_key_popup_layout="@layout/layout_7f0e066e">
+        <view
+            default_show="true"
+            direction="locale"
+            layout="@layout/layout_7f0e0591"
+            scalable="false"
+            type="header">
+            <softkeys
+                href="@xml/xml_7f170cc2" />
+            <include
+                href="@xml/xml_7f170b37" />
+        </view>
+        <if
+            split_keyboard_handedness_zh="right">
+            <view
+                layout="@layout/layout_7f0e012f"
+                type="body" />
+        </if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e012d"
+                type="body" />
+        </else>
+        <view
+            type="body">
+            <motion_event_handler
+                class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler
+                class="com.google.android.apps.inputmethod.libs.pinyin.Pinyin9KeyGestureHandler"
+                preference_key="@string/string_7f14069b"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubDeleteMotionEventHandler"
+                preference_key="@string/string_7f1406b0"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubMoveMotionEventHandler"
+                preference_key="@string/string_7f1406b1"
+                reverse_preference="false" />
+            <softkeys
+                href="@xml/xml_7f170fc3" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <softkeys
+                href="@xml/xml_7f170fcc" />
+            <include
+                href="@xml/xml_7f170a7c" />
+            <if
+                enable_chinese_9key_foldable_split="true"
+                keyboard_mode="split">
+                <softkeys
+                    href="@xml/xml_7f170fa2" />
+            </if>
+            <else>
+                <softkeys
+                    href="@xml/xml_7f170fa1" />
+            </else>
+            <softkeys
+                href="@xml/xml_7f170fa3" />
+            <softkeys
+                href="@xml/xml_7f170fd6" />
+            <softkeys
+                href="@xml/xml_7f170cb8" />
+            <softkeys
+                href="@xml/xml_7f170cb1" />
+            <softkeys
+                href="@xml/xml_7f170fd9" />
+            <softkeys
+                href="@xml/xml_7f170cb0" />
+            <softkeys
+                href="@xml/xml_7f170c9f" />
+            <include
+                href="@xml/xml_7f170b1c" />
+            <include
+                href="@xml/xml_7f170a95" />
+            <include
+                href="@xml/xml_7f170a96" />
+            <include
+                href="@xml/xml_7f170a3a" />
+            <include
+                href="@xml/xml_7f170a08" />
+            <include
+                href="@xml/xml_7f170b06" />
+            <include
+                href="@xml/xml_7f170a3b" />
+        </view>
+    </keyboard>
+</framework>

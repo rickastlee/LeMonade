@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        indicator_label="한"
+        inline_composing="true"
+        keyevent_interpreter="com.google.android.apps.inputmethod.libs.korean.KoreanKeyEventInterpreter"
+        language="ko"
+        language_specific_settings="@xml/xml_7f170c6f"
+        secondary_ime_def="@xml/xml_7f170322"
+        string_id="ime_ko_two_bulsik"
+        use_ascii_password_keyboard="true">
+        <if
+            enable_korean_composition_mode="false">
+            <attrs
+                class="com.google.android.libraries.inputmethod.ime.processor.AsyncProcessorBasedIme" />
+        </if>
+        <keyboard_group
+            pk_language_tag="en"
+            pk_layout_type="qwerty"
+            supports_split_mode="true"
+            variant="korean_two_bulsik"
+            variant_label="@string/string_7f14114e"
+            variant_name_mandatory="true">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f170801"
+                type="prime">
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f170851" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <extra_values>
+            <item
+                id="@id/id_7f0b01e7"
+                value=". " />
+            <item
+                id="@id/id_7f0b01d1"
+                value="@string/string_7f14068d" />
+            <item
+                id="@id/id_7f0b01eb"
+                value="@string/string_7f140796" />
+            <item
+                id="@id/id_7f0b01db"
+                value="false" />
+            <item
+                id="@id/id_7f0b01e6"
+                value="hmm" />
+            <item
+                id="@id/id_7f0b01c7"
+                res="@xml/xml_7f1707fe" />
+        </extra_values>
+        <if
+            enable_korean_composition_mode="false">
+            <processors>
+                <if
+                    enable_voice_in_korean="true">
+                    <processor
+                        class="com.google.android.apps.inputmethod.libs.hmmvoice.HmmVoiceInputProcessor" />
+                </if>
+                <processor
+                    class="com.google.android.libraries.inputmethod.ime.processor.AppCompletionsProcessor" />
+                <processor
+                    class="com.google.android.apps.inputmethod.libs.korean.HmmKorean2BulsikDecoderProcessor" />
+                <processor
+                    class="com.google.android.apps.inputmethod.libs.korean.KoreanDoubleSpaceProcessor" />
+                <processor
+                    class="com.google.android.apps.inputmethod.libs.korean.KoreanAutoSpaceProcessor" />
+                <processor
+                    class="com.google.android.libraries.inputmethod.ime.processor.ScrubMoveProcessor" />
+                <processor
+                    class="com.google.android.libraries.inputmethod.ime.processor.OutputProcessor" />
+            </processors>
+        </if>
+    </ime>
+</framework>

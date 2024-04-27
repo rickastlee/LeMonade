@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView
+    android:textSize="14.0dip"
+    android:textColor="#ffffffff"
+    android:tag=".floating-tooltip-foreground.floating-tooltip-background"
+    android:background="@drawable/drawable_7f080564"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/string_7f140de8"
+    android:elevation="2.0dip"
+    android:paddingHorizontal="12.0dip"
+    android:paddingVertical="8.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

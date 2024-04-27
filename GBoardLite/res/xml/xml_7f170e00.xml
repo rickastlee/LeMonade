@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b0ff2"
+                press_data="ⴖ" />
+            <softkey
+                id="@id/id_7f0b0fad"
+                press_data="Ⴖ" />
+            <softkey
+                id="@id/id_7f0b0ff5"
+                long_press_data="ⴧ"
+                press_data="ⴟ" />
+            <softkey
+                id="@id/id_7f0b0fb0"
+                long_press_data="Ⴧ"
+                press_data="Ⴟ" />
+            <softkey
+                id="@id/id_7f0b1005"
+                press_data="ⴓ" />
+            <softkey
+                id="@id/id_7f0b0fc0"
+                press_data="Ⴓ" />
+            <softkey
+                id="@id/id_7f0b0ff7"
+                press_data="ⴉ" />
+            <softkey
+                id="@id/id_7f0b0fb2"
+                press_data="Ⴉ" />
+            <softkey
+                id="@id/id_7f0b0ff0"
+                long_press_data="ⴡ"
+                press_data="ⴄ" />
+            <softkey
+                id="@id/id_7f0b0fab"
+                long_press_data="Ⴡ"
+                press_data="Ⴄ" />
+            <softkey
+                id="@id/id_7f0b0ffb"
+                press_data="ⴌ" />
+            <softkey
+                id="@id/id_7f0b0fb6"
+                press_data="Ⴌ" />
+            <softkey
+                id="@id/id_7f0b0ff1"
+                press_data="ⴂ" />
+            <softkey
+                id="@id/id_7f0b0fac"
+                press_data="Ⴂ" />
+            <softkey
+                id="@id/id_7f0b1002"
+                press_data="ⴘ" />
+            <softkey
+                id="@id/id_7f0b0fbd"
+                press_data="Ⴘ" />
+            <softkey
+                id="@id/id_7f0b0fee"
+                press_data="ⴜ" />
+            <softkey
+                id="@id/id_7f0b0fa9"
+                press_data="Ⴜ" />
+            <softkey
+                id="@id/id_7f0b1008"
+                press_data="ⴆ" />
+            <softkey
+                id="@id/id_7f0b0fc3"
+                press_data="Ⴆ" />
+            <softkey
+                id="@id/id_7f0b1007"
+                long_press_data="ⴤ"
+                press_data="ⴞ" />
+            <softkey
+                id="@id/id_7f0b0fc2"
+                long_press_data="Ⴤ"
+                press_data="Ⴞ" />
+            <softkey
+                id="@id/id_7f0b0feb"
+                press_data="ⴚ" />
+            <softkey
+                id="@id/id_7f0b0fa6"
+                press_data="Ⴚ" />
+            <softkey
+                id="@id/id_7f0b0ffe"
+                press_data="ⴔ" />
+            <softkey
+                id="@id/id_7f0b0fb9"
+                press_data="Ⴔ" />
+            <softkey
+                id="@id/id_7f0b0ff6"
+                press_data="ⴛ" />
+            <softkey
+                id="@id/id_7f0b0fb1"
+                press_data="Ⴛ" />
+            <softkey
+                id="@id/id_7f0b1006"
+                long_press_data="ⴣ"
+                press_data="ⴅ" />
+            <softkey
+                id="@id/id_7f0b0fc1"
+                long_press_data="Ⴣ"
+                press_data="Ⴅ" />
+            <softkey
+                id="@id/id_7f0b1003"
+                press_data="ⴇ" />
+            <softkey
+                id="@id/id_7f0b0fbe"
+                press_data="Ⴇ" />
+            <softkey
+                id="@id/id_7f0b0fe9"
+                press_data="ⴀ" />
+            <softkey
+                id="@id/id_7f0b0fa4"
+                press_data="Ⴀ" />
+            <softkey
+                id="@id/id_7f0b0ffd"
+                press_data="ⴎ" />
+            <softkey
+                id="@id/id_7f0b0fb8"
+                press_data="Ⴎ" />
+            <softkey
+                id="@id/id_7f0b1000"
+                press_data="ⴐ" />
+            <softkey
+                id="@id/id_7f0b0fbb"
+                press_data="Ⴐ" />
+            <softkey
+                id="@id/id_7f0b0ffc"
+                press_data="ⴍ" />
+            <softkey
+                id="@id/id_7f0b0fb7"
+                press_data="Ⴍ" />
+            <softkey
+                id="@id/id_7f0b0ff9"
+                press_data="ⴊ" />
+            <softkey
+                id="@id/id_7f0b0fb4"
+                press_data="Ⴊ" />
+            <softkey
+                id="@id/id_7f0b0fef"
+                press_data="ⴃ" />
+            <softkey
+                id="@id/id_7f0b0faa"
+                press_data="Ⴃ" />
+            <softkey
+                id="@id/id_7f0b1009"
+                press_data="ⴏ" />
+            <softkey
+                id="@id/id_7f0b0fc4"
+                press_data="Ⴏ" />
+            <softkey
+                id="@id/id_7f0b0ff3"
+                long_press_data="ⴥ"
+                press_data="ⴠ" />
+            <softkey
+                id="@id/id_7f0b0fae"
+                long_press_data="Ⴥ"
+                press_data="Ⴠ" />
+            <softkey
+                id="@id/id_7f0b0fec"
+                press_data="ⴝ" />
+            <softkey
+                id="@id/id_7f0b0fa7"
+                press_data="Ⴝ" />
+            <softkey
+                id="@id/id_7f0b0fed"
+                press_data="ⴙ" />
+            <softkey
+                id="@id/id_7f0b0fa8"
+                press_data="Ⴙ" />
+            <softkey
+                id="@id/id_7f0b0fff"
+                press_data="ⴗ" />
+            <softkey
+                id="@id/id_7f0b0fba"
+                press_data="Ⴗ" />
+            <softkey
+                id="@id/id_7f0b1001"
+                press_data="ⴑ" />
+            <softkey
+                id="@id/id_7f0b0fbc"
+                press_data="Ⴑ" />
+            <softkey
+                id="@id/id_7f0b0ffa"
+                press_data="ⴋ" />
+            <softkey
+                id="@id/id_7f0b0fb5"
+                press_data="Ⴋ" />
+            <softkey
+                id="@id/id_7f0b0ff4"
+                long_press_data="ⴢ"
+                press_data="ⴈ" />
+            <softkey
+                id="@id/id_7f0b0faf"
+                long_press_data="Ⴢ"
+                press_data="Ⴈ" />
+            <softkey
+                id="@id/id_7f0b1004"
+                press_data="ⴒ" />
+            <softkey
+                id="@id/id_7f0b0fbf"
+                press_data="Ⴒ" />
+            <softkey
+                id="@id/id_7f0b0ff8"
+                press_data="ⴕ" />
+            <softkey
+                id="@id/id_7f0b0fb3"
+                press_data="Ⴕ" />
+            <softkey
+                id="@id/id_7f0b0fea"
+                press_data="ⴁ" />
+            <softkey
+                id="@id/id_7f0b0fa5"
+                press_data="Ⴁ" />
+        </softkey_list>
+    </softkeys>
+</framework>

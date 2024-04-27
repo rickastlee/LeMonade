@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_7f120000">
+        <item quantity="other">%d teclas asignadas</item>
+        <item quantity="one">%d tecla asignada</item>
+    </plurals>
+    <plurals name="plurals_7f120002">
+        <item quantity="other">%s se han instalado.</item>
+        <item quantity="one">%s se ha instalado.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f08051a"
+        android:persistent="false"
+        android:maxLines="2"
+        android:title="@string/string_7f14094d"
+        android:key="@string/string_7f140804"
+        android:fragment="com.google.android.apps.inputmethod.libs.languageselection.preference.LanguageSettingFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_languages" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f08053e"
+        android:persistent="false"
+        android:title="@string/string_7f140987"
+        android:key="@string/string_7f140806"
+        android:fragment="com.google.android.libraries.inputmethod.preferencewidgets.CommonPreferenceFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_preferences" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f080525"
+        android:persistent="false"
+        android:title="@string/string_7f1409c8"
+        android:key="@string/string_7f14080c"
+        android:fragment="com.google.android.apps.inputmethod.libs.theme.listing.preference.ThemeListingFragment" />
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f080537"
+        android:persistent="false"
+        android:title="@string/string_7f1408bc"
+        android:key="@string/string_7f1407fe"
+        android:fragment="com.google.android.libraries.inputmethod.preferencewidgets.CommonPreferenceFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_correction" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f08050c"
+        android:persistent="false"
+        android:title="@string/string_7f14090b"
+        android:key="@string/string_7f140802"
+        android:fragment="com.google.android.apps.inputmethod.latin.preference.GesturePreferenceSettingsFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_gesture" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f080521"
+        android:persistent="false"
+        android:title="@string/string_7f1409d5"
+        android:key="@string/string_7f14080e"
+        android:fragment="com.google.android.apps.inputmethod.latin.preference.VoiceSettingsFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_voice" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f080319"
+        android:persistent="false"
+        android:title="@string/string_7f14097b"
+        android:key="@string/string_7f140805"
+        android:fragment="com.google.android.libraries.inputmethod.preferencewidgets.CommonPreferenceFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_physical_keyboard" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f0804ee"
+        android:persistent="false"
+        android:title="@string/string_7f1408b9"
+        android:key="@string/string_7f1407fd"
+        android:fragment="com.google.android.libraries.inputmethod.preferencewidgets.CommonPreferenceFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_clipboard" />
+        <extra
+            android:name="hide_if_flag_is_false"
+            android:value="@string/string_7f140205" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f0804f6"
+        android:persistent="false"
+        android:title="@string/string_7f1408c3"
+        android:key="@string/string_7f140800"
+        android:fragment="com.google.android.apps.inputmethod.latin.preference.dictionary.LatinDictionarySettingsFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_dictionary" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f080457"
+        android:persistent="false"
+        android:title="@string/string_7f1408f7"
+        android:key="@string/string_7f140801"
+        android:fragment="com.google.android.libraries.inputmethod.preferencewidgets.CommonPreferenceFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_expression" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f080535"
+        android:persistent="false"
+        android:title="@string/string_7f14099c"
+        android:key="@string/string_7f14080a" />
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f080522"
+        android:persistent="false"
+        android:title="@string/string_7f140899"
+        android:key="@string/string_7f1407fc"
+        android:fragment="com.google.android.apps.inputmethod.latin.preference.AdvancedSettingsFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_advanced" />
+        <extra
+            android:name="hide_if_flag_is_true"
+            android:value="@string/string_7f14021b" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f080505"
+        android:persistent="false"
+        android:title="@string/string_7f140988"
+        android:key="@string/string_7f140807"
+        android:fragment="com.google.android.apps.inputmethod.latin.preference.PrivacySettingsFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_privacy" />
+        <extra
+            android:name="hide_if_flag_is_false"
+            android:value="@string/string_7f14021b" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f08050b"
+        android:persistent="false"
+        android:title="@string/string_7f1409cd"
+        android:key="@string/string_7f14080d"
+        android:fragment="com.google.android.apps.inputmethod.libs.autotranslate.AutoTranslatePreferenceFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_translate" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.rateus.RateUsPreference
+        android:icon="@drawable/drawable_7f080538"
+        android:persistent="false"
+        android:title="@string/string_7f14098d"
+        android:key="@string/string_7f140808" />
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f080510"
+        android:persistent="false"
+        android:title="@string/string_7f140897"
+        android:key="@string/string_7f1407fb"
+        android:fragment="com.google.android.libraries.inputmethod.preferencewidgets.CommonPreferenceFragment">
+        <extra
+            android:name="PREFERENCE_FRAGMENT"
+            android:value="setting_about" />
+    </com.google.android.libraries.inputmethod.settings.widget.HeaderPreference>
+    <com.google.android.libraries.inputmethod.settings.widget.HeaderPreference
+        android:icon="@drawable/drawable_7f08050e"
+        android:persistent="false"
+        android:title="@string/string_7f14091b"
+        android:key="@string/string_7f140803" />
+</PreferenceScreen>

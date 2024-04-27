@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkey_list
+        splitter=" "
+        template_id="@id/id_7f0b1c9c">
+        <softkey
+            long_press_data="&lt; { ["
+            param_data="(" />
+        <softkey
+            long_press_data="> } ]"
+            param_data=")" />
+        <softkey
+            param_data="[" />
+        <softkey
+            param_data="]" />
+        <softkey
+            param_data="{" />
+        <softkey
+            param_data="}" />
+        <softkey
+            desc="@string/string_7f14028e"
+            param_data="（" />
+        <softkey
+            desc="@string/string_7f140292"
+            param_data="）" />
+        <softkey
+            param_data="［" />
+        <softkey
+            param_data="］" />
+        <softkey
+            param_data="｛" />
+        <softkey
+            param_data="｝" />
+        <softkey
+            param_data="❨" />
+        <softkey
+            param_data="❩" />
+        <softkey
+            param_data="❲" />
+        <softkey
+            param_data="❳" />
+        <softkey
+            param_data="❴" />
+        <softkey
+            param_data="❵" />
+        <softkey
+            desc="@string/string_7f1404e9"
+            param_data="‘" />
+        <softkey
+            desc="@string/string_7f140865"
+            param_data="’" />
+        <softkey
+            desc="@string/string_7f1404e4"
+            param_data="“" />
+        <softkey
+            desc="@string/string_7f140860"
+            param_data="”" />
+        <softkey
+            param_data="❛" />
+        <softkey
+            param_data="❜" />
+        <softkey
+            param_data="❝" />
+        <softkey
+            param_data="❞" />
+        <softkey
+            param_data="&lt;" />
+        <softkey
+            param_data=">" />
+        <softkey
+            desc="@string/string_7f140a15"
+            param_data="〈" />
+        <softkey
+            desc="@string/string_7f140a16"
+            param_data="〉" />
+        <softkey
+            desc="@string/string_7f140188"
+            param_data="《" />
+        <softkey
+            desc="@string/string_7f140189"
+            param_data="》" />
+        <softkey
+            desc="@string/string_7f1404e7"
+            param_data="〔" />
+        <softkey
+            desc="@string/string_7f140863"
+            param_data="〕" />
+        <softkey
+            desc="@string/string_7f1404e3"
+            param_data="【" />
+        <softkey
+            desc="@string/string_7f14085f"
+            param_data="】" />
+        <softkey
+            param_data="〘" />
+        <softkey
+            param_data="〙" />
+        <softkey
+            desc="@string/string_7f1404ec"
+            param_data="「" />
+        <softkey
+            desc="@string/string_7f140868"
+            param_data="」" />
+        <softkey
+            desc="@string/string_7f1404eb"
+            param_data="『" />
+        <softkey
+            desc="@string/string_7f140867"
+            param_data="』" />
+        <unicode_range
+            from="U+FE35"
+            param="param_data"
+            to="U+FE42">
+            <softkey />
+        </unicode_range>
+    </softkey_list>
+</framework>

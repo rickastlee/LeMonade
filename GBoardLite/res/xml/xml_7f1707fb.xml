@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f17059b" />
+    <keyboard>
+        <view
+            layout="@layout/layout_7f0e01e9"
+            override="motion_event_handler"
+            type="body">
+            <include
+                href="@xml/xml_7f170ac5" />
+            <include
+                href="@xml/xml_7f170a43" />
+            <include
+                href="@xml/xml_7f170a39" />
+            <include
+                href="@xml/xml_7f170a80" />
+            <include
+                href="@xml/xml_7f170a7e" />
+            <include
+                href="@xml/xml_7f170a7d" />
+            <include
+                href="@xml/xml_7f170b15" />
+        </view>
+    </keyboard>
+</framework>

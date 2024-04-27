@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            alpha="@attr/attr_7f040102"
+            content_description="@string/string_7f14053b"
+            id="@id/id_7f0b0d59"
+            layout="@layout/layout_7f0e05cf">
+            <action
+                keycode="TOGGLE_SHOW_MORE_CANDIDATES"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080513" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040102"
+            content_description="@string/string_7f14030c"
+            id="@id/id_7f0b0d58"
+            layout="@layout/layout_7f0e05cf">
+            <action
+                keycode="TOGGLE_SHOW_MORE_CANDIDATES"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080514" />
+        </softkey>
+    </softkeys>
+</framework>

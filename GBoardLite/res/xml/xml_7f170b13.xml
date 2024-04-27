@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping
+        state="INPUT_TYPE_SHORT_MESSAGE+EMOTICON_AVAILABLE">
+        <if
+            expressions="policy_transparency">
+            <mapping
+                key_id="@id/id_7f0b1aeb"
+                view_id="@id/key_pos_ime_action" />
+        </if>
+        <else>
+            <mapping
+                key_id="@id/id_7f0b1aea"
+                view_id="@id/key_pos_ime_action" />
+        </else>
+    </key_mapping>
+    <key_mapping
+        state="INPUT_TYPE_SHORT_MESSAGE+EMOJI_AVAILABLE">
+        <if
+            expressions="policy_transparency">
+            <mapping
+                key_id="@id/id_7f0b1ae6"
+                view_id="@id/key_pos_ime_action" />
+        </if>
+        <else>
+            <mapping
+                key_id="@id/id_7f0b1ae5"
+                view_id="@id/key_pos_ime_action" />
+        </else>
+    </key_mapping>
+    <key_mapping
+        state="INPUT_TYPE_SHORT_MESSAGE+MULTI_LINE,INPUT_TYPE_SHORT_MESSAGE+SHOW_EMOJI_SWITCH_KEY">
+        <mapping
+            key_id="@id/id_7f0b0cf8"
+            view_id="@id/key_pos_ime_action" />
+    </key_mapping>
+</framework>

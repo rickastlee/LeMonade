@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.BubbleHintView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr_7f040324="@dimen/dimen_7f070082"
+    app:attr_7f040325="@dimen/dimen_7f070083"
+    app:attr_7f040327="@dimen/dimen_7f070084"
+    app:attr_7f040328="@dimen/dimen_7f070085"
+    app:attr_7f040329="?attr_7f04041b"
+    app:attr_7f04032d="@dimen/dimen_7f070086"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.AutoCenterScaleTextView
+        android:textSize="14.0dip"
+        android:textColor="?attr_7f0403f0"
+        android:gravity="center"
+        android:id="@id/id_7f0b0011"
+        android:layout_width="wrap_content"
+        android:layout_height="38.0dip"
+        android:paddingHorizontal="16.0dip" />
+</com.google.android.libraries.inputmethod.widgets.BubbleHintView>

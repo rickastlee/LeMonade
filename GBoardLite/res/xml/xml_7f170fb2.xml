@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1c9e"
+            layout="@layout/layout_7f0e0769"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b"
+            slide_sensitivity="NORMAL">
+            <action
+                data="$long_press_data$"
+                intention="$long_press_intention=COMMIT$"
+                keycode="PLAIN_TEXT"
+                popup_label="$long_press_data$"
+                popup_layout="@attr/attr_7f0401fa"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b0472"
+                value="$hint_label$" />
+        </softkey_template>
+        <softkey
+            id="@id/id_7f0b0dfb"
+            layout="@layout/layout_7f0e076e" />
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c9e">
+            <softkey
+                hint_label="١"
+                id="@id/id_7f0b0e38"
+                long_press_data="١,1" />
+            <softkey
+                hint_label="٢"
+                id="@id/id_7f0b0e3c"
+                long_press_data="٢,2" />
+            <softkey
+                hint_label="٣"
+                id="@id/id_7f0b0e3b"
+                long_press_data="٣,3" />
+            <softkey
+                hint_label="٤"
+                id="@id/id_7f0b0e36"
+                long_press_data="٤,4" />
+            <softkey
+                hint_label="٥"
+                id="@id/id_7f0b0e35"
+                long_press_data="٥,5" />
+            <softkey
+                hint_label="٦"
+                id="@id/id_7f0b0e3a"
+                long_press_data="٦,6" />
+            <softkey
+                hint_label="٧"
+                id="@id/id_7f0b0e39"
+                long_press_data="٧,7" />
+            <softkey
+                hint_label="٨"
+                id="@id/id_7f0b0e34"
+                long_press_data="٨,8" />
+            <softkey
+                hint_label="٩"
+                id="@id/id_7f0b0e37"
+                long_press_data="٩,9" />
+            <softkey
+                hint_label="٠"
+                id="@id/id_7f0b0e3d"
+                long_press_data="٠,0" />
+            <softkey
+                hint_label="1"
+                id="@id/id_7f0b0ea6"
+                long_press_data="1" />
+            <softkey
+                hint_label="2"
+                id="@id/id_7f0b0eca"
+                long_press_data="2" />
+            <softkey
+                hint_label="3"
+                id="@id/id_7f0b0ec1"
+                long_press_data="3" />
+            <softkey
+                hint_label="4"
+                id="@id/id_7f0b0e94"
+                long_press_data="4" />
+            <softkey
+                hint_label="5"
+                id="@id/id_7f0b0e8b"
+                long_press_data="5" />
+            <softkey
+                hint_label="6"
+                id="@id/id_7f0b0eb8"
+                long_press_data="6" />
+            <softkey
+                hint_label="7"
+                id="@id/id_7f0b0eaf"
+                long_press_data="7" />
+            <softkey
+                hint_label="8"
+                id="@id/id_7f0b0e82"
+                long_press_data="8" />
+            <softkey
+                hint_label="9"
+                id="@id/id_7f0b0e9d"
+                long_press_data="9" />
+            <softkey
+                hint_label="0"
+                id="@id/id_7f0b0ed3"
+                long_press_data="0" />
+            <softkey
+                hint_label="1"
+                id="@id/id_7f0b0ea7"
+                long_press_data="1,١" />
+            <softkey
+                hint_label="2"
+                id="@id/id_7f0b0ecb"
+                long_press_data="2,٢" />
+            <softkey
+                hint_label="3"
+                id="@id/id_7f0b0ec2"
+                long_press_data="3,٣" />
+            <softkey
+                hint_label="4"
+                id="@id/id_7f0b0e95"
+                long_press_data="4,٤" />
+            <softkey
+                hint_label="5"
+                id="@id/id_7f0b0e8c"
+                long_press_data="5,٥" />
+            <softkey
+                hint_label="6"
+                id="@id/id_7f0b0eb9"
+                long_press_data="6,٦" />
+            <softkey
+                hint_label="7"
+                id="@id/id_7f0b0eb0"
+                long_press_data="7,٧" />
+            <softkey
+                hint_label="8"
+                id="@id/id_7f0b0e83"
+                long_press_data="8,٨" />
+            <softkey
+                hint_label="9"
+                id="@id/id_7f0b0e9e"
+                long_press_data="9,٩" />
+            <softkey
+                hint_label="0"
+                id="@id/id_7f0b0ed4"
+                long_press_data="0,٠" />
+            <softkey
+                hint_label="1"
+                id="@id/id_7f0b0ea8"
+                long_press_data="1,१" />
+            <softkey
+                hint_label="2"
+                id="@id/id_7f0b0ecc"
+                long_press_data="2,२" />
+            <softkey
+                hint_label="3"
+                id="@id/id_7f0b0ec3"
+                long_press_data="3,३" />
+            <softkey
+                hint_label="4"
+                id="@id/id_7f0b0e96"
+                long_press_data="4,४" />
+            <softkey
+                hint_label="5"
+                id="@id/id_7f0b0e8d"
+                long_press_data="5,५" />
+            <softkey
+                hint_label="6"
+                id="@id/id_7f0b0eba"
+                long_press_data="6,६" />
+            <softkey
+                hint_label="7"
+                id="@id/id_7f0b0eb1"
+                long_press_data="7,७" />
+            <softkey
+                hint_label="8"
+                id="@id/id_7f0b0e84"
+                long_press_data="8,८" />
+            <softkey
+                hint_label="9"
+                id="@id/id_7f0b0e9f"
+                long_press_data="9,९" />
+            <softkey
+                hint_label="0"
+                id="@id/id_7f0b0ed5"
+                long_press_data="0,०" />
+            <softkey
+                hint_label="1"
+                id="@id/id_7f0b0ea9"
+                long_press_data="1,۱" />
+            <softkey
+                hint_label="2"
+                id="@id/id_7f0b0ecd"
+                long_press_data="2,۲" />
+            <softkey
+                hint_label="3"
+                id="@id/id_7f0b0ec4"
+                long_press_data="3,۳" />
+            <softkey
+                hint_label="4"
+                id="@id/id_7f0b0e97"
+                long_press_data="4,۴" />
+            <softkey
+                hint_label="5"
+                id="@id/id_7f0b0e8e"
+                long_press_data="5,۵" />
+            <softkey
+                hint_label="6"
+                id="@id/id_7f0b0ebb"
+                long_press_data="6,۶" />
+            <softkey
+                hint_label="7"
+                id="@id/id_7f0b0eb2"
+                long_press_data="7,۷" />
+            <softkey
+                hint_label="8"
+                id="@id/id_7f0b0e85"
+                long_press_data="8,۸" />
+            <softkey
+                hint_label="9"
+                id="@id/id_7f0b0ea0"
+                long_press_data="9,۹" />
+            <softkey
+                hint_label="0"
+                id="@id/id_7f0b0ed6"
+                long_press_data="0,۰" />
+            <softkey
+                hint_label="1"
+                id="@id/id_7f0b0eaa"
+                long_press_data="1,໑" />
+            <softkey
+                hint_label="2"
+                id="@id/id_7f0b0ece"
+                long_press_data="2,໒" />
+            <softkey
+                hint_label="3"
+                id="@id/id_7f0b0ec5"
+                long_press_data="3,໓" />
+            <softkey
+                hint_label="4"
+                id="@id/id_7f0b0e98"
+                long_press_data="4,໔" />
+            <softkey
+                hint_label="5"
+                id="@id/id_7f0b0e8f"
+                long_press_data="5,໕" />
+            <softkey
+                hint_label="6"
+                id="@id/id_7f0b0ebc"
+                long_press_data="6,໖" />
+            <softkey
+                hint_label="7"
+                id="@id/id_7f0b0eb3"
+                long_press_data="7,໗" />
+            <softkey
+                hint_label="8"
+                id="@id/id_7f0b0e86"
+                long_press_data="8,໘" />
+            <softkey
+                hint_label="9"
+                id="@id/id_7f0b0ea1"
+                long_press_data="9,໙" />
+            <softkey
+                hint_label="0"
+                id="@id/id_7f0b0ed7"
+                long_press_data="0,໐" />
+            <softkey
+                hint_label="1"
+                id="@id/id_7f0b0eab"
+                long_press_data="1,൧" />
+            <softkey
+                hint_label="2"
+                id="@id/id_7f0b0ecf"
+                long_press_data="2,൨" />
+            <softkey
+                hint_label="3"
+                id="@id/id_7f0b0ec6"
+                long_press_data="3,൩" />
+            <softkey
+                hint_label="4"
+                id="@id/id_7f0b0e99"
+                long_press_data="4,൪" />
+            <softkey
+                hint_label="5"
+                id="@id/id_7f0b0e90"
+                long_press_data="5,൫" />
+            <softkey
+                hint_label="6"
+                id="@id/id_7f0b0ebd"
+                long_press_data="6,൬" />
+            <softkey
+                hint_label="7"
+                id="@id/id_7f0b0eb4"
+                long_press_data="7,൭" />
+            <softkey
+                hint_label="8"
+                id="@id/id_7f0b0e87"
+                long_press_data="8,൮" />
+            <softkey
+                hint_label="9"
+                id="@id/id_7f0b0ea2"
+                long_press_data="9,൯" />
+            <softkey
+                hint_label="0"
+                id="@id/id_7f0b0ed8"
+                long_press_data="0,൦" />
+            <softkey
+                hint_label="1"
+                id="@id/id_7f0b0eac"
+                long_press_data="1,၁" />
+            <softkey
+                hint_label="2"
+                id="@id/id_7f0b0ed0"
+                long_press_data="2,၂" />
+            <softkey
+                hint_label="3"
+                id="@id/id_7f0b0ec7"
+                long_press_data="3,၃" />
+            <softkey
+                hint_label="4"
+                id="@id/id_7f0b0e9a"
+                long_press_data="4,၄" />
+            <softkey
+                hint_label="5"
+                id="@id/id_7f0b0e91"
+                long_press_data="5,၅" />
+            <softkey
+                hint_label="6"
+                id="@id/id_7f0b0ebe"
+                long_press_data="6,၆" />
+            <softkey
+                hint_label="7"
+                id="@id/id_7f0b0eb5"
+                long_press_data="7,၇" />
+            <softkey
+                hint_label="8"
+                id="@id/id_7f0b0e88"
+                long_press_data="8,၈" />
+            <softkey
+                hint_label="9"
+                id="@id/id_7f0b0ea3"
+                long_press_data="9,၉" />
+            <softkey
+                hint_label="0"
+                id="@id/id_7f0b0ed9"
+                long_press_data="0,၀" />
+            <softkey
+                hint_label="1"
+                id="@id/id_7f0b0ead"
+                long_press_data="1,౧" />
+            <softkey
+                hint_label="2"
+                id="@id/id_7f0b0ed1"
+                long_press_data="2,౨" />
+            <softkey
+                hint_label="3"
+                id="@id/id_7f0b0ec8"
+                long_press_data="3,౩" />
+            <softkey
+                hint_label="4"
+                id="@id/id_7f0b0e9b"
+                long_press_data="4,౪" />
+            <softkey
+                hint_label="5"
+                id="@id/id_7f0b0e92"
+                long_press_data="5,౫" />
+            <softkey
+                hint_label="6"
+                id="@id/id_7f0b0ebf"
+                long_press_data="6,౬" />
+            <softkey
+                hint_label="7"
+                id="@id/id_7f0b0eb6"
+                long_press_data="7,౭" />
+            <softkey
+                hint_label="8"
+                id="@id/id_7f0b0e89"
+                long_press_data="8,౮" />
+            <softkey
+                hint_label="9"
+                id="@id/id_7f0b0ea4"
+                long_press_data="9,౯" />
+            <softkey
+                hint_label="0"
+                id="@id/id_7f0b0eda"
+                long_press_data="0,౦" />
+            <softkey
+                hint_label="1"
+                id="@id/id_7f0b0eae"
+                long_press_data="1,๑" />
+            <softkey
+                hint_label="2"
+                id="@id/id_7f0b0ed2"
+                long_press_data="2,๒" />
+            <softkey
+                hint_label="3"
+                id="@id/id_7f0b0ec9"
+                long_press_data="3,๓" />
+            <softkey
+                hint_label="4"
+                id="@id/id_7f0b0e9c"
+                long_press_data="4,๔" />
+            <softkey
+                hint_label="5"
+                id="@id/id_7f0b0e93"
+                long_press_data="5,๕" />
+            <softkey
+                hint_label="6"
+                id="@id/id_7f0b0ec0"
+                long_press_data="6,๖" />
+            <softkey
+                hint_label="7"
+                id="@id/id_7f0b0eb7"
+                long_press_data="7,๗" />
+            <softkey
+                hint_label="8"
+                id="@id/id_7f0b0e8a"
+                long_press_data="8,๘" />
+            <softkey
+                hint_label="9"
+                id="@id/id_7f0b0ea5"
+                long_press_data="9,๙" />
+            <softkey
+                hint_label="0"
+                id="@id/id_7f0b0edb"
+                long_press_data="0,๐" />
+            <softkey
+                hint_label="ꛦ"
+                id="@id/id_7f0b0e54"
+                long_press_data="ꛦ,1" />
+            <softkey
+                hint_label="ꛧ"
+                id="@id/id_7f0b0e53"
+                long_press_data="ꛧ,2" />
+            <softkey
+                hint_label="ꛨ"
+                id="@id/id_7f0b0e58"
+                long_press_data="ꛨ,3" />
+            <softkey
+                hint_label="ꛩ"
+                id="@id/id_7f0b0e52"
+                long_press_data="ꛩ,4" />
+            <softkey
+                hint_label="ꛪ"
+                id="@id/id_7f0b0e57"
+                long_press_data="ꛪ,5" />
+            <softkey
+                hint_label="ꛫ"
+                id="@id/id_7f0b0e55"
+                long_press_data="ꛫ,6" />
+            <softkey
+                hint_label="ꛬ"
+                id="@id/id_7f0b0e56"
+                long_press_data="ꛬ,7" />
+            <softkey
+                hint_label="ꛭ"
+                id="@id/id_7f0b0e4f"
+                long_press_data="ꛭ,8" />
+            <softkey
+                hint_label="ꛮ"
+                id="@id/id_7f0b0e51"
+                long_press_data="ꛮ,9" />
+            <softkey
+                hint_label="ꛯ"
+                id="@id/id_7f0b0e50"
+                long_press_data="ꛯ,0" />
+            <softkey
+                hint_label="১"
+                id="@id/id_7f0b0e60"
+                long_press_data="১,1" />
+            <softkey
+                hint_label="২"
+                id="@id/id_7f0b0e64"
+                long_press_data="২,2" />
+            <softkey
+                hint_label="৩"
+                id="@id/id_7f0b0e63"
+                long_press_data="৩,3" />
+            <softkey
+                hint_label="৪"
+                id="@id/id_7f0b0e5e"
+                long_press_data="৪,4" />
+            <softkey
+                hint_label="৫"
+                id="@id/id_7f0b0e5d"
+                long_press_data="৫,5" />
+            <softkey
+                hint_label="৬"
+                id="@id/id_7f0b0e62"
+                long_press_data="৬,6" />
+            <softkey
+                hint_label="৭"
+                id="@id/id_7f0b0e61"
+                long_press_data="৭,7" />
+            <softkey
+                hint_label="৮"
+                id="@id/id_7f0b0e5c"
+                long_press_data="৮,8" />
+            <softkey
+                hint_label="৯"
+                id="@id/id_7f0b0e5f"
+                long_press_data="৯,9" />
+            <softkey
+                hint_label="০"
+                id="@id/id_7f0b0e65"
+                long_press_data="০,0" />
+            <softkey
+                hint_label="𑄷"
+                id="@id/id_7f0b0e6c"
+                long_press_data="𑄷,1" />
+            <softkey
+                hint_label="𑄸"
+                id="@id/id_7f0b0e70"
+                long_press_data="𑄸,2" />
+            <softkey
+                hint_label="𑄹"
+                id="@id/id_7f0b0e6f"
+                long_press_data="𑄹,3" />
+            <softkey
+                hint_label="𑄺"
+                id="@id/id_7f0b0e6a"
+                long_press_data="𑄺,4" />
+            <softkey
+                hint_label="𑄻"
+                id="@id/id_7f0b0e69"
+                long_press_data="𑄻,5" />
+            <softkey
+                hint_label="𑄼"
+                id="@id/id_7f0b0e6e"
+                long_press_data="𑄼,6" />
+            <softkey
+                hint_label="𑄽"
+                id="@id/id_7f0b0e6d"
+                long_press_data="𑄽,7" />
+            <softkey
+                hint_label="𑄾"
+                id="@id/id_7f0b0e68"
+                long_press_data="𑄾,8" />
+            <softkey
+                hint_label="𑄿"
+                id="@id/id_7f0b0e6b"
+                long_press_data="𑄿,9" />
+            <softkey
+                hint_label="𑄶"
+                id="@id/id_7f0b0e71"
+                long_press_data="𑄶,0" />
+            <softkey
+                hint_label="१"
+                id="@id/id_7f0b0e7c"
+                long_press_data="१,1" />
+            <softkey
+                hint_label="२"
+                id="@id/id_7f0b0e80"
+                long_press_data="२,2" />
+            <softkey
+                hint_label="३"
+                id="@id/id_7f0b0e7f"
+                long_press_data="३,3" />
+            <softkey
+                hint_label="४"
+                id="@id/id_7f0b0e7a"
+                long_press_data="४,4" />
+            <softkey
+                hint_label="५"
+                id="@id/id_7f0b0e79"
+                long_press_data="५,5" />
+            <softkey
+                hint_label="६"
+                id="@id/id_7f0b0e7e"
+                long_press_data="६,6" />
+            <softkey
+                hint_label="७"
+                id="@id/id_7f0b0e7d"
+                long_press_data="७,7" />
+            <softkey
+                hint_label="८"
+                id="@id/id_7f0b0e78"
+                long_press_data="८,8" />
+            <softkey
+                hint_label="९"
+                id="@id/id_7f0b0e7b"
+                long_press_data="९,9" />
+            <softkey
+                hint_label="०"
+                id="@id/id_7f0b0e81"
+                long_press_data="०,0" />
+            <softkey
+                hint_label="۱"
+                id="@id/id_7f0b0ee5"
+                long_press_data="۱,1" />
+            <softkey
+                hint_label="۲"
+                id="@id/id_7f0b0ee9"
+                long_press_data="۲,2" />
+            <softkey
+                hint_label="۳"
+                id="@id/id_7f0b0ee8"
+                long_press_data="۳,3" />
+            <softkey
+                hint_label="۴"
+                id="@id/id_7f0b0ee3"
+                long_press_data="۴,4" />
+            <softkey
+                hint_label="۵"
+                id="@id/id_7f0b0ee2"
+                long_press_data="۵,5" />
+            <softkey
+                hint_label="۶"
+                id="@id/id_7f0b0ee7"
+                long_press_data="۶,6" />
+            <softkey
+                hint_label="۷"
+                id="@id/id_7f0b0ee6"
+                long_press_data="۷,7" />
+            <softkey
+                hint_label="۸"
+                id="@id/id_7f0b0ee1"
+                long_press_data="۸,8" />
+            <softkey
+                hint_label="۹"
+                id="@id/id_7f0b0ee4"
+                long_press_data="۹,9" />
+            <softkey
+                hint_label="۰"
+                id="@id/id_7f0b0eea"
+                long_press_data="۰,0" />
+            <softkey
+                hint_label="૧"
+                id="@id/id_7f0b0efb"
+                long_press_data="૧,1" />
+            <softkey
+                hint_label="૨"
+                id="@id/id_7f0b0eff"
+                long_press_data="૨,2" />
+            <softkey
+                hint_label="૩"
+                id="@id/id_7f0b0efe"
+                long_press_data="૩,3" />
+            <softkey
+                hint_label="૪"
+                id="@id/id_7f0b0ef9"
+                long_press_data="૪,4" />
+            <softkey
+                hint_label="૫"
+                id="@id/id_7f0b0ef8"
+                long_press_data="૫,5" />
+            <softkey
+                hint_label="૬"
+                id="@id/id_7f0b0efd"
+                long_press_data="૬,6" />
+            <softkey
+                hint_label="૭"
+                id="@id/id_7f0b0efc"
+                long_press_data="૭,7" />
+            <softkey
+                hint_label="૮"
+                id="@id/id_7f0b0ef7"
+                long_press_data="૮,8" />
+            <softkey
+                hint_label="૯"
+                id="@id/id_7f0b0efa"
+                long_press_data="૯,9" />
+            <softkey
+                hint_label="૦"
+                id="@id/id_7f0b0f00"
+                long_press_data="૦,0" />
+            <softkey
+                hint_label="೧"
+                id="@id/id_7f0b0f09"
+                long_press_data="೧,1" />
+            <softkey
+                hint_label="೨"
+                id="@id/id_7f0b0f0d"
+                long_press_data="೨,2" />
+            <softkey
+                hint_label="೩"
+                id="@id/id_7f0b0f0c"
+                long_press_data="೩,3;" />
+            <softkey
+                hint_label="೪"
+                id="@id/id_7f0b0f07"
+                long_press_data="೪,4" />
+            <softkey
+                hint_label="೫"
+                id="@id/id_7f0b0f06"
+                long_press_data="೫,5" />
+            <softkey
+                hint_label="೬"
+                id="@id/id_7f0b0f0b"
+                long_press_data="೬,6" />
+            <softkey
+                hint_label="೭"
+                id="@id/id_7f0b0f0a"
+                long_press_data="೭,7" />
+            <softkey
+                hint_label="೮"
+                id="@id/id_7f0b0f05"
+                long_press_data="೮,8" />
+            <softkey
+                hint_label="೯"
+                id="@id/id_7f0b0f08"
+                long_press_data="೯,9" />
+            <softkey
+                hint_label="೦"
+                id="@id/id_7f0b0f0e"
+                long_press_data="೦,0" />
+            <softkey
+                hint_label="꤁"
+                id="@id/id_7f0b0f13"
+                long_press_data="꤁,1" />
+            <softkey
+                hint_label="꤂"
+                id="@id/id_7f0b0f17"
+                long_press_data="꤂,2" />
+            <softkey
+                hint_label="꤃"
+                id="@id/id_7f0b0f16"
+                long_press_data="꤃,3" />
+            <softkey
+                hint_label="꤄"
+                id="@id/id_7f0b0f11"
+                long_press_data="꤄,4" />
+            <softkey
+                hint_label="꤅"
+                id="@id/id_7f0b0f10"
+                long_press_data="꤅,5" />
+            <softkey
+                hint_label="꤆"
+                id="@id/id_7f0b0f15"
+                long_press_data="꤆,6" />
+            <softkey
+                hint_label="꤇"
+                id="@id/id_7f0b0f14"
+                long_press_data="꤇,7" />
+            <softkey
+                hint_label="꤈"
+                id="@id/id_7f0b0f0f"
+                long_press_data="꤈,8" />
+            <softkey
+                hint_label="꤉"
+                id="@id/id_7f0b0f12"
+                long_press_data="꤉,9" />
+            <softkey
+                hint_label="꤀"
+                id="@id/id_7f0b0f18"
+                long_press_data="꤀,0" />
+            <softkey
+                hint_label="᱁"
+                id="@id/id_7f0b0f23"
+                long_press_data="᱁,1" />
+            <softkey
+                hint_label="᱂"
+                id="@id/id_7f0b0f27"
+                long_press_data="᱂,2" />
+            <softkey
+                hint_label="᱃"
+                id="@id/id_7f0b0f26"
+                long_press_data="᱃,3" />
+            <softkey
+                hint_label="᱄"
+                id="@id/id_7f0b0f21"
+                long_press_data="᱄,4" />
+            <softkey
+                hint_label="᱅"
+                id="@id/id_7f0b0f20"
+                long_press_data="᱅,5" />
+            <softkey
+                hint_label="᱆"
+                id="@id/id_7f0b0f25"
+                long_press_data="᱆,6" />
+            <softkey
+                hint_label="᱇"
+                id="@id/id_7f0b0f24"
+                long_press_data="᱇,7" />
+            <softkey
+                hint_label="᱈"
+                id="@id/id_7f0b0f1f"
+                long_press_data="᱈,8" />
+            <softkey
+                hint_label="᱉"
+                id="@id/id_7f0b0f22"
+                long_press_data="᱉,9" />
+            <softkey
+                hint_label="᱀"
+                id="@id/id_7f0b0f28"
+                long_press_data="᱀,0" />
+            <softkey
+                hint_label="၁"
+                id="@id/id_7f0b0f32"
+                long_press_data="၁,1" />
+            <softkey
+                hint_label="၂"
+                id="@id/id_7f0b0f36"
+                long_press_data="၂,2" />
+            <softkey
+                hint_label="၃"
+                id="@id/id_7f0b0f35"
+                long_press_data="၃,3" />
+            <softkey
+                hint_label="၄"
+                id="@id/id_7f0b0f30"
+                long_press_data="၄,4" />
+            <softkey
+                hint_label="၅"
+                id="@id/id_7f0b0f2f"
+                long_press_data="၅,5" />
+            <softkey
+                hint_label="၆"
+                id="@id/id_7f0b0f34"
+                long_press_data="၆,6" />
+            <softkey
+                hint_label="၇"
+                id="@id/id_7f0b0f33"
+                long_press_data="၇,7" />
+            <softkey
+                hint_label="၈"
+                id="@id/id_7f0b0f2e"
+                long_press_data="၈,8" />
+            <softkey
+                hint_label="၉"
+                id="@id/id_7f0b0f31"
+                long_press_data="၉,9" />
+            <softkey
+                hint_label="၀"
+                id="@id/id_7f0b0f37"
+                long_press_data="၀,0" />
+            <softkey
+                hint_label="႑"
+                id="@id/id_7f0b0f3c"
+                long_press_data="႑,၁,1" />
+            <softkey
+                hint_label="႒"
+                id="@id/id_7f0b0f40"
+                long_press_data="႒,၂,2" />
+            <softkey
+                hint_label="႓"
+                id="@id/id_7f0b0f3f"
+                long_press_data="႓,၃,3" />
+            <softkey
+                hint_label="႔"
+                id="@id/id_7f0b0f3a"
+                long_press_data="႔,၄,4" />
+            <softkey
+                hint_label="႕"
+                id="@id/id_7f0b0f39"
+                long_press_data="႕,၅,5" />
+            <softkey
+                hint_label="႖"
+                id="@id/id_7f0b0f3e"
+                long_press_data="႖,၆,6" />
+            <softkey
+                hint_label="႗"
+                id="@id/id_7f0b0f3d"
+                long_press_data="႗,၇,7" />
+            <softkey
+                hint_label="႘"
+                id="@id/id_7f0b0f38"
+                long_press_data="႘,၈,8" />
+            <softkey
+                hint_label="႙"
+                id="@id/id_7f0b0f3b"
+                long_press_data="႙,၉,9" />
+            <softkey
+                hint_label="႐"
+                id="@id/id_7f0b0f41"
+                long_press_data="႐,၀,0" />
+            <softkey
+                hint_label="᧑"
+                id="@id/id_7f0b0f4a"
+                long_press_data="᧑,᧚,1" />
+            <softkey
+                hint_label="᧒"
+                id="@id/id_7f0b0f4e"
+                long_press_data="᧒,2" />
+            <softkey
+                hint_label="᧓"
+                id="@id/id_7f0b0f4d"
+                long_press_data="᧓,3" />
+            <softkey
+                hint_label="᧔"
+                id="@id/id_7f0b0f48"
+                long_press_data="᧔,4" />
+            <softkey
+                hint_label="᧕"
+                id="@id/id_7f0b0f47"
+                long_press_data="᧕,5" />
+            <softkey
+                hint_label="᧖"
+                id="@id/id_7f0b0f4c"
+                long_press_data="᧖,6" />
+            <softkey
+                hint_label="᧗"
+                id="@id/id_7f0b0f4b"
+                long_press_data="᧗,7" />
+            <softkey
+                hint_label="᧘"
+                id="@id/id_7f0b0f46"
+                long_press_data="᧘,8" />
+            <softkey
+                hint_label="᧙"
+                id="@id/id_7f0b0f49"
+                long_press_data="᧙,9" />
+            <softkey
+                hint_label="᧐"
+                id="@id/id_7f0b0f4f"
+                long_press_data="᧐,0" />
+            <softkey
+                hint_label="୧"
+                id="@id/id_7f0b0f55"
+                long_press_data="୧,1" />
+            <softkey
+                hint_label="୨"
+                id="@id/id_7f0b0f59"
+                long_press_data="୨,2" />
+            <softkey
+                hint_label="୩"
+                id="@id/id_7f0b0f58"
+                long_press_data="୩,3" />
+            <softkey
+                hint_label="୪"
+                id="@id/id_7f0b0f53"
+                long_press_data="୪,4" />
+            <softkey
+                hint_label="୫"
+                id="@id/id_7f0b0f52"
+                long_press_data="୫,5" />
+            <softkey
+                hint_label="୬"
+                id="@id/id_7f0b0f57"
+                long_press_data="୬,6" />
+            <softkey
+                hint_label="୭"
+                id="@id/id_7f0b0f56"
+                long_press_data="୭,7" />
+            <softkey
+                hint_label="୮"
+                id="@id/id_7f0b0f51"
+                long_press_data="୮,8" />
+            <softkey
+                hint_label="୯"
+                id="@id/id_7f0b0f54"
+                long_press_data="୯,9" />
+            <softkey
+                hint_label="୦"
+                id="@id/id_7f0b0f5a"
+                long_press_data="୦,0" />
+            <softkey
+                hint_label="༡"
+                id="@id/id_7f0b0f71"
+                long_press_data="༡,1" />
+            <softkey
+                hint_label="༢"
+                id="@id/id_7f0b0f75"
+                long_press_data="༢,2" />
+            <softkey
+                hint_label="༣"
+                id="@id/id_7f0b0f74"
+                long_press_data="༣,3" />
+            <softkey
+                hint_label="༤"
+                id="@id/id_7f0b0f6f"
+                long_press_data="༤,4" />
+            <softkey
+                hint_label="༥"
+                id="@id/id_7f0b0f6e"
+                long_press_data="༥,5" />
+            <softkey
+                hint_label="༦"
+                id="@id/id_7f0b0f73"
+                long_press_data="༦,6" />
+            <softkey
+                hint_label="༧"
+                id="@id/id_7f0b0f72"
+                long_press_data="༧,7" />
+            <softkey
+                hint_label="༨"
+                id="@id/id_7f0b0f6d"
+                long_press_data="༨,8" />
+            <softkey
+                hint_label="༩"
+                id="@id/id_7f0b0f70"
+                long_press_data="༩,9" />
+            <softkey
+                hint_label="༠"
+                id="@id/id_7f0b0f76"
+                long_press_data="༠,0" />
+        </softkey_list>
+    </softkeys>
+</framework>

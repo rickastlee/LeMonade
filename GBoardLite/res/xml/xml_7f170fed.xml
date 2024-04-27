@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader
+        android:title="@string/string_7f1409d8">
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f1408b3"
+            android:key="@string/string_7f14066b"
+            android:summary="@string/string_7f1408b2" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f14090f"
+            android:key="@string/string_7f1406a0"
+            android:summary="@string/string_7f14090e" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f14090d"
+            android:key="@string/string_7f14069a"
+            android:summary="@string/string_7f14090c" />
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f1408a2"
+            android:key="@string/string_7f140685"
+            android:summary="@string/string_7f1408a1" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

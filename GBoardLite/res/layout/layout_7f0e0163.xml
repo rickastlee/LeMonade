@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    app:attr_7f0402d1="false"
+    style="@style/style_7f150289"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include
+            layout="@layout/layout_7f0e0058" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <com.google.android.apps.inputmethod.libs.expression.header.StartElementRecyclerView
+                android:id="@id/id_7f0b0187"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:overScrollMode="never"
+                app:attr_7f0405ca="com.google.android.apps.inputmethod.libs.expression.header.StartElementScrollBehavior" />
+            <android.support.v7.widget.RecyclerView
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal"
+                android:id="@id/id_7f0b018a"
+                android:layout_width="fill_parent"
+                android:layout_height="?attr_7f04008d"
+                android:layout_marginStart="@dimen/dimen_7f070130"
+                android:layout_marginEnd="2.0dip"
+                app:attr_7f0405ca="com.google.android.apps.inputmethod.libs.expression.header.MiddleElementScrollBehavior" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/id_7f0b027a"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/id_7f0b0279"
+        android:paddingTop="@dimen/dimen_7f0702d9"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:foreground="?android:selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/string_7f140351"
+        android:paddingStart="@dimen/dimen_7f0702d9"
+        android:paddingEnd="@dimen/dimen_7f0702d9"
+        app:attr_7f0405d5="@id/id_7f0b027b"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/id_7f0b027b"
+        android:layout_width="0.0dip"
+        android:layout_height="48.0dip"
+        android:contentDescription="@string/string_7f14034c"
+        app:attr_7f04056f="@drawable/drawable_7f080522"
+        app:attr_7f040571="id_7f0b1f13"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b0277"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b0279"
+        style="@style/style_7f1502b4" />
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/id_7f0b0277"
+        android:tag=".divider.vertical.for-image-candidate-popup"
+        android:layout_width="@dimen/dimen_7f0702d5"
+        android:layout_height="@dimen/dimen_7f0702d4"
+        android:src="?attr_7f04007a"
+        android:importantForAccessibility="no"
+        app:attr_7f0405d4="@id/id_7f0b027b"
+        app:attr_7f0405db="@id/id_7f0b0276"
+        app:attr_7f0405ed="@id/id_7f0b027b"
+        app:attr_7f0405f2="@id/id_7f0b027b" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/id_7f0b0276"
+        android:layout_width="0.0dip"
+        android:layout_height="48.0dip"
+        android:contentDescription="@string/string_7f14034a"
+        app:attr_7f04056f="@drawable/drawable_7f0804fd"
+        app:attr_7f040571="id_7f0b1f13"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b0278"
+        app:attr_7f0405ed="@id/id_7f0b0277"
+        app:attr_7f0405f1="@id/id_7f0b0279"
+        style="@style/style_7f1502b4" />
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/id_7f0b0278"
+        android:tag=".divider.vertical.for-image-candidate-popup"
+        android:layout_width="@dimen/dimen_7f0702d5"
+        android:layout_height="@dimen/dimen_7f0702d4"
+        android:src="?attr_7f04007a"
+        android:importantForAccessibility="no"
+        app:attr_7f0405d4="@id/id_7f0b027b"
+        app:attr_7f0405db="@id/id_7f0b0282"
+        app:attr_7f0405ed="@id/id_7f0b0276"
+        app:attr_7f0405f2="@id/id_7f0b027b" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/id_7f0b0282"
+        android:layout_width="0.0dip"
+        android:layout_height="48.0dip"
+        android:contentDescription="@string/string_7f140351"
+        app:attr_7f04056f="@drawable/drawable_7f080533"
+        app:attr_7f040571="id_7f0b1f13"
+        app:attr_7f0405d4="@id/id_7f0b027b"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ed="@id/id_7f0b0278"
+        app:attr_7f0405f2="@id/id_7f0b027b"
+        style="@style/style_7f1502b4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

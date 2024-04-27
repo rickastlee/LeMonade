@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/id_7f0b05d3"
+    android:paddingTop="10.0dip"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:layout_marginStart="?attr_7f040213"
+    android:layout_marginEnd="?attr_7f040213"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/id_7f0b0114"
+        android:layout_marginStart="0.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150218">
+        <android.support.v7.widget.AppCompatImageView
+            style="@style/style_7f150217" />
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton
+        android:textSize="14.0dip"
+        android:id="@id/id_7f0b05ca"
+        android:tag=".expression-search-btn"
+        android:paddingTop="0.0dip"
+        android:paddingBottom="0.0dip"
+        android:visibility="?attr_7f0400d1"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr_7f04008d"
+        android:text="@string/string_7f14036b"
+        android:insetTop="0.0dip"
+        android:insetBottom="0.0dip"
+        android:fontFamily="@font/font_7f090012"
+        android:paddingStart="15.0dip"
+        android:paddingEnd="15.0dip"
+        android:breakStrategy="balanced"
+        app:attr_7f040447="10.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        app:attr_7f040761="?android:colorControlHighlight"
+        style="@style/style_7f150ba4" />
+    <FrameLayout
+        android:gravity="center_vertical"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr_7f0405d4="@id/id_7f0b0114"
+        app:attr_7f0405db="@id/id_7f0b05ca"
+        app:attr_7f0405ed="@id/id_7f0b0114"
+        app:attr_7f0405f2="@id/id_7f0b0114">
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+            android:layout_gravity="start"
+            android:id="@id/id_7f0b05d1"
+            android:text="@string/string_7f14036b"
+            android:paddingStart="10.0dip"
+            style="@style/style_7f15034c" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

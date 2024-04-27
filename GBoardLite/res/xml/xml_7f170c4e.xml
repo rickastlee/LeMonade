@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b1e0d"
+            view_id="@id/id_7f0b1f7b" />
+        <mapping
+            key_id="@id/id_7f0b1e10"
+            view_id="@id/id_7f0b1f7f" />
+        <mapping
+            key_id="@id/id_7f0b1e0e"
+            view_id="@id/id_7f0b1f7c" />
+        <mapping
+            key_id="@id/id_7f0b1e11"
+            view_id="@id/id_7f0b1f80" />
+        <mapping
+            key_id="@id/id_7f0b1e0f"
+            view_id="@id/id_7f0b1f7d" />
+        <mapping
+            key_id="@id/id_7f0b1e0c"
+            view_id="@id/key_pos_translate_back" />
+    </key_mapping>
+</framework>

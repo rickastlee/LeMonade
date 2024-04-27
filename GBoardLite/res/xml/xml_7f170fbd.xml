@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            id="@id/id_7f0b1cb2"
+            layout="@layout/layout_7f0e0765"
+            multi_touch="false"
+            slide_sensitivity="NORMAL">
+            <action
+                data="$press_data$"
+                intention="COMMIT"
+                keycode="$keycode_press$"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b0515"
+                value="$press_data$" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$label_data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1cb2">
+            <softkey
+                id="@id/id_7f0b19a4"
+                keycode_press="KEYCODE_1"
+                label_data=" "
+                press_data="1" />
+            <softkey
+                id="@id/id_7f0b19a6"
+                keycode_press="KEYCODE_2"
+                label_data="ABC"
+                press_data="2" />
+            <softkey
+                id="@id/id_7f0b19a7"
+                keycode_press="KEYCODE_3"
+                label_data="DEF"
+                press_data="3" />
+            <softkey
+                id="@id/id_7f0b19a8"
+                keycode_press="KEYCODE_4"
+                label_data="GHI"
+                press_data="4" />
+            <softkey
+                id="@id/id_7f0b19a9"
+                keycode_press="KEYCODE_5"
+                label_data="JKL"
+                press_data="5" />
+            <softkey
+                id="@id/id_7f0b19aa"
+                keycode_press="KEYCODE_6"
+                label_data="MNO"
+                press_data="6" />
+            <softkey
+                id="@id/id_7f0b19ab"
+                keycode_press="KEYCODE_7"
+                label_data="PQRS"
+                press_data="7" />
+            <softkey
+                id="@id/id_7f0b19ac"
+                keycode_press="KEYCODE_8"
+                label_data="TUV"
+                press_data="8" />
+            <softkey
+                id="@id/id_7f0b19ad"
+                keycode_press="KEYCODE_9"
+                label_data="WXYZ"
+                press_data="9" />
+            <softkey
+                id="@id/id_7f0b19a2"
+                keycode_press="KEYCODE_0"
+                label_data=" "
+                press_data="0" />
+        </softkey_list>
+        <softkey
+            id="@id/id_7f0b19a3"
+            layout="@layout/layout_7f0e0766"
+            multi_touch="false"
+            popup_timing="ON_GESTURE"
+            slide_sensitivity="NORMAL">
+            <action
+                data="0"
+                intention="COMMIT"
+                keycode="KEYCODE_0"
+                type="PRESS" />
+            <action
+                action_on_down="true"
+                data="+"
+                intention="COMMIT"
+                keycode="PLUS"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b0515"
+                value="0" />
+            <label
+                location="@id/id_7f0b046c"
+                value="+" />
+        </softkey>
+    </softkeys>
+</framework>

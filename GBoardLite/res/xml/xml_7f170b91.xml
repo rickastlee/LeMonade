@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <merge_key_mapping>
+        <merge
+            key_id="@id/id_7f0b1578"
+            view_id="@id/key_pos_0_0" />
+        <merge
+            key_id="@id/id_7f0b157e"
+            view_id="@id/key_pos_0_1" />
+        <merge
+            key_id="@id/id_7f0b156c"
+            view_id="@id/key_pos_0_2" />
+        <merge
+            key_id="@id/id_7f0b1579"
+            view_id="@id/key_pos_0_3" />
+        <merge
+            key_id="@id/id_7f0b157b"
+            view_id="@id/key_pos_0_4" />
+        <merge
+            key_id="@id/id_7f0b1580"
+            view_id="@id/key_pos_0_5" />
+        <merge
+            key_id="@id/id_7f0b157c"
+            view_id="@id/key_pos_0_6" />
+        <merge
+            key_id="@id/id_7f0b1570"
+            view_id="@id/key_pos_0_7" />
+        <merge
+            key_id="@id/id_7f0b1576"
+            view_id="@id/key_pos_0_8" />
+        <merge
+            key_id="@id/id_7f0b1577"
+            view_id="@id/key_pos_0_9" />
+        <merge
+            key_id="@id/id_7f0b1568"
+            view_id="@id/key_pos_1_0" />
+        <merge
+            key_id="@id/id_7f0b157a"
+            view_id="@id/key_pos_1_1" />
+        <merge
+            key_id="@id/id_7f0b156b"
+            view_id="@id/key_pos_1_2" />
+        <merge
+            key_id="@id/id_7f0b156d"
+            view_id="@id/key_pos_1_3" />
+        <merge
+            key_id="@id/id_7f0b156e"
+            view_id="@id/key_pos_1_4" />
+        <merge
+            key_id="@id/id_7f0b156f"
+            view_id="@id/key_pos_1_5" />
+        <merge
+            key_id="@id/id_7f0b1571"
+            view_id="@id/key_pos_1_6" />
+        <merge
+            key_id="@id/id_7f0b1572"
+            view_id="@id/key_pos_1_7" />
+        <merge
+            key_id="@id/id_7f0b1573"
+            view_id="@id/key_pos_1_8" />
+        <merge
+            key_id="@id/id_7f0b1581"
+            view_id="@id/key_pos_2_1" />
+        <merge
+            key_id="@id/id_7f0b157f"
+            view_id="@id/key_pos_2_2" />
+        <merge
+            key_id="@id/id_7f0b156a"
+            view_id="@id/key_pos_2_3" />
+        <merge
+            key_id="@id/id_7f0b157d"
+            view_id="@id/key_pos_2_4" />
+        <merge
+            key_id="@id/id_7f0b1569"
+            view_id="@id/key_pos_2_5" />
+        <merge
+            key_id="@id/id_7f0b1575"
+            view_id="@id/key_pos_2_6" />
+        <merge
+            key_id="@id/id_7f0b1574"
+            view_id="@id/key_pos_2_7" />
+    </merge_key_mapping>
+</framework>

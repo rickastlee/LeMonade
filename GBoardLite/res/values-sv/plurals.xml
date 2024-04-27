@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_7f120000">
+        <item quantity="other">%d tangenter har tilldelats</item>
+        <item quantity="one">%d tangent har tilldelats</item>
+    </plurals>
+    <plurals name="plurals_7f120002">
+        <item quantity="other">%s har installerats.</item>
+        <item quantity="one">%s har installerats.</item>
+    </plurals>
+</resources>

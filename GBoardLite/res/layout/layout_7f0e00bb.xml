@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/id_7f0b01f3"
+    android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dimen_7f07016a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.BidiViewPager
+        android:id="@id/id_7f0b02a3"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e" />
+    <ImageView
+        android:layout_gravity="end"
+        android:id="@id/id_7f0b02a0"
+        android:background="?android:selectableItemBackground"
+        android:padding="@dimen/dimen_7f070165"
+        android:layout_width="@dimen/dimen_7f070166"
+        android:layout_height="@dimen/dimen_7f070166"
+        android:src="@drawable/drawable_7f0804f9"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/string_7f140265"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f15025c" />
+    <com.google.android.libraries.inputmethod.launcher.firstrun.PageIndicatorView
+        android:layout_gravity="bottom"
+        android:id="@id/id_7f0b02a1"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_7f070167"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f3="1.0"
+        page_indicator_image="@layout/layout_7f0e00bd" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/style_7f1501cd"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@id/key_pos_switch_to_symbol"
+        android:layout_weight="150.0"
+        style="@style/style_7f15055a" />
+    <LinearLayout
+        android:weightSum="300.0"
+        android:layout_weight="700.0"
+        style="@style/style_7f1503dc">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_switch_to_next_language"
+            android:layout_weight="100.0"
+            style="@style/style_7f150555" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_10key_0"
+            android:layout_weight="100.0"
+            style="@style/style_7f150555" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_bottom_symbol_1"
+            android:layout_weight="100.0"
+            style="@style/style_7f150555" />
+    </LinearLayout>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@id/key_pos_ime_action"
+        android:layout_weight="150.0"
+        style="@style/style_7f150562" />
+</LinearLayout>

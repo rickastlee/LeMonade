@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            id="@id/id_7f0b1cb3"
+            layout="@layout/layout_7f0e0712"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="$press_data$"
+                intention="COMMIT"
+                keycode="$keycode_press$"
+                popup_label="$press_data$"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$press_data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1cb3">
+            <softkey
+                id="@id/id_7f0b1990"
+                keycode_press="KEYCODE_1"
+                press_data="1" />
+            <softkey
+                id="@id/id_7f0b1991"
+                keycode_press="KEYCODE_2"
+                press_data="2" />
+            <softkey
+                id="@id/id_7f0b1992"
+                keycode_press="KEYCODE_3"
+                press_data="3" />
+            <softkey
+                id="@id/id_7f0b1993"
+                keycode_press="KEYCODE_4"
+                press_data="4" />
+            <softkey
+                id="@id/id_7f0b1994"
+                keycode_press="KEYCODE_5"
+                press_data="5" />
+            <softkey
+                id="@id/id_7f0b1995"
+                keycode_press="KEYCODE_6"
+                press_data="6" />
+            <softkey
+                id="@id/id_7f0b1996"
+                keycode_press="KEYCODE_7"
+                press_data="7" />
+            <softkey
+                id="@id/id_7f0b1997"
+                keycode_press="KEYCODE_8"
+                press_data="8" />
+            <softkey
+                id="@id/id_7f0b1998"
+                keycode_press="KEYCODE_9"
+                press_data="9" />
+            <softkey
+                id="@id/id_7f0b198f"
+                keycode_press="KEYCODE_0"
+                press_data="0" />
+        </softkey_list>
+        <softkey_template
+            id="@id/id_7f0b1c9c"
+            layout="@layout/layout_7f0e0713"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="$param_data$"
+                intention="COMMIT"
+                keycode="$param_keycode=PLAIN_TEXT$"
+                popup_label="$param_data$"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$param_data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1c9c">
+            <softkey
+                id="@id/id_7f0b1611"
+                param_data="!" />
+            <softkey
+                id="@id/id_7f0b160f"
+                param_data="\@"
+                param_keycode="AT" />
+            <softkey
+                id="@id/id_7f0b1615"
+                param_data="\#"
+                param_keycode="POUND" />
+            <softkey
+                id="@id/id_7f0b1610"
+                param_data="$" />
+            <softkey
+                id="@id/id_7f0b1617"
+                param_data="*"
+                param_keycode="STAR" />
+            <softkey
+                id="@id/id_7f0b1614"
+                param_data="%" />
+            <softkey
+                id="@id/id_7f0b1612"
+                param_data="^" />
+            <softkey
+                id="@id/id_7f0b160e"
+                param_data="&amp;" />
+            <softkey
+                id="@id/id_7f0b1613"
+                param_data="(" />
+            <softkey
+                id="@id/id_7f0b1616"
+                param_data=")" />
+        </softkey_list>
+    </softkeys>
+</framework>

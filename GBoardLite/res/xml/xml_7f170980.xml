@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class=".latin.keyboard.LatinPasswordKeyboard"
+        popup="@attr/attr_7f0401f3" />
+    <include
+        href="@xml/xml_7f17097f" />
+    <include
+        href="@xml/xml_7f170744" />
+</framework>

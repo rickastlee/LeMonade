@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.expression.header.ConstraintHeaderViewImpl
+    android:id="@id/keyboard_expression_header_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/id_7f0b05db"
+        android:tag=".expression-search-result-box"
+        android:background="@color/color_7f0606c2"
+        android:visibility="gone"
+        android:layout_width="0.0dip"
+        android:layout_height="?attr_7f04008d"
+        android:layout_marginStart="@dimen/dimen_7f07075a"
+        android:layout_marginEnd="@dimen/dimen_7f070151"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b059d"
+        app:attr_7f0405f2="id_7f0b053e" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/id_7f0b045a"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b0454"
+        app:attr_7f0405ed="@id/id_7f0b0459"
+        app:attr_7f0405f2="id_7f0b053e">
+        <com.google.android.apps.inputmethod.libs.expression.header.StartElementRecyclerView
+            android:orientation="horizontal"
+            android:id="@id/id_7f0b045c"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:overScrollMode="never"
+            android:keyboardNavigationCluster="true"
+            app:attr_7f0405ca="com.google.android.apps.inputmethod.libs.expression.header.StartElementScrollBehavior" />
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="fill_parent"
+            android:layout_height="?attr_7f04008d"
+            android:paddingStart="10.0dip"
+            android:keyboardNavigationCluster="true"
+            app:attr_7f0405ca="com.google.android.apps.inputmethod.libs.expression.header.MiddleElementScrollBehavior"
+            style="@style/style_7f150258" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout
+        android:id="@id/id_7f0b0459"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e">
+        <include
+            layout="@layout/layout_7f0e0058" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/id_7f0b0454"
+        android:paddingTop="0.0dip"
+        android:paddingBottom="0.0dip"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b059d"
+        app:attr_7f0405f2="id_7f0b053e">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/id_7f0b0455"
+            android:paddingTop="?attr_7f04015e"
+            android:paddingBottom="?attr_7f04015e"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="0.0dip"
+            android:layout_marginBottom="0.0dip"
+            android:layout_marginEnd="@dimen/dimen_7f070151" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@id/id_7f0b059d"
+        android:layout_width="?attr_7f04008d"
+        android:layout_height="fill_parent"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150255">
+        <android.support.v7.widget.AppCompatImageView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@id/id_7f0b011d"
+            android:tag=".icon.for-category-key.with-circle"
+            android:layout_width="@dimen/dimen_7f07012d"
+            android:layout_height="@dimen/dimen_7f07012a"
+            android:src="@drawable/drawable_7f08031f" />
+    </FrameLayout>
+</com.google.android.apps.inputmethod.libs.expression.header.ConstraintHeaderViewImpl>

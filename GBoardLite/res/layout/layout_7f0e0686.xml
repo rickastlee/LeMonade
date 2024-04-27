@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.companionwidget.widget.WidgetSoftKeyboardView
+    android:theme="@style/style_7f150437"
+    app:attr_7f0402d1="false"
+    app:attr_7f0403a2="@dimen/dimen_7f07083c"
+    style="@style/style_7f150210"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:orientation="horizontal"
+        style="@style/style_7f150213">
+        <com.google.android.libraries.inputmethod.widgets.CopyImageSourceView
+            android:id="@id/id_7f0b0125"
+            android:layout_width="2.0dip"
+            android:layout_height="@dimen/dimen_7f07083b"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405ee="id_7f0b053e"
+            app:attr_7f0405f2="id_7f0b053e" />
+        <com.google.android.libraries.inputmethod.companionwidget.WidgetAccessPointsPanel
+            android:id="@id/id_7f0b1fd6"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405ed="@id/id_7f0b0125"
+            app:attr_7f0405f2="id_7f0b053e"
+            style="@style/style_7f150c0e" />
+        <com.google.android.libraries.inputmethod.companionwidget.WidgetAccessPointsPanel
+            android:id="@id/id_7f0b1fd4"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405db="@id/id_7f0b1fe4"
+            app:attr_7f0405f2="id_7f0b053e"
+            style="@style/style_7f150c0e" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/id_7f0b1fe4"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405da="id_7f0b053e"
+            app:attr_7f0405f2="id_7f0b053e"
+            style="@style/style_7f150c0c" />
+        <include
+            layout="@layout/layout_7f0e0800" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.libraries.inputmethod.companionwidget.widget.WidgetSoftKeyboardView>

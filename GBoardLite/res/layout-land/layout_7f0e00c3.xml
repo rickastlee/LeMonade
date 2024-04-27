@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.sharing.GboardSharingSetupDonePage
+    style="@style/style_7f150264"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.core.widget.NestedScrollView
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false">
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+                    <include
+                        layout="@layout/layout_7f0e00c6" />
+                    <android.support.v7.widget.AppCompatTextView
+                        android:text="@string/string_7f1409e0"
+                        style="@style/style_7f15026e" />
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@id/id_7f0b0209"
+                        android:visibility="gone"
+                        android:text="@string/string_7f14027e"
+                        android:paddingStart="@dimen/dimen_7f070711"
+                        android:paddingEnd="@dimen/dimen_7f070711"
+                        style="@style/style_7f150268" />
+                    <com.google.android.libraries.inputmethod.widgets.LinkableTextView
+                        android:id="@id/id_7f0b0205"
+                        android:text="@string/string_7f140278"
+                        style="@style/style_7f150268" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:id="@id/id_7f0b0208"
+                    android:paddingLeft="@dimen/dimen_7f070711"
+                    android:paddingRight="@dimen/dimen_7f070711"
+                    android:visibility="gone"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0">
+                    <ImageView
+                        android:importantForAccessibility="no"
+                        style="@style/style_7f150519" />
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@id/id_7f0b020a"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:nestedScrollingEnabled="false" />
+                    <ImageView
+                        android:importantForAccessibility="no"
+                        style="@style/style_7f150519" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:id="@id/id_7f0b0204"
+                android:text="@string/string_7f140361"
+                android:textAllCaps="true"
+                style="@style/style_7f150265" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.google.android.apps.inputmethod.libs.sharing.GboardSharingSetupDonePage>

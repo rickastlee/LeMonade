@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="true"
+        class="com.google.android.libraries.inputmethod.ime.DummyIme"
+        display_app_completions="true"
+        language="zz"
+        string_id="ime_qwerty">
+        <if
+            enable_number_row="false">
+            <keyboard_group
+                variant="qwerty">
+                <keyboard
+                    def="@xml/xml_7f170658"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f1708da" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a00" />
+            </keyboard_group>
+            <keyboard_group
+                variant="qwertz">
+                <keyboard
+                    def="@xml/xml_7f170658"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f1708f8" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a00" />
+            </keyboard_group>
+            <keyboard_group
+                variant="azerty">
+                <keyboard
+                    def="@xml/xml_7f170658"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f17081e" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a00" />
+            </keyboard_group>
+            <keyboard_group
+                variant="dvorak">
+                <keyboard
+                    def="@xml/xml_7f170658"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f170835" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a00" />
+            </keyboard_group>
+            <keyboard_group
+                variant="colemak">
+                <keyboard
+                    def="@xml/xml_7f170658"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f17082b" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a00" />
+            </keyboard_group>
+            <keyboard_group
+                layout_theme="@style/style_7f15031b"
+                variant="pcqwerty">
+                <keyboard
+                    def="@xml/xml_7f170658"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f1708cf" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a01" />
+            </keyboard_group>
+        </if>
+        <else>
+            <keyboard_group
+                layout_theme="@style/style_7f15031b"
+                variant="qwerty">
+                <keyboard
+                    def="@xml/xml_7f170658"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f1708da" />
+                    <merge
+                        def="@xml/xml_7f17084e" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a00" />
+            </keyboard_group>
+            <keyboard_group
+                layout_theme="@style/style_7f15031b"
+                variant="qwertz">
+                <keyboard
+                    def="@xml/xml_7f170658"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f1708f8" />
+                    <merge
+                        def="@xml/xml_7f17084e" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a00" />
+            </keyboard_group>
+            <keyboard_group
+                layout_theme="@style/style_7f15031b"
+                variant="azerty">
+                <keyboard
+                    def="@xml/xml_7f170658"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f17081e" />
+                    <merge
+                        def="@xml/xml_7f17084a" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a00" />
+            </keyboard_group>
+            <keyboard_group
+                layout_theme="@style/style_7f15031b"
+                variant="dvorak">
+                <keyboard
+                    def="@xml/xml_7f170658"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f170835" />
+                    <merge
+                        def="@xml/xml_7f170870" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a00" />
+            </keyboard_group>
+            <keyboard_group
+                layout_theme="@style/style_7f15031b"
+                variant="colemak">
+                <keyboard
+                    def="@xml/xml_7f170658"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f17082b" />
+                    <merge
+                        def="@xml/xml_7f17084a" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a00" />
+            </keyboard_group>
+        </else>
+    </ime>
+</framework>

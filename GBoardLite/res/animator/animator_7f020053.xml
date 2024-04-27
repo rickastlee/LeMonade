@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animator
+    android:duration="200"
+    android:valueFrom="@dimen/dimen_7f07080a"
+    android:valueTo="0"
+    android:valueType="intType"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

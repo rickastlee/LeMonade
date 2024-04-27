@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f140a2c"
+            id="@id/id_7f0b1a9b"
+            layout="@layout/layout_7f0e0706"
+            long_press_delay_flag="@string/string_7f140a2d"
+            multi_touch="false">
+            <action
+                data=" "
+                keycode="SPACE"
+                type="PRESS" />
+            <action
+                action_on_down="true"
+                data="space"
+                keycode="SHOW_SYSTEM_IME_PICKER"
+                type="LONG_PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@attr/attr_7f040122" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f140a2c"
+            id="@id/id_7f0b1a9c"
+            layout="@layout/layout_7f0e0706"
+            multi_touch="false">
+            <action
+                data=" "
+                keycode="SPACE"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@attr/attr_7f040122" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140a2c"
+            id="@id/id_7f0b1a96"
+            layout="@layout/layout_7f0e0776"
+            long_press_delay_flag="@string/string_7f140a2d">
+            <action
+                data=" "
+                keycode="SPACE"
+                type="PRESS" />
+            <action
+                action_on_down="true"
+                data="space"
+                keycode="SHOW_SYSTEM_IME_PICKER"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="@string/string_7f140469" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b1a92"
+            layout="@layout/layout_7f0e0775"
+            multi_touch="false">
+            <action
+                data="0"
+                keycode="KEYCODE_0"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="0" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140a2c"
+            id="@id/id_7f0b1a93"
+            layout="@layout/layout_7f0e0776"
+            long_press_delay_flag="@string/string_7f140a2d">
+            <action
+                data=" "
+                keycode="SPACE"
+                type="PRESS" />
+            <action
+                action_on_down="true"
+                data="space"
+                keycode="SHOW_SYSTEM_IME_PICKER"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value=" " />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140a2c"
+            id="@id/id_7f0b1a94"
+            layout="@layout/layout_7f0e0776">
+            <action
+                data=" "
+                keycode="SPACE"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value=" " />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140a2c"
+            id="@id/id_7f0b182a"
+            layout="@layout/layout_7f0e0776"
+            long_press_delay_flag="@string/string_7f140a2d">
+            <action
+                data=" "
+                keycode="SPACE"
+                type="PRESS" />
+            <action
+                action_on_down="true"
+                data="space"
+                keycode="SHOW_SYSTEM_IME_PICKER"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value=" " />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140a2c"
+            id="@id/id_7f0b061f"
+            layout="@layout/layout_7f0e077d"
+            multi_touch="false"
+            popup_timing="ON_GESTURE">
+            <action
+                data=" "
+                keycode="SPACE"
+                type="PRESS" />
+            <action
+                data="0"
+                intention="COMMIT"
+                keycode="KEYCODE_0"
+                popup_label="0"
+                popup_layout="@layout/layout_7f0e0697"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="@string/string_7f140469" />
+            <label
+                location="@id/id_7f0b0478"
+                value="0" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140a2c"
+            id="@id/id_7f0b1a9e"
+            layout="@layout/layout_7f0e077c"
+            long_press_delay_flag="@string/string_7f140a2d">
+            <action
+                data=" "
+                keycode="SPACE"
+                type="PRESS" />
+            <action
+                action_on_down="true"
+                data="space"
+                keycode="SHOW_SYSTEM_IME_PICKER"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b0479"
+                value="拼" />
+            <label
+                location="@id/id_7f0b046d"
+                value="音" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140a2c"
+            id="@id/id_7f0b1a9d"
+            layout="@layout/layout_7f0e077b"
+            long_press_delay_flag="@string/string_7f140a2d">
+            <action
+                data=" "
+                keycode="SPACE"
+                type="PRESS" />
+            <action
+                action_on_down="true"
+                data="space"
+                keycode="SHOW_SYSTEM_IME_PICKER"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="拼音" />
+        </softkey>
+    </softkeys>
+</framework>

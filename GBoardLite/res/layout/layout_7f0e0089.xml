@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView
+    android:textSize="16.0dip"
+    android:gravity="center_vertical"
+    android:id="@id/id_7f0b0185"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fontFamily="?attr_7f0400f5"
+    android:paddingStart="7.0dip"
+    android:paddingEnd="7.0dip"
+    style="?attr_7f0400be"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

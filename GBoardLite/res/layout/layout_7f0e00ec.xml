@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="?android:selectableItemBackground"
+    android:layout_width="@dimen/dimen_7f070139"
+    android:layout_height="fill_parent"
+    android:minHeight="@dimen/dimen_7f070138"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b0186"
+        android:layout_width="@dimen/dimen_7f07013d"
+        android:layout_height="@dimen/dimen_7f070136"
+        style="?attr_7f0400c1" />
+    <View
+        android:layout_gravity="bottom|center"
+        android:id="@id/id_7f0b0189"
+        android:background="@drawable/drawable_7f080582"
+        android:layout_width="@dimen/dimen_7f07013c"
+        android:layout_height="@dimen/dimen_7f07013b"
+        style="?attr_7f0400c2" />
+</FrameLayout>

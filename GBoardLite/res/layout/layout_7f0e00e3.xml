@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@id/id_7f0b0231"
+    android:background="@drawable/drawable_7f0801d8"
+    android:paddingTop="@dimen/dimen_7f0701c8"
+    style="@style/style_7f150515"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/id_7f0b05f8"
+        style="@style/style_7f150518">
+        <ImageView
+            android:layout_gravity="bottom|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/drawable_7f0802fd"
+            android:scaleType="centerInside"
+            android:tint="?attr_7f0403f4" />
+    </FrameLayout>
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0238"
+        android:text="@string/string_7f1402b8"
+        style="@style/style_7f150517" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0232"
+        android:text="@string/string_7f1402b4"
+        style="@style/style_7f150514" />
+    <ImageView
+        android:id="@id/id_7f0b0237"
+        android:layout_marginTop="14.0dip"
+        style="@style/style_7f150519" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@id/id_7f0b0233"
+        style="@style/style_7f150516" />
+    <ImageView
+        android:id="@id/id_7f0b0236"
+        style="@style/style_7f150519" />
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_gravity="end"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="50.0dip">
+        <Button
+            android:id="@id/id_7f0b0234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_7f14035d"
+            style="?attr_7f040333" />
+        <Button
+            android:id="@id/id_7f0b0235"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_7f1402b6"
+            style="?attr_7f040333" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView
+    app:attr_7f0402d1="false"
+    app:attr_7f040821="id_7f0b0180"
+    style="@style/style_7f1501bc"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            app:attr_7f0405ca="@string/string_7f140856"
+            style="@style/style_7f1502c1">
+            <include
+                layout="@layout/layout_7f0e0088" />
+        </FrameLayout>
+        <include
+            layout="@layout/layout_7f0e0170" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

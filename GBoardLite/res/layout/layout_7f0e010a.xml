@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="horizontal"
+    android:id="@id/id_7f0b028f"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dimen_7f0702e8"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="16.0sp"
+        android:textColor="#ff969696"
+        android:gravity="center"
+        android:layout_gravity="bottom"
+        android:id="@id/id_7f0b0290"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_7f090010" />
+</FrameLayout>

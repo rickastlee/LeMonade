@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:paddingTop="@dimen/dimen_7f0707ce"
+        style="@style/style_7f15080c">
+        <com.google.android.material.materialswitch.MaterialSwitch
+            style="@style/style_7f15080b" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        style="@style/style_7f150801">
+        <Button
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405ee="id_7f0b053e"
+            app:attr_7f0405f2="id_7f0b053e"
+            app:attr_7f0405f8="130.0dip"
+            style="@style/style_7f150803" />
+        <Button
+            android:id="@id/id_7f0b1f34"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405da="id_7f0b053e"
+            app:attr_7f0405f2="id_7f0b053e"
+            app:attr_7f0405f8="130.0dip"
+            style="@style/style_7f150800" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatTextView
+    android:textColor="@color/color_7f06058c"
+    android:id="@id/id_7f0b1f0a"
+    android:background="@drawable/drawable_7f080573"
+    android:paddingTop="4.0dip"
+    android:paddingBottom="4.0dip"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="4.0dip"
+    android:layout_marginBottom="4.0dip"
+    android:fontFamily="?attr_7f0400eb"
+    android:paddingStart="12.0dip"
+    android:paddingEnd="12.0dip"
+    android:layout_marginEnd="8.0dip"
+    android:fontFeatureSettings="calt off"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

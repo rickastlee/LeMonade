@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            id="@id/id_7f0b1c73"
+            layout="@layout/layout_7f0e0710"
+            popup_timing="ON_TOUCH">
+            <action
+                data="$param_data$"
+                intention="COMMIT"
+                keycode="PLAIN_TEXT"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$param_data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1c73">
+            <softkey
+                id="@id/id_7f0b199b"
+                param_data="%" />
+        </softkey_list>
+    </softkeys>
+</framework>

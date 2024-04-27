@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view
+    android:layout_gravity="start"
+    android:id="@id/id_7f0b05ec"
+    android:scrollbars="vertical"
+    android:fadingEdge="none"
+    android:clipToPadding="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:cacheColorHint="@null"
+    android:divider="?attr_7f04061a"
+    android:overScrollMode="ifContentScrolls"
+    android:textAlignment="viewStart"
+    app:attr_7f040700="@dimen/dimen_7f070020"
+    app:attr_7f040707="@dimen/dimen_7f070021"
+    class="android.support.v7.app.AlertController$RecycleListView"
+    style="@style/style_7f15094f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

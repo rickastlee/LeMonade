@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b0cba"
+            view_id="@id/key_pos_shift" />
+        <mapping
+            key_id="@id/id_7f0b0b22"
+            view_id="@id/key_pos_del" />
+        <mapping
+            key_id="@id/id_7f0b10e7"
+            view_id="@id/key_pos_0_0" />
+        <mapping
+            key_id="@id/id_7f0b10e8"
+            view_id="@id/key_pos_0_1" />
+        <mapping
+            key_id="@id/id_7f0b10f7"
+            view_id="@id/key_pos_0_2" />
+        <mapping
+            key_id="@id/id_7f0b10f8"
+            view_id="@id/key_pos_0_3" />
+        <mapping
+            key_id="@id/id_7f0b110b"
+            view_id="@id/key_pos_0_4" />
+        <mapping
+            key_id="@id/id_7f0b110c"
+            view_id="@id/key_pos_0_5" />
+        <mapping
+            key_id="@id/id_7f0b10f3"
+            view_id="@id/key_pos_0_6" />
+        <mapping
+            key_id="@id/id_7f0b10e9"
+            view_id="@id/key_pos_0_7" />
+        <mapping
+            key_id="@id/id_7f0b1101"
+            view_id="@id/key_pos_0_8" />
+        <mapping
+            key_id="@id/id_7f0b10ea"
+            view_id="@id/key_pos_0_9" />
+        <mapping
+            key_id="@id/id_7f0b1116"
+            view_id="@id/key_pos_1_0" />
+        <mapping
+            key_id="@id/id_7f0b10e6"
+            view_id="@id/key_pos_1_1" />
+        <mapping
+            key_id="@id/id_7f0b1106"
+            view_id="@id/key_pos_1_2" />
+        <mapping
+            key_id="@id/id_7f0b10f6"
+            view_id="@id/key_pos_1_3" />
+        <mapping
+            key_id="@id/id_7f0b10fb"
+            view_id="@id/key_pos_1_4" />
+        <mapping
+            key_id="@id/id_7f0b10fc"
+            view_id="@id/key_pos_1_5" />
+        <mapping
+            key_id="@id/id_7f0b10f4"
+            view_id="@id/key_pos_1_6" />
+        <mapping
+            key_id="@id/id_7f0b10f5"
+            view_id="@id/key_pos_1_7" />
+        <mapping
+            key_id="@id/id_7f0b1115"
+            view_id="@id/key_pos_1_8" />
+        <mapping
+            key_id="@id/id_7f0b110f"
+            view_id="@id/key_pos_1_9" />
+        <mapping
+            key_id="@id/id_7f0b10ed"
+            view_id="@id/key_pos_2_0" />
+        <mapping
+            key_id="@id/id_7f0b10ee"
+            view_id="@id/key_pos_2_1" />
+        <mapping
+            key_id="@id/id_7f0b10f9"
+            view_id="@id/key_pos_2_2" />
+        <mapping
+            key_id="@id/id_7f0b10fa"
+            view_id="@id/key_pos_2_3" />
+        <mapping
+            key_id="@id/id_7f0b1109"
+            view_id="@id/key_pos_2_4" />
+        <mapping
+            key_id="@id/id_7f0b110a"
+            view_id="@id/key_pos_2_5" />
+        <mapping
+            key_id="@id/id_7f0b10f0"
+            view_id="@id/key_pos_2_6" />
+        <mapping
+            key_id="@id/id_7f0b10f1"
+            view_id="@id/key_pos_2_7" />
+        <mapping
+            key_id="@id/id_7f0b1100"
+            view_id="@id/key_pos_2_8" />
+        <mapping
+            key_id="@id/id_7f0b10da"
+            view_id="@id/key_pos_2_9" />
+        <mapping
+            key_id="@id/id_7f0b1107"
+            view_id="@id/key_pos_3_0" />
+        <mapping
+            key_id="@id/id_7f0b1108"
+            view_id="@id/key_pos_3_1" />
+        <mapping
+            key_id="@id/id_7f0b10ef"
+            view_id="@id/key_pos_3_2" />
+        <mapping
+            key_id="@id/id_7f0b10f2"
+            view_id="@id/key_pos_3_3" />
+        <mapping
+            key_id="@id/id_7f0b10ff"
+            view_id="@id/key_pos_3_4" />
+        <mapping
+            key_id="@id/id_7f0b1102"
+            view_id="@id/key_pos_3_5" />
+        <mapping
+            key_id="@id/id_7f0b1103"
+            view_id="@id/key_pos_3_6" />
+        <mapping
+            key_id="@id/id_7f0b10eb"
+            view_id="@id/key_pos_3_7" />
+        <mapping
+            key_id="@id/id_7f0b10ec"
+            view_id="@id/key_pos_3_8" />
+        <mapping
+            key_id="@id/id_7f0b10fe"
+            view_id="@id/key_pos_3_9" />
+        <mapping
+            key_id="@id/id_7f0b110e"
+            view_id="@id/key_pos_4_0" />
+        <mapping
+            key_id="@id/id_7f0b1104"
+            view_id="@id/key_pos_4_1" />
+        <mapping
+            key_id="@id/id_7f0b10fd"
+            view_id="@id/key_pos_4_2" />
+        <mapping
+            key_id="@id/id_7f0b110d"
+            view_id="@id/key_pos_4_3" />
+        <mapping
+            key_id="@id/id_7f0b1105"
+            view_id="@id/key_pos_4_4" />
+        <mapping
+            key_id="@id/id_7f0b1113"
+            view_id="@id/key_pos_4_5" />
+        <mapping
+            key_id="@id/id_7f0b1112"
+            view_id="@id/key_pos_4_6" />
+        <mapping
+            key_id="@id/id_7f0b1111"
+            view_id="@id/key_pos_4_7" />
+        <mapping
+            key_id="@id/id_7f0b1110"
+            view_id="@id/key_pos_4_8" />
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <mapping
+                key_id="@id/id_7f0b19ed"
+                view_id="@id/key_pos_1_10" />
+            <mapping
+                key_id="@id/id_7f0b0d43"
+                view_id="@id/key_pos_3_10" />
+            <mapping
+                key_id="@id/id_7f0b1687"
+                view_id="@id/key_pos_4_9" />
+            <mapping
+                key_id="@id/id_7f0b0b17"
+                view_id="@id/key_pos_4_10" />
+        </if>
+    </key_mapping>
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal">
+        <key_mapping
+            state="INPUT_TYPE_EMAIL_ADDRESS">
+            <mapping
+                key_id="@id/id_7f0b0a34"
+                view_id="@id/key_pos_4_9" />
+            <mapping
+                key_id="@id/id_7f0b0f98"
+                view_id="@id/key_pos_4_10" />
+        </key_mapping>
+        <key_mapping
+            state="INPUT_TYPE_URI">
+            <mapping
+                key_id="@id/id_7f0b1a91"
+                view_id="@id/key_pos_4_9" />
+            <mapping
+                key_id="@id/id_7f0b0f98"
+                view_id="@id/key_pos_4_10" />
+        </key_mapping>
+    </if>
+</framework>

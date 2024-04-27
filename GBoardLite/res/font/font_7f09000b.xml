@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family
+    android:fontProviderAuthority="com.google.android.gms.fonts"
+    android:fontProviderQuery="Google Sans:500"
+    android:fontProviderPackage="com.google.android.gms"
+    android:fontProviderCerts="@array/array_7f030009"
+    android:fontProviderSystemFontFamily="google-sans-medium"
+    app:attr_7f040530="com.google.android.gms.fonts"
+    app:attr_7f040531="@array/array_7f030009"
+    app:attr_7f040534="com.google.android.gms"
+    app:attr_7f040535="Google Sans:500"
+    app:attr_7f040536="google-sans-medium"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <include
+            href="@xml/xml_7f170c97" />
+    </softkeys>
+</framework>

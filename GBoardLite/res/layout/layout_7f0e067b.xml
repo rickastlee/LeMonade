@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.popup.SilkPopupView
+    android:id="@id/id_7f0b0553"
+    app:attr_7f040202="@dimen/dimen_7f070378"
+    style="@style/style_7f150523"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@id/id_7f0b0567"
+        style="@style/style_7f150522">
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+            android:id="@id/id_7f0b0561"
+            android:visibility="gone"
+            style="@style/style_7f15051e" />
+        <ImageView
+            android:id="@id/id_7f0b0560"
+            android:visibility="gone"
+            style="@style/style_7f15051d" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b055d"
+            android:visibility="gone"
+            style="@style/style_7f15051a" />
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.popup.SilkPopupView>

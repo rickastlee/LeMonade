@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.languageselection.preference.KeyboardLayoutListPreference
+        android:key="@string/string_7f140945" />
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader
+        android:title="@string/string_7f14094a"
+        android:key="@string/string_7f14048f" />
+</PreferenceScreen>

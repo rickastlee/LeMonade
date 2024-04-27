@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    app:attr_7f0402d1="false"
+    style="@style/style_7f150289"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout
+        style="@style/style_7f15028c">
+        <include
+            layout="@layout/layout_7f0e019d" />
+        <include
+            layout="@layout/layout_7f0e0587" />
+        <include
+            layout="@layout/layout_7f0e06b8" />
+    </com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

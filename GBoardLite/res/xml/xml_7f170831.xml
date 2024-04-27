@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class=".latin.keyboard.LatinNumberKeyboard">
+        <if
+            show_suggestions="true">
+            <view
+                default_show="false"
+                direction="locale"
+                layout="@layout/layout_7f0e059b"
+                scalable="false"
+                type="header" />
+        </if>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e05f4"
+                type="body">
+                <softkeys
+                    href="@xml/xml_7f170fbb" />
+                <softkeys
+                    href="@xml/xml_7f170cad" />
+                <include
+                    href="@xml/xml_7f170b93" />
+            </view>
+        </if>
+        <else_if
+            device="tablet"
+            keyboard_mode="normal|split">
+            <view
+                layout="@layout/layout_7f0e05f3"
+                type="body">
+                <softkeys
+                    href="@xml/xml_7f170fbb" />
+                <softkeys
+                    href="@xml/xml_7f170cad" />
+                <softkeys
+                    href="@xml/xml_7f170fc0" />
+                <include
+                    href="@xml/xml_7f170b94" />
+            </view>
+        </else_if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e05f0"
+                type="body">
+                <softkeys
+                    href="@xml/xml_7f170fbb" />
+                <softkeys
+                    href="@xml/xml_7f170cad" />
+                <include
+                    href="@xml/xml_7f170b93" />
+            </view>
+        </else>
+    </keyboard>
+</framework>

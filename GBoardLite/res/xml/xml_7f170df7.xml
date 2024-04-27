@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$data$"
+            id="@id/id_7f0b1c8c"
+            layout="@layout/layout_7f0e0710"
+            popup_timing="ON_TOUCH">
+            <action
+                content_description="$data$"
+                data="$data$"
+                intention="DECODE"
+                keycode="PLAIN_TEXT"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1c8c">
+            <softkey
+                data="-"
+                id="@id/id_7f0b16f6" />
+            <softkey
+                data="+"
+                id="@id/id_7f0b19ba" />
+            <softkey
+                data="*"
+                id="@id/id_7f0b1aa1" />
+            <softkey
+                data="/"
+                id="@id/id_7f0b1a8d" />
+            <softkey
+                data="%"
+                id="@id/id_7f0b199b" />
+            <softkey
+                data="("
+                id="@id/id_7f0b15cc" />
+            <softkey
+                data=")"
+                id="@id/id_7f0b19fd" />
+            <softkey
+                data="{"
+                id="@id/id_7f0b15c3" />
+            <softkey
+                data="}"
+                id="@id/id_7f0b19f4" />
+            <softkey
+                data="="
+                id="@id/id_7f0b0cf9" />
+            <softkey
+                data="√"
+                id="@id/id_7f0b1a9f" />
+            <softkey
+                data="π"
+                id="@id/id_7f0b1a8f" />
+            <softkey
+                data="×"
+                id="@id/id_7f0b1720" />
+            <softkey
+                data="÷"
+                id="@id/id_7f0b0ca1" />
+        </softkey_list>
+    </softkeys>
+</framework>

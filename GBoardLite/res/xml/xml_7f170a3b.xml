@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b198d"
+            view_id="@id/key_pos_candidates_page_up" />
+        <mapping
+            key_id="@id/id_7f0b198b"
+            view_id="@id/key_pos_candidates_page_down" />
+        <mapping
+            key_id="@id/id_7f0b092c"
+            view_id="@id/key_pos_candidates_del" />
+    </key_mapping>
+    <key_mapping
+        state="FIRST_PAGE">
+        <mapping
+            key_id="@id/id_7f0b198e"
+            view_id="@id/key_pos_candidates_page_up" />
+    </key_mapping>
+    <key_mapping
+        state="LAST_PAGE">
+        <mapping
+            key_id="@id/id_7f0b198c"
+            view_id="@id/key_pos_candidates_page_down" />
+    </key_mapping>
+    <key_mapping
+        state="COMPOSING">
+        <mapping
+            key_id="@id/id_7f0b092d"
+            view_id="@id/key_pos_candidates_del" />
+    </key_mapping>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b0cf7"
+            view_id="@id/key_pos_candidates_ime_action" />
+    </key_mapping>
+    <include
+        href="@xml/xml_7f170a3c" />
+</framework>

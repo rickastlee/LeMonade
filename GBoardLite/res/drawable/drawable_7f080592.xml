@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RectangleWithRoundedArrowDrawable
+    app:attr_7f040324="10.0dip"
+    app:attr_7f040325="2.0dip"
+    app:attr_7f040326="DOWN"
+    app:attr_7f040327="3.0dip"
+    app:attr_7f040328="12.0dip"
+    app:attr_7f040329="?attr_7f040410"
+    app:attr_7f04032d="28.0dip"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

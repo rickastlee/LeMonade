@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_7f120000">
+        <item quantity="other">%d anahtar atandı</item>
+        <item quantity="one">%d anahtar atandı</item>
+    </plurals>
+    <plurals name="plurals_7f120002">
+        <item quantity="other">%s yüklendi.</item>
+        <item quantity="one">%s yüklendi.</item>
+    </plurals>
+</resources>

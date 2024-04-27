@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b136c"
+                long_press_data="៱"
+                press_data="១" />
+            <softkey
+                id="@id/id_7f0b1370"
+                long_press_data="៲"
+                press_data="២" />
+            <softkey
+                id="@id/id_7f0b136f"
+                long_press_data="៳"
+                press_data="៣" />
+            <softkey
+                id="@id/id_7f0b136a"
+                long_press_data="៴"
+                press_data="៤" />
+            <softkey
+                id="@id/id_7f0b1369"
+                long_press_data="៵"
+                press_data="៥" />
+            <softkey
+                id="@id/id_7f0b136e"
+                long_press_data="៶"
+                press_data="៦" />
+            <softkey
+                id="@id/id_7f0b136d"
+                long_press_data="៷"
+                press_data="៧" />
+            <softkey
+                id="@id/id_7f0b1368"
+                long_press_data="៸"
+                press_data="៨" />
+            <softkey
+                id="@id/id_7f0b136b"
+                long_press_data="៹"
+                press_data="៩" />
+            <softkey
+                id="@id/id_7f0b1371"
+                long_press_data="៰"
+                press_data="០" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c96">
+            <softkey
+                hint_label="ឦ"
+                id="@id/id_7f0b1376"
+                long_press_data="ឦ"
+                press_data="ឥ" />
+            <softkey
+                hint_label="ឱ"
+                id="@id/id_7f0b1378"
+                long_press_data="ឱ"
+                press_data="ឲ" />
+            <softkey
+                hint_label="ឧ"
+                id="@id/id_7f0b137a"
+                long_press_data="ឧ,ឱ,ឳ,ឩ,ឨ"
+                press_data="ឪ" />
+            <softkey
+                hint_label="ឭ"
+                id="@id/id_7f0b1373"
+                long_press_data="ឭ,ឰ"
+                press_data="ឮ" />
+            <softkey
+                hint_label="៘"
+                id="@id/id_7f0b13ab"
+                long_press_data="៘"
+                press_data="៊" />
+            <softkey
+                hint_label="៑"
+                id="@id/id_7f0b19c7"
+                long_press_data="៑"
+                press_data="&quot;" />
+            <softkey
+                hint_label="$"
+                id="@id/id_7f0b1367"
+                long_press_data="$,€"
+                press_data="៛" />
+            <softkey
+                hint_label="៖"
+                id="@id/id_7f0b199c"
+                long_press_data="៖"
+                press_data="%" />
+            <softkey
+                hint_label="៙"
+                id="@id/id_7f0b13aa"
+                long_press_data="៙"
+                press_data="៍" />
+            <softkey
+                hint_label="៚"
+                id="@id/id_7f0b13a9"
+                long_press_data="៚"
+                press_data="័" />
+            <softkey
+                hint_label="ៗ"
+                id="@id/id_7f0b139e"
+                long_press_data="ៗ"
+                press_data="៏" />
+            <softkey
+                hint_label="{"
+                id="@id/id_7f0b15cc"
+                long_press_data="{,«"
+                press_data="(" />
+            <softkey
+                hint_label="}"
+                id="@id/id_7f0b19fd"
+                long_press_data="},»"
+                press_data=")" />
+            <softkey
+                hint_label="×"
+                id="@id/id_7f0b13a7"
+                long_press_data="×"
+                press_data="៌" />
+            <softkey
+                hint_label="ៜ"
+                id="@id/id_7f0b1380"
+                long_press_data="ៜ"
+                press_data="ឈ" />
+            <softkey
+                hint_label="៝"
+                id="@id/id_7f0b13ca"
+                long_press_data="៝"
+                press_data="ឺ" />
+            <softkey
+                hint_label="ឫ"
+                id="@id/id_7f0b137c"
+                long_press_data="ឫ"
+                press_data="ឬ" />
+            <softkey
+                hint_label="ៈ"
+                id="@id/id_7f0b13a6"
+                long_press_data="ៈ"
+                press_data="ះ" />
+            <softkey
+                hint_label="ឝ"
+                id="@id/id_7f0b1388"
+                long_press_data="ឝ"
+                press_data="គ" />
+            <softkey
+                hint_label="ឞ"
+                id="@id/id_7f0b1392"
+                long_press_data="ឞ"
+                press_data="ព" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cb1">
+            <softkey
+                id="@id/id_7f0b137f"
+                press_data="ឆ" />
+            <softkey
+                id="@id/id_7f0b13c7"
+                press_data="ឹ" />
+            <softkey
+                id="@id/id_7f0b13b3"
+                press_data="េ" />
+            <softkey
+                id="@id/id_7f0b1394"
+                press_data="រ" />
+            <softkey
+                id="@id/id_7f0b1396"
+                press_data="ត" />
+            <softkey
+                id="@id/id_7f0b139d"
+                press_data="យ" />
+            <softkey
+                id="@id/id_7f0b13c0"
+                press_data="ុ" />
+            <softkey
+                id="@id/id_7f0b13b6"
+                press_data="ិ" />
+            <softkey
+                id="@id/id_7f0b13bc"
+                press_data="ោ" />
+            <softkey
+                id="@id/id_7f0b1390"
+                press_data="ផ" />
+            <softkey
+                id="@id/id_7f0b13b8"
+                press_data="ៀ" />
+            <softkey
+                id="@id/id_7f0b13ad"
+                press_data="ា" />
+            <softkey
+                id="@id/id_7f0b1395"
+                press_data="ស" />
+            <softkey
+                id="@id/id_7f0b1382"
+                press_data="ដ" />
+            <softkey
+                id="@id/id_7f0b1397"
+                press_data="ថ" />
+            <softkey
+                id="@id/id_7f0b138c"
+                press_data="ង" />
+            <softkey
+                id="@id/id_7f0b1384"
+                press_data="ហ" />
+            <softkey
+                id="@id/id_7f0b13a1"
+                press_data="្" />
+            <softkey
+                id="@id/id_7f0b1385"
+                press_data="ក" />
+            <softkey
+                id="@id/id_7f0b138a"
+                press_data="ល" />
+            <softkey
+                id="@id/id_7f0b13bb"
+                press_data="ើ" />
+            <softkey
+                id="@id/id_7f0b139f"
+                press_data="់" />
+            <softkey
+                id="@id/id_7f0b139a"
+                press_data="ឋ" />
+            <softkey
+                id="@id/id_7f0b1386"
+                press_data="ខ" />
+            <softkey
+                id="@id/id_7f0b137e"
+                press_data="ច" />
+            <softkey
+                id="@id/id_7f0b139c"
+                press_data="វ" />
+            <softkey
+                id="@id/id_7f0b137d"
+                press_data="ប" />
+            <softkey
+                id="@id/id_7f0b138e"
+                press_data="ន" />
+            <softkey
+                id="@id/id_7f0b138b"
+                press_data="ម" />
+            <softkey
+                id="@id/id_7f0b13c1"
+                press_data="ុំ" />
+            <softkey
+                id="@id/id_7f0b13a3"
+                press_data="។" />
+            <softkey
+                id="@id/id_7f0b13a2"
+                press_data="៎" />
+            <softkey
+                id="@id/id_7f0b13b0"
+                press_data="ែ" />
+            <softkey
+                id="@id/id_7f0b1399"
+                press_data="ទ" />
+            <softkey
+                id="@id/id_7f0b13c5"
+                press_data="ួ" />
+            <softkey
+                id="@id/id_7f0b13c6"
+                press_data="ូ" />
+            <softkey
+                id="@id/id_7f0b13b9"
+                press_data="ី" />
+            <softkey
+                id="@id/id_7f0b13b2"
+                press_data="ៅ" />
+            <softkey
+                id="@id/id_7f0b1391"
+                press_data="ភ" />
+            <softkey
+                id="@id/id_7f0b13c9"
+                press_data="ឿ" />
+            <softkey
+                id="@id/id_7f0b1374"
+                press_data="ឰ" />
+            <softkey
+                id="@id/id_7f0b13ae"
+                press_data="ាំ" />
+            <softkey
+                id="@id/id_7f0b13b1"
+                press_data="ៃ" />
+            <softkey
+                id="@id/id_7f0b1383"
+                press_data="ឌ" />
+            <softkey
+                id="@id/id_7f0b1398"
+                press_data="ធ" />
+            <softkey
+                id="@id/id_7f0b1393"
+                press_data="អ" />
+            <softkey
+                id="@id/id_7f0b138f"
+                press_data="ញ" />
+            <softkey
+                id="@id/id_7f0b1389"
+                press_data="ឡ" />
+            <softkey
+                id="@id/id_7f0b13bd"
+                press_data="ោះ" />
+            <softkey
+                id="@id/id_7f0b13a4"
+                press_data="៉" />
+            <softkey
+                id="@id/id_7f0b1375"
+                press_data="ឯ" />
+            <softkey
+                id="@id/id_7f0b139b"
+                press_data="ឍ" />
+            <softkey
+                id="@id/id_7f0b1387"
+                press_data="ឃ" />
+            <softkey
+                id="@id/id_7f0b1381"
+                press_data="ជ" />
+            <softkey
+                id="@id/id_7f0b13b4"
+                press_data="េះ" />
+            <softkey
+                id="@id/id_7f0b138d"
+                press_data="ណ" />
+            <softkey
+                id="@id/id_7f0b13a5"
+                press_data="ំ" />
+            <softkey
+                id="@id/id_7f0b13c2"
+                press_data="ុះ" />
+            <softkey
+                id="@id/id_7f0b13a0"
+                press_data="៕" />
+            <softkey
+                id="@id/id_7f0b19c4"
+                press_data="\?" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c90">
+            <softkey
+                hint_label="៚"
+                id="@id/id_7f0b1e83"
+                long_press_data="៚"
+                long_press_label="៚"
+                press_data="​"
+                press_label="›|‹" />
+        </softkey_list>
+    </softkeys>
+</framework>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="@string/string_7f1404f0"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1c68"
+            layout="@layout/layout_7f0e0703">
+            <action
+                data="prime"
+                keycode="$param_keycode$"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="@string/string_7f1403e1" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1c68">
+            <softkey
+                id="@id/id_7f0b0760"
+                param_keycode="SWITCH_KEYBOARD" />
+            <softkey
+                id="@id/id_7f0b0761"
+                param_keycode="EXIT_EXPRESSION_VIA_ABC_BUTTON" />
+        </softkey_list>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f140360"
+            id="@id/id_7f0b0b22"
+            layout="@layout/layout_7f0e0701"
+            multi_touch="false">
+            <if
+                rtl_layout="true">
+                <attrs
+                    layout="@layout/layout_7f0e0702" />
+            </if>
+            <action
+                keycode="DEL"
+                repeatable="true"
+                type="PRESS" />
+            <action
+                keycode="DELETE_FINISH"
+                type="UP" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@attr/attr_7f04010a" />
+        </softkey>
+    </softkeys>
+</framework>

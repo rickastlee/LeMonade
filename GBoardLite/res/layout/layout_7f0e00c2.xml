@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.BidiViewPager
+        android:id="@id/id_7f0b0207"
+        style="@style/style_7f15026f" />
+    <FrameLayout
+        android:id="@id/id_7f0b0200"
+        style="@style/style_7f150269">
+        <include
+            layout="@layout/layout_7f0e00c5" />
+    </FrameLayout>
+</merge>

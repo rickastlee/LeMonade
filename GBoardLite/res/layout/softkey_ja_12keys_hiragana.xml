@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/id_7f0b026b"
+    style="@style/style_7f1502d0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b046c"
+        style="@style/style_7f15035a" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0473"
+        android:layout_marginRight="?attr_7f0401a4"
+        style="@style/style_7f15035c" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0479"
+        android:layout_marginBottom="?attr_7f0401a5"
+        style="@style/style_7f15035c" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0477"
+        android:layout_marginLeft="?attr_7f0401a4"
+        style="@style/style_7f15035c" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b046d"
+        android:layout_marginTop="?attr_7f0401a5"
+        style="@style/style_7f15035c" />
+</FrameLayout>

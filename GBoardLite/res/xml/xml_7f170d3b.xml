@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b0a0f"
+                press_data=":" />
+            <softkey
+                id="@id/id_7f0b1a49"
+                long_press_data=":"
+                press_data=";" />
+        </softkey_list>
+    </softkeys>
+</framework>

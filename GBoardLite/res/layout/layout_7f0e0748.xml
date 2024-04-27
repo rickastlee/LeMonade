@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.inputmethod.libs.expression.emojiview.EmojiView
+        android:textSize="@dimen/dimen_7f0707ba"
+        android:id="@id/id_7f0b046c"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:attr_7f04069c="@dimen/dimen_7f0707bb"
+        style="@style/style_7f15034b"
+        xmlns:app="http://schemas.android.com/apk/res-auto" />
+    <include
+        layout="@layout/layout_7f0e07d6" />
+</merge>

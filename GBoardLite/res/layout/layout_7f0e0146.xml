@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/id_7f0b00f8"
+    style="@style/style_7f1501ee"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:layout_weight="100.0"
+        android:importantForAccessibility="no"
+        style="@style/style_7f1501ef" />
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+        android:text="@string/string_7f1400a7"
+        android:layout_weight="?attr_7f040071"
+        style="@style/style_7f1501f0" />
+    <android.support.v7.widget.AppCompatTextView
+        android:text="@string/string_7f1400a8"
+        android:layout_weight="?attr_7f040072"
+        style="@style/style_7f1501f1" />
+</LinearLayout>

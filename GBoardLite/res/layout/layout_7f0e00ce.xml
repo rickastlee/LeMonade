@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f150274"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="6.0dip">
+        <androidx.cardview.widget.CardView
+            android:id="@id/id_7f0b0105"
+            android:layout_width="@dimen/dimen_7f070185"
+            android:layout_height="@dimen/dimen_7f070185"
+            android:layout_marginStart="6.0dip"
+            app:attr_7f04035f="@dimen/dimen_7f070184"
+            app:attr_7f040360="0.0dip">
+            <ImageView
+                android:id="@id/id_7f0b0104"
+                android:layout_width="@dimen/dimen_7f070185"
+                android:layout_height="@dimen/dimen_7f070185"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/string_7f140359" />
+        </androidx.cardview.widget.CardView>
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b0106"
+            android:text="@string/string_7f1400b4"
+            style="@style/style_7f1501dd" />
+    </LinearLayout>
+</FrameLayout>

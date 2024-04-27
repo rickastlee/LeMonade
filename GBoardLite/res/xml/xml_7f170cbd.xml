@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f1409eb"
+            id="@id/id_7f0b1b37"
+            layout="@layout/layout_7f0e0708"
+            multi_touch="true">
+            <action
+                action_on_down="true"
+                data="SUB_CATEGORY_1"
+                keycode="SWITCH_SUB_CATEGORY"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f08041e" />
+            <label
+                location="@id/id_7f0b046c"
+                value="" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f1409ed"
+            id="@id/id_7f0b1715"
+            layout="@layout/layout_7f0e0708"
+            multi_touch="true">
+            <action
+                action_on_down="true"
+                data="NORMAL"
+                keycode="SWITCH_SUB_CATEGORY"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f08041f" />
+            <label
+                location="@id/id_7f0b046c"
+                value="" />
+        </softkey>
+        <softkey_template
+            id="@id/id_7f0b1cc4">
+            <label
+                location="@id/id_7f0b046c"
+                value="$param_label$" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="" />
+        </softkey_template>
+        <softkey_template
+            id="@id/id_7f0b1ca4">
+            <label
+                location="@id/id_7f0b046c"
+                value="$param_label$" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1cc4">
+            <softkey
+                id="@id/id_7f0b0dd6"
+                param_label="◌̥◌ʰ" />
+            <softkey
+                id="@id/id_7f0b0f90"
+                param_label="༼  ༽" />
+        </softkey_list>
+        <softkey_list
+            template_id="@id/id_7f0b1ca4">
+            <softkey
+                id="@id/id_7f0b0d61"
+                param_label="U+1E953U+1E952U+1E951U+061F" />
+            <softkey
+                id="@id/id_7f0b0d63"
+                param_label="٣٢١؟" />
+            <softkey
+                id="@id/id_7f0b0d65"
+                param_label="123؟" />
+            <softkey
+                id="@id/id_7f0b0d67"
+                param_label="᭗᭘᭙" />
+            <softkey
+                id="@id/id_7f0b0d69"
+                param_label="꛷ꛦꛧꛨ" />
+            <softkey
+                id="@id/id_7f0b0d6c"
+                param_label="\?১২৩" />
+            <softkey
+                id="@id/id_7f0b0db3"
+                param_label="𑅃𑄷𑄸𑄹" />
+            <softkey
+                id="@id/id_7f0b0db4"
+                param_label="\?꩑꩒꩓" />
+            <softkey
+                id="@id/id_7f0b0dc6"
+                param_label="\?፩፪፫" />
+            <softkey
+                id="@id/id_7f0b0dcc"
+                param_label="\?૧૨૩" />
+            <softkey
+                id="@id/id_7f0b0dce"
+                param_label="\?੧੨੩" />
+            <softkey
+                id="@id/id_7f0b0dd3"
+                param_label="\?१२३" />
+            <softkey
+                id="@id/id_7f0b0dd9"
+                param_label="ꧏ꧐꧑" />
+            <softkey
+                id="@id/id_7f0b0ddc"
+                param_label="\?೧೨೩" />
+            <softkey
+                id="@id/id_7f0b0dde"
+                param_label="\?꤁꤂꤃" />
+            <softkey
+                id="@id/id_7f0b0de4"
+                param_label="\?᱁᱂᱃" />
+            <softkey
+                id="@id/id_7f0b0de6"
+                param_label="᥅᥇᥈᥉" />
+            <softkey
+                id="@id/id_7f0b0dea"
+                param_label="\?꯱꯲꯳" />
+            <softkey
+                id="@id/id_7f0b0dee"
+                param_label="\?၁၂၃" />
+            <softkey
+                id="@id/id_7f0b0df0"
+                param_label="\?႑႒႓" />
+            <softkey
+                id="@id/id_7f0b0df2"
+                param_label="？᧑᧒᧓" />
+            <softkey
+                id="@id/id_7f0b0df4"
+                param_label="߃߂߁؟" />
+            <softkey
+                id="@id/id_7f0b0df6"
+                param_label="\?୧୨୩" />
+            <softkey
+                id="@id/id_7f0b0df8"
+                param_label="\?᱑᱒᱓" />
+            <softkey
+                id="@id/id_7f0b0e25"
+                param_label="۳۲۱؟" />
+            <softkey
+                id="@id/id_7f0b0e2c"
+                param_label="\?꣑꣒꣓" />
+            <softkey
+                id="@id/id_7f0b0e2f"
+                param_label="\?᮱᮲᮳" />
+            <softkey
+                id="@id/id_7f0b0f8f"
+                param_label="༡༢༣" />
+            <softkey
+                id="@id/id_7f0b0dd5"
+                param_label="/ [ {" />
+        </softkey_list>
+    </softkeys>
+</framework>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170a07" />
+    <include
+        href="@xml/xml_7f170a05" />
+    <include
+        href="@xml/xml_7f170a09" />
+    <key_mapping
+        state="SHUANGPIN_MS_ZIGUANG">
+        <mapping
+            key_id="@id/id_7f0b061d"
+            view_id="@id/key_pos_9key_1" />
+    </key_mapping>
+    <key_mapping
+        state="SHIFT">
+        <mapping
+            key_id="@id/id_7f0b0623"
+            view_id="@id/key_pos_9key_1" />
+    </key_mapping>
+</framework>

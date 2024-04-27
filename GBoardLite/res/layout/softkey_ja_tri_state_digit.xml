@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@id/id_7f0b026b"
+    style="@style/style_7f1502d0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/id_7f0b02c0"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        app:attr_7f0405de="0.5" />
+    <android.support.v7.widget.AppCompatTextView
+        android:gravity="bottom|center"
+        android:id="@id/id_7f0b046c"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginBottom="?attr_7f04019c"
+        android:layout_marginHorizontal="1.0dip"
+        app:attr_7f0402f0="?attr_7f040143"
+        app:attr_7f0402f1="10.0dip"
+        app:attr_7f0402f4="id_7f0b1f85"
+        app:attr_7f0405d5="@id/id_7f0b02c0"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        app:attr_7f0405f3="1.0"
+        style="@style/style_7f150338" />
+    <android.support.v7.widget.AppCompatTextView
+        android:typeface="monospace"
+        android:gravity="center|top"
+        android:id="@id/id_7f0b046d"
+        android:tag=".label.secondary.for-japanese-support"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="?attr_7f04019d"
+        android:layout_marginHorizontal="1.0dip"
+        app:attr_7f0402f0="?attr_7f040144"
+        app:attr_7f0402f1="3.0dip"
+        app:attr_7f0402f4="id_7f0b1f85"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b02c0"
+        app:attr_7f0405f3="0.0"
+        style="@style/style_7f150338" />
+</androidx.constraintlayout.widget.ConstraintLayout>

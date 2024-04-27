@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="?attr_7f0400ce"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b04b4"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f1501b5" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b05f5"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b04b4"
+        style="@style/style_7f1501b4" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/id_7f0b024c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr_7f0405de="0.25" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/id_7f0b024d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr_7f0405de="0.64" />
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="0.0dip"
+        android:src="@drawable/drawable_7f08029b"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_weight="0.75"
+        android:importantForAccessibility="no"
+        app:attr_7f0405d5="@id/id_7f0b024d"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b024c" />
+    <androidx.constraintlayout.widget.Guideline
+        android:orientation="horizontal"
+        android:id="@id/id_7f0b024e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr_7f0405de="0.77" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/id_7f0b019c"
+        app:attr_7f0405cd="true"
+        app:attr_7f0405d5="@id/id_7f0b024e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b024d"
+        style="@style/style_7f1501b1" />
+    <android.support.v7.widget.AppCompatTextView
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b024e"
+        style="@style/style_7f1501b6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

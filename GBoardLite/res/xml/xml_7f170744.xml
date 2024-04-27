@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <view
+            type="body">
+            <softkeys
+                href="@xml/xml_7f170ca9" />
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170aff" />
+            </if>
+            <else_if
+                device="tablet"
+                enable_show_foldable_layout_on_small_tablet="false"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170afe" />
+            </else_if>
+            <else>
+                <include
+                    href="@xml/xml_7f170ae3" />
+            </else>
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_7f120000">
+        <item quantity="other">%d नियुक्त केलेल्या की</item>
+        <item quantity="one">%d नियुक्त केलेली की</item>
+    </plurals>
+    <plurals name="plurals_7f120002">
+        <item quantity="other">%s या भाषा आता इंस्टॉल केल्या आहेत.</item>
+        <item quantity="one">%s ही भाषा आता इंस्टॉल केली आहे.</item>
+    </plurals>
+</resources>

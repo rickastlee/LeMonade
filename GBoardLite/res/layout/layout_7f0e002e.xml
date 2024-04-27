@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@id/id_7f0b0066"
+    android:layout_above="@id/id_7f0b0068"
+    style="@style/style_7f15000d"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:id="@id/id_7f0b0065"
+        style="@style/style_7f15000c">
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b006c"
+            android:text="@string/string_7f14003f"
+            android:layout_alignParentTop="true"
+            style="@style/style_7f15000f" />
+        <LinearLayout
+            android:gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="91.0dip"
+            android:layout_alignParentTop="true">
+            <com.google.android.libraries.inputmethod.widgets.EditTextOnKeyboard
+                android:layout_gravity="bottom"
+                android:id="@id/id_7f0b0067"
+                android:layout_marginBottom="5.0dip"
+                android:layout_weight="1.0"
+                style="@style/style_7f15000e" />
+            <LinearLayout
+                android:layout_gravity="bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5.0dip"
+                android:layout_weight="0.0">
+                <com.google.android.material.button.MaterialButton
+                    android:textSize="@dimen/dimen_7f070068"
+                    android:id="@id/id_7f0b0063"
+                    android:tag=".keyboard-clipboard-dialog-negative-button"
+                    android:paddingTop="@dimen/dimen_7f070067"
+                    android:paddingBottom="@dimen/dimen_7f070067"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_7f070065"
+                    android:text="@string/string_7f14035d"
+                    android:paddingStart="@dimen/dimen_7f070066"
+                    android:paddingEnd="@dimen/dimen_7f070066"
+                    android:layout_marginStart="@dimen/dimen_7f070069"
+                    style="?attr_7f040333" />
+                <com.google.android.material.button.MaterialButton
+                    android:textSize="@dimen/dimen_7f070068"
+                    android:id="@id/id_7f0b0064"
+                    android:paddingTop="@dimen/dimen_7f070067"
+                    android:paddingBottom="@dimen/dimen_7f070067"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_7f070065"
+                    android:text="@string/string_7f14036a"
+                    android:paddingStart="@dimen/dimen_7f070066"
+                    android:paddingEnd="@dimen/dimen_7f070066"
+                    android:layout_marginStart="@dimen/dimen_7f07006b"
+                    style="?attr_7f040333" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170caf" />
+    <softkeys>
+        <softkey
+            content_description="@string/string_7f140dfc"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1e0d"
+            layout="@layout/layout_7f0e07c8">
+            <action
+                data="source"
+                keycode="SETUP_EXTENSION_OPTIONS"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f0804e7" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140e01"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1e10"
+            layout="@layout/layout_7f0e07c8">
+            <action
+                data="target"
+                keycode="SETUP_EXTENSION_OPTIONS"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f0804e7" />
+        </softkey>
+        <softkey
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1e0e"
+            layout="@layout/layout_7f0e07ca">
+            <action
+                data="source"
+                keycode="SETUP_EXTENSION_OPTIONS"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="@string/string_7f140df2" />
+        </softkey>
+        <softkey
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1e11"
+            layout="@layout/layout_7f0e07ca">
+            <action
+                data="target"
+                keycode="SETUP_EXTENSION_OPTIONS"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="English" />
+        </softkey>
+        <softkey_list
+            template_id="@id/id_7f0b1c66">
+            <softkey
+                desc="@string/string_7f14030d"
+                id="@id/id_7f0b1e0c"
+                keycode="CLOSE_EXTENSION"
+                param_data="prime"
+                param_icon="@drawable/drawable_7f080375"
+                tooltip_text="@string/string_7f14030d" />
+        </softkey_list>
+        <softkey
+            content_description="@string/string_7f140dfe"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1e0f"
+            layout="@layout/layout_7f0e07cb"
+            tooltip_text="@string/string_7f140dff">
+            <action
+                data="swap"
+                keycode="SETUP_EXTENSION_OPTIONS"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080454" />
+        </softkey>
+    </softkeys>
+</framework>

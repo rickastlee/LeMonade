@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class=".keyboard.impl.Keyboard">
+        <view
+            id="@id/id_7f0b0552"
+            layout="@layout/layout_7f0e0682"
+            type="body" />
+    </keyboard>
+</framework>

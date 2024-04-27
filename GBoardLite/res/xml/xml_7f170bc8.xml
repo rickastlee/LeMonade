@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170b0c" />
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b0b22"
+            view_id="@id/key_pos_del" />
+        <mapping
+            key_id="@id/id_7f0b0cba"
+            view_id="@id/key_pos_right_side_3rd_key" />
+    </key_mapping>
+</framework>

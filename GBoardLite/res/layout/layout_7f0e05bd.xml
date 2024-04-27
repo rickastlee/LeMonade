@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    android:id="@id/id_7f0b0486"
+    android:contentDescription="@string/string_7f14048e"
+    style="@style/style_7f15038b"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

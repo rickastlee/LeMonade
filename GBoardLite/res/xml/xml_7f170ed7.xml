@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            content_description="@string/string_7f14030e"
+            id="@id/id_7f0b0614"
+            layout="@layout/layout_7f0e0752"
+            multi_touch="false">
+            <action
+                data="SUB_CATEGORY_2"
+                keycode="SWITCH_SUB_CATEGORY"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="1/2" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140312"
+            id="@id/id_7f0b0615"
+            layout="@layout/layout_7f0e0752"
+            multi_touch="false">
+            <action
+                data="SUB_CATEGORY_1"
+                keycode="SWITCH_SUB_CATEGORY"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="2/2" />
+        </softkey>
+    </softkeys>
+</framework>

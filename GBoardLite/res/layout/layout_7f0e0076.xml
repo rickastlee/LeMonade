@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    style="@style/style_7f150222"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/id_7f0b049e"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen_7f070088"
+        android:layout_height="0.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b046c"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e" />
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+        android:id="@id/id_7f0b046c"
+        app:attr_7f0405d5="@id/id_7f0b0470"
+        app:attr_7f0405db="@id/id_7f0b05ae"
+        app:attr_7f0405ed="@id/id_7f0b049e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150223" />
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+        android:id="@id/id_7f0b0470"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="@id/id_7f0b046c"
+        app:attr_7f0405ee="@id/id_7f0b046c"
+        app:attr_7f0405f1="@id/id_7f0b046c"
+        style="@style/style_7f150224" />
+    <View
+        android:id="@id/id_7f0b05ae"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen_7f070088"
+        android:layout_height="0.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ed="@id/id_7f0b046c"
+        app:attr_7f0405f2="id_7f0b053e" />
+</androidx.constraintlayout.widget.ConstraintLayout>

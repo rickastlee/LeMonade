@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="font" name="font_7f090001">@font/font_7f09000c</item>
+    <item type="font" name="font_7f090002">@font/font_7f090008</item>
+    <item type="font" name="font_7f090003">@font/font_7f09000f</item>
+    <item type="font" name="font_7f090004">@font/font_7f090012</item>
+    <item type="font" name="font_7f090005">@font/font_7f090010</item>
+</resources>

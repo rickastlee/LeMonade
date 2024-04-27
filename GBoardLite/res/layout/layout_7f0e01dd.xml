@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/style_7f1501cd"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_weight="181.0"
+        style="@style/style_7f1502d4">
+        <LinearLayout
+            android:layout_weight="116.0"
+            style="@style/style_7f1502d4">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@id/key_pos_switch_hiragana_alphabet"
+                android:layout_weight="58.0"
+                style="@style/style_7f150559" />
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:id="@id/key_pos_switch_to_symbol"
+                android:visibility="gone"
+                android:layout_weight="58.0"
+                style="@style/style_7f150558" />
+        </LinearLayout>
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_qwerty_globe"
+            android:layout_weight="65.0"
+            style="@style/style_7f150558" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="424.0"
+        style="@style/style_7f1505ed">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_space"
+            android:layout_weight="359.0"
+            style="@style/style_7f15056a" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_zwnj_with_zwj"
+            android:visibility="gone"
+            android:layout_weight="65.0"
+            style="@style/style_7f150555" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="116.0"
+        style="@style/style_7f1502d4">
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_left_arrow"
+            android:layout_weight="58.0"
+            style="@style/style_7f150558" />
+        <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+            android:id="@id/key_pos_right_arrow"
+            android:layout_weight="58.0"
+            style="@style/style_7f150558" />
+    </LinearLayout>
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@id/key_pos_switch_to_symbol_right"
+        android:layout_weight="65.0"
+        style="@style/style_7f15055b" />
+</LinearLayout>

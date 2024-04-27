@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b0cf7"
+            view_id="@id/key_pos_ime_action" />
+    </key_mapping>
+    <key_mapping
+        state="INPUT_TYPE_SHORT_MESSAGE,INPUT_TYPE_SHORT_MESSAGE+MULTI_LINE+MANUAL_SHIFT">
+        <mapping
+            key_id="@id/id_7f0b0cf8"
+            view_id="@id/key_pos_ime_action" />
+    </key_mapping>
+    <key_mapping
+        state="INPUT_TYPE_EMAIL_ADDRESS">
+        <mapping
+            key_id="@id/id_7f0b0cf7"
+            view_id="@id/key_pos_ime_action" />
+    </key_mapping>
+    <key_mapping
+        state="IME_ACTION_GO">
+        <mapping
+            key_id="@id/id_7f0b0630"
+            view_id="@id/key_pos_ime_action" />
+    </key_mapping>
+    <key_mapping
+        state="IME_ACTION_SEARCH">
+        <mapping
+            key_id="@id/id_7f0b0633"
+            view_id="@id/key_pos_ime_action" />
+    </key_mapping>
+    <key_mapping
+        state="IME_ACTION_SEND">
+        <mapping
+            key_id="@id/id_7f0b0634"
+            view_id="@id/key_pos_ime_action" />
+    </key_mapping>
+    <key_mapping
+        state="IME_ACTION_NEXT">
+        <mapping
+            key_id="@id/id_7f0b0631"
+            view_id="@id/key_pos_ime_action" />
+    </key_mapping>
+    <key_mapping
+        state="IME_ACTION_PREVIOUS">
+        <mapping
+            key_id="@id/id_7f0b0632"
+            view_id="@id/key_pos_ime_action" />
+    </key_mapping>
+    <key_mapping
+        state="IME_ACTION_DONE">
+        <mapping
+            key_id="@id/id_7f0b062f"
+            view_id="@id/key_pos_ime_action" />
+    </key_mapping>
+    <include
+        href="@xml/xml_7f170b0d" />
+    <include
+        href="@xml/xml_7f170b0e" />
+</framework>

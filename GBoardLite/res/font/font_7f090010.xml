@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family
+    app:attr_7f040530="com.google.android.gms.fonts"
+    app:attr_7f040531="@array/array_7f030009"
+    app:attr_7f040534="com.google.android.gms"
+    app:attr_7f040535="Google Sans Text"
+    app:attr_7f040536="google-sans-text"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/dimen_7f070324"
+    android:paddingBottom="@dimen/dimen_7f070324"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:splitMotionEvents="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@id/id_7f0b05a5"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/string_7f140854"
+        app:attr_7f0405d5="@id/id_7f0b04dc"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        app:attr_7f0405f4="id_7f0b1ecc"
+        style="@style/style_7f1502f9">
+        <ImageView
+            android:src="@drawable/drawable_7f080323"
+            android:importantForAccessibility="no"
+            style="@style/style_7f1502f3" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b1f0d"
+            android:maxWidth="?attr_7f040175"
+            android:text="@string/string_7f140456"
+            style="@style/style_7f1502f5" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/id_7f0b04dc"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/string_7f140541"
+        app:attr_7f0405d5="@id/id_7f0b015f"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b05a5"
+        app:attr_7f0405f4="id_7f0b1ecc"
+        style="@style/style_7f1502f7">
+        <ImageView
+            android:src="@drawable/drawable_7f080321"
+            android:importantForAccessibility="no"
+            style="@style/style_7f1502f4" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/id_7f0b015f"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/string_7f140240"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b04dc"
+        app:attr_7f0405f4="id_7f0b1ecc"
+        style="@style/style_7f1502f9">
+        <ImageView
+            android:src="@drawable/drawable_7f080310"
+            android:importantForAccessibility="no"
+            style="@style/style_7f1502f3" />
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@id/id_7f0b1f0d"
+            android:maxWidth="?attr_7f040175"
+            android:text="@string/string_7f140432"
+            style="@style/style_7f1502f5" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

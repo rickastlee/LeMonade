@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/id_7f0b026b"
+    style="@style/style_7f1502d0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/id_7f0b0270"
+        android:tag=".label.secondary"
+        style="@style/style_7f15029a" />
+    <ImageView
+        android:id="@id/id_7f0b026a"
+        android:tag=".label"
+        style="@style/style_7f15029a" />
+</FrameLayout>

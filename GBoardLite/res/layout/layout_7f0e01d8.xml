@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    app:attr_7f0402d1="false"
+    style="@style/style_7f150289"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout
+        style="@style/style_7f150290">
+        <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner
+            android:id="@id/id_7f0b02bf"
+            android:visibility="invisible"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:attr_7f0404f2="?attr_7f0400f9"
+            app:attr_7f04056d="?attr_7f040251"
+            app:attr_7f0405b9="?attr_7f040252"
+            app:attr_7f040645="true">
+            <include
+                layout="@layout/layout_7f0e019a" />
+            <include
+                layout="@layout/layout_7f0e01a4" />
+            <include
+                layout="@layout/layout_7f0e019d" />
+            <com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout
+                app:attr_7f0405d4="id_7f0b053e"
+                app:attr_7f0405db="@id/id_7f0b025c"
+                app:attr_7f0405ed="@id/key_pos_header_start_extra_key"
+                app:attr_7f0405f2="id_7f0b053e"
+                style="@style/style_7f150293">
+                <include
+                    layout="@layout/layout_7f0e0199" />
+                <include
+                    layout="@layout/layout_7f0e019f" />
+                <FrameLayout
+                    android:id="@id/id_7f0b02be"
+                    android:visibility="gone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:attr_7f040645="true" />
+                <include
+                    layout="@layout/layout_7f0e06b7" />
+                <include
+                    layout="@layout/layout_7f0e07e1" />
+            </com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout>
+            <include
+                layout="@layout/layout_7f0e019e" />
+            <include
+                layout="@layout/layout_7f0e01a0" />
+            <include
+                layout="@attr/attr_7f040007" />
+        </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+        <FrameLayout
+            android:id="@id/id_7f0b02bd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            app:attr_7f040645="true">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@id/id_7f0b02bc"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.DragDetectionLayer
+                    android:id="@id/id_7f0b02bb"
+                    android:visibility="visible"
+                    android:layout_width="0.0dip"
+                    android:layout_height="?attr_7f04015f"
+                    app:attr_7f0405d4="id_7f0b053e"
+                    app:attr_7f0405e8="id_7f0b053e"
+                    app:attr_7f0405eb="@id/key_pos_show_more_candidates"
+                    app:attr_7f0405f2="id_7f0b053e">
+                    <com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.MonolithicCandidatesRecyclerView
+                        android:orientation="horizontal"
+                        android:id="@id/id_7f0b1189"
+                        app:attr_7f04035b="@layout/layout_7f0e0738"
+                        candidateTextOnlyLayout="@layout/layout_7f0e0739"
+                        candidate_background="@android:color/transparent"
+                        last_column_candidate_background="@android:color/transparent"
+                        style="@style/style_7f1502d2" />
+                </com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.DragDetectionLayer>
+                <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                    android:id="@id/key_pos_show_more_candidates"
+                    android:layout_width="0.0dip"
+                    android:layout_height="?attr_7f04015f"
+                    app:attr_7f0405d4="id_7f0b053e"
+                    app:attr_7f0405e9="@id/id_7f0b02bb"
+                    app:attr_7f0405ec="id_7f0b053e"
+                    app:attr_7f0405f2="id_7f0b053e" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+    </com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

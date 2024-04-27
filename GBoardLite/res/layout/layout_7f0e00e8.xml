@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.inputmethod.libs.search.widget.VerticalScrollAnimatedImageSidebarHolderView
+        android:id="@id/id_7f0b007d"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingStart="@dimen/dimen_7f07032b"
+        android:paddingEnd="@dimen/dimen_7f07032b"
+        app:attr_7f040548="?attr_7f0400fb"
+        app:attr_7f040595="true"
+        app:attr_7f0407c1="?attr_7f0400fc"
+        image_view_layout="@layout/layout_7f0e07d7"
+        supported_image_types="image/gif" />
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        layout="@layout/layout_7f0e06cc" />
+</FrameLayout>

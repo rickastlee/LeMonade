@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="false"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="bm-XF"
+        string_id="ime_bambara_nko_dynamic"
+        use_ascii_password_keyboard="true">
+        <keyboard_group
+            supports_split_mode="true"
+            variant="bambara_nko_dynamic"
+            variant_label="@string/string_7f141056">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f1705bb"
+                type="prime">
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f170862" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+    </ime>
+</framework>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/id_7f0b054c"
+        android:focusable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_gravity="fill_horizontal|center"
+            android:id="@id/id_7f0b054b"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:hint="@string/string_7f1405ff"
+            android:maxLength="@integer/integer_7f0c00db"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionNext|flagNoFullscreen"
+            android:layout_marginStart="8.0dip"
+            android:layout_marginEnd="8.0dip">
+            <requestFocus />
+        </android.support.v7.widget.AppCompatEditText>
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_gravity="start|center"
+            android:id="@id/id_7f0b054a"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8.0dip"
+            android:text="@string/string_7f1405fe"
+            android:layout_marginStart="10.0dip"
+            style="?android:textAppearanceSmall" />
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_gravity="fill_horizontal|center"
+            android:id="@id/id_7f0b0549"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/string_7f1405fd"
+            android:maxLength="@integer/integer_7f0c00db"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionDone|flagNoFullscreen"
+            android:layout_marginStart="8.0dip"
+            android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+</ScrollView>

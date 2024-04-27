@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:id="@id/id_7f0b0275"
+        android:tag=".popup.concept-candidate-arrow"
+        android:background="@drawable/drawable_7f080469"
+        android:layout_width="18.0dip"
+        android:layout_height="18.0dip"
+        android:layout_marginBottom="5.0dip"
+        android:elevation="3.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b0281" />
+    <androidx.cardview.widget.CardView
+        android:id="@id/id_7f0b0281"
+        android:tag=".popup.concept-candidate"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:layout_marginTop="5.0dip"
+        android:layout_marginStart="5.0dip"
+        android:layout_marginEnd="5.0dip"
+        app:attr_7f04035e="?attr_7f04001f"
+        app:attr_7f04035f="8.0dip"
+        app:attr_7f040360="3.0dip"
+        app:attr_7f0405d5="@id/id_7f0b0275"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e">
+        <ViewSwitcher
+            android:id="@id/id_7f0b0280"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right"
+            android:animateFirstView="false">
+            <include
+                layout="@layout/layout_7f0e00f6" />
+            <include
+                layout="@layout/layout_7f0e00f7" />
+        </ViewSwitcher>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

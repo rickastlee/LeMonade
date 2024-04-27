@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator
+    android:interpolator="@interpolator/interpolator_7f0d0015"
+    android:duration="@integer/integer_7f0c00ce"
+    android:valueFrom="@string/string_7f14057a"
+    android:valueTo="@string/string_7f14057b"
+    android:valueType="pathType"
+    android:propertyName="pathData"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt" />

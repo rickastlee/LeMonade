@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:tag=".item-ripple.on-surface"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/drawable_7f0801ef"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@id/id_7f0b05a1"
+        android:tag=".icon.for-category-key.with-circle"
+        android:visibility="gone"
+        android:layout_width="18.0dip"
+        android:layout_height="18.0dip"
+        android:src="@drawable/drawable_7f08031f" />
+</FrameLayout>

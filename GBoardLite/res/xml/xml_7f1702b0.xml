@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="hne-XT"
+        secondary_ime_def="@xml/xml_7f1702b1"
+        string_id="ime_chhattisgarhi_transliteration">
+        <keyboard_group
+            pk_language_tag="en"
+            supports_split_mode="true"
+            variant="qwerty"
+            variant_label="@string/string_7f141106"
+            variant_name_mandatory="true">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f170662"
+                transliterate="true"
+                type="prime">
+                <merge
+                    def="@xml/xml_7f1708e7" />
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f170850" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <extra_values>
+            <item
+                id="@id/id_7f0b01ce"
+                value="। " />
+        </extra_values>
+        <include
+            href="@xml/xml_7f170124" />
+    </ime>
+</framework>

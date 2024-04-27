@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/string_7f140899"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f1409a7"
+        android:key="@string/string_7f140816"
+        android:summary="@string/string_7f1409a6">
+        <extra
+            android:name="hide_if_flag_is_true"
+            android:value="@string/string_7f14021b" />
+    </SwitchPreferenceCompat>
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader
+        android:title="@string/string_7f14091f"
+        android:key="@string/string_7f14091e">
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f1408ed"
+            android:key="@string/string_7f1406bb"
+            android:summary="@string/string_7f1408e1" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

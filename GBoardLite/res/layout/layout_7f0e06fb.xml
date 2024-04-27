@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f15020c">
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+        style="@style/style_7f15020b" />
+</FrameLayout>

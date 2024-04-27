@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class="com.google.android.apps.inputmethod.libs.search.gif.GifKeyboardM2">
+        <if
+            enable_nav_redesign_for_expression="true">
+            <view
+                direction="locale"
+                layout="@layout/layout_7f0e0180"
+                scalable="false"
+                type="header" />
+        </if>
+        <else>
+            <view
+                direction="locale"
+                layout="@layout/layout_7f0e0168"
+                scalable="false"
+                type="header" />
+        </else>
+        <view
+            direction="locale"
+            layout="@layout/layout_7f0e017f"
+            type="body">
+            <motion_event_handler
+                class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubDeleteMotionEventHandler"
+                preference_key="@string/string_7f1406b0"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubMoveMotionEventHandler"
+                preference_key="@string/string_7f1406b1"
+                reverse_preference="false" />
+            <softkeys
+                href="@xml/xml_7f170cbf" />
+            <include
+                href="@xml/xml_7f170a70" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <softkeys
+                href="@xml/xml_7f170fc5" />
+            <softkeys
+                href="@xml/xml_7f170ca2" />
+            <include
+                href="@xml/xml_7f170a8f" />
+            <softkeys
+                href="@xml/xml_7f170c9e" />
+            <include
+                href="@xml/xml_7f170ad4" />
+        </view>
+    </keyboard>
+</framework>

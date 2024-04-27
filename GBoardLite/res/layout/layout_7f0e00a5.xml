@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="?attr_7f04008d"
+    android:layout_height="fill_parent"
+    style="@style/style_7f150255"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b01a9"
+        android:tag=".icon.for-category-key.with-circle"
+        android:layout_width="@dimen/dimen_7f07012c"
+        android:layout_height="@dimen/dimen_7f070129" />
+</FrameLayout>

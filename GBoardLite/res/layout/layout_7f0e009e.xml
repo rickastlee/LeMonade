@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatImageView
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:id="@id/id_7f0b01a7"
+    android:tag=".expression-search-result-icon.expression-search-box-ripple"
+    android:background="?android:selectableItemBackground"
+    android:layout_width="@dimen/dimen_7f070329"
+    android:layout_height="fill_parent"
+    android:scaleType="centerInside"
+    android:layout_marginStart="@dimen/dimen_7f07032d"
+    android:layout_marginEnd="@dimen/dimen_7f07032c"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

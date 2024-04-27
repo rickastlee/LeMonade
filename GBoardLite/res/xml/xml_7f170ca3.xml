@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170caf" />
+    <softkeys>
+        <softkey_list
+            template_id="@id/id_7f0b1c66">
+            <softkey
+                desc="@string/string_7f1400b3"
+                id="@id/id_7f0b0a08"
+                keycode="SWITCH_KEYBOARD"
+                param_data="prime"
+                param_icon="@drawable/drawable_7f080375"
+                tooltip_text="@string/string_7f1400b3" />
+            <softkey
+                desc="@string/string_7f1400a0"
+                id="@id/id_7f0b0636"
+                keycode="CLIPBOARD_ADD"
+                param_icon="@drawable/drawable_7f0804e4"
+                tooltip_text="@string/string_7f1400a3" />
+            <softkey
+                desc="@string/string_7f1400ad"
+                id="@id/id_7f0b0cb6"
+                keycode="CLIPBOARD_EDIT"
+                param_icon="@drawable/drawable_7f0802f2"
+                tooltip_text="@string/string_7f1400ae" />
+            <softkey
+                desc="@string/string_7f1400ab"
+                id="@id/id_7f0b0a09"
+                keycode="CLIPBOARD_CLOSE_EDIT"
+                param_icon="@drawable/drawable_7f0804f9"
+                tooltip_text="@string/string_7f1400ac" />
+            <softkey
+                desc="@string/string_7f1400a4"
+                id="@id/id_7f0b0829"
+                keycode="CLIPBOARD_BATCH_DELETE"
+                param_icon="@drawable/drawable_7f0804fe"
+                tooltip_text="@string/string_7f1400a4" />
+            <softkey
+                desc="@string/string_7f1400a5"
+                id="@id/id_7f0b082b"
+                keycode="CLIPBOARD_BATCH_PIN"
+                param_icon="@drawable/drawable_7f080511"
+                tooltip_text="@string/string_7f1400a5" />
+            <softkey
+                desc="@string/string_7f1400bc"
+                id="@id/id_7f0b18b7"
+                keycode="CLIPBOARD_OPT_IN_REVERSE"
+                param_icon="@drawable/drawable_7f080371"
+                tooltip_text="@string/string_7f1400bc" />
+            <softkey
+                desc="@string/string_7f1400bb"
+                id="@id/id_7f0b18b6"
+                keycode="CLIPBOARD_OPT_IN_REVERSE"
+                param_icon="@drawable/drawable_7f080370"
+                tooltip_text="@string/string_7f1400bb" />
+            <softkey
+                desc="@string/string_7f1400a6"
+                id="@id/id_7f0b082d"
+                keycode="CLIPBOARD_BATCH_UNPIN"
+                param_icon="@drawable/drawable_7f080512"
+                tooltip_text="@string/string_7f1400a6" />
+        </softkey_list>
+        <softkey_template
+            additional_content_description="$empty_reason$"
+            alpha="@attr/attr_7f040103"
+            content_description="$desc$"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1c6f"
+            layout="@layout/layout_7f0e06fa"
+            multi_touch="false">
+            <icon
+                location="@id/id_7f0b026a"
+                value="$icon$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1c6f">
+            <include
+                href="@xml/xml_7f170ca4" />
+        </softkey_list>
+    </softkeys>
+</framework>

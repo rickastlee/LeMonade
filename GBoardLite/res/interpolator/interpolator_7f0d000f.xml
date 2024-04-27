@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pathInterpolator
+    android:controlX1="@dimen/dimen_7f07020c"
+    android:controlY1="@dimen/dimen_7f07020e"
+    android:controlX2="@dimen/dimen_7f07020d"
+    android:controlY2="@dimen/dimen_7f07020f"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

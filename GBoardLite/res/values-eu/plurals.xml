@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_7f120000">
+        <item quantity="other">%d tekla esleitu dira</item>
+        <item quantity="one">%d tekla esleitu da</item>
+    </plurals>
+    <plurals name="plurals_7f120002">
+        <item quantity="other">Instalatu dira %s.</item>
+        <item quantity="one">Instalatu da %s.</item>
+    </plurals>
+</resources>

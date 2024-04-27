@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if
+        japanese_use_tri_state_mode="true">
+        <softkeys>
+            <softkey
+                alpha="@attr/attr_7f040103"
+                content_description="@string/string_7f1401b0"
+                disable_lift_to_tap="true"
+                id="@id/id_7f0b1ae4"
+                layout="@layout/layout_7f0e073a">
+                <action
+                    data="com.google.android.apps.inputmethod.libs.expression.extension.IEmojiOrGifExtension"
+                    keycode="OPEN_EXTENSION"
+                    type="PRESS" />
+                <icon
+                    location="@id/id_7f0b026a"
+                    value="@drawable/drawable_7f080457" />
+            </softkey>
+            <softkey
+                a11y_click_action_label="@string/string_7f140514"
+                additional_content_description="@string/string_7f140515"
+                content_description="@string/string_7f1401b0"
+                disable_lift_to_tap="true"
+                id="@id/id_7f0b1ae8"
+                layout="@layout/layout_7f0e073b">
+                <action
+                    data="@string/string_7f1403d9"
+                    keycode="POLICY_TRANSPARENCY"
+                    type="PRESS" />
+                <icon
+                    location="@id/id_7f0b026a"
+                    value="@drawable/drawable_7f080457" />
+            </softkey>
+            <softkey
+                content_description="@string/string_7f1401b0"
+                id="@id/id_7f0b1ae7"
+                layout="@layout/layout_7f0e073b">
+                <icon
+                    location="@id/id_7f0b026a"
+                    value="@drawable/drawable_7f080457" />
+            </softkey>
+        </softkeys>
+    </if>
+</framework>

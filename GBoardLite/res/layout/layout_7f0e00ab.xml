@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="?android:selectableItemBackground"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="16.0dip"
+        android:id="@id/id_7f0b01ab"
+        android:tag=".label.for-expression-search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="@dimen/dimen_7f070131"
+        android:layout_centerInParent="true"
+        android:fontFamily="?attr_7f0400f6"
+        android:textAlignment="center" />
+    <View
+        android:layout_alignStart="@id/id_7f0b01ab"
+        android:layout_alignEnd="@id/id_7f0b01ab"
+        style="@style/style_7f150252" />
+</RelativeLayout>

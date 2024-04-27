@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_7f070335">34.0dip</dimen>
+    <dimen name="dimen_7f070336">196.0dip</dimen>
+    <dimen name="dimen_7f070337">200.0dip</dimen>
+    <item type="dimen" name="dimen_7f070773">@dimen/dimen_7f070335</item>
+</resources>

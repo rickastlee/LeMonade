@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:state_enabled="true"
+        android:state_hovered="true">
+        <objectAnimator
+            android:interpolator="?attr_7f0406be"
+            android:duration="?attr_7f0406b4"
+            android:valueTo="@dimen/dimen_7f0703d7"
+            android:valueType="floatType"
+            android:propertyName="translationZ"
+            android:startDelay="?attr_7f0406b1" />
+    </item>
+    <item
+        android:state_enabled="true"
+        app:attr_7f0407d3="true">
+        <objectAnimator
+            android:interpolator="?attr_7f0406be"
+            android:duration="?attr_7f0406b4"
+            android:valueTo="@dimen/dimen_7f0703d1"
+            android:valueType="floatType"
+            android:propertyName="translationZ"
+            android:startDelay="?attr_7f0406b1" />
+    </item>
+    <item
+        android:state_enabled="true">
+        <objectAnimator
+            android:interpolator="?attr_7f0406be"
+            android:duration="?attr_7f0406ae"
+            android:valueTo="0.0dip"
+            android:valueType="floatType"
+            android:propertyName="translationZ" />
+    </item>
+    <item>
+        <objectAnimator
+            android:duration="0"
+            android:valueTo="0.0dip"
+            android:valueType="floatType"
+            android:propertyName="translationZ" />
+    </item>
+</selector>

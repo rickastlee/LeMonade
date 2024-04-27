@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/color_7f060a48"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:id="@id/id_7f0b01af"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@id/id_7f0b01ad"
+        android:background="@drawable/drawable_7f0801dd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@id/id_7f0b01ae"
+            android:background="@drawable/drawable_7f0801f0"
+            android:padding="4.0dip"
+            android:layout_width="32.0dip"
+            android:layout_height="32.0dip"
+            android:layout_marginTop="8.0dip"
+            android:layout_marginBottom="8.0dip"
+            android:src="@drawable/drawable_7f0804f9"
+            android:tint="?attr_7f0403e9"
+            android:contentDescription="@string/string_7f14025e"
+            android:layout_marginStart="8.0dip" />
+        <android.support.v7.widget.AppCompatTextView
+            android:textSize="16.0dip"
+            android:textColor="?attr_7f0403e9"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/string_7f140260"
+            android:layout_weight="1.0"
+            android:fontFamily="?attr_7f0400f4"
+            android:layout_marginEnd="40.0dip" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?attr_7f040414"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="22.0dip"
+        android:paddingEnd="22.0dip">
+        <android.support.v7.widget.AppCompatTextView
+            android:textSize="14.0dip"
+            android:textColor="?attr_7f0403e5"
+            android:layout_gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16.0dip"
+            android:layout_marginBottom="16.0dip"
+            android:text="@string/string_7f14025f"
+            android:fontFamily="?attr_7f0400f4" />
+        <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView
+            android:orientation="vertical"
+            android:id="@id/id_7f0b01b7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <com.google.android.material.button.MaterialButton
+            android:textSize="14.0dip"
+            android:gravity="center"
+            android:layout_gravity="start"
+            android:id="@id/id_7f0b01b0"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:layout_marginTop="6.0dip"
+            android:layout_marginBottom="16.0dip"
+            android:text="@string/string_7f140261"
+            android:fontFamily="?attr_7f0400f4" />
+    </LinearLayout>
+</LinearLayout>

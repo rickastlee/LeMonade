@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170a74" />
+    <include
+        href="@xml/xml_7f170a75" />
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b1a93"
+            view_id="@id/key_pos_space" />
+        <mapping
+            key_id="@id/id_7f0b1839"
+            view_id="@id/key_pos_non_prime_category_1" />
+    </key_mapping>
+    <key_mapping
+        state="NO_IME_PICKER">
+        <mapping
+            key_id="@id/id_7f0b1a94"
+            view_id="@id/key_pos_space" />
+    </key_mapping>
+    <include
+        href="@xml/xml_7f170b0c" />
+    <include
+        href="@xml/xml_7f170b0d" />
+    <include
+        href="@xml/xml_7f170b0e" />
+    <include
+        href="@xml/xml_7f170a77" />
+    <include
+        href="@xml/xml_7f170a76" />
+</framework>

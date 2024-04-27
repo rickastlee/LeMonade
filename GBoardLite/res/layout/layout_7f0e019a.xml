@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyView
+    android:id="@id/key_pos_header_access_points_menu"
+    android:tag=".oval-navigation-highlight"
+    android:paddingEnd="?attr_7f040251"
+    app:attr_7f0405d4="id_7f0b053e"
+    app:attr_7f0405ee="id_7f0b053e"
+    app:attr_7f0405f2="id_7f0b053e"
+    style="@style/style_7f15060f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

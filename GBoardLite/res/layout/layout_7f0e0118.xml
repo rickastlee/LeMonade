@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/id_7f0b015f"
+    style="@style/style_7f1502e5"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:src="@drawable/drawable_7f080310"
+        android:importantForAccessibility="no"
+        style="@style/style_7f1502ef" />
+</LinearLayout>

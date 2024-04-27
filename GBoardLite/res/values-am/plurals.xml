@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_7f120000">
+        <item quantity="other">%d ቁልፎች ተመድበዋል</item>
+        <item quantity="one">%d ቁልፎች ተመድበዋል</item>
+    </plurals>
+    <plurals name="plurals_7f120002">
+        <item quantity="other">%s አሁን ተጭነዋል።</item>
+        <item quantity="one">%s አሁን ተጭኗል።</item>
+    </plurals>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            id="@id/id_7f0b0da7"
+            popup_timing="ON_TOUCH">
+            <if
+                expressions="policy_transparency">
+                <action
+                    data="@string/string_7f1403d9"
+                    keycode="POLICY_TRANSPARENCY"
+                    popup_icon="@drawable/drawable_7f080457"
+                    popup_layout="@attr/attr_7f0401ec"
+                    type="LONG_PRESS" />
+            </if>
+            <else>
+                <action
+                    data="com.google.android.apps.inputmethod.libs.expression.extension.IEmojiOrGifExtension"
+                    keycode="OPEN_EXTENSION"
+                    popup_icon="@drawable/drawable_7f080457"
+                    popup_layout="@attr/attr_7f0401ec"
+                    type="LONG_PRESS" />
+            </else>
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0da9"
+            popup_timing="ON_TOUCH">
+            <if
+                expressions="policy_transparency">
+                <action
+                    data="@string/string_7f1403d9"
+                    keycode="POLICY_TRANSPARENCY"
+                    popup_icon="@drawable/drawable_7f0803ed"
+                    popup_layout="@attr/attr_7f0401f9"
+                    type="LONG_PRESS" />
+            </if>
+            <else>
+                <action
+                    data="com.google.android.apps.inputmethod.libs.expression.extension.IEmojiOrGifExtension"
+                    keycode="OPEN_EXTENSION"
+                    popup_icon="@drawable/drawable_7f0803ed"
+                    popup_layout="@attr/attr_7f0401f9"
+                    type="LONG_PRESS" />
+            </else>
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0da8"
+            popup_timing="ON_TOUCH">
+            <if
+                expressions="policy_transparency">
+                <action
+                    data="@string/string_7f1403d9"
+                    keycode="POLICY_TRANSPARENCY"
+                    popup_icon="@drawable/drawable_7f0803ed"
+                    popup_layout="@attr/attr_7f0401fc"
+                    type="LONG_PRESS" />
+            </if>
+            <else>
+                <action
+                    data="com.google.android.apps.inputmethod.libs.expression.extension.IEmojiOrGifExtension"
+                    keycode="OPEN_EXTENSION"
+                    popup_icon="@drawable/drawable_7f0803ed"
+                    popup_layout="@attr/attr_7f0401fc"
+                    type="LONG_PRESS" />
+            </else>
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            id="@id/id_7f0b0d76"
+            layout="@layout/layout_7f0e074d">
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080457" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            id="@id/id_7f0b0d77"
+            layout="@layout/layout_7f0e0754">
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080457" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0daa"
+            popup_timing="ON_TOUCH">
+            <action
+                data="@string/string_7f1403ca"
+                keycode="SWITCH_KEYBOARD"
+                popup_icon="@drawable/drawable_7f0803ea"
+                popup_layout="@attr/attr_7f0401ec"
+                type="LONG_PRESS" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0dac"
+            popup_timing="ON_TOUCH">
+            <action
+                data="@string/string_7f1403ca"
+                keycode="SWITCH_KEYBOARD"
+                popup_icon="@drawable/drawable_7f0803eb"
+                popup_layout="@attr/attr_7f0401f9"
+                type="LONG_PRESS" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0dab"
+            popup_timing="ON_TOUCH">
+            <action
+                data="@string/string_7f1403ca"
+                keycode="SWITCH_KEYBOARD"
+                popup_icon="@drawable/drawable_7f0803eb"
+                popup_layout="@attr/attr_7f0401fc"
+                type="LONG_PRESS" />
+        </softkey>
+    </softkeys>
+</framework>

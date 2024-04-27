@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/drawable_7f0803f0"
+        android:left="27.0dip"
+        android:right="98.0dip" />
+    <item
+        android:drawable="@drawable/drawable_7f0803ef"
+        android:left="44.0dip"
+        android:right="71.0dip" />
+    <item
+        android:drawable="@drawable/drawable_7f0803f0"
+        android:left="71.0dip"
+        android:right="54.0dip" />
+    <item
+        android:drawable="@drawable/drawable_7f0803ef"
+        android:left="88.0dip"
+        android:right="27.0dip" />
+</layer-list>

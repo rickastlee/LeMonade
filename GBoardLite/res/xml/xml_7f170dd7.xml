@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys
+        href="@xml/xml_7f170d3c" />
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cb1">
+            <softkey
+                id="@id/id_7f0b0737"
+                press_data="է" />
+            <softkey
+                id="@id/id_7f0b0709"
+                press_data="Է" />
+            <softkey
+                id="@id/id_7f0b074d"
+                press_data="թ" />
+            <softkey
+                id="@id/id_7f0b071f"
+                press_data="Թ" />
+            <softkey
+                id="@id/id_7f0b0747"
+                press_data="փ" />
+            <softkey
+                id="@id/id_7f0b0719"
+                press_data="Փ" />
+            <softkey
+                id="@id/id_7f0b073e"
+                press_data="ձ" />
+            <softkey
+                id="@id/id_7f0b0710"
+                press_data="Ձ" />
+            <softkey
+                id="@id/id_7f0b073f"
+                press_data="ջ" />
+            <softkey
+                id="@id/id_7f0b0711"
+                press_data="Ջ" />
+            <softkey
+                id="@id/id_7f0b0749"
+                press_data="ր" />
+            <softkey
+                id="@id/id_7f0b071b"
+                press_data="Ր" />
+            <softkey
+                id="@id/id_7f0b0732"
+                press_data="չ" />
+            <softkey
+                id="@id/id_7f0b0704"
+                press_data="Չ" />
+            <softkey
+                id="@id/id_7f0b0733"
+                press_data="ճ" />
+            <softkey
+                id="@id/id_7f0b0705"
+                press_data="Ճ" />
+            <softkey
+                id="@id/id_7f0b0754"
+                press_data="ժ" />
+            <softkey
+                id="@id/id_7f0b0726"
+                press_data="Ժ" />
+            <softkey
+                id="@id/id_7f0b0731"
+                press_data="ծ" />
+            <softkey
+                id="@id/id_7f0b0703"
+                press_data="Ծ" />
+            <softkey
+                id="@id/id_7f0b0740"
+                press_data="ք" />
+            <softkey
+                id="@id/id_7f0b0712"
+                press_data="Ք" />
+            <softkey
+                id="@id/id_7f0b074f"
+                press_data="ո" />
+            <softkey
+                id="@id/id_7f0b0721"
+                press_data="Ո" />
+            <softkey
+                id="@id/id_7f0b0748"
+                press_data="ռ" />
+            <softkey
+                id="@id/id_7f0b071a"
+                press_data="Ռ" />
+            <softkey
+                id="@id/id_7f0b074c"
+                press_data="տ" />
+            <softkey
+                id="@id/id_7f0b071e"
+                press_data="Տ" />
+            <softkey
+                id="@id/id_7f0b0738"
+                press_data="ը" />
+            <softkey
+                id="@id/id_7f0b070a"
+                press_data="Ը" />
+            <softkey
+                id="@id/id_7f0b0752"
+                press_data="ւ" />
+            <softkey
+                id="@id/id_7f0b0724"
+                press_data="Ւ" />
+            <softkey
+                id="@id/id_7f0b073d"
+                press_data="ի" />
+            <softkey
+                id="@id/id_7f0b070f"
+                press_data="Ի" />
+            <softkey
+                id="@id/id_7f0b0745"
+                press_data="օ" />
+            <softkey
+                id="@id/id_7f0b0717"
+                press_data="Օ" />
+            <softkey
+                id="@id/id_7f0b0746"
+                press_data="պ" />
+            <softkey
+                id="@id/id_7f0b0718"
+                press_data="Պ" />
+            <softkey
+                id="@id/id_7f0b072f"
+                press_data="ա" />
+            <softkey
+                id="@id/id_7f0b0701"
+                press_data="Ա" />
+            <softkey
+                id="@id/id_7f0b074a"
+                press_data="ս" />
+            <softkey
+                id="@id/id_7f0b071c"
+                press_data="Ս" />
+            <softkey
+                id="@id/id_7f0b0735"
+                press_data="դ" />
+            <softkey
+                id="@id/id_7f0b0707"
+                press_data="Դ" />
+            <softkey
+                id="@id/id_7f0b0739"
+                press_data="ֆ" />
+            <softkey
+                id="@id/id_7f0b070b"
+                press_data="Ֆ" />
+            <softkey
+                id="@id/id_7f0b073b"
+                press_data="գ" />
+            <softkey
+                id="@id/id_7f0b070d"
+                press_data="Գ" />
+            <softkey
+                id="@id/id_7f0b073c"
+                press_data="հ" />
+            <softkey
+                id="@id/id_7f0b070e"
+                press_data="Հ" />
+            <softkey
+                id="@id/id_7f0b0751"
+                press_data="յ" />
+            <softkey
+                id="@id/id_7f0b0723"
+                press_data="Յ" />
+            <softkey
+                id="@id/id_7f0b0741"
+                press_data="կ" />
+            <softkey
+                id="@id/id_7f0b0713"
+                press_data="Կ" />
+            <softkey
+                id="@id/id_7f0b0742"
+                press_data="լ" />
+            <softkey
+                id="@id/id_7f0b0714"
+                press_data="Լ" />
+            <softkey
+                id="@id/id_7f0b0750"
+                press_data="խ" />
+            <softkey
+                id="@id/id_7f0b0722"
+                press_data="Խ" />
+            <softkey
+                id="@id/id_7f0b0753"
+                press_data="զ" />
+            <softkey
+                id="@id/id_7f0b0725"
+                press_data="Զ" />
+            <softkey
+                id="@id/id_7f0b073a"
+                press_data="ղ" />
+            <softkey
+                id="@id/id_7f0b070c"
+                press_data="Ղ" />
+            <softkey
+                id="@id/id_7f0b0734"
+                press_data="ց" />
+            <softkey
+                id="@id/id_7f0b0706"
+                press_data="Ց" />
+            <softkey
+                id="@id/id_7f0b074e"
+                press_data="վ" />
+            <softkey
+                id="@id/id_7f0b0720"
+                press_data="Վ" />
+            <softkey
+                id="@id/id_7f0b0730"
+                press_data="բ" />
+            <softkey
+                id="@id/id_7f0b0702"
+                press_data="Բ" />
+            <softkey
+                id="@id/id_7f0b0744"
+                press_data="ն" />
+            <softkey
+                id="@id/id_7f0b0716"
+                press_data="Ն" />
+            <softkey
+                id="@id/id_7f0b0743"
+                press_data="մ" />
+            <softkey
+                id="@id/id_7f0b0715"
+                press_data="Մ" />
+            <softkey
+                id="@id/id_7f0b074b"
+                press_data="շ" />
+            <softkey
+                id="@id/id_7f0b071d"
+                press_data="Շ" />
+            <softkey
+                id="@id/id_7f0b0755"
+                press_data="և" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c96">
+            <softkey
+                hint_label="և"
+                id="@id/id_7f0b0736"
+                long_press_data="և"
+                press_data="ե" />
+            <softkey
+                hint_label="ԵՒ"
+                id="@id/id_7f0b0708"
+                long_press_data="ԵՒ"
+                press_data="Ե" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b0728"
+                long_press_data="&quot;"
+                press_data="՛" />
+            <softkey
+                id="@id/id_7f0b072d"
+                long_press_data="՛"
+                press_data="&quot;" />
+            <softkey
+                id="@id/id_7f0b072e"
+                long_press_data="՞"
+                press_data="/" />
+            <softkey
+                id="@id/id_7f0b072c"
+                long_press_data="/"
+                press_data="՞" />
+            <softkey
+                id="@id/id_7f0b1a49"
+                long_press_data=":"
+                press_data=";" />
+            <softkey
+                id="@id/id_7f0b0a0f"
+                long_press_data=";"
+                press_data=":" />
+        </softkey_list>
+    </softkeys>
+</framework>

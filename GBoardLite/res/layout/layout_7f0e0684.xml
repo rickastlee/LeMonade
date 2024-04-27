@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.companionwidget.widget.WidgetSoftKeyboardView
+    android:theme="@style/style_7f150437"
+    app:attr_7f0402d1="false"
+    app:attr_7f0403a2="@dimen/dimen_7f07083c"
+    style="@style/style_7f150210"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        layout="@layout/layout_7f0e0685" />
+</com.google.android.libraries.inputmethod.companionwidget.widget.WidgetSoftKeyboardView>

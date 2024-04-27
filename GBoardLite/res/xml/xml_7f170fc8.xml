@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            content_description="@string/string_7f140d49"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b184d"
+            layout="@layout/layout_7f0e070c">
+            <action
+                data="symbol"
+                keycode="SWITCH_KEYBOARD"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="!?#" />
+        </softkey>
+    </softkeys>
+</framework>

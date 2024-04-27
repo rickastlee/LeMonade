@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView
+    app:attr_7f0402d1="false"
+    style="@style/style_7f1501bc"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:keyboardNavigationCluster="true"
+            app:attr_7f0405ca="@string/string_7f140856"
+            style="@style/style_7f150256">
+            <include
+                layout="@layout/layout_7f0e06cc" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@id/id_7f0b023a"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <FrameLayout
+                    android:id="@id/animated_image_holder_view_container"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <com.google.android.apps.inputmethod.libs.search.widget.VerticalScrollAnimatedImageSidebarHolderView
+                        android:id="@id/id_7f0b007d"
+                        android:clipToPadding="false"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:paddingStart="@dimen/dimen_7f0702bc"
+                        android:paddingEnd="@dimen/dimen_7f0702bc"
+                        app:attr_7f040595="true"
+                        app:attr_7f0407c1="?attr_7f04028c"
+                        image_view_layout="@layout/layout_7f0e07d7" />
+                </FrameLayout>
+                <ProgressBar
+                    android:layout_gravity="center"
+                    android:id="@id/id_7f0b007f"
+                    android:tag=".progress-bar"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:indeterminate="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <include
+            layout="@layout/layout_7f0e0170" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

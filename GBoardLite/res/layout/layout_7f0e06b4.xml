@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.proactivesuggestion.ProactiveSuggestionsClippableHolderView
+    android:layout_gravity="center_horizontal"
+    android:id="@id/id_7f0b057f"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.CopyImageView
+        android:id="@id/id_7f0b0584"
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginHorizontal="@dimen/dimen_7f0706b0"
+        app:attr_7f040441="@id/id_7f0b0125" />
+    <ImageView
+        android:layout_gravity="center|left"
+        android:id="@id/id_7f0b0581"
+        android:contentDescription="@null"
+        android:layout_marginEnd="@dimen/dimen_7f0706b0"
+        android:paddingVertical="@dimen/dimen_7f0706af"
+        style="@style/style_7f150479" />
+    <ImageView
+        android:layout_gravity="center|right"
+        android:id="@id/id_7f0b0582"
+        android:contentDescription="@null"
+        android:layout_marginStart="@dimen/dimen_7f0706b0"
+        android:paddingVertical="@dimen/dimen_7f0706af"
+        style="@style/style_7f150479" />
+    <HorizontalScrollView
+        android:layout_gravity="center_horizontal"
+        android:id="@id/id_7f0b0583"
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/dimen_7f0706b0">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@id/id_7f0b0580"
+            android:background="@drawable/drawable_7f0804d8"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+    </HorizontalScrollView>
+</com.google.android.apps.inputmethod.libs.proactivesuggestion.ProactiveSuggestionsClippableHolderView>

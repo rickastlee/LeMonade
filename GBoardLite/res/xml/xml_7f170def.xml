@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_list>
+            <softkey_template
+                content_description="$desc$"
+                id="@id/id_7f0b1c85"
+                layout="$key_layout=@layout/softkey_ja_50keys_hiragana$"
+                multi_touch="false"
+                popup_timing="@string/string_7f14084b"
+                slide_sensitivity="NORMAL">
+                <action
+                    data="$press_data$"
+                    icon_background_level="@integer/integer_7f0c008a"
+                    intention="DECODE"
+                    keycode="$press_keycode=PLAIN_TEXT$"
+                    popup_icon="$press_icon$"
+                    popup_label="$press_label$"
+                    type="PRESS" />
+                <action
+                    data="$long_press_data$"
+                    intention="DECODE"
+                    keycode="PLAIN_TEXT"
+                    popup_label="$long_press_data$"
+                    popup_layout="@attr/attr_7f0401f9"
+                    type="LONG_PRESS" />
+                <icon
+                    location="@id/id_7f0b026a"
+                    value="$key_icon$" />
+                <label
+                    location="@id/id_7f0b046c"
+                    value="$press_label$" />
+            </softkey_template>
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c85">
+            <softkey
+                id="@id/id_7f0b11ca"
+                long_press_data="ぁ"
+                press_data="あ"
+                press_label="あ" />
+            <softkey
+                id="@id/id_7f0b11d1"
+                long_press_data="ぃ"
+                press_data="い"
+                press_label="い" />
+            <softkey
+                id="@id/id_7f0b11f2"
+                long_press_data="ぅ ゔ"
+                press_data="う"
+                press_label="う" />
+            <softkey
+                id="@id/id_7f0b11cb"
+                long_press_data="ぇ"
+                press_data="え"
+                press_label="え" />
+            <softkey
+                id="@id/id_7f0b11e2"
+                long_press_data="ぉ"
+                press_data="お"
+                press_label="お" />
+            <softkey
+                id="@id/id_7f0b11d2"
+                long_press_data="が"
+                press_data="か"
+                press_label="か" />
+            <softkey
+                id="@id/id_7f0b11d4"
+                long_press_data="ぎ"
+                press_data="き"
+                press_label="き" />
+            <softkey
+                id="@id/id_7f0b11d6"
+                long_press_data="ぐ"
+                press_data="く"
+                press_label="く" />
+            <softkey
+                id="@id/id_7f0b11d3"
+                long_press_data="げ"
+                press_data="け"
+                press_label="け" />
+            <softkey
+                id="@id/id_7f0b11d5"
+                long_press_data="ご"
+                press_data="こ"
+                press_label="こ" />
+            <softkey
+                id="@id/id_7f0b11e8"
+                long_press_data="ざ"
+                press_data="さ"
+                press_label="さ" />
+            <softkey
+                id="@id/id_7f0b11ea"
+                long_press_data="じ"
+                press_data="し"
+                press_label="し" />
+            <softkey
+                id="@id/id_7f0b11ec"
+                long_press_data="ず"
+                press_data="す"
+                press_label="す" />
+            <softkey
+                id="@id/id_7f0b11e9"
+                long_press_data="ぜ"
+                press_data="せ"
+                press_label="せ" />
+            <softkey
+                id="@id/id_7f0b11eb"
+                long_press_data="ぞ"
+                press_data="そ"
+                press_label="そ" />
+            <softkey
+                id="@id/id_7f0b11ed"
+                long_press_data="だ"
+                press_data="た"
+                press_label="た" />
+            <softkey
+                id="@id/id_7f0b11ef"
+                long_press_data="ぢ"
+                press_data="ち"
+                press_label="ち" />
+            <softkey
+                id="@id/id_7f0b11f1"
+                long_press_data="っ づ"
+                press_data="つ"
+                press_label="つ" />
+            <softkey
+                id="@id/id_7f0b11ee"
+                long_press_data="で"
+                press_data="て"
+                press_label="て" />
+            <softkey
+                id="@id/id_7f0b11f0"
+                long_press_data="ど"
+                press_data="と"
+                press_label="と" />
+            <softkey
+                id="@id/id_7f0b11dd"
+                press_data="な"
+                press_label="な" />
+            <softkey
+                id="@id/id_7f0b11df"
+                press_data="に"
+                press_label="に" />
+            <softkey
+                id="@id/id_7f0b11e1"
+                press_data="ぬ"
+                press_label="ぬ" />
+            <softkey
+                id="@id/id_7f0b11de"
+                press_data="ね"
+                press_label="ね" />
+            <softkey
+                id="@id/id_7f0b11e0"
+                press_data="の"
+                press_label="の" />
+            <softkey
+                id="@id/id_7f0b11cc"
+                long_press_data="ば ぱ"
+                press_data="は"
+                press_label="は" />
+            <softkey
+                id="@id/id_7f0b11ce"
+                long_press_data="び ぴ"
+                press_data="ひ"
+                press_label="ひ" />
+            <softkey
+                id="@id/id_7f0b11d0"
+                long_press_data="ぶ ぷ"
+                press_data="ふ"
+                press_label="ふ" />
+            <softkey
+                id="@id/id_7f0b11cd"
+                long_press_data="べ ぺ"
+                press_data="へ"
+                press_label="へ" />
+            <softkey
+                id="@id/id_7f0b11cf"
+                long_press_data="ぼ ぽ"
+                press_data="ほ"
+                press_label="ほ" />
+            <softkey
+                id="@id/id_7f0b11d7"
+                press_data="ま"
+                press_label="ま" />
+            <softkey
+                id="@id/id_7f0b11d9"
+                press_data="み"
+                press_label="み" />
+            <softkey
+                id="@id/id_7f0b11db"
+                press_data="む"
+                press_label="む" />
+            <softkey
+                id="@id/id_7f0b11d8"
+                press_data="め"
+                press_label="め" />
+            <softkey
+                id="@id/id_7f0b11da"
+                press_data="も"
+                press_label="も" />
+            <softkey
+                id="@id/id_7f0b11f5"
+                long_press_data="ゃ"
+                press_data="や"
+                press_label="や" />
+            <softkey
+                id="@id/id_7f0b11f7"
+                long_press_data="ゅ"
+                press_data="ゆ"
+                press_label="ゆ" />
+            <softkey
+                id="@id/id_7f0b11f6"
+                long_press_data="ょ"
+                press_data="よ"
+                press_label="よ" />
+            <softkey
+                id="@id/id_7f0b11e3"
+                press_data="ら"
+                press_label="ら" />
+            <softkey
+                id="@id/id_7f0b11e5"
+                press_data="り"
+                press_label="り" />
+            <softkey
+                id="@id/id_7f0b11e7"
+                press_data="る"
+                press_label="る" />
+            <softkey
+                id="@id/id_7f0b11e4"
+                press_data="れ"
+                press_label="れ" />
+            <softkey
+                id="@id/id_7f0b11e6"
+                press_data="ろ"
+                press_label="ろ" />
+            <softkey
+                id="@id/id_7f0b11f3"
+                long_press_data="ゎ"
+                press_data="わ"
+                press_label="わ" />
+            <softkey
+                id="@id/id_7f0b11f4"
+                press_data="を"
+                press_label="を" />
+            <softkey
+                id="@id/id_7f0b11dc"
+                press_data="ん"
+                press_label="ん" />
+            <softkey
+                id="@id/id_7f0b11fa"
+                press_data="ー"
+                press_label="ー" />
+            <softkey
+                desc="@string/string_7f140085"
+                id="@id/id_7f0b11c8"
+                key_icon="@drawable/drawable_7f0803db"
+                key_layout="@layout/layout_7f0e073f"
+                press_data="*"
+                press_icon="@drawable/drawable_7f0803db"
+                press_keycode="MOZC_NO_START_COMPOSING"
+                press_layout="@layout/layout_7f0e065e" />
+            <softkey
+                id="@id/id_7f0b11fb"
+                press_data="\?"
+                press_label="\?" />
+            <softkey
+                id="@id/id_7f0b11c9"
+                press_data="!"
+                press_label="!" />
+        </softkey_list>
+        <softkey_list
+            template_id="@id/id_7f0b1c85">
+            <softkey
+                id="@id/id_7f0b1203"
+                press_data="、"
+                press_keycode="COMMA"
+                press_label="、" />
+            <softkey
+                id="@id/id_7f0b1216"
+                press_data="。"
+                press_keycode="PERIOD"
+                press_label="。" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c85">
+            <softkey
+                id="@id/id_7f0b11f9"
+                long_press_data="「 」"
+                press_data="「」"
+                press_label="「」" />
+        </softkey_list>
+        <softkey_list>
+            <softkey
+                content_description="@string/string_7f14008f"
+                id="@id/id_7f0b11fc"
+                layout="@layout/layout_7f0e0741"
+                popup_timing="@string/string_7f14084b">
+                <action
+                    data="alphabet_qwerty"
+                    keycode="SWITCH_KEYBOARD"
+                    type="PRESS" />
+                <icon
+                    location="@id/id_7f0b026a"
+                    value="@drawable/drawable_7f0803c0" />
+            </softkey>
+        </softkey_list>
+    </softkeys>
+</framework>

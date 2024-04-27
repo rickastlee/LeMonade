@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/drawable_7f0801f9"
+        android:minLevel="@integer/integer_7f0c008e"
+        android:maxLevel="@integer/integer_7f0c008e" />
+    <item
+        android:drawable="@drawable/drawable_7f0801f5"
+        android:minLevel="@integer/integer_7f0c008b"
+        android:maxLevel="@integer/integer_7f0c008b" />
+    <item
+        android:drawable="@drawable/drawable_7f0801f6"
+        android:minLevel="@integer/integer_7f0c008c"
+        android:maxLevel="@integer/integer_7f0c008c" />
+    <item
+        android:drawable="@drawable/drawable_7f0801f7"
+        android:minLevel="@integer/integer_7f0c008d"
+        android:maxLevel="@integer/integer_7f0c008d" />
+</level-list>

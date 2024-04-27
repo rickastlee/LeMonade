@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:background="@android:color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="22.0sp"
+        android:textStyle="bold"
+        android:textColor="#ff3c4043"
+        android:layout_gravity="center_vertical"
+        android:id="@id/id_7f0b1fc3"
+        android:paddingTop="@dimen/dimen_7f070829"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="8.0"
+        android:fontFamily="@font/font_7f090012"
+        android:paddingStart="@dimen/dimen_7f07082b" />
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@id/id_7f0b1fc2"
+        android:paddingTop="@dimen/dimen_7f070829"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="7.0"
+        android:contentDescription="@string/string_7f14086d"
+        android:paddingEnd="@dimen/dimen_7f070829" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingTop="@dimen/dimen_7f070827"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:paddingEnd="@dimen/dimen_7f07082a">
+        <ImageButton
+            android:layout_gravity="center_horizontal"
+            android:id="@id/id_7f0b1f9f"
+            android:layout_width="@dimen/dimen_7f070828"
+            android:layout_height="@dimen/dimen_7f070828"
+            android:src="@drawable/drawable_7f0804f9"
+            android:tint="@color/color_7f0609b2"
+            android:contentDescription="@string/string_7f14127c"
+            style="?android:borderlessButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

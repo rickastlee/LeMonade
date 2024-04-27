@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/style_7f15027f">
+    <include
+        layout="@layout/layout_7f0e00e3" />
+</LinearLayout>

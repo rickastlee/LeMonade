@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.ShadowedSoftKeyboardView
+    android:background="@drawable/drawable_7f0801c8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen_7f070057"
+    android:layout_marginBottom="@dimen/dimen_7f070056"
+    app:attr_7f0403a2="@dimen/dimen_7f07007a"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.apps.inputmethod.latin.keyboard.widget.AccessoryFixedCountCandidatesHolderView
+            android:id="@id/id_7f0b0040"
+            android:background="@drawable/drawable_7f0804d8"
+            android:visibility="gone"
+            app:attr_7f0401bb="@integer/integer_7f0c0009"
+            app:attr_7f040358="@layout/layout_7f0e0021"
+            app:attr_7f04035b="@layout/layout_7f0e0023"
+            app:attr_7f040645="true"
+            deletalbe_label="…"
+            style="@style/style_7f150002"
+            support_deletable="false" />
+        <com.google.android.libraries.inputmethod.widgets.SizeLimitedFrameLayout
+            android:orientation="horizontal"
+            android:id="@id/id_7f0b05c2"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="1.0dip"
+            app:attr_7f040645="true"
+            app:attr_7f04068b="300.0dip">
+            <com.google.android.libraries.inputmethod.keyboard.widget.ScrollableCandidatesHolderView
+                android:layout_gravity="center"
+                android:id="@id/id_7f0b05c1"
+                android:background="@drawable/drawable_7f0804d8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr_7f04035b="@layout/layout_7f0e0023"
+                candidate_background="@android:color/transparent" />
+        </com.google.android.libraries.inputmethod.widgets.SizeLimitedFrameLayout>
+        <com.google.android.apps.inputmethod.libs.proactivesuggestion.ProactiveSuggestionsHolderView
+            android:id="@id/key_pos_proactive_suggestions"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr_7f040645="true"
+            app:attr_7f04068b="300.0dip"
+            app:attr_7f0407f4="@id/id_7f0b0040" />
+    </com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout>
+</com.google.android.libraries.inputmethod.widgets.ShadowedSoftKeyboardView>

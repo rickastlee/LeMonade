@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1c63"
+            layout="@layout/layout_7f0e06e8"
+            popup_timing="ON_TOUCH">
+            <action
+                data="$press_data$"
+                intention="$press_intention=COMMIT$"
+                keycode="PLAIN_TEXT"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$press_data$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1c63">
+            <softkey
+                desc="@string/string_7f140194"
+                id="@id/id_7f0b0cb9"
+                press_data="…" />
+            <softkey
+                desc="@string/string_7f140295"
+                id="@id/id_7f0b1e53"
+                press_data="～" />
+            <softkey
+                desc="@string/string_7f140291"
+                id="@id/id_7f0b19c6"
+                press_data="？" />
+            <softkey
+                desc="@string/string_7f14028d"
+                id="@id/id_7f0b0d46"
+                press_data="！" />
+            <softkey
+                desc="@string/string_7f140294"
+                id="@id/id_7f0b1a4b"
+                press_data="；" />
+            <softkey
+                desc="@string/string_7f14028b"
+                id="@id/id_7f0b0a12"
+                press_data="：" />
+            <softkey
+                id="@id/id_7f0b16f6"
+                press_data="-" />
+            <softkey
+                id="@id/id_7f0b075f"
+                press_data="\@" />
+            <softkey
+                id="@id/id_7f0b19c8"
+                press_data="&quot;"
+                press_intention="DECODE" />
+            <softkey
+                id="@id/id_7f0b199b"
+                press_data="%" />
+            <softkey
+                id="@id/id_7f0b1a8d"
+                press_data="/" />
+            <softkey
+                desc="@string/string_7f14028c"
+                id="@id/id_7f0b09fa"
+                press_data="，" />
+            <softkey
+                desc="@string/string_7f140290"
+                id="@id/id_7f0b09fd"
+                press_data="。" />
+        </softkey_list>
+    </softkeys>
+</framework>

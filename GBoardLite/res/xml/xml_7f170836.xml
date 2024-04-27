@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <if
+            keyboard_mode="split">
+            <if
+                split_with_duplicate_keys="true">
+                <view
+                    layout="@layout/layout_7f0e025d"
+                    type="body" />
+            </if>
+            <else>
+                <view
+                    layout="@layout/layout_7f0e025e"
+                    type="body" />
+            </else>
+        </if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e025c"
+                type="body" />
+        </else>
+        <view
+            type="body">
+            <softkeys
+                href="@xml/xml_7f170d5f" />
+            <include
+                href="@xml/xml_7f170abb" />
+            <include
+                href="@xml/xml_7f170adf" />
+            <if
+                language="za-CN">
+                <include
+                    href="@xml/xml_7f170ad7" />
+                <include
+                    href="@xml/xml_7f170a7e" />
+                <include
+                    href="@xml/xml_7f170ad5" />
+            </if>
+            <else>
+                <include
+                    href="@xml/xml_7f170a81" />
+                <include
+                    href="@xml/xml_7f170a7e" />
+                <include
+                    href="@xml/xml_7f170a7d" />
+            </else>
+        </view>
+    </keyboard>
+</framework>

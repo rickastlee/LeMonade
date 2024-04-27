@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    android:tag=".fast-access-bar-tab-indicator"
+    android:layout_width="@dimen/dimen_7f070169"
+    android:layout_height="@dimen/dimen_7f070169"
+    android:src="@drawable/drawable_7f0804f1"
+    android:contentDescription="@null"
+    android:layout_marginHorizontal="@dimen/dimen_7f070168"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

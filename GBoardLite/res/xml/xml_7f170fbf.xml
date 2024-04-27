@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            id="@id/id_7f0b0a30"
+            layout="@layout/layout_7f0e0744"
+            multi_touch="false">
+            <action
+                data=","
+                keycode="COMMA"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="," />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b1a4c"
+            layout="@layout/layout_7f0e0744"
+            multi_touch="false">
+            <action
+                data="."
+                keycode="PERIOD"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="." />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140538"
+            id="@id/id_7f0b16f6"
+            layout="@layout/layout_7f0e0744"
+            multi_touch="false">
+            <action
+                data="-"
+                keycode="MINUS"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="−" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b1a8e"
+            layout="@layout/layout_7f0e0744"
+            multi_touch="false"
+            popup_timing="ON_TOUCH">
+            <action
+                data="/"
+                intention="COMMIT"
+                keycode="SLASH"
+                type="PRESS" />
+            <action
+                action_on_down="true"
+                data=":"
+                intention="COMMIT"
+                keycode="PLAIN_TEXT"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="/ :" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b1a8d"
+            layout="@layout/layout_7f0e0744"
+            multi_touch="false">
+            <action
+                data="/"
+                intention="COMMIT"
+                keycode="SLASH"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="/" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0a0f"
+            layout="@layout/layout_7f0e0744"
+            multi_touch="false">
+            <action
+                data=":"
+                intention="COMMIT"
+                keycode="PLAIN_TEXT"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value=":" />
+        </softkey>
+        <softkey_list
+            splitter=",">
+            <softkey
+                id="@id/id_7f0b1a4d"
+                layout="@layout/layout_7f0e0744"
+                multi_touch="false"
+                popup_timing="ON_TOUCH">
+                <action
+                    data="."
+                    intention="COMMIT"
+                    keycode="PERIOD"
+                    type="PRESS" />
+                <action
+                    data="PM,AM"
+                    intention="C,C"
+                    keycode="PLAIN_TEXT"
+                    popup_label="PM,AM"
+                    popup_layout="@attr/attr_7f0401fa"
+                    type="LONG_PRESS" />
+                <label
+                    location="@id/id_7f0b046c"
+                    value="." />
+            </softkey>
+        </softkey_list>
+    </softkeys>
+</framework>

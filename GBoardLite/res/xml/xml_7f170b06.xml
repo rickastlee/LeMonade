@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keygroup_mapping
+        group_view_id="@id/id_7f0b118a">
+        <key
+            key_id="@id/id_7f0b19c6" />
+        <key
+            key_id="@id/id_7f0b0d46" />
+        <key
+            key_id="@id/id_7f0b0cb9" />
+        <key
+            key_id="@id/id_7f0b1e53" />
+        <key
+            key_id="@id/id_7f0b0a12" />
+        <key
+            key_id="@id/id_7f0b1a4b" />
+        <key
+            key_id="@id/id_7f0b075f" />
+        <key
+            key_id="@id/id_7f0b1a8d" />
+        <key
+            key_id="@id/id_7f0b19c8" />
+        <key
+            key_id="@id/id_7f0b199b" />
+    </keygroup_mapping>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b1e18"
+            view_id="@id/key_pos_function_key_on_candidates_view" />
+    </key_mapping>
+    <key_mapping
+        state="SINGLE_CHARACTER_CANDIDATE">
+        <mapping
+            key_id="@id/id_7f0b1e16"
+            view_id="@id/key_pos_function_key_on_candidates_view" />
+    </key_mapping>
+</framework>

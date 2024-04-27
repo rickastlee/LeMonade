@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector
+    android:drawable="@drawable/drawable_7f0804b7"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <set
+        android:interpolator="@interpolator/interpolator_7f0d0015"
+        android:shareInterpolator="true">
+        <target
+            android:name="@string/string_7f140579"
+            android:animation="@drawable/drawable_7f08015c" />
+        <target
+            android:name="@string/string_7f140579"
+            android:animation="@drawable/drawable_7f08015d" />
+    </set>
+</animated-vector>

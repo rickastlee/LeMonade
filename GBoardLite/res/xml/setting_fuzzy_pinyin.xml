@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/string_7f1408fc"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f140908"
+        android:key="@string/string_7f1406d9"
+        android:defaultValue="@bool/bool_7f05007b" />
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f1408fe"
+        android:key="@string/string_7f1406cf"
+        android:defaultValue="@bool/bool_7f050071" />
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f140906"
+        android:key="@string/string_7f1406d7"
+        android:defaultValue="@bool/bool_7f050079" />
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f1408fd"
+        android:key="@string/string_7f1406ce"
+        android:defaultValue="@bool/bool_7f050070" />
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f1408ff"
+        android:key="@string/string_7f1406d0"
+        android:defaultValue="@bool/bool_7f050072" />
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f140902"
+        android:key="@string/string_7f1406d3"
+        android:defaultValue="@bool/bool_7f050075" />
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f140904"
+        android:key="@string/string_7f1406d5"
+        android:defaultValue="@bool/bool_7f050077" />
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f140900"
+        android:key="@string/string_7f1406d1"
+        android:defaultValue="@bool/bool_7f050073" />
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f140905"
+        android:key="@string/string_7f1406d6"
+        android:defaultValue="@bool/bool_7f050078" />
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f140903"
+        android:key="@string/string_7f1406d4"
+        android:defaultValue="@bool/bool_7f050076" />
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f140901"
+        android:key="@string/string_7f1406d2"
+        android:defaultValue="@bool/bool_7f050074" />
+    <SwitchPreferenceCompat
+        android:persistent="true"
+        android:title="@string/string_7f140907"
+        android:key="@string/string_7f1406d8"
+        android:defaultValue="@bool/bool_7f05007a" />
+</PreferenceScreen>

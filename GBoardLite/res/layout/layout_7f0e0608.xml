@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.keyboard.widget.PageableCandidatesHolderView
+        android:id="@id/id_7f0b1189"
+        android:background="@drawable/drawable_7f080291"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen_7f070332"
+        android:layout_height="wrap_content"
+        android:layout_margin="1.0dip"
+        app:attr_7f040014="true"
+        app:attr_7f040015="true"
+        app:attr_7f0400fd="true"
+        app:attr_7f0400fe="false"
+        app:attr_7f0401e4="true"
+        app:attr_7f04020e="@integer/integer_7f0c002d"
+        app:attr_7f04020f="@dimen/dimen_7f070334"
+        app:attr_7f04035b="@layout/layout_7f0e07cc"
+        app:attr_7f040645="true"
+        candidate_background="@drawable/drawable_7f080283"
+        deletable_label="…"
+        max_candidates_per_row="@integer/integer_7f0c00ba"
+        row_count="@integer/integer_7f0c0012"
+        style="@style/style_7f150419" />
+    <com.google.android.apps.inputmethod.libs.proactivesuggestion.ProactiveSuggestionsHolderView
+        android:id="@id/key_pos_proactive_suggestions"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr_7f040645="true"
+        app:attr_7f04068b="300.0dip"
+        app:attr_7f0407f4="@id/id_7f0b1189" />
+</com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout>

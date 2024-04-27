@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="false"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="aii-IQ"
+        string_id="ime_assyrian_iraq">
+        <keyboard_group
+            pk_language_tag="aii-Syrc-IQ"
+            supports_split_mode="true"
+            variant="assyrian"
+            variant_label="@string/string_7f141047">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f170570"
+                type="prime">
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f17085c" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f1709fa" />
+        </keyboard_group>
+    </ime>
+</framework>

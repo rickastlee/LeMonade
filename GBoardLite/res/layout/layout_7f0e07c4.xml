@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    android:theme="@style/style_7f1508ee"
+    android:layout_height="wrap_content"
+    app:attr_7f0402d1="false"
+    style="@style/style_7f1508e8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner
+        android:id="@id/id_7f0b047c"
+        android:layout_height="wrap_content"
+        style="@style/style_7f150494">
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="vertical"
+            android:id="@id/id_7f0b0250"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr_7f0405dc="0.0dip" />
+        <FrameLayout
+            android:id="@id/key_pos_translate_back_wrapper"
+            android:layout_marginTop="6.0dip"
+            android:layout_marginBottom="@dimen/dimen_7f0707ee"
+            android:paddingEnd="?attr_7f040251"
+            app:attr_7f0405d5="@id/id_7f0b1f6c"
+            app:attr_7f0405ee="id_7f0b053e"
+            app:attr_7f0405f2="id_7f0b053e"
+            style="@style/style_7f15052c">
+            <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+                android:layout_gravity="center"
+                android:id="@id/key_pos_translate_back"
+                android:tag=".oval-navigation-highlight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@id/id_7f0b1f6a"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_7f0707ee"
+            app:attr_7f0405d5="@id/id_7f0b1f6c"
+            app:attr_7f0405db="@id/id_7f0b024f"
+            app:attr_7f0405ed="@id/key_pos_translate_back_wrapper"
+            app:attr_7f0405f2="id_7f0b053e">
+            <include
+                layout="@layout/layout_7f0e07c6" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@id/id_7f0b1f6c"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen_7f0707ee"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405db="@id/id_7f0b024f"
+            app:attr_7f0405ed="@id/id_7f0b0250" />
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="vertical"
+            android:id="@id/id_7f0b024f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr_7f0405dd="0.0dip" />
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

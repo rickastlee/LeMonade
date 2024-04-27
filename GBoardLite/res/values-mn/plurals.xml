@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_7f120000">
+        <item quantity="other">%d товчлуур оноосон</item>
+        <item quantity="one">%d товчлуур оноосон</item>
+    </plurals>
+    <plurals name="plurals_7f120002">
+        <item quantity="other">%s-г одоо суулгасан.</item>
+        <item quantity="one">%s-г одоо суулгасан.</item>
+    </plurals>
+</resources>

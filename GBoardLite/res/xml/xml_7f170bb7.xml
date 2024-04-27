@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b171a"
+            view_id="@id/key_pos_0_0" />
+        <mapping
+            key_id="@id/id_7f0b1719"
+            view_id="@id/key_pos_0_1" />
+        <mapping
+            key_id="@id/id_7f0b1a50"
+            view_id="@id/key_pos_shift" />
+        <mapping
+            key_id="@id/id_7f0b1718"
+            view_id="@id/key_pos_morse_buffer" />
+    </key_mapping>
+    <key_mapping
+        state="INPUT_TYPE_SHORT_MESSAGE+MANUAL_SHIFT">
+        <mapping
+            key_id="@id/id_7f0b0cf8"
+            view_id="@id/key_pos_ime_action" />
+    </key_mapping>
+    <key_mapping
+        state="MORE_CANDIDATES_SHOWN">
+        <mapping
+            key_id="@id/id_7f0b171c"
+            view_id="@id/key_pos_morse_hint_card" />
+    </key_mapping>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b171b"
+            view_id="@id/key_pos_morse_hint_card" />
+    </key_mapping>
+    <merge_key_mapping>
+        <merge
+            key_id="@id/id_7f0b0deb"
+            view_id="@id/key_pos_ime_action" />
+        <merge
+            key_id="@id/id_7f0b0dec"
+            view_id="@id/key_pos_space" />
+    </merge_key_mapping>
+</framework>

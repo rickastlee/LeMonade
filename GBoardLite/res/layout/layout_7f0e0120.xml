@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView
+    android:paddingTop="@dimen/dimen_7f070159"
+    app:attr_7f0402d1="false"
+    style="@style/style_7f1501bc"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@id/id_7f0b0239"
+        style="@style/style_7f150256">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            app:attr_7f0405ca="@string/string_7f140856">
+            <LinearLayout
+                android:layout_gravity="start"
+                android:orientation="vertical"
+                android:id="@id/id_7f0b00a9"
+                app:attr_7f0405d4="id_7f0b053e"
+                app:attr_7f0405db="@id/id_7f0b024b"
+                app:attr_7f0405e5="id_7f0b1ecd"
+                app:attr_7f0405ee="id_7f0b053e"
+                app:attr_7f0405f2="id_7f0b053e"
+                style="@style/style_7f15061f">
+                <include
+                    layout="@layout/layout_7f0e0635" />
+                <include
+                    android:paddingStart="2.0dip"
+                    android:paddingEnd="2.0dip"
+                    layout="@layout/layout_7f0e0042" />
+                <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView
+                    android:id="@id/id_7f0b00cd"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="1.0"
+                    android:nestedScrollingEnabled="false" />
+            </LinearLayout>
+            <androidx.constraintlayout.widget.Guideline
+                android:orientation="vertical"
+                android:id="@id/id_7f0b024b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:attr_7f0405de="@dimen/dimen_7f07079f" />
+            <com.google.android.apps.inputmethod.libs.search.widget.CategoryViewPager
+                android:id="@id/expression_view_pager"
+                app:attr_7f0405d4="id_7f0b053e"
+                app:attr_7f0405da="id_7f0b053e"
+                app:attr_7f0405e5="id_7f0b1ecd"
+                app:attr_7f0405e6="1.0"
+                app:attr_7f0405ed="@id/id_7f0b024b"
+                app:attr_7f0405f2="id_7f0b053e"
+                style="@style/style_7f15061d" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include
+            layout="@layout/layout_7f0e0170" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.google.android.apps.inputmethod.libs.search.widget.VariableHeightSoftKeyboardView>

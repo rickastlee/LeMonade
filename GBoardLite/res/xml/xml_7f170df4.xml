@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_list
+            splitter=" ">
+            <softkey_template
+                content_description="$desc$"
+                id="@id/id_7f0b1c89"
+                layout="@layout/layout_7f0e0767"
+                multi_touch="false"
+                popup_timing="@string/string_7f14084b"
+                slide_sensitivity="NORMAL">
+                <action
+                    data="$press_data$"
+                    intention="DECODE"
+                    keycode="$keycode_normal$"
+                    popup_label="$label$"
+                    type="PRESS" />
+                <label
+                    location="@id/id_7f0b046c"
+                    value="$label$" />
+            </softkey_template>
+            <softkey_template
+                content_description="$desc$"
+                id="@id/id_7f0b1c8a"
+                layout="@layout/layout_7f0e074c"
+                multi_touch="false"
+                popup_timing="@string/string_7f14084b"
+                slide_sensitivity="NORMAL">
+                <action
+                    data="$press_data$"
+                    intention="DECODE"
+                    keycode="$keycode_normal$"
+                    popup_label="$label$"
+                    type="PRESS" />
+                <label
+                    location="@id/id_7f0b046d"
+                    value="$label$" />
+            </softkey_template>
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c89">
+            <softkey
+                id="@id/id_7f0b1554"
+                keycode_normal="Q"
+                label="q"
+                press_data="q" />
+            <softkey
+                id="@id/id_7f0b15af"
+                keycode_normal="W"
+                label="w"
+                press_data="w" />
+            <softkey
+                id="@id/id_7f0b14f7"
+                keycode_normal="E"
+                label="e"
+                press_data="e" />
+            <softkey
+                id="@id/id_7f0b1556"
+                keycode_normal="R"
+                label="r"
+                press_data="r" />
+            <softkey
+                id="@id/id_7f0b1582"
+                keycode_normal="T"
+                label="t"
+                press_data="t" />
+            <softkey
+                id="@id/id_7f0b15b3"
+                keycode_normal="Y"
+                label="y"
+                press_data="y" />
+            <softkey
+                id="@id/id_7f0b159f"
+                keycode_normal="U"
+                label="u"
+                press_data="u" />
+            <softkey
+                id="@id/id_7f0b151a"
+                keycode_normal="I"
+                label="i"
+                press_data="i" />
+            <softkey
+                id="@id/id_7f0b153e"
+                keycode_normal="O"
+                label="o"
+                press_data="o" />
+            <softkey
+                id="@id/id_7f0b154f"
+                keycode_normal="P"
+                label="p"
+                press_data="p" />
+            <softkey
+                id="@id/id_7f0b14cc"
+                keycode_normal="A"
+                label="a"
+                press_data="a" />
+            <softkey
+                id="@id/id_7f0b155c"
+                keycode_normal="S"
+                label="s"
+                press_data="s" />
+            <softkey
+                id="@id/id_7f0b14eb"
+                keycode_normal="D"
+                label="d"
+                press_data="d" />
+            <softkey
+                id="@id/id_7f0b1507"
+                keycode_normal="F"
+                label="f"
+                press_data="f" />
+            <softkey
+                id="@id/id_7f0b150a"
+                keycode_normal="G"
+                label="g"
+                press_data="g" />
+            <softkey
+                id="@id/id_7f0b1515"
+                keycode_normal="H"
+                label="h"
+                press_data="h" />
+            <softkey
+                id="@id/id_7f0b1527"
+                keycode_normal="J"
+                label="j"
+                press_data="j" />
+            <softkey
+                id="@id/id_7f0b152a"
+                keycode_normal="K"
+                label="k"
+                press_data="k" />
+            <softkey
+                id="@id/id_7f0b152d"
+                keycode_normal="L"
+                label="l"
+                press_data="l" />
+            <softkey
+                desc="@string/string_7f14008c"
+                id="@id/id_7f0b1228"
+                keycode_normal="MINUS"
+                label="ー"
+                press_data="-" />
+            <softkey
+                id="@id/id_7f0b15b7"
+                keycode_normal="Z"
+                label="z"
+                press_data="z" />
+            <softkey
+                id="@id/id_7f0b15b1"
+                keycode_normal="X"
+                label="x"
+                press_data="x" />
+            <softkey
+                id="@id/id_7f0b14df"
+                keycode_normal="C"
+                label="c"
+                press_data="c" />
+            <softkey
+                id="@id/id_7f0b15ad"
+                keycode_normal="V"
+                label="v"
+                press_data="v" />
+            <softkey
+                id="@id/id_7f0b14db"
+                keycode_normal="B"
+                label="b"
+                press_data="b" />
+            <softkey
+                id="@id/id_7f0b1536"
+                keycode_normal="N"
+                label="n"
+                press_data="n" />
+            <softkey
+                id="@id/id_7f0b1534"
+                keycode_normal="M"
+                label="m"
+                press_data="m" />
+            <softkey
+                id="@id/id_7f0b1480"
+                keycode_normal="Q"
+                label="Q"
+                press_data="Q" />
+            <softkey
+                id="@id/id_7f0b14a1"
+                keycode_normal="W"
+                label="W"
+                press_data="W" />
+            <softkey
+                id="@id/id_7f0b1439"
+                keycode_normal="E"
+                label="E"
+                press_data="E" />
+            <softkey
+                id="@id/id_7f0b1481"
+                keycode_normal="R"
+                label="R"
+                press_data="R" />
+            <softkey
+                id="@id/id_7f0b148a"
+                keycode_normal="T"
+                label="T"
+                press_data="T" />
+            <softkey
+                id="@id/id_7f0b14a4"
+                keycode_normal="Y"
+                label="Y"
+                press_data="Y" />
+            <softkey
+                id="@id/id_7f0b1493"
+                keycode_normal="U"
+                label="U"
+                press_data="U" />
+            <softkey
+                id="@id/id_7f0b1455"
+                keycode_normal="I"
+                label="I"
+                press_data="I" />
+            <softkey
+                id="@id/id_7f0b146e"
+                keycode_normal="O"
+                label="O"
+                press_data="O" />
+            <softkey
+                id="@id/id_7f0b147e"
+                keycode_normal="P"
+                label="P"
+                press_data="P" />
+            <softkey
+                id="@id/id_7f0b141c"
+                keycode_normal="A"
+                label="A"
+                press_data="A" />
+            <softkey
+                id="@id/id_7f0b1483"
+                keycode_normal="S"
+                label="S"
+                press_data="S" />
+            <softkey
+                id="@id/id_7f0b1434"
+                keycode_normal="D"
+                label="D"
+                press_data="D" />
+            <softkey
+                id="@id/id_7f0b1446"
+                keycode_normal="F"
+                label="F"
+                press_data="F" />
+            <softkey
+                id="@id/id_7f0b1448"
+                keycode_normal="G"
+                label="G"
+                press_data="G" />
+            <softkey
+                id="@id/id_7f0b1450"
+                keycode_normal="H"
+                label="H"
+                press_data="H" />
+            <softkey
+                id="@id/id_7f0b1462"
+                keycode_normal="J"
+                label="J"
+                press_data="J" />
+            <softkey
+                id="@id/id_7f0b1464"
+                keycode_normal="K"
+                label="K"
+                press_data="K" />
+            <softkey
+                id="@id/id_7f0b1465"
+                keycode_normal="L"
+                label="L"
+                press_data="L" />
+            <softkey
+                id="@id/id_7f0b14a7"
+                keycode_normal="Z"
+                label="Z"
+                press_data="Z" />
+            <softkey
+                id="@id/id_7f0b14a3"
+                keycode_normal="X"
+                label="X"
+                press_data="X" />
+            <softkey
+                id="@id/id_7f0b142d"
+                keycode_normal="C"
+                label="C"
+                press_data="C" />
+            <softkey
+                id="@id/id_7f0b149f"
+                keycode_normal="V"
+                label="V"
+                press_data="V" />
+            <softkey
+                id="@id/id_7f0b142b"
+                keycode_normal="B"
+                label="B"
+                press_data="B" />
+            <softkey
+                id="@id/id_7f0b1468"
+                keycode_normal="N"
+                label="N"
+                press_data="N" />
+            <softkey
+                id="@id/id_7f0b1467"
+                keycode_normal="M"
+                label="M"
+                press_data="M" />
+            <softkey
+                desc="@string/string_7f14008a"
+                id="@id/id_7f0b1203"
+                keycode_normal="COMMA"
+                label="、"
+                press_data="," />
+            <softkey
+                desc="@string/string_7f14008b"
+                id="@id/id_7f0b1216"
+                keycode_normal="PERIOD"
+                label="。"
+                press_data="." />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c8a">
+            <softkey
+                desc="@string/string_7f14008a"
+                id="@id/id_7f0b1201"
+                keycode_normal="COMMA"
+                label="、"
+                press_data="," />
+            <softkey
+                desc="@string/string_7f14008b"
+                id="@id/id_7f0b1202"
+                keycode_normal="PERIOD"
+                label="。"
+                press_data="." />
+        </softkey_list>
+    </softkeys>
+    <include
+        href="@xml/xml_7f170df3" />
+    <include
+        href="@xml/xml_7f170fb6" />
+    <include
+        href="@xml/xml_7f170caa" />
+</framework>

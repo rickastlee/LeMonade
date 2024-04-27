@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="0.0dip"
+    android:layout_height="0.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.emoji.view.EmojiView
+        android:textSize="30.0dip"
+        android:textColor="?attr_7f0400b9"
+        android:id="@id/id_7f0b0192"
+        android:tag=".emoji-picker-item"
+        android:background="@drawable/drawable_7f08054f"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:importantForAccessibility="yes"
+        app:attr_7f04069c="10.0dip" />
+    <ImageView
+        android:layout_gravity="end|bottom|center"
+        android:id="@id/id_7f0b1f90"
+        android:visibility="gone"
+        android:layout_width="@dimen/dimen_7f070801"
+        android:layout_height="@dimen/dimen_7f070800"
+        android:importantForAccessibility="no"
+        style="?attr_7f0400c0" />
+</FrameLayout>

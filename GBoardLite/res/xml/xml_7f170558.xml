@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if
+        device="tablet">
+        <ime
+            announce_auto_selected_candidate="true"
+            class="com.google.android.libraries.inputmethod.ime.processor.ProcessorBasedIme"
+            indicator_icon="@drawable/drawable_7f080442"
+            label="@string/string_7f14039a"
+            language="zh-HK"
+            prime_keyboard_type="HARD_QWERTY"
+            status_icon="@drawable/drawable_7f080360"
+            string_id="zh_hk_pinyin_hard_qwerty_jyutping"
+            supports_access_points="false">
+            <keyboard_group
+                pk_language_tag="en-US"
+                pk_layout_type="qwerty">
+                <keyboard
+                    def="@xml/xml_7f1705d4"
+                    type="prime" />
+                <include
+                    href="@xml/xml_7f170a00" />
+            </keyboard_group>
+            <extra_values>
+                <item
+                    id="@id/id_7f0b01d4"
+                    value="false" />
+                <item
+                    id="@id/id_7f0b01e7"
+                    value="。" />
+                <item
+                    id="@id/id_7f0b01d1"
+                    value="@string/string_7f14068d" />
+                <item
+                    id="@id/id_7f0b01cd"
+                    value="pinyin_standard_jyutping" />
+            </extra_values>
+            <include
+                href="@xml/xml_7f170c7c" />
+        </ime>
+    </if>
+    <else>
+        <ime
+            announce_auto_selected_candidate="true"
+            class="com.google.android.libraries.inputmethod.ime.processor.ProcessorBasedIme"
+            inline_composing="false"
+            label="@string/string_7f14039a"
+            language="zh-HK"
+            prime_keyboard_type="HARD_QWERTY"
+            status_icon="@drawable/drawable_7f080360"
+            string_id="zh_hk_pinyin_hard_qwerty_jyutping"
+            supports_access_points="false">
+            <if
+                enable_chinese_inline_composing_zh_hk="true">
+                <if
+                    pref_enable_chinese_inline_composing_hk="true">
+                    <attrs
+                        inline_composing="true" />
+                </if>
+            </if>
+            <keyboard_group
+                pk_language_tag="en-US"
+                pk_layout_type="qwerty">
+                <keyboard
+                    def="@xml/xml_7f1705d6"
+                    type="prime" />
+                <include
+                    href="@xml/xml_7f170a00" />
+            </keyboard_group>
+            <extra_values>
+                <item
+                    id="@id/id_7f0b01e7"
+                    value="。" />
+                <item
+                    id="@id/id_7f0b01d1"
+                    value="@string/string_7f14068d" />
+                <item
+                    id="@id/id_7f0b01cd"
+                    value="pinyin_standard_jyutping" />
+            </extra_values>
+            <include
+                href="@xml/xml_7f170c7c" />
+        </ime>
+    </else>
+</framework>

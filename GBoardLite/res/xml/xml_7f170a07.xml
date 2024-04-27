@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keygroup_mapping
+        group_view_id="@id/id_7f0b1185">
+        <key
+            key_id="@id/id_7f0b19c6" />
+        <key
+            key_id="@id/id_7f0b0d46" />
+        <key
+            key_id="@id/id_7f0b0cb9" />
+        <key
+            key_id="@id/id_7f0b1e53" />
+        <key
+            key_id="@id/id_7f0b0a12" />
+        <key
+            key_id="@id/id_7f0b1a4b" />
+        <key
+            key_id="@id/id_7f0b16f6" />
+        <key
+            key_id="@id/id_7f0b075f" />
+        <key
+            key_id="@id/id_7f0b1a8d" />
+        <key
+            key_id="@id/id_7f0b19c8" />
+        <key
+            key_id="@id/id_7f0b199b" />
+    </keygroup_mapping>
+</framework>

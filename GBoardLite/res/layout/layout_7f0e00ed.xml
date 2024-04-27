@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:tag=".expression-category-item-cn"
+    android:background="@drawable/drawable_7f0801f2"
+    android:layout_width="?attr_7f04008d"
+    android:layout_height="?attr_7f04008d"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@id/id_7f0b0186"
+        android:tag=".icon.for-category-key.with-circle"
+        android:layout_width="@dimen/dimen_7f07013a"
+        android:layout_height="@dimen/dimen_7f07013a" />
+</FrameLayout>

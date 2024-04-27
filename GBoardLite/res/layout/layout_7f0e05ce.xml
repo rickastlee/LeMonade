@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+        android:id="@id/id_7f0b046c"
+        android:tag="@null"
+        app:attr_7f0406a1="?attr_7f0401c0"
+        style="@style/style_7f15034e" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0470"
+        android:tag="@null"
+        style="@style/style_7f15037c" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b046f"
+        android:tag="@null"
+        style="@style/style_7f150383" />
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView
+    android:id="@id/id_7f0b026a"
+    android:tag=".label.for-ja-twelvekeys"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:scaleType="fitCenter"
+    android:adjustViewBounds="true"
+    android:maxWidth="?attr_7f040146"
+    style="@style/style_7f15029a"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

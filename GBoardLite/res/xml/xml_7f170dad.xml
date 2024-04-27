@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b06a6"
+                press_data="ض" />
+            <softkey
+                id="@id/id_7f0b06d3"
+                press_data="ص" />
+            <softkey
+                id="@id/id_7f0b06e0"
+                press_data="ث" />
+            <softkey
+                id="@id/id_7f0b06cb"
+                press_data="ق" />
+            <softkey
+                id="@id/id_7f0b06af"
+                press_data="ف" />
+            <softkey
+                id="@id/id_7f0b06b7"
+                press_data="ه" />
+            <softkey
+                id="@id/id_7f0b06c0"
+                press_data="خ" />
+            <softkey
+                id="@id/id_7f0b06b2"
+                press_data="ح" />
+            <softkey
+                id="@id/id_7f0b06d9"
+                press_data="چ" />
+            <softkey
+                id="@id/id_7f0b06ba"
+                press_data="ج" />
+            <softkey
+                id="@id/id_7f0b06d6"
+                press_data="ش" />
+            <softkey
+                id="@id/id_7f0b06d4"
+                press_data="س" />
+            <softkey
+                id="@id/id_7f0b06a5"
+                press_data="ب" />
+            <softkey
+                id="@id/id_7f0b06c2"
+                press_data="ل" />
+            <softkey
+                id="@id/id_7f0b06a0"
+                press_data="ا" />
+            <softkey
+                id="@id/id_7f0b06da"
+                long_press_data="ة"
+                press_data="ت" />
+            <softkey
+                id="@id/id_7f0b06c6"
+                press_data="ن" />
+            <softkey
+                id="@id/id_7f0b06c4"
+                press_data="م" />
+            <softkey
+                id="@id/id_7f0b06bf"
+                press_data="ک" />
+            <softkey
+                id="@id/id_7f0b06b0"
+                press_data="گ" />
+            <softkey
+                id="@id/id_7f0b0700"
+                press_data="ٚ" />
+            <softkey
+                id="@id/id_7f0b06ed"
+                long_press_data="ء"
+                press_data="ئ" />
+            <softkey
+                id="@id/id_7f0b06eb"
+                press_data="ي" />
+            <softkey
+                id="@id/id_7f0b06ac"
+                press_data="ی" />
+            <softkey
+                id="@id/id_7f0b06a4"
+                press_data="آ" />
+            <softkey
+                id="@id/id_7f0b06ca"
+                press_data="پ" />
+            <softkey
+                id="@id/id_7f0b06e6"
+                press_data="و" />
+            <softkey
+                id="@id/id_7f0b06e9"
+                press_data="ؤ" />
+            <softkey
+                id="@id/id_7f0b06ea"
+                press_data="ۊ" />
+            <softkey
+                id="@id/id_7f0b06a2"
+                press_data="أ" />
+            <softkey
+                id="@id/id_7f0b06f0"
+                press_data="ظ" />
+            <softkey
+                id="@id/id_7f0b06d8"
+                press_data="ط" />
+            <softkey
+                id="@id/id_7f0b06bb"
+                press_data="ژ" />
+            <softkey
+                id="@id/id_7f0b06f1"
+                press_data="ز" />
+            <softkey
+                id="@id/id_7f0b06cc"
+                press_data="ر" />
+            <softkey
+                id="@id/id_7f0b06df"
+                press_data="ذ" />
+            <softkey
+                id="@id/id_7f0b06a7"
+                press_data="د" />
+            <softkey
+                id="@id/id_7f0b06b1"
+                press_data="غ" />
+            <softkey
+                id="@id/id_7f0b069e"
+                press_data="ع" />
+        </softkey_list>
+    </softkeys>
+</framework>

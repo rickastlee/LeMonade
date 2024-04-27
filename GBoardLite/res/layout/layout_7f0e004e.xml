@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    style="@style/style_7f1501de"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/id_7f0b0103"
+        android:tint="@color/color_7f0609b3"
+        android:contentDescription="@string/string_7f140382"
+        android:importantForAccessibility="no"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b0106"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f1501da" />
+    <com.google.android.libraries.inputmethod.widgets.TransformationTextView
+        android:id="@id/id_7f0b0106"
+        android:layout_marginStart="?attr_7f04005e"
+        android:layout_marginEnd="?attr_7f040062"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ed="@id/id_7f0b0103"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f1501dc" />
+</androidx.constraintlayout.widget.ConstraintLayout>

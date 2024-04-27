@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/style_7f1502c1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1000.0">
+        <FrameLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="300.0">
+            <ImageView
+                style="@style/style_7f150332" />
+            <com.google.android.libraries.inputmethod.keyboard.widget.FixedSizeSoftKeyViewsPage
+                android:orientation="vertical"
+                android:id="@id/id_7f0b1186"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:horizontalSpacing="0.0dip"
+                android:verticalSpacing="0.0dip"
+                app:attr_7f040423="3"
+                app:attr_7f040767="3"
+                app:attr_7f0407a9="@layout/layout_7f0e0607" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="500.0">
+            <include
+                layout="@layout/layout_7f0e05ea" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="200.0">
+            <ImageView
+                style="@style/style_7f150331" />
+            <com.google.android.libraries.inputmethod.keyboard.widget.FixedSizeSoftKeyViewsPage
+                android:orientation="vertical"
+                android:id="@id/id_7f0b1187"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:horizontalSpacing="0.0dip"
+                android:verticalSpacing="0.0dip"
+                app:attr_7f040423="2"
+                app:attr_7f040767="3"
+                app:attr_7f0407a9="@layout/layout_7f0e0607" />
+        </FrameLayout>
+    </LinearLayout>
+    <include
+        layout="@layout/layout_7f0e05ef" />
+</LinearLayout>

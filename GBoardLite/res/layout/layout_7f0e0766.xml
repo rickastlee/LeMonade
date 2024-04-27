@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:duplicateParentState="true"
+    style="@style/style_7f1503d9"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+        android:id="@id/id_7f0b0515"
+        style="@style/style_7f150345" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b046c"
+        style="@style/style_7f150365" />
+</LinearLayout>

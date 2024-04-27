@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$data$"
+            enable_slide_actions_in_a11y_mode="true"
+            id="@id/id_7f0b1c84"
+            layout="@layout/layout_7f0e0730"
+            multi_touch="false"
+            popup_timing="ON_TOUCH"
+            slide_sensitivity="NORMAL">
+            <action
+                content_description="$data$"
+                data="$data$"
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$press_label$"
+                popup_layout="$press_layout=@layout/popup_bubble_ja_support$"
+                type="PRESS" />
+            <action
+                content_description="$left_data$"
+                data="$left_data$"
+                icon_background_level="@integer/integer_7f0c008c"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$left_data$"
+                popup_layout="@layout/popup_bubble_ja_label_large"
+                type="SLIDE_LEFT" />
+            <action
+                content_description="$up_data$"
+                data="$up_data$"
+                icon_background_level="@integer/integer_7f0c008e"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$up_data$"
+                popup_layout="@layout/popup_bubble_ja_label_large"
+                type="SLIDE_UP">
+                <if
+                    ja_enable_popup_slideup_padding="true">
+                    <attrs
+                        popup_layout="@layout/popup_bubble_ja_label_large_slideup" />
+                </if>
+            </action>
+            <action
+                content_description="$right_data$"
+                data="$right_data$"
+                icon_background_level="@integer/integer_7f0c008d"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$right_data$"
+                popup_layout="@layout/popup_bubble_ja_label_large"
+                type="SLIDE_RIGHT" />
+            <action
+                content_description="$down_data$"
+                data="$down_data$"
+                icon_background_level="@integer/integer_7f0c008b"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$down_data$"
+                popup_layout="@layout/popup_bubble_ja_label_large"
+                type="SLIDE_DOWN" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$key_label$" />
+        </softkey_template>
+        <softkey_template
+            content_description="$data$"
+            enable_slide_actions_in_a11y_mode="true"
+            id="@id/id_7f0b1c83"
+            layout="@layout/layout_7f0e0730"
+            multi_touch="false"
+            popup_timing="ON_TOUCH"
+            slide_sensitivity="NORMAL">
+            <action
+                content_description="$data$"
+                data="$data$"
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$press_label$"
+                popup_layout="$press_layout=@layout/popup_bubble_ja_support$"
+                type="PRESS" />
+            <action
+                content_description="$left_data$"
+                data="$left_data$"
+                icon_background_level="@integer/integer_7f0c008c"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$left_data$"
+                popup_layout="@layout/popup_bubble_ja_label_large"
+                type="SLIDE_LEFT" />
+            <action
+                content_description="$up_data$"
+                data="$up_data$"
+                icon_background_level="@integer/integer_7f0c008e"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$up_data$"
+                popup_layout="@layout/popup_bubble_ja_label_large"
+                type="SLIDE_UP">
+                <if
+                    ja_enable_popup_slideup_padding="true">
+                    <attrs
+                        popup_layout="@layout/popup_bubble_ja_label_large_slideup" />
+                </if>
+            </action>
+            <action
+                content_description="$right_data$"
+                data="$right_data$"
+                icon_background_level="@integer/integer_7f0c008d"
+                intention="DECODE"
+                keycode="PLAIN_TEXT_MOZC_AS_IS"
+                popup_label="$right_data$"
+                popup_layout="@layout/popup_bubble_ja_label_large"
+                type="SLIDE_RIGHT" />
+            <action
+                data=""
+                icon_background_level="@integer/integer_7f0c008a"
+                intention="DECODE"
+                keycode="0"
+                type="SLIDE_DOWN" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$key_label$" />
+        </softkey_template>
+        <softkey_list
+            template_id="@id/id_7f0b1c84">
+            <softkey
+                data="↔"
+                down_data="↓"
+                id="@id/id_7f0b11c5"
+                key_label="↔"
+                left_data="←"
+                press_label="↔ ← ↑ → ↓"
+                right_data="→"
+                up_data="↑" />
+        </softkey_list>
+        <softkey_list
+            template_id="@id/id_7f0b1c83">
+            <softkey
+                data="("
+                id="@id/id_7f0b11c7"
+                key_label="()[]"
+                left_data=")"
+                press_label="( ) [ ]"
+                right_data="]"
+                up_data="[" />
+            <softkey
+                data="{"
+                id="@id/id_7f0b11c6"
+                key_label="{}`&amp;"
+                left_data="}"
+                press_label="{ } ` &amp;"
+                right_data="&amp;"
+                up_data="`" />
+        </softkey_list>
+    </softkeys>
+</framework>

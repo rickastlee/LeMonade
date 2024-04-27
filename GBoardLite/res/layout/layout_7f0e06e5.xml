@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/id_7f0b047d"
+    android:tag=".language-indicator"
+    android:background="@drawable/drawable_7f08047c"
+    android:layout_width="22.0dip"
+    android:layout_height="15.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="12.0dip"
+        android:gravity="center"
+        android:id="@id/id_7f0b0480"
+        android:tag=".language-indicator-text"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:translationY="-1.0dip"
+        android:importantForAccessibility="no"
+        android:fontFamily="?attr_7f0400f4" />
+</FrameLayout>

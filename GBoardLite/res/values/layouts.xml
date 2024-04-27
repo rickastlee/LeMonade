@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="layout_7f0e003b">@layout/layout_7f0e0168</item>
+    <item type="layout" name="layout_7f0e003c">@layout/layout_7f0e0169</item>
+    <item type="layout" name="layout_7f0e079d">@layout/layout_7f0e05a8</item>
+    <item type="layout" name="layout_7f0e079e">@layout/layout_7f0e05a6</item>
+</resources>

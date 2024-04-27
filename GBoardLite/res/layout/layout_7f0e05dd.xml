@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dimen_7f070331"
+    style="@style/style_7f15028e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.FixedSizeCandidatesHolderView
+        android:id="@id/softkey_holder_fixed_candidates"
+        android:visibility="visible"
+        android:layout_width="@dimen/dimen_7f070332"
+        app:attr_7f040358="@layout/layout_7f0e05cd"
+        app:attr_7f04035b="@layout/layout_7f0e05ce"
+        candidate_background="@drawable/drawable_7f080229"
+        deletalbe_label="…"
+        max_candidates_count="@integer/integer_7f0c00b5"
+        max_width="@dimen/dimen_7f070332"
+        min_width="@dimen/dimen_7f070333"
+        style="@style/style_7f1501d0" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@id/key_pos_show_more_candidates"
+        style="@style/style_7f150271" />
+</FrameLayout>

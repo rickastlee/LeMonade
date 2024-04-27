@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c9d" />
+    <softkeys>
+        <softkey_list
+            template_id="@id/id_7f0b1c6b">
+            <softkey
+                id="@id/id_7f0b087a"
+                param_data=","
+                param_keycode="COMMA"
+                param_layout="@layout/layout_7f0e074c" />
+            <softkey
+                id="@id/id_7f0b08a4"
+                param_data="."
+                param_keycode="PERIOD"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b08a7"
+                long_press_data=":P,:D,:(,:),^_^"
+                param_data="."
+                param_keycode="PERIOD"
+                param_layout="@layout/layout_7f0e074c" />
+            <softkey
+                id="@id/id_7f0b08a5"
+                long_press_data="@string/string_7f14045a"
+                param_data="."
+                param_keycode="PERIOD"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c6c">
+            <softkey
+                id="@id/id_7f0b08a6"
+                long_press_data="\? ! … : ; _ % $ ^ &amp; :P :D :( :) ^_^"
+                param_data="."
+                param_keycode="PERIOD"
+                param_layout="@layout/layout_7f0e074c" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c6a">
+            <softkey
+                id="@id/id_7f0b0878"
+                long_press_data="@string/string_7f140433"
+                param_data=".com"
+                param_keycode="PLAIN_TEXT"
+                param_layout="@layout/layout_7f0e0756" />
+        </softkey_list>
+        <softkey
+            id="@id/id_7f0b0887"
+            layout="@layout/layout_7f0e074c"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data=","
+                intention="COMMIT"
+                keycode="COMMA"
+                popup_label=","
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046d"
+                value="," />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b08aa"
+            layout="@layout/layout_7f0e0749"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="/"
+                intention="COMMIT"
+                keycode="SLASH"
+                popup_label="/"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="/" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b08ab"
+            layout="@layout/layout_7f0e0749"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="/"
+                intention="COMMIT"
+                keycode="SLASH"
+                popup_label="/"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="/" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b08b0"
+            layout="@layout/layout_7f0e0749"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="_"
+                intention="COMMIT"
+                keycode="ALPHABET"
+                popup_label="_"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="_" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0875"
+            layout="@layout/layout_7f0e0749"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="\@"
+                intention="COMMIT"
+                keycode="AT"
+                popup_label="\@"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="\@" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0876"
+            layout="@layout/layout_7f0e0751"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="\@"
+                intention="COMMIT"
+                keycode="AT"
+                popup_label="\@"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="\@" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b1eb2"
+            layout="@layout/layout_7f0e0714"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="‌"
+                intention="D"
+                keycode="ALPHABET"
+                popup_icon="@drawable/drawable_7f080421"
+                popup_layout="@layout/layout_7f0e0697"
+                type="PRESS" />
+            <action
+                data="‍"
+                intention="D"
+                keycode="ALPHABET"
+                popup_icon="@drawable/drawable_7f080420"
+                popup_layout="@layout/layout_7f0e0697"
+                type="LONG_PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080421" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b1eb3"
+            layout="@layout/layout_7f0e0714"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b">
+            <action
+                data="‌"
+                intention="C"
+                keycode="ALPHABET"
+                popup_icon="@drawable/drawable_7f080421"
+                popup_layout="@layout/layout_7f0e0697"
+                type="PRESS" />
+            <action
+                data="‍"
+                intention="C"
+                keycode="ALPHABET"
+                popup_icon="@drawable/drawable_7f080420"
+                popup_layout="@layout/layout_7f0e0697"
+                type="LONG_PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080421" />
+        </softkey>
+    </softkeys>
+</framework>

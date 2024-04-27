@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f150455"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner
+        style="@style/style_7f150454">
+        <androidx.constraintlayout.widget.Guideline
+            android:orientation="vertical"
+            android:id="@id/id_7f0b0250"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:attr_7f0405dc="0.0dip" />
+        <FrameLayout
+            android:id="@id/id_7f0b02a9"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405ed="@id/id_7f0b0250"
+            app:attr_7f0405f2="@id/id_7f0b02a8"
+            app:attr_7f0405fa="?attr_7f040135">
+            <include
+                layout="@layout/layout_7f0e0112" />
+        </FrameLayout>
+        <FrameLayout
+            android:id="@id/id_7f0b02a8"
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405ed="@id/id_7f0b02a9"
+            app:attr_7f0405f2="id_7f0b053e"
+            style="@style/style_7f15044e">
+            <include
+                layout="@layout/layout_7f0e0111" />
+        </FrameLayout>
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</FrameLayout>

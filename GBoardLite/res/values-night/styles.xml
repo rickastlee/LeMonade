@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_7f15027e">
+        <item name="attr_7f0403be">?attr_7f0403d3</item>
+        <item name="attr_7f0403bf">?attr_7f0403de</item>
+        <item name="attr_7f04086b">?attr_7f0403f5</item>
+        <item name="attr_7f04086c">?attr_7f040408</item>
+    </style>
+    <style name="Theme.AppCompat.DayNight" parent="@style/style_7f150722" />
+    <style name="Theme.AppCompat.DayNight.DarkActionBar" parent="@style/style_7f150722" />
+    <style name="Theme.AppCompat.DayNight.Dialog" parent="@style/Theme.AppCompat.Dialog" />
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert" parent="@style/Theme.AppCompat.Dialog.Alert" />
+    <style name="Theme.AppCompat.DayNight.Dialog.MinWidth" parent="@style/Theme.AppCompat.Dialog.MinWidth" />
+    <style name="Theme.AppCompat.DayNight.DialogWhenLarge" parent="@style/Theme.AppCompat.DialogWhenLarge" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="style_7f150779" parent="@style/style_7f150771" />
+    <style name="style_7f15077f" parent="@style/style_7f150777" />
+    <style name="style_7f150850" parent="@style/style_7f15084f" />
+    <style name="style_7f1508f6" parent="@style/style_7f15085a" />
+    <style name="style_7f1508f9" parent="@style/style_7f150a1a" />
+</resources>

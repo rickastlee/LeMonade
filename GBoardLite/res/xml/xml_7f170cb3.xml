@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            id="@id/id_7f0b0d5c"
+            popup_timing="ON_TOUCH">
+            <action
+                data="\n"
+                keycode="PLAIN_TEXT"
+                popup_icon="@attr/attr_7f04010d"
+                popup_layout="@attr/attr_7f0401ec"
+                type="LONG_PRESS" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0d5f"
+            popup_timing="ON_TOUCH">
+            <action
+                data="send"
+                keycode="IME_ACTION"
+                popup_icon="@drawable/drawable_7f0803b1"
+                popup_layout="@attr/attr_7f0401ec"
+                type="LONG_PRESS" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0d5e"
+            popup_timing="ON_TOUCH">
+            <action
+                data="previous"
+                keycode="IME_ACTION"
+                popup_icon="@drawable/drawable_7f0803b0"
+                popup_layout="@attr/attr_7f0401ec"
+                type="LONG_PRESS" />
+        </softkey>
+        <softkey
+            id="@id/id_7f0b0d5d"
+            popup_timing="ON_TOUCH">
+            <action
+                data="next"
+                keycode="IME_ACTION"
+                popup_icon="@attr/attr_7f040118"
+                popup_layout="@attr/attr_7f0401ec"
+                type="LONG_PRESS" />
+        </softkey>
+    </softkeys>
+</framework>

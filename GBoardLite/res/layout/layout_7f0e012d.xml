@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    style="@style/style_7f1501b7">
+    <FrameLayout
+        style="@style/style_7f1501cc">
+        <include
+            layout="@layout/layout_7f0e0134" />
+    </FrameLayout>
+    <include
+        layout="@layout/layout_7f0e012a" />
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

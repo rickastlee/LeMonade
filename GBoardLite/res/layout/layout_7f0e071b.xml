@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/id_7f0b026a"
+        style="@style/style_7f15029a" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0478"
+        style="@style/style_7f150386" />
+</merge>

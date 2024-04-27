@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="true"
+        class="com.google.android.libraries.inputmethod.ime.password.PasswordIme"
+        label="@string/string_7f1405e0"
+        language="und-Latn-x-password-ascii"
+        string_id="password_ascii"
+        supports_access_points="false">
+        <if
+            enable_number_row="false">
+            <keyboard_group
+                variant="qwerty">
+                <keyboard
+                    def="@xml/xml_7f17065e"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f1708c9" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a02" />
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/string_7f140a35"
+                        value="false" />
+                    <language
+                        value="en" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+            <keyboard_group
+                variant="qwertz">
+                <keyboard
+                    def="@xml/xml_7f17065e"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f1708cc" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a02" />
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/string_7f140a35"
+                        value="false" />
+                    <language
+                        value="en" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+            <keyboard_group
+                variant="azerty">
+                <keyboard
+                    def="@xml/xml_7f17065e"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f1708bf" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a02" />
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/string_7f140a35"
+                        value="false" />
+                    <language
+                        value="en" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+            <keyboard_group
+                variant="dvorak">
+                <keyboard
+                    def="@xml/xml_7f17065e"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f1708c5" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a02" />
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/string_7f140a35"
+                        value="false" />
+                    <language
+                        value="en" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+            <keyboard_group
+                variant="colemak">
+                <keyboard
+                    def="@xml/xml_7f17065e"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f1708c2" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a02" />
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/string_7f140a35"
+                        value="false" />
+                    <language
+                        value="en" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+            <keyboard_group
+                variant="serbian_qwertz"
+                variant_label="@string/string_7f14120c">
+                <keyboard
+                    def="@xml/xml_7f17065e"
+                    type="prime">
+                    <merge
+                        def="@xml/xml_7f1708cc" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a02" />
+                <override_keyboard_xml_conditions>
+                    <bool
+                        name="@string/string_7f140a35"
+                        value="false" />
+                    <language
+                        value="en" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+        </if>
+        <else>
+            <keyboard_group
+                layout_theme="@style/style_7f15031b"
+                variant="qwerty">
+                <keyboard
+                    def="@xml/xml_7f17065e"
+                    type="prime">
+                    <if
+                        show_suggestions="true">
+                        <merge
+                            def="@xml/xml_7f1708d5" />
+                    </if>
+                    <merge
+                        def="@xml/xml_7f1708cb" />
+                    <merge
+                        def="@xml/xml_7f17084e" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a02" />
+                <override_keyboard_xml_conditions>
+                    <language
+                        value="en" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+            <keyboard_group
+                layout_theme="@style/style_7f15031b"
+                variant="qwertz">
+                <keyboard
+                    def="@xml/xml_7f17065e"
+                    type="prime">
+                    <if
+                        show_suggestions="true">
+                        <merge
+                            def="@xml/xml_7f1708d5" />
+                    </if>
+                    <merge
+                        def="@xml/xml_7f1708ce" />
+                    <merge
+                        def="@xml/xml_7f17084e" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a02" />
+                <override_keyboard_xml_conditions>
+                    <language
+                        value="en" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+            <keyboard_group
+                layout_theme="@style/style_7f15031b"
+                variant="azerty">
+                <keyboard
+                    def="@xml/xml_7f17065e"
+                    type="prime">
+                    <if
+                        show_suggestions="true">
+                        <merge
+                            def="@xml/xml_7f1708d5" />
+                    </if>
+                    <merge
+                        def="@xml/xml_7f1708c1" />
+                    <merge
+                        def="@xml/xml_7f17084a" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a02" />
+                <override_keyboard_xml_conditions>
+                    <language
+                        value="en" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+            <keyboard_group
+                layout_theme="@style/style_7f15031b"
+                variant="dvorak">
+                <keyboard
+                    def="@xml/xml_7f17065e"
+                    type="prime">
+                    <if
+                        show_suggestions="true">
+                        <merge
+                            def="@xml/xml_7f1708d5" />
+                    </if>
+                    <merge
+                        def="@xml/xml_7f1708c7" />
+                    <merge
+                        def="@xml/xml_7f170870" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a02" />
+                <override_keyboard_xml_conditions>
+                    <language
+                        value="en" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+            <keyboard_group
+                layout_theme="@style/style_7f15031b"
+                variant="colemak">
+                <keyboard
+                    def="@xml/xml_7f17065e"
+                    type="prime">
+                    <if
+                        show_suggestions="true">
+                        <merge
+                            def="@xml/xml_7f1708d5" />
+                    </if>
+                    <merge
+                        def="@xml/xml_7f1708c4" />
+                    <merge
+                        def="@xml/xml_7f17084a" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a02" />
+                <override_keyboard_xml_conditions>
+                    <language
+                        value="en" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+            <keyboard_group
+                layout_theme="@style/style_7f15031b"
+                variant="serbian_qwertz"
+                variant_label="@string/string_7f14120c">
+                <keyboard
+                    def="@xml/xml_7f17065e"
+                    type="prime">
+                    <if
+                        show_suggestions="true">
+                        <merge
+                            def="@xml/xml_7f1708d5" />
+                    </if>
+                    <merge
+                        def="@xml/xml_7f1708ce" />
+                    <merge
+                        def="@xml/xml_7f17084e" />
+                </keyboard>
+                <include
+                    href="@xml/xml_7f170a02" />
+                <override_keyboard_xml_conditions>
+                    <language
+                        value="en" />
+                </override_keyboard_xml_conditions>
+            </keyboard_group>
+        </else>
+        <keyboard_group
+            layout_theme="@style/style_7f15031b"
+            variant="pcqwerty">
+            <keyboard
+                def="@xml/xml_7f17065e"
+                type="prime">
+                <if
+                    show_suggestions="true">
+                    <merge
+                        def="@xml/xml_7f1708d5" />
+                </if>
+                <merge
+                    def="@xml/xml_7f1708c8" />
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a02" />
+            <override_keyboard_xml_conditions>
+                <language
+                    value="en" />
+            </override_keyboard_xml_conditions>
+        </keyboard_group>
+        <keyboard_group
+            variant="clariti">
+            <keyboard
+                def="@xml/xml_7f17065e"
+                type="prime">
+                <merge
+                    def="@xml/xml_7f1705fb" />
+                <if
+                    device="tablet|foldable">
+                    <merge
+                        def="@xml/xml_7f17071b" />
+                </if>
+                <else>
+                    <merge
+                        def="@xml/xml_7f17071a" />
+                </else>
+            </keyboard>
+            <keyboard
+                def="@xml/xml_7f170970"
+                type="symbol" />
+            <if
+                device="tablet|foldable"
+                keyboard_mode="normal">
+                <keyboard
+                    def="@xml/xml_7f1708b4"
+                    type="digit" />
+            </if>
+            <else>
+                <keyboard
+                    def="@xml/xml_7f1708b3"
+                    type="digit" />
+            </else>
+            <override_keyboard_xml_conditions>
+                <language
+                    value="en" />
+            </override_keyboard_xml_conditions>
+        </keyboard_group>
+    </ime>
+</framework>

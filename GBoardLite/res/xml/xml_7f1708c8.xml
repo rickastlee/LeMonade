@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class=".keyboard.impl.Keyboard"
+        popup="@attr/attr_7f0401f3" />
+    <include
+        href="@xml/xml_7f17097f" />
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f1708d1" />
+    </if>
+    <else_if
+        device="tablet"
+        enable_show_foldable_layout_on_small_tablet="false"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f1708d1" />
+    </else_if>
+    <else>
+        <include
+            href="@xml/xml_7f1708d0" />
+    </else>
+</framework>

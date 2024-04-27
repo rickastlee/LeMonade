@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="center"
+    android:id="@id/id_7f0b0013"
+    android:tag=".item-ripple.no-background"
+    android:background="@drawable/drawable_7f0801b5"
+    android:duplicateParentState="true"
+    android:layout_width="fill_parent"
+    android:layout_height="?attr_7f040002"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@id/id_7f0b026a"
+        style="@style/style_7f15029b" />
+</FrameLayout>

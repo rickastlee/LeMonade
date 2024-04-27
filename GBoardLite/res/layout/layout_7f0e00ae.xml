@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.AppCompatImageView
+    android:id="@id/id_7f0b01b1"
+    android:src="@drawable/drawable_7f0802e0"
+    android:scaleType="centerInside"
+    style="@style/style_7f150201"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

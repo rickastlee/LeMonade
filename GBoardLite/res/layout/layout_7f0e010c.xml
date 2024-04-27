@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.airbnb.lottie.LottieAnimationView
+    android:gravity="center"
+    android:id="@id/id_7f0b0299"
+    android:tag=".inline-space-animation"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr_7f040631="true"
+    app:attr_7f04063b="true"
+    app:attr_7f04063d="@raw/raw_7f130055"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

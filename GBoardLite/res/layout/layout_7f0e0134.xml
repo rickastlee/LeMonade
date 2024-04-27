@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    style="@style/style_7f1502cb"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        style="@style/style_7f1501c6">
+        <include
+            layout="@layout/layout_7f0e0135" />
+        <com.google.android.libraries.inputmethod.widgets.SplittableView
+            android:layout_weight="480.0"
+            style="@style/style_7f1505f9" />
+        <include
+            layout="@layout/layout_7f0e0137" />
+    </LinearLayout>
+</FrameLayout>

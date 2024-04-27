@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey
+            content_description="@string/string_7f140d49"
+            id="@id/id_7f0b1af3"
+            layout="@layout/layout_7f0e070c">
+            <action
+                action_on_down="true"
+                data="symbol"
+                keycode="SWITCH_TO_NON_PRIME_KEYBOARD"
+                type="PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="\?123" />
+        </softkey>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b0d43"
+                long_press_data="¡"
+                merge_index="-1"
+                press_data="!" />
+            <softkey
+                id="@id/id_7f0b19c4"
+                long_press_data="¿"
+                press_data="\?" />
+            <softkey
+                id="@id/id_7f0b0f9d"
+                long_press_data="!,¡"
+                long_press_intention="COMMIT"
+                merge_index="-1"
+                press_data="！"
+                press_intention="COMMIT" />
+            <softkey
+                id="@id/id_7f0b0fa0"
+                long_press_data="\?,¿"
+                long_press_intention="COMMIT"
+                press_data="？"
+                press_intention="COMMIT" />
+        </softkey_list>
+    </softkeys>
+</framework>

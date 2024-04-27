@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader
+        android:title="@string/string_7f140919">
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.SeekBarListPreference
+            android:persistent="true"
+            android:entries="@array/array_7f030022"
+            android:title="@string/string_7f140918"
+            android:key="@string/string_7f1406dc"
+            android:entryValues="@array/array_7f030031"
+            seek_bar_text_left="@string/string_7f140916"
+            seek_bar_text_right="@string/string_7f140917" />
+        <com.google.android.apps.inputmethod.libs.preferencewidgets.SeekBarListPreference
+            android:persistent="true"
+            android:entries="@array/array_7f030021"
+            android:title="@string/string_7f140915"
+            android:key="@string/string_7f1406dd"
+            android:entryValues="@array/array_7f030030"
+            seek_bar_text_left="@string/string_7f140913"
+            seek_bar_text_right="@string/string_7f140914" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

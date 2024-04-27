@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/id_7f0b02aa"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="inherit"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@id/id_7f0b02b2"
+        android:background="@drawable/drawable_7f0801c2"
+        android:layout_marginTop="0.0dip"
+        android:layoutDirection="inherit"
+        style="@style/style_7f15044d">
+        <ImageView
+            android:tag=".icon.clipboard-keys"
+            android:src="@drawable/drawable_7f0804fc"
+            android:contentDescription="@string/string_7f140382"
+            style="@style/style_7f15044b" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+            android:text="@string/string_7f140381"
+            style="@style/style_7f15044c" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/id_7f0b02b3"
+        android:background="@drawable/drawable_7f0801c3"
+        android:layoutDirection="inherit"
+        style="@style/style_7f15044d">
+        <ImageView
+            android:tag=".icon.clipboard-keys"
+            android:src="@drawable/drawable_7f080511"
+            android:contentDescription="@string/string_7f140384"
+            style="@style/style_7f15044b" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+            android:text="@string/string_7f140383"
+            style="@style/style_7f15044c" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/id_7f0b02b7"
+        android:background="@drawable/drawable_7f0801c3"
+        android:visibility="gone"
+        android:layoutDirection="inherit"
+        style="@style/style_7f15044d">
+        <ImageView
+            android:tag=".icon.clipboard-keys-pinned"
+            android:src="@drawable/drawable_7f080512"
+            android:contentDescription="@string/string_7f140386"
+            style="@style/style_7f15044b" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+            android:text="@string/string_7f140385"
+            style="@style/style_7f15044c" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/id_7f0b02ac"
+        android:background="@drawable/drawable_7f0801c1"
+        android:layoutDirection="inherit"
+        style="@style/style_7f15044d">
+        <ImageView
+            android:tag=".icon.clipboard-keys"
+            android:src="@drawable/drawable_7f0804fe"
+            android:contentDescription="@string/string_7f140380"
+            style="@style/style_7f15044b" />
+        <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+            android:text="@string/string_7f140360"
+            style="@style/style_7f15044c" />
+    </LinearLayout>
+</LinearLayout>

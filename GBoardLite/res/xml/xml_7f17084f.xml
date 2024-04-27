@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e030d"
+                type="body">
+                <if
+                    ja_candidate_ux_v2="true">
+                    <attrs
+                        layout="@layout/layout_7f0e030e" />
+                </if>
+            </view>
+        </if>
+        <else_if
+            device="tablet"
+            enable_show_foldable_layout_on_small_tablet="false"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e0297"
+                type="body">
+                <if
+                    ja_candidate_ux_v2="true">
+                    <attrs
+                        layout="@layout/layout_7f0e0298" />
+                </if>
+            </view>
+        </else_if>
+        <else_if
+            keyboard_mode="split">
+            <if
+                split_with_duplicate_keys="true">
+                <view
+                    layout="@layout/layout_7f0e027d"
+                    type="body">
+                    <if
+                        ja_candidate_ux_v2="true">
+                        <attrs
+                            layout="@layout/layout_7f0e0280" />
+                    </if>
+                </view>
+            </if>
+            <else>
+                <view
+                    layout="@layout/layout_7f0e027e"
+                    type="body">
+                    <if
+                        ja_candidate_ux_v2="true">
+                        <attrs
+                            layout="@layout/layout_7f0e027f" />
+                    </if>
+                </view>
+            </else>
+        </else_if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e027c"
+                type="body">
+                <if
+                    ja_candidate_ux_v2="true">
+                    <attrs
+                        layout="@layout/layout_7f0e0281" />
+                </if>
+            </view>
+        </else>
+        <view
+            type="body">
+            <softkeys
+                href="@xml/xml_7f170fc1" />
+            <include
+                href="@xml/xml_7f170bcf" />
+            <include
+                href="@xml/xml_7f170b8f" />
+        </view>
+    </keyboard>
+</framework>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:id="@id/id_7f0b0602"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="@dimen/dimen_7f070380"
+        layout="@layout/layout_7f0e002b" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/id_7f0b014a"
+        android:layout_width="0.0dip"
+        android:layout_height="fill_parent"
+        android:weightSum="1.0"
+        android:layout_weight="@dimen/dimen_7f0706e4">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:fitsSystemWindows="true"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0">
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@id/id_7f0b0147"
+                android:fitsSystemWindows="true"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                app:attr_7f0405ca="com.google.android.libraries.inputmethod.appcompat.ExpandableAppBarLayoutBehavior">
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:id="@id/id_7f0b0149"
+                    android:layout_width="fill_parent"
+                    android:layout_height="?attr_7f0403b6"
+                    app:attr_7f04060a="id_7f0b01a2|id_7f0b05bc|id_7f0b0612"
+                    app:attr_7f0408a5="@id/id_7f0b0146"
+                    style="?attr_7f0403b7">
+                    <com.google.android.material.appbar.MaterialToolbar
+                        android:id="@id/id_7f0b0146"
+                        android:layout_width="fill_parent"
+                        android:layout_height="?attr_7f04029f"
+                        android:elevation="0.0dip"
+                        app:attr_7f0405cb="id_7f0b0550" />
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:layout_gravity="top"
+                android:id="@id/id_7f0b014c"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:indeterminate="true"
+                app:attr_7f0405ca="@string/string_7f140051" />
+            <FrameLayout
+                android:id="@id/id_7f0b014b"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                app:attr_7f0405ca="@string/string_7f140051" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <FrameLayout
+            android:id="@id/id_7f0b0148"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

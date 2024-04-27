@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        auto_capital="false"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="bts-XF"
+        string_id="ime_batak_simalungun_dynamic"
+        use_ascii_password_keyboard="true">
+        <keyboard_group
+            layout_theme="@style/style_7f15031b"
+            supports_split_mode="true"
+            variant="batak_simalungun"
+            variant_label="@string/string_7f14105c">
+            <keyboard
+                def="@xml/xml_7f1705c8"
+                type="prime" />
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+    </ime>
+</framework>

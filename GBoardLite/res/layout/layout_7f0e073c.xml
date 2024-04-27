@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:paddingTop="@dimen/dimen_7f070305"
+    android:paddingBottom="@dimen/dimen_7f070305"
+    android:duplicateParentState="true"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="@dimen/dimen_7f07030b"
+        android:typeface="sans"
+        android:textColor="@color/color_7f060186"
+        android:id="@id/id_7f0b0470"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:paddingEnd="@dimen/dimen_7f07030a" />
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="@dimen/dimen_7f07030c"
+        android:typeface="sans"
+        android:textColor="@color/color_7f060138"
+        android:id="@id/id_7f0b046c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        app:attr_7f040866="ja-JP" />
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="@dimen/dimen_7f070306"
+        android:typeface="sans"
+        android:textColor="@color/color_7f060183"
+        android:id="@id/id_7f0b046e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:paddingStart="@dimen/dimen_7f070304"
+        app:attr_7f040866="ja-JP" />
+</LinearLayout>

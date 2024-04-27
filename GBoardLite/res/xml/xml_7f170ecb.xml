@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b100b"
+                long_press_data="~"
+                press_data="`" />
+            <softkey
+                id="@id/id_7f0b0c63"
+                long_press_data="!,¡,¹,½,⅓,¼,⅕,⅙,⅐,⅛,⅑,⅒"
+                press_data="1" />
+            <softkey
+                id="@id/id_7f0b0c8b"
+                long_press_data="\@,²,⅔,⅖"
+                press_data="2" />
+            <softkey
+                id="@id/id_7f0b0c81"
+                long_press_data="\#,³,¾,⅗,⅜"
+                press_data="3" />
+            <softkey
+                id="@id/id_7f0b0c4f"
+                long_press_data="$,⁴,⅘"
+                press_data="4" />
+            <softkey
+                id="@id/id_7f0b0c45"
+                long_press_data="%,⁵,⅚,⅝"
+                press_data="5" />
+            <softkey
+                id="@id/id_7f0b0c77"
+                long_press_data="^,⁶"
+                press_data="6" />
+            <softkey
+                id="@id/id_7f0b0c6d"
+                long_press_data="&amp;,⁷,⅞"
+                press_data="7" />
+            <softkey
+                id="@id/id_7f0b0c3b"
+                long_press_data="*,⁸"
+                press_data="8" />
+            <softkey
+                id="@id/id_7f0b0c59"
+                long_press_data="(,⁹"
+                press_data="9" />
+            <softkey
+                id="@id/id_7f0b0c95"
+                long_press_data="),⁰,ⁿ,∅"
+                press_data="0" />
+            <softkey
+                id="@id/id_7f0b118f"
+                long_press_data="_,–,—,·"
+                press_data="-" />
+            <softkey
+                id="@id/id_7f0b0ca8"
+                long_press_data="¢,£,€,¥,₱,₹"
+                press_data="$" />
+            <softkey
+                id="@id/id_7f0b199c"
+                long_press_data="‰"
+                press_data="%" />
+            <softkey
+                id="@id/id_7f0b075c"
+                long_press_data="†,‡,★"
+                press_data="*" />
+            <softkey
+                id="@id/id_7f0b19bc"
+                long_press_data="±,×,÷,√"
+                press_data="+" />
+            <softkey
+                id="@id/id_7f0b15ce"
+                long_press_data="{"
+                press_data="[" />
+            <softkey
+                id="@id/id_7f0b19ff"
+                long_press_data="}"
+                press_data="]" />
+            <softkey
+                id="@id/id_7f0b19ed"
+                long_press_data="|"
+                press_data="@string/string_7f141015" />
+            <softkey
+                id="@id/id_7f0b1a91"
+                long_press_data="\?,¿"
+                press_data="/" />
+            <softkey
+                id="@id/id_7f0b19c4"
+                long_press_data="¿"
+                press_data="\?" />
+            <softkey
+                id="@id/id_7f0b0d43"
+                long_press_data="¡"
+                press_data="!" />
+            <softkey
+                id="@id/id_7f0b1a49"
+                long_press_data=":"
+                press_data=";" />
+            <softkey
+                id="@id/id_7f0b0f98"
+                long_press_data=">"
+                press_data="." />
+        </softkey_list>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b1687"
+                long_press_data="&lt;"
+                press_data="," />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cb1">
+            <softkey
+                id="@id/id_7f0b0a34"
+                press_data="\@" />
+            <softkey
+                id="@id/id_7f0b1e0a"
+                press_data="~" />
+            <softkey
+                id="@id/id_7f0b1884"
+                press_data="\#" />
+            <softkey
+                id="@id/id_7f0b0a05"
+                press_data="^" />
+            <softkey
+                id="@id/id_7f0b0681"
+                press_data="&amp;" />
+            <softkey
+                id="@id/id_7f0b15cc"
+                press_data="(" />
+            <softkey
+                id="@id/id_7f0b19fd"
+                press_data=")" />
+            <softkey
+                id="@id/id_7f0b1686"
+                press_data="_" />
+            <softkey
+                id="@id/id_7f0b15c4"
+                press_data="{" />
+            <softkey
+                id="@id/id_7f0b19f5"
+                press_data="}" />
+            <softkey
+                id="@id/id_7f0b1e51"
+                press_data="|" />
+            <softkey
+                id="@id/id_7f0b0a0f"
+                press_data=":" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c78">
+            <softkey
+                id="@id/id_7f0b0cfa"
+                long_press_data="∞,≠,≈,+"
+                press_data="=" />
+            <softkey
+                id="@id/id_7f0b0684"
+                long_press_data="„,“,”,&quot;,‚,‘,’"
+                press_data="'" />
+            <softkey
+                id="@id/id_7f0b19c7"
+                long_press_data="„,“,”,‚,‘,’"
+                press_data="&quot;" />
+            <softkey
+                id="@id/id_7f0b1689"
+                long_press_data="‹,≤,«"
+                press_data="&lt;" />
+            <softkey
+                id="@id/id_7f0b1040"
+                long_press_data="›,≥,»"
+                press_data=">" />
+        </softkey_list>
+    </softkeys>
+</framework>

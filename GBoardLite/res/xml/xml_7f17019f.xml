@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        announce_auto_selected_candidate="true"
+        ascii_capable="true"
+        auto_capital="true"
+        class="com.google.android.apps.inputmethod.libs.latin5.LatinIme"
+        display_app_completions="true"
+        language="bjn-ID"
+        string_id="ime_banjar">
+        <keyboard_group
+            supports_split_mode="true"
+            variant="qwerty">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f170627"
+                type="prime">
+                <merge
+                    def="@xml/xml_7f1708da" />
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f17084e" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <keyboard_group
+            supports_split_mode="true"
+            variant="qwertz">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f170627"
+                type="prime">
+                <merge
+                    def="@xml/xml_7f1708f8" />
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f17084e" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <keyboard_group
+            supports_split_mode="true"
+            variant="azerty">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f170627"
+                type="prime">
+                <merge
+                    def="@xml/xml_7f17081e" />
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f17084a" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <keyboard_group
+            supports_split_mode="true"
+            variant="dvorak">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f170627"
+                type="prime">
+                <merge
+                    def="@xml/xml_7f170835" />
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f170870" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <keyboard_group
+            supports_split_mode="true"
+            variant="colemak">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <keyboard
+                def="@xml/xml_7f170627"
+                type="prime">
+                <merge
+                    def="@xml/xml_7f17082b" />
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f17084a" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <keyboard_group
+            layout_theme="@style/style_7f15031b"
+            variant="pcqwerty">
+            <keyboard
+                def="@xml/xml_7f170627"
+                type="prime">
+                <merge
+                    def="@xml/xml_7f1708cf" />
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a01" />
+        </keyboard_group>
+    </ime>
+</framework>

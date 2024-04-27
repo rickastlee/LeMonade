@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="plurals_7f120000">
+        <item quantity="other">%d зададени клавиша</item>
+        <item quantity="one">%d зададен клавиш</item>
+    </plurals>
+    <plurals name="plurals_7f120002">
+        <item quantity="other">Вече инсталирахте %s.</item>
+        <item quantity="one">Вече инсталирахте %s.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.inputmethod.libs.japanese.keyboard.widget.MonolithicCandidatesRecyclerView
+    android:id="@id/id_7f0b02b9"
+    app:attr_7f040359="60"
+    app:attr_7f04035a="30"
+    app:attr_7f04035b="@layout/layout_7f0e0737"
+    app:attr_7f04075c="0"
+    candidateTextOnlyLayout="@layout/layout_7f0e0739"
+    candidate_background="@android:color/transparent"
+    last_column_candidate_background="@android:color/transparent"
+    style="@style/style_7f1502d2"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" />

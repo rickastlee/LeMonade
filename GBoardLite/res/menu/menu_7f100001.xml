@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/drawable_7f0802f2"
+        android:id="@id/action_edit_language"
+        android:title="@string/string_7f1408c6"
+        app:attr_7f04078d="id_7f0b0077" />
+    <item
+        android:icon="@drawable/drawable_7f0804fe"
+        android:id="@id/action_remove_language"
+        android:title="@string/string_7f140948"
+        app:attr_7f04078d="id_7f0b0077" />
+</menu>

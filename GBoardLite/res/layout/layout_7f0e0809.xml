@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="@dimen/dimen_7f070847">
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@id/id_7f0b026a"
+            app:attr_7f0405ee="id_7f0b053e"
+            app:attr_7f0405f2="id_7f0b053e"
+            style="@style/style_7f150c27" />
+        <android.support.v7.widget.AppCompatTextView
+            app:attr_7f0405ce="true"
+            app:attr_7f0405da="id_7f0b053e"
+            app:attr_7f0405ed="@id/id_7f0b026a"
+            app:attr_7f0405f2="id_7f0b053e"
+            app:attr_7f040603="0.0dip"
+            style="@style/style_7f150c28" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/layout_7f0e080b" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_gravity="right"
+    android:id="@id/id_7f0b043e"
+    android:splitMotionEvents="false"
+    app:attr_7f0405d4="id_7f0b053e"
+    app:attr_7f0405ec="id_7f0b053e"
+    style="@style/style_7f1502ff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.keyboardmode.MultiTouchDelegateView
+        android:id="@id/id_7f0b0440"
+        style="@style/style_7f1502fb" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <include
+            layout="@layout/layout_7f0e0161" />
+        <include
+            layout="@layout/layout_7f0e015d" />
+        <include
+            layout="@layout/layout_7f0e0154" />
+    </LinearLayout>
+    <include
+        layout="@layout/layout_7f0e0158" />
+    <include
+        layout="@layout/layout_7f0e014b" />
+</FrameLayout>

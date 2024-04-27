@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    app:attr_7f0402d1="false"
+    style="@style/style_7f150289"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner
+        style="@style/style_7f150292">
+        <include
+            layout="@layout/layout_7f0e019a" />
+        <include
+            layout="@layout/layout_7f0e01a4" />
+        <include
+            layout="@layout/layout_7f0e019d" />
+        <LinearLayout
+            app:attr_7f0405d4="id_7f0b053e"
+            app:attr_7f0405db="@id/id_7f0b025c"
+            app:attr_7f0405ed="@id/key_pos_header_start_extra_key"
+            app:attr_7f0405f2="id_7f0b053e"
+            style="@style/style_7f150293">
+            <com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout
+                style="@style/style_7f15060e">
+                <include
+                    layout="@layout/layout_7f0e0199" />
+                <com.google.android.apps.inputmethod.latin.keyboard.widget.LatinFixedCountCandidatesHolderView
+                    android:id="@id/softkey_holder_fixed_candidates"
+                    app:attr_7f04001d="?attr_7f0401a8"
+                    app:attr_7f0401bc="?attr_7f0401ab"
+                    app:attr_7f040358="@layout/layout_7f0e0600"
+                    app:attr_7f04035b="@layout/layout_7f0e0603"
+                    app:attr_7f040645="true"
+                    candidate_background="@android:color/transparent"
+                    chip_candidate_layout="@layout/layout_7f0e05c0"
+                    contextual_candidate_layout="@layout/layout_7f0e05c2"
+                    email_candidate_layout="@layout/layout_7f0e05c7"
+                    emoji_candidate_layout="@layout/layout_7f0e05c9"
+                    flexible_chip_candidate_layout="@layout/layout_7f0e05cb"
+                    icon_holder_candidate_layout="@layout/layout_7f0e05d1"
+                    image_candidate_layout="@layout/layout_7f0e05d3"
+                    last_column_candidate_background="@android:color/transparent"
+                    link_candidate_layout="@layout/layout_7f0e05fa"
+                    style="@style/style_7f1501d0" />
+                <include
+                    layout="@layout/layout_7f0e06c6" />
+                <include
+                    layout="@layout/layout_7f0e019f" />
+                <include
+                    layout="@layout/layout_7f0e06b7" />
+                <include
+                    layout="@layout/layout_7f0e07e1" />
+            </com.google.android.libraries.inputmethod.widgets.ManagedFrameLayout>
+            <include
+                layout="@layout/layout_7f0e01a3" />
+        </LinearLayout>
+        <include
+            layout="@layout/layout_7f0e019e" />
+        <include
+            layout="@layout/layout_7f0e01a0" />
+    </com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

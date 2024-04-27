@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@id/id_7f0b05f2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@android:id/list_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textDirection="locale"
+            android:layoutDirection="locale">
+            <android.support.v7.widget.RecyclerView
+                android:id="@id/id_7f0b0481"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <View
+                android:background="?attr_7f0403f2"
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip" />
+            <Button
+                android:textAppearance="?android:textAppearanceListItem"
+                android:id="@id/add_language_button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:tint="?attr_7f0403f4"
+                android:text="@string/string_7f140942"
+                android:textAlignment="textStart"
+                android:paddingStart="?android:listPreferredItemPaddingStart"
+                android:paddingEnd="?android:listPreferredItemPaddingEnd"
+                app:attr_7f04056f="@drawable/drawable_7f0804e4"
+                app:attr_7f040572="24.0dip"
+                style="@style/style_7f150b00" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cab">
+            <softkey
+                id="@id/id_7f0b168a"
+                long_press_data="്,്‌,അ"
+                long_press_label="്,￫്,അ"
+                press_data="അ"
+                press_label="അ" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cad">
+            <softkey
+                id="@id/id_7f0b168b"
+                long_press_data="ാ"
+                press_data="ആ" />
+            <softkey
+                id="@id/id_7f0b16a0"
+                long_press_data="ി"
+                press_data="ഇ" />
+            <softkey
+                id="@id/id_7f0b16a1"
+                long_press_data="ീ"
+                press_data="ഈ" />
+            <softkey
+                id="@id/id_7f0b16bb"
+                long_press_data="ു"
+                press_data="ഉ" />
+            <softkey
+                id="@id/id_7f0b16bc"
+                long_press_data="ൂ"
+                press_data="ഊ" />
+            <softkey
+                id="@id/id_7f0b16be"
+                long_press_data="ൃ,ൠ,ൄ,ഌ,ൢ,ൡ,ൣ"
+                press_data="ഋ" />
+            <softkey
+                id="@id/id_7f0b169b"
+                long_press_data="െ"
+                press_data="എ" />
+            <softkey
+                id="@id/id_7f0b169c"
+                long_press_data="േ"
+                press_data="ഏ" />
+            <softkey
+                id="@id/id_7f0b16ae"
+                long_press_data="ൊ"
+                press_data="ഒ" />
+            <softkey
+                id="@id/id_7f0b16af"
+                long_press_data="ോ"
+                press_data="ഓ" />
+            <softkey
+                id="@id/id_7f0b168c"
+                long_press_data="ൈ"
+                press_data="ഐ" />
+            <softkey
+                id="@id/id_7f0b168d"
+                long_press_data="ൗ,ൌ"
+                press_data="ഔ" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b16a4"
+                long_press_data="ക്ക,ക്ത"
+                press_data="ക" />
+            <softkey
+                id="@id/id_7f0b16a5"
+                long_press_data="ഖ്ന"
+                press_data="ഖ" />
+            <softkey
+                id="@id/id_7f0b169d"
+                long_press_data="ഗ്ഗ,ഗ്ദ,ഗ്ന,ഗ്ര"
+                press_data="ഗ" />
+            <softkey
+                id="@id/id_7f0b169e"
+                press_data="ഘ" />
+            <softkey
+                id="@id/id_7f0b16ab"
+                long_press_data="ങ്ക"
+                press_data="ങ" />
+            <softkey
+                id="@id/id_7f0b1690"
+                long_press_data="ച്ച"
+                press_data="ച" />
+            <softkey
+                id="@id/id_7f0b1691"
+                press_data="ഛ" />
+            <softkey
+                id="@id/id_7f0b16a2"
+                long_press_data="ജ്ജ,ജ്ന"
+                press_data="ജ" />
+            <softkey
+                id="@id/id_7f0b16a3"
+                press_data="ഝ" />
+            <softkey
+                id="@id/id_7f0b16ad"
+                long_press_data="ഞ്ച"
+                press_data="ഞ" />
+            <softkey
+                id="@id/id_7f0b16b9"
+                long_press_data="ട്ട"
+                press_data="ട" />
+            <softkey
+                id="@id/id_7f0b16ba"
+                press_data="ഠ" />
+            <softkey
+                id="@id/id_7f0b1698"
+                long_press_data="ഡ്ഡ,ഡ്ഢ,ഡ്ന,ഡ്സ"
+                press_data="ഡ" />
+            <softkey
+                id="@id/id_7f0b1699"
+                press_data="ഢ" />
+            <softkey
+                id="@id/id_7f0b16ac"
+                long_press_data="ണ്ട"
+                press_data="ണ" />
+            <softkey
+                id="@id/id_7f0b16b7"
+                long_press_data="ത്ത,ത്ര"
+                press_data="ത" />
+            <softkey
+                id="@id/id_7f0b16b8"
+                press_data="ഥ" />
+            <softkey
+                id="@id/id_7f0b1697"
+                long_press_data="ദ്ദ,ദ്ഗ,ദ്ര,ദ്ഹ"
+                press_data="ദ" />
+            <softkey
+                id="@id/id_7f0b169a"
+                press_data="ധ" />
+            <softkey
+                id="@id/id_7f0b16aa"
+                long_press_data="ന്ന,ന്ദ,ന്യ"
+                press_data="ന" />
+            <softkey
+                id="@id/id_7f0b16b0"
+                long_press_data="പ്ത,പ്ന,പ്യ,പ്ര"
+                press_data="പ" />
+            <softkey
+                id="@id/id_7f0b16b1"
+                press_data="ഫ" />
+            <softkey
+                id="@id/id_7f0b168e"
+                press_data="ബ" />
+            <softkey
+                id="@id/id_7f0b168f"
+                press_data="ഭ" />
+            <softkey
+                id="@id/id_7f0b16a9"
+                long_press_data="മ്മ"
+                press_data="മ" />
+            <softkey
+                id="@id/id_7f0b16bf"
+                long_press_data="യ്യ,യ്ന"
+                press_data="യ" />
+            <softkey
+                id="@id/id_7f0b16b2"
+                press_data="ര" />
+            <softkey
+                id="@id/id_7f0b16a6"
+                long_press_data="ല്ല"
+                press_data="ല" />
+            <softkey
+                id="@id/id_7f0b16bd"
+                press_data="വ" />
+            <softkey
+                id="@id/id_7f0b16b5"
+                press_data="ശ" />
+            <softkey
+                id="@id/id_7f0b16b6"
+                long_press_data="ഷ്ട"
+                press_data="ഷ" />
+            <softkey
+                id="@id/id_7f0b16b4"
+                long_press_data="സ്സ,സ്ക,സ്ട,സ്ത,സ്പ,സ്യ"
+                press_data="സ" />
+            <softkey
+                id="@id/id_7f0b169f"
+                press_data="ഹ" />
+            <softkey
+                id="@id/id_7f0b16a7"
+                long_press_data="ഴ"
+                press_data="ള" />
+            <softkey
+                id="@id/id_7f0b16b3"
+                press_data="റ" />
+            <softkey
+                id="@id/id_7f0b1695"
+                press_data="ൺ" />
+            <softkey
+                id="@id/id_7f0b1692"
+                press_data="ൽ" />
+            <softkey
+                id="@id/id_7f0b1694"
+                press_data="ൻ" />
+            <softkey
+                id="@id/id_7f0b1693"
+                press_data="ൾ" />
+            <softkey
+                id="@id/id_7f0b1696"
+                press_data="ർ" />
+            <softkey
+                id="@id/id_7f0b0684"
+                press_data="'" />
+        </softkey_list>
+    </softkeys>
+</framework>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f17076f" />
+    <keyboard>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e03c9"
+                type="body" />
+        </if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e03c8"
+                type="body" />
+        </else>
+        <view
+            type="body">
+            <include
+                href="@xml/xml_7f170be8" />
+            <include
+                href="@xml/xml_7f170adc" />
+        </view>
+    </keyboard>
+</framework>

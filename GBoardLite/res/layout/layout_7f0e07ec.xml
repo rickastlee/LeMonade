@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:background="?android:selectableItemBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.widgets.AutoSizeTextView
+        android:id="@id/id_7f0b046c"
+        android:paddingEnd="28.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150430" />
+    <ProgressBar
+        android:tag=".notice.for-notice-key"
+        android:layout_width="24.0dip"
+        android:layout_height="24.0dip"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="@id/id_7f0b046c"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150c47" />
+</androidx.constraintlayout.widget.ConstraintLayout>

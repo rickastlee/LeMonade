@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center"
+    android:layout_gravity="center|right"
+    android:orientation="horizontal"
+    android:id="@id/id_7f0b05a5"
+    android:tag=".icon.item-ripple.on-surface.for-floating-close-button"
+    android:background="@drawable/drawable_7f080249"
+    android:paddingTop="@dimen/dimen_7f07034e"
+    android:paddingBottom="@dimen/dimen_7f07034e"
+    android:visibility="gone"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/dimen_7f07018c"
+    android:layout_marginRight="@dimen/dimen_7f07019d"
+    android:contentDescription="@string/string_7f140854"
+    android:paddingStart="@dimen/dimen_7f07034c"
+    android:paddingEnd="@dimen/dimen_7f07034c"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:tag=".icon.on-surface.for-floating-close-button"
+        android:layout_width="@dimen/dimen_7f07034f"
+        android:layout_height="@dimen/dimen_7f07034f"
+        android:src="@drawable/drawable_7f080323"
+        android:tint="?attr_7f0403e5"
+        android:importantForAccessibility="no" />
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="@dimen/dimen_7f07019e"
+        android:ellipsize="marquee"
+        android:id="@id/id_7f0b1f0d"
+        android:tag=".icon.on-surface.for-floating-close-button"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="?attr_7f0400e5"
+        android:tint="?attr_7f0403e5"
+        android:text="@string/string_7f140456"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:layout_marginStart="@dimen/dimen_7f07034d"
+        android:layout_marginEnd="@dimen/dimen_7f07034d" />
+</LinearLayout>

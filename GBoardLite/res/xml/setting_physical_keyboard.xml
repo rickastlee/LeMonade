@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    android:title="@string/string_7f14097b"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader
+        android:title="@string/string_7f14097d"
+        android:key="@string/string_7f14097c">
+        <Preference
+            android:persistent="false"
+            android:title="@string/string_7f14094d"
+            android:key="@string/string_7f140804"
+            android:fragment="com.google.android.apps.inputmethod.libs.languageselection.preference.LanguageSettingFragment">
+            <extra
+                android:name="PREFERENCE_FRAGMENT"
+                android:value="setting_languages" />
+        </Preference>
+        <Preference
+            android:persistent="false"
+            android:title="@string/string_7f1409b3"
+            android:key="@string/string_7f140819"
+            android:summary="@string/string_7f1409b2">
+            <intent
+                android:targetPackage="com.android.settings"
+                android:action="android.settings.HARD_KEYBOARD_SETTINGS"
+                android:targetClass="com.android.settings.Settings$PhysicalKeyboardActivity" />
+        </Preference>
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader
+        android:title="@string/string_7f140981"
+        android:key="@string/string_7f140980">
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f14089c"
+            android:key="@string/string_7f1407ef"
+            android:summary="@string/string_7f1409c1"
+            android:disableDependentsState="true">
+            <extra
+                android:name="hide_if_flag_is_false"
+                android:value="@string/string_7f14021e" />
+        </SwitchPreferenceCompat>
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f1409a9"
+            android:key="@string/string_7f140817"
+            android:summary="@string/string_7f1409a8"
+            android:dependency="@string/string_7f1407ef">
+            <extra
+                android:name="hide_if_flag_is_false"
+                android:value="@string/string_7f14021e" />
+        </SwitchPreferenceCompat>
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f1409a0"
+            android:key="@string/string_7f140811"
+            android:summary="@string/string_7f14099f"
+            android:dependency="@string/string_7f140817">
+            <extra
+                android:name="hide_if_flag_is_false"
+                android:value="@string/string_7f14021e" />
+            <extra
+                android:name="toolbar_type"
+                android:value="pk" />
+        </SwitchPreferenceCompat>
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+    <com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader
+        android:title="@string/string_7f14097f"
+        android:key="@string/string_7f14097e">
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f1401f9"
+            android:key="@string/string_7f140680"
+            android:summary="@string/string_7f1401f8">
+            <extra
+                android:name="hide_if_flag_is_false"
+                android:value="@string/string_7f14021e" />
+        </SwitchPreferenceCompat>
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f140950"
+            android:key="@string/string_7f1407ba"
+            android:summary="@string/string_7f14094f">
+            <extra
+                android:name="hide_if_flag_is_false"
+                android:value="@string/string_7f1401fa" />
+        </SwitchPreferenceCompat>
+        <SwitchPreferenceCompat
+            android:persistent="true"
+            android:title="@string/string_7f140952"
+            android:key="@string/string_7f1407bb"
+            android:summary="@string/string_7f140951" />
+        <extra
+            android:name="hide_if_flag_is_false"
+            android:value="@string/string_7f14021e" />
+    </com.google.android.libraries.inputmethod.preferencewidgets.PreferenceCategoryHeader>
+</PreferenceScreen>

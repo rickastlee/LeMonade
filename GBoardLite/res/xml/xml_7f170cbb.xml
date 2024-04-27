@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            content_description="@string/string_7f140a2c"
+            id="@id/id_7f0b1a95"
+            layout="@layout/layout_7f0e0779"
+            long_press_delay_flag="@string/string_7f140a2d">
+            <action
+                data=" "
+                keycode="SPACE"
+                type="PRESS" />
+            <action
+                action_on_down="true"
+                data="space"
+                keycode="SHOW_SYSTEM_IME_PICKER"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value=" " />
+        </softkey>
+    </softkeys>
+</framework>

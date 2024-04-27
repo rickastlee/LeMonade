@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if
+        device="tablet"
+        device_size="large">
+        <key_mapping
+            state="SHOW_EMOJI_SWITCH_KEY">
+            <if
+                expressions="policy_transparency">
+                <mapping
+                    key_id="@id/id_7f0b1ae8"
+                    view_id="@id/key_pos_switch_to_smiley" />
+            </if>
+            <else>
+                <mapping
+                    key_id="@id/id_7f0b1ae4"
+                    view_id="@id/key_pos_switch_to_smiley" />
+            </else>
+        </key_mapping>
+    </if>
+    <else>
+        <key_mapping
+            state="EMOTICON_AVAILABLE">
+            <if
+                expressions="policy_transparency">
+                <mapping
+                    key_id="@id/id_7f0b1aed"
+                    view_id="@id/key_pos_switch_to_smiley" />
+            </if>
+            <else>
+                <mapping
+                    key_id="@id/id_7f0b1ae9"
+                    view_id="@id/key_pos_switch_to_smiley" />
+            </else>
+        </key_mapping>
+        <key_mapping
+            state="EMOJI_AVAILABLE">
+            <if
+                expressions="policy_transparency">
+                <mapping
+                    key_id="@id/id_7f0b1ae8"
+                    view_id="@id/key_pos_switch_to_smiley" />
+            </if>
+            <else>
+                <mapping
+                    key_id="@id/id_7f0b1ae4"
+                    view_id="@id/key_pos_switch_to_smiley" />
+            </else>
+        </key_mapping>
+    </else>
+    <key_mapping
+        state="INPUT_TYPE_URI">
+        <mapping
+            key_id="@id/id_7f0b0878"
+            view_id="@id/key_pos_switch_to_smiley" />
+    </key_mapping>
+    <key_mapping
+        state="INPUT_TYPE_EMAIL_ADDRESS">
+        <mapping
+            key_id="@id/id_7f0b0878"
+            view_id="@id/key_pos_switch_to_smiley" />
+    </key_mapping>
+</framework>

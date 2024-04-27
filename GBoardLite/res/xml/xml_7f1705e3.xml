@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class="com.google.android.apps.inputmethod.libs.clipboard.ClipboardKeyboard">
+        <view
+            direction="locale"
+            layout="@layout/layout_7f0e0148"
+            scalable="false"
+            type="header">
+            <softkeys
+                href="@xml/xml_7f170ca3" />
+            <include
+                href="@xml/xml_7f170aa0" />
+        </view>
+        <view
+            direction="locale"
+            layout="@layout/layout_7f0e0145"
+            type="body">
+            <motion_event_handler
+                class=".motioneventhandler.BasicMotionEventHandler" />
+        </view>
+    </keyboard>
+</framework>

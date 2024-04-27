@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1c8f"
+            layout="@layout/layout_7f0e0767"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b"
+            slide_sensitivity="NORMAL">
+            <action
+                data="$press_data$"
+                intention="DECODE"
+                keycode="PLAIN_TEXT"
+                popup_label="$press_data$"
+                type="PRESS" />
+            <action
+                data="$long_press_data$"
+                intention="$long_press_intention=DECODE$"
+                keycode="PLAIN_TEXT"
+                merge_insertion_index="$merge_index=0$"
+                popup_label="$long_press_data$"
+                popup_layout="@attr/attr_7f0401fa"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b046c"
+                value="$press_data$" />
+        </softkey_template>
+        <softkey_list
+            splitter=" "
+            template_id="@id/id_7f0b1c8f">
+            <softkey
+                desc="비읍"
+                id="@id/id_7f0b1128"
+                long_press_data="ㅃ"
+                press_data="ㅂ" />
+            <softkey
+                desc="쌍비읍"
+                id="@id/id_7f0b112d"
+                press_data="ㅃ" />
+            <softkey
+                desc="지읒"
+                id="@id/id_7f0b111b"
+                long_press_data="ㅉ"
+                press_data="ㅈ" />
+            <softkey
+                desc="쌍지읒"
+                id="@id/id_7f0b112b"
+                press_data="ㅉ" />
+            <softkey
+                desc="디귿"
+                id="@id/id_7f0b1131"
+                long_press_data="ㄸ"
+                press_data="ㄷ" />
+            <softkey
+                desc="쌍디귿"
+                id="@id/id_7f0b112f"
+                press_data="ㄸ" />
+            <softkey
+                desc="기역"
+                id="@id/id_7f0b1123"
+                long_press_data="ㄲ"
+                press_data="ㄱ" />
+            <softkey
+                desc="쌍기역"
+                id="@id/id_7f0b112c"
+                press_data="ㄲ" />
+            <softkey
+                desc="시옷"
+                id="@id/id_7f0b112a"
+                long_press_data="ㅆ"
+                press_data="ㅅ" />
+            <softkey
+                desc="쌍시옷"
+                id="@id/id_7f0b112e"
+                press_data="ㅆ" />
+            <softkey
+                desc="요"
+                id="@id/id_7f0b1137"
+                press_data="ㅛ" />
+            <softkey
+                desc="여"
+                id="@id/id_7f0b1136"
+                press_data="ㅕ" />
+            <softkey
+                desc="야"
+                id="@id/id_7f0b1133"
+                press_data="ㅑ" />
+            <softkey
+                desc="애"
+                id="@id/id_7f0b1118"
+                long_press_data="ㅒ"
+                press_data="ㅐ" />
+            <softkey
+                desc="얘"
+                id="@id/id_7f0b1134"
+                press_data="ㅒ" />
+            <softkey
+                desc="에"
+                id="@id/id_7f0b111c"
+                long_press_data="ㅖ"
+                press_data="ㅔ" />
+            <softkey
+                desc="예"
+                id="@id/id_7f0b1135"
+                press_data="ㅖ" />
+            <softkey
+                desc="미음"
+                id="@id/id_7f0b1124"
+                press_data="ㅁ" />
+            <softkey
+                desc="니은"
+                id="@id/id_7f0b1125"
+                press_data="ㄴ" />
+            <softkey
+                desc="이응"
+                id="@id/id_7f0b1121"
+                press_data="ㅇ" />
+            <softkey
+                desc="리을"
+                id="@id/id_7f0b1129"
+                press_data="ㄹ" />
+            <softkey
+                desc="히읗"
+                id="@id/id_7f0b111f"
+                press_data="ㅎ" />
+            <softkey
+                desc="오"
+                id="@id/id_7f0b1126"
+                press_data="ㅗ" />
+            <softkey
+                desc="어"
+                id="@id/id_7f0b111d"
+                press_data="ㅓ" />
+            <softkey
+                desc="아"
+                id="@id/id_7f0b1117"
+                press_data="ㅏ" />
+            <softkey
+                desc="이"
+                id="@id/id_7f0b1120"
+                press_data="ㅣ" />
+            <softkey
+                desc="키읔"
+                id="@id/id_7f0b1122"
+                press_data="ㅋ" />
+            <softkey
+                desc="티읕"
+                id="@id/id_7f0b1130"
+                press_data="ㅌ" />
+            <softkey
+                desc="치읓"
+                id="@id/id_7f0b111a"
+                press_data="ㅊ" />
+            <softkey
+                desc="피읖"
+                id="@id/id_7f0b1127"
+                press_data="ㅍ" />
+            <softkey
+                desc="유"
+                id="@id/id_7f0b1138"
+                press_data="ㅠ" />
+            <softkey
+                desc="우"
+                id="@id/id_7f0b1132"
+                press_data="ㅜ" />
+            <softkey
+                desc="으"
+                id="@id/id_7f0b111e"
+                press_data="ㅡ" />
+        </softkey_list>
+    </softkeys>
+</framework>

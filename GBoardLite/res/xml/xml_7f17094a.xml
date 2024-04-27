@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f17059b" />
+    <keyboard
+        popup="@layout/layout_7f0e066a">
+        <view
+            direction="locale"
+            layout="@layout/layout_7f0e0592"
+            scalable="false"
+            type="header" />
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e02bf"
+                type="body" />
+        </if>
+        <else_if
+            device="tablet"
+            enable_show_foldable_layout_on_small_tablet="false"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e02dc"
+                type="body" />
+        </else_if>
+        <if
+            keyboard_mode="split">
+            <view
+                layout="@layout/layout_7f0e0223"
+                override="motion_event_handler"
+                type="body" />
+        </if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e0222"
+                override="motion_event_handler"
+                type="body" />
+        </else>
+        <view
+            type="body">
+            <motion_event_handler
+                class=".libs.latin5.handler.LatinMotionEventHandler" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubDeleteMotionEventHandler"
+                preference_key="@string/string_7f1406b0"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler
+                class=".motioneventhandler.ScrubMoveMotionEventHandler"
+                preference_key="@string/string_7f1406b1"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".libs.latin5.handler.LatinKeyboardLayoutHandler" />
+            <softkeys
+                href="@xml/xml_7f170e9b" />
+            <softkeys
+                href="@xml/xml_7f170fb9" />
+            <include
+                href="@xml/xml_7f170bc0" />
+            <include
+                href="@xml/xml_7f170add" />
+            <include
+                href="@xml/xml_7f170b85" />
+            <softkeys
+                href="@xml/xml_7f170cbb" />
+            <key_mapping>
+                <mapping
+                    key_id="@id/id_7f0b1a95"
+                    view_id="@id/key_pos_space" />
+            </key_mapping>
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170c3a" />
+            </if>
+            <else_if
+                device="tablet"
+                enable_show_foldable_layout_on_small_tablet="false"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170c3a" />
+            </else_if>
+        </view>
+    </keyboard>
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f170747" />
+    </if>
+    <else_if
+        device="tablet"
+        enable_show_foldable_layout_on_small_tablet="false"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f170747" />
+    </else_if>
+    <else>
+        <include
+            href="@xml/xml_7f170745" />
+    </else>
+</framework>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170f43" />
+    <softkeys>
+        <softkey
+            content_description="@string/string_7f1405a2"
+            id="@id/id_7f0b1aac">
+            <action
+                data="RECENTS"
+                keycode="UNKNOWN"
+                type="PRESS" />
+        </softkey>
+        <softkey
+            content_description="@string/string_7f140d4c"
+            id="@id/id_7f0b1aab">
+            <action
+                data="GENERAL"
+                keycode="UNKNOWN"
+                type="PRESS" />
+        </softkey>
+        <include
+            href="@xml/xml_7f170f3f" />
+        <softkey
+            content_description="@string/string_7f140d4b"
+            id="@id/id_7f0b1aab">
+            <action
+                data="BRACKETS"
+                keycode="UNKNOWN"
+                type="PRESS" />
+        </softkey>
+        <include
+            href="@xml/xml_7f170f3c" />
+        <softkey
+            content_description="@string/string_7f140d46"
+            id="@id/id_7f0b1aab">
+            <action
+                data="ARROWS"
+                keycode="UNKNOWN"
+                type="PRESS" />
+        </softkey>
+        <include
+            href="@xml/xml_7f170f3b" />
+        <softkey
+            content_description="@string/string_7f140d4d"
+            id="@id/id_7f0b1aab">
+            <action
+                data="MATHEMATICS"
+                keycode="UNKNOWN"
+                type="PRESS" />
+        </softkey>
+        <include
+            href="@xml/xml_7f170f40" />
+        <softkey
+            content_description="@string/string_7f140d4e"
+            id="@id/id_7f0b1aab">
+            <action
+                data="NUMBERS"
+                keycode="UNKNOWN"
+                type="PRESS" />
+        </softkey>
+        <include
+            href="@xml/xml_7f170f41" />
+        <softkey
+            content_description="@string/string_7f140d4f"
+            id="@id/id_7f0b1aab">
+            <action
+                data="SHAPES"
+                keycode="UNKNOWN"
+                type="PRESS" />
+        </softkey>
+        <include
+            href="@xml/xml_7f170f42" />
+        <softkey
+            content_description="@string/string_7f140d47"
+            id="@id/id_7f0b1aab">
+            <action
+                data="FULL_WIDTH"
+                keycode="UNKNOWN"
+                type="PRESS" />
+        </softkey>
+        <include
+            href="@xml/xml_7f170f3e" />
+    </softkeys>
+</framework>

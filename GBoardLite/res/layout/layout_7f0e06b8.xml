@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner
+    android:id="@id/key_pos_proactive_suggestions_strip"
+    android:visibility="invisible"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:attr_7f0404f2="?attr_7f0400f9"
+    app:attr_7f04056d="?attr_7f040251"
+    app:attr_7f0405b9="?attr_7f040252"
+    app:attr_7f040645="true"
+    app:attr_7f0407f4="@id/softkey_holder_fixed_candidates"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub
+        android:orientation="horizontal"
+        android:id="@id/key_pos_proactive_suggestions"
+        android:visibility="visible"
+        android:layout="@layout/layout_7f0e06b9"
+        android:inflatedId="@id/key_pos_proactive_suggestions"
+        android:layout_width="0.0dip"
+        android:layout_height="0.0dip"
+        android:paddingStart="?attr_7f04020b"
+        android:paddingEnd="?attr_7f04020b"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/key_pos_header_power_key"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e" />
+    <com.google.android.libraries.inputmethod.widgets.SoftKeyView
+        android:id="@id/key_pos_header_power_key"
+        android:paddingStart="?attr_7f040251"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f150611" />
+</com.google.android.libraries.inputmethod.widgets.scaledkeyboard.ScaledKeyboardViewInner>

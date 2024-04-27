@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.ShadowedFrameLayout
+    android:background="@drawable/drawable_7f0801ee"
+    android:padding="1.0dip"
+    android:clipChildren="false"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:attr_7f0403a2="@dimen/dimen_7f070089"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.inputmethod.keyboard.widget.ScrollableCandidatesHolderView
+        android:background="@drawable/drawable_7f0801ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:attr_7f04035b="@layout/layout_7f0e0076" />
+</com.google.android.libraries.inputmethod.widgets.ShadowedFrameLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f17059d" />
+    <keyboard
+        class="com.google.android.apps.inputmethod.latin.keyboard.LatinKeyboardWithNumberMode">
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e0131"
+                type="body" />
+        </if>
+        <else_if
+            device="tablet"
+            enable_show_foldable_layout_on_small_tablet="false"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e0130"
+                type="body" />
+        </else_if>
+        <else_if
+            enable_chinese_9key_foldable_split="true"
+            keyboard_mode="split">
+            <if
+                split_keyboard_handedness_zh="right">
+                <view
+                    layout="@layout/layout_7f0e013e"
+                    type="body" />
+            </if>
+            <else>
+                <view
+                    layout="@layout/layout_7f0e013c"
+                    type="body" />
+            </else>
+        </else_if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e012b"
+                type="body" />
+        </else>
+        <view
+            override="motion_event_handler"
+            type="body">
+            <motion_event_handler
+                class=".motioneventhandler.BasicMotionEventHandler" />
+            <motion_event_handler
+                class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler
+                class="com.google.android.libraries.inputmethod.motioneventhandler.ScrubMoveMotionEventHandler"
+                preference_key="@string/string_7f1406b1"
+                reverse_preference="false" />
+            <include
+                href="@xml/xml_7f170a5c" />
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170be0" />
+            </if>
+            <else_if
+                device="tablet"
+                enable_show_foldable_layout_on_small_tablet="false"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170be0" />
+            </else_if>
+            <else_if
+                keyboard_mode="split">
+                <softkeys
+                    href="@xml/xml_7f170cb1" />
+                <softkeys
+                    href="@xml/xml_7f170fc4" />
+                <include
+                    href="@xml/xml_7f170a97" />
+                <include
+                    href="@xml/xml_7f170c25" />
+            </else_if>
+            <include
+                href="@xml/xml_7f170b06" />
+            <include
+                href="@xml/xml_7f170b1d" />
+            <include
+                href="@xml/xml_7f170add" />
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170a06" />
+            </if>
+            <else_if
+                keyboard_mode="split">
+                <include
+                    href="@xml/xml_7f170b1e" />
+            </else_if>
+        </view>
+    </keyboard>
+</framework>

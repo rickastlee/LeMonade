@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            alpha="@attr/attr_7f040102"
+            content_description="@string/string_7f1405df"
+            id="@id/id_7f0b0d56"
+            layout="@layout/layout_7f0e05cf">
+            <action
+                keycode="PAGE_UP"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f08039e" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040102"
+            content_description=""
+            id="@id/id_7f0b0d57"
+            layout="@layout/layout_7f0e05cf">
+            <action
+                keycode="PAGE_UP"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f08039c" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040102"
+            content_description="@string/string_7f1405de"
+            id="@id/id_7f0b0d54"
+            layout="@layout/layout_7f0e05cf">
+            <action
+                keycode="PAGE_DOWN"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f08039a" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040102"
+            content_description=""
+            id="@id/id_7f0b0d55"
+            layout="@layout/layout_7f0e05cf">
+            <action
+                keycode="PAGE_DOWN"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080398" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040102"
+            content_description="@string/string_7f140360"
+            id="@id/id_7f0b0d52"
+            layout="@layout/layout_7f0e05cf"
+            multi_touch="false">
+            <if
+                rtl_layout="true">
+                <attrs
+                    layout="@layout/layout_7f0e05d0" />
+            </if>
+            <action
+                keycode="DEL"
+                repeatable="true"
+                type="PRESS" />
+            <action
+                keycode="DELETE_FINISH"
+                type="UP" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@attr/attr_7f04010a" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040102"
+            content_description="@string/string_7f140360"
+            id="@id/id_7f0b0d53"
+            layout="@layout/layout_7f0e05cf"
+            multi_touch="false"
+            popup_timing="ON_GESTURE"
+            slide_sensitivity="LESS">
+            <action
+                keycode="DEL"
+                repeatable="true"
+                type="PRESS" />
+            <action
+                keycode="CLEAR_ALL"
+                popup_label="@string/string_7f14042d"
+                popup_layout="@layout/layout_7f0e0696"
+                type="SLIDE_LEFT" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@attr/attr_7f04010a" />
+        </softkey>
+    </softkeys>
+</framework>

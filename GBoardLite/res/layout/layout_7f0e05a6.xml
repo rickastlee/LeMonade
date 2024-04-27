@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    app:attr_7f0402d1="false"
+    style="@style/style_7f150254"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewSwitcher
+        android:id="@id/id_7f0b025f"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <FrameLayout
+                android:gravity="start"
+                android:id="@id/id_7f0b0466"
+                style="@style/style_7f150218">
+                <android.support.v7.widget.AppCompatImageView
+                    style="@style/style_7f150216" />
+            </FrameLayout>
+            <androidx.coordinatorlayout.widget.CoordinatorLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <com.google.android.apps.inputmethod.libs.expression.header.StartElementRecyclerView
+                    android:orientation="horizontal"
+                    android:id="@id/id_7f0b0467"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:overScrollMode="never"
+                    app:attr_7f0405ca="com.google.android.apps.inputmethod.libs.expression.header.StartElementScrollBehavior" />
+                <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:id="@id/id_7f0b0533"
+                    android:clipToPadding="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="?attr_7f04008d"
+                    android:paddingStart="6.0dip"
+                    android:paddingEnd="@dimen/dimen_7f07032b"
+                    android:keyboardNavigationCluster="true"
+                    app:attr_7f0405ca="com.google.android.apps.inputmethod.libs.expression.header.MiddleElementScrollBehavior" />
+            </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        </LinearLayout>
+        <ViewAnimator
+            android:id="@id/id_7f0b025e"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <include
+                layout="@layout/layout_7f0e0798" />
+            <include
+                layout="@layout/layout_7f0e016c" />
+            <include
+                layout="@layout/layout_7f0e06be" />
+        </ViewAnimator>
+    </ViewSwitcher>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

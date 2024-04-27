@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class="com.google.android.apps.inputmethod.libs.search.gif.GifSearchKeyboard">
+        <view
+            direction="locale"
+            layout="@attr/attr_7f04018d"
+            scalable="false"
+            type="header">
+            <softkeys
+                href="@xml/xml_7f170fda" />
+            <include
+                href="@xml/xml_7f170c16" />
+        </view>
+        <view
+            id="@id/id_7f0b0568"
+            layout="@layout/layout_7f0e0698" />
+    </keyboard>
+</framework>

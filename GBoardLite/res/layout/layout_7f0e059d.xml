@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/id_7f0b0114"
+    android:visibility="gone"
+    android:layout_marginTop="10.0dip"
+    android:layout_marginStart="81.0dip"
+    app:attr_7f0405ee="id_7f0b053e"
+    app:attr_7f0405f2="id_7f0b053e"
+    style="@style/style_7f150218"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatImageView
+        style="@style/style_7f150216" />
+</FrameLayout>

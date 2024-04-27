@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f17059b" />
+    <keyboard>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e0446"
+                type="body" />
+        </if>
+        <else_if
+            device="tablet"
+            enable_show_foldable_layout_on_small_tablet="false"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e0357"
+                type="body" />
+        </else_if>
+        <else_if
+            keyboard_mode="split">
+            <if
+                split_with_duplicate_keys="true">
+                <view
+                    layout="@layout/layout_7f0e0352"
+                    type="body" />
+            </if>
+            <else>
+                <view
+                    layout="@layout/layout_7f0e0353"
+                    type="body" />
+            </else>
+        </else_if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e0351"
+                type="body" />
+        </else>
+        <view
+            type="body">
+            <softkeys
+                href="@xml/xml_7f170d5f" />
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170abd" />
+                <include
+                    href="@xml/xml_7f170ae2" />
+                <include
+                    href="@xml/xml_7f170a7b" />
+            </if>
+            <else_if
+                device="tablet"
+                enable_show_foldable_layout_on_small_tablet="false"
+                keyboard_mode="normal">
+                <include
+                    href="@xml/xml_7f170abd" />
+                <include
+                    href="@xml/xml_7f170ae1" />
+            </else_if>
+            <else>
+                <include
+                    href="@xml/xml_7f170abc" />
+                <include
+                    href="@xml/xml_7f170adf" />
+                <include
+                    href="@xml/xml_7f170a81" />
+                <include
+                    href="@xml/xml_7f170a7e" />
+                <include
+                    href="@xml/xml_7f170a7d" />
+            </else>
+        </view>
+    </keyboard>
+    <if
+        device="tablet"
+        device_size="large"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f170839" />
+    </if>
+    <else_if
+        device="tablet"
+        enable_show_foldable_layout_on_small_tablet="false"
+        keyboard_mode="normal">
+        <include
+            href="@xml/xml_7f170839" />
+    </else_if>
+    <else>
+        <include
+            href="@xml/xml_7f17087c" />
+    </else>
+</framework>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:state_enabled="false"
+        android:color="?attr_7f04040e" />
+    <item
+        android:color="?attr_7f0403d0"
+        app:attr_7f0407d4="true" />
+    <item
+        android:color="?attr_7f0403d2"
+        app:attr_7f0407d5="true" />
+    <item
+        android:state_checked="true"
+        android:color="?attr_7f0403d2" />
+    <item
+        android:state_checked="false"
+        android:color="?attr_7f0403d2" />
+</selector>

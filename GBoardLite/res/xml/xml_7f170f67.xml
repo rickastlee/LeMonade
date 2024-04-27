@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cad">
+            <softkey
+                id="@id/id_7f0b0838"
+                press_data="অ" />
+            <softkey
+                id="@id/id_7f0b0839"
+                long_press_data="া"
+                press_data="আ" />
+            <softkey
+                id="@id/id_7f0b084b"
+                long_press_data="ি"
+                press_data="ই" />
+            <softkey
+                id="@id/id_7f0b084c"
+                long_press_data="ী"
+                press_data="ঈ" />
+            <softkey
+                id="@id/id_7f0b086c"
+                long_press_data="ু"
+                press_data="উ" />
+            <softkey
+                id="@id/id_7f0b086d"
+                long_press_data="ূ"
+                press_data="ঊ" />
+            <softkey
+                id="@id/id_7f0b0846"
+                long_press_data="ে"
+                press_data="এ" />
+            <softkey
+                id="@id/id_7f0b083a"
+                long_press_data="ৈ"
+                press_data="ঐ" />
+            <softkey
+                id="@id/id_7f0b085e"
+                long_press_data="ো"
+                press_data="ও" />
+            <softkey
+                id="@id/id_7f0b083b"
+                long_press_data="ৌ"
+                press_data="ঔ" />
+            <softkey
+                id="@id/id_7f0b086e"
+                long_press_data="ৃ"
+                press_data="ঋ" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1cac">
+            <softkey
+                id="@id/id_7f0b084f"
+                long_press_data="ক্ন,ক্স,ক্র,ক্ম,ক্ল,ক্ব,ক্জ,ক্ফ,ক্থ,ক্ত"
+                press_data="ক" />
+            <softkey
+                id="@id/id_7f0b0852"
+                long_press_data="খ্ন,খ্র"
+                press_data="খ" />
+            <softkey
+                id="@id/id_7f0b0847"
+                long_press_data="গ্ন,গ্র,গ্ম,গ্স,গ্স,গ্ব"
+                press_data="গ" />
+            <softkey
+                id="@id/id_7f0b0849"
+                press_data="ঘ" />
+            <softkey
+                id="@id/id_7f0b085a"
+                press_data="ঙ" />
+            <softkey
+                id="@id/id_7f0b083e"
+                press_data="চ" />
+            <softkey
+                id="@id/id_7f0b083f"
+                press_data="ছ" />
+            <softkey
+                id="@id/id_7f0b084d"
+                long_press_data="জ্র,জ্ল"
+                press_data="জ" />
+            <softkey
+                id="@id/id_7f0b084e"
+                press_data="ঝ" />
+            <softkey
+                id="@id/id_7f0b085d"
+                press_data="ঞ" />
+            <softkey
+                id="@id/id_7f0b086a"
+                press_data="ট" />
+            <softkey
+                id="@id/id_7f0b086b"
+                press_data="ঠ" />
+            <softkey
+                id="@id/id_7f0b0841"
+                press_data="ড" />
+            <softkey
+                id="@id/id_7f0b0843"
+                press_data="ঢ" />
+            <softkey
+                id="@id/id_7f0b085b"
+                press_data="ণ" />
+            <softkey
+                id="@id/id_7f0b0868"
+                long_press_data="ত্র,ত্ন"
+                press_data="ত" />
+            <softkey
+                id="@id/id_7f0b0869"
+                press_data="থ" />
+            <softkey
+                id="@id/id_7f0b0840"
+                long_press_data="দ্র"
+                press_data="দ" />
+            <softkey
+                id="@id/id_7f0b0845"
+                press_data="ধ" />
+            <softkey
+                id="@id/id_7f0b0856"
+                long_press_data="ন্গ,ন্গ্ন,ন্ন,ন্জ,ন্ম,ন্ত,ন্স,ন্থ,ন্দ,ন্র"
+                press_data="ন" />
+            <softkey
+                id="@id/id_7f0b085f"
+                long_press_data="প্ন,প্র,প্স,প্ত,প্ল"
+                press_data="প" />
+            <softkey
+                id="@id/id_7f0b0860"
+                long_press_data="ফ্র,ফ্ল"
+                press_data="ফ" />
+            <softkey
+                id="@id/id_7f0b083c"
+                long_press_data="ব্র,ব্ন,ব্ল"
+                press_data="ব" />
+            <softkey
+                id="@id/id_7f0b083d"
+                press_data="ভ" />
+            <softkey
+                id="@id/id_7f0b0855"
+                long_press_data="ম্ন,ম্স,ম্য,ম্র,ম্ম"
+                press_data="ম" />
+            <softkey
+                id="@id/id_7f0b086f"
+                long_press_data="য্র"
+                press_data="য" />
+            <softkey
+                id="@id/id_7f0b0861"
+                long_press_data="র্ন,র্ম,র্গ,র্স,র্র,র্দ"
+                press_data="র" />
+            <softkey
+                id="@id/id_7f0b0854"
+                long_press_data="ল্স,ল্ক,ল্থ,ল্র,ল্গ,ল্ম"
+                press_data="ল" />
+            <softkey
+                id="@id/id_7f0b0862"
+                press_data="ৱ" />
+            <softkey
+                id="@id/id_7f0b0866"
+                press_data="শ" />
+            <softkey
+                id="@id/id_7f0b0867"
+                press_data="ষ" />
+            <softkey
+                id="@id/id_7f0b0865"
+                long_press_data="স্ন,স্ল,স্ক,স্ত,স্র"
+                press_data="স" />
+            <softkey
+                id="@id/id_7f0b084a"
+                long_press_data="হ্র,হ্ম,হ্ন,হ্ল,হ্ব,হ্য"
+                press_data="হ" />
+            <softkey
+                id="@id/id_7f0b0858"
+                press_data="ন্গ" />
+            <softkey
+                id="@id/id_7f0b0850"
+                press_data="ক্ন" />
+            <softkey
+                id="@id/id_7f0b0848"
+                press_data="গ্ন" />
+            <softkey
+                id="@id/id_7f0b0853"
+                press_data="ৎ" />
+        </softkey_list>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c95">
+            <softkey
+                hint_label="ঁ​ং​ঃ"
+                id="@id/id_7f0b0872"
+                long_press_data="ঃ,ং,ঁ,়"
+                long_press_label="ঃ,ং,ঁ,়"
+                press_data="্"
+                press_label="্" />
+        </softkey_list>
+    </softkeys>
+</framework>

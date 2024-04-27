@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170c98" />
+    <softkeys>
+        <softkey_template
+            content_description="$desc$"
+            id="@id/id_7f0b1c9e"
+            layout="@layout/layout_7f0e0769"
+            multi_touch="false"
+            popup_timing="@string/string_7f14084b"
+            slide_sensitivity="NORMAL">
+            <action
+                data="$long_press_data$"
+                intention="$long_press_intention=COMMIT$"
+                keycode="PLAIN_TEXT"
+                popup_label="$long_press_data$"
+                popup_layout="@attr/attr_7f0401fa"
+                type="LONG_PRESS" />
+            <label
+                location="@id/id_7f0b0472"
+                value="$hint_label$" />
+        </softkey_template>
+        <softkey_list
+            splitter=","
+            template_id="@id/id_7f0b1c9e">
+            <softkey
+                hint_label="١"
+                id="@id/id_7f0b0ea6"
+                long_press_data="١,1" />
+            <softkey
+                hint_label="٢"
+                id="@id/id_7f0b0eca"
+                long_press_data="٢,2" />
+            <softkey
+                hint_label="٣"
+                id="@id/id_7f0b0ec1"
+                long_press_data="٣,3" />
+            <softkey
+                hint_label="٤"
+                id="@id/id_7f0b0e94"
+                long_press_data="٤,4" />
+            <softkey
+                hint_label="٥"
+                id="@id/id_7f0b0e8b"
+                long_press_data="٥,5" />
+            <softkey
+                hint_label="٦"
+                id="@id/id_7f0b0eb8"
+                long_press_data="٦,6" />
+            <softkey
+                hint_label="٧"
+                id="@id/id_7f0b0eaf"
+                long_press_data="٧,7" />
+            <softkey
+                hint_label="٨"
+                id="@id/id_7f0b0e82"
+                long_press_data="٨,8" />
+            <softkey
+                hint_label="٩"
+                id="@id/id_7f0b0e9d"
+                long_press_data="٩,9" />
+            <softkey
+                hint_label="٠"
+                id="@id/id_7f0b0ed3"
+                long_press_data="٠,0" />
+        </softkey_list>
+    </softkeys>
+</framework>

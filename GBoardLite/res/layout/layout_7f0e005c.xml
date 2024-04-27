@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@id/id_7f0b011f"
+    android:layout_width="fill_parent"
+    android:layout_height="?attr_7f04008e"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:id="@id/id_7f0b0592"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <FrameLayout
+            android:id="@id/id_7f0b052c"
+            android:layout_width="@dimen/dimen_7f070087"
+            android:layout_height="@dimen/dimen_7f070087"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true">
+            <ImageView
+                android:layout_gravity="end|center|top"
+                android:id="@id/id_7f0b052b"
+                android:tag=".content-suggestion-primary-color.item-ripple.no-background"
+                android:background="@drawable/drawable_7f0801ef"
+                android:padding="8.0dip"
+                android:duplicateParentState="true"
+                android:layout_width="@dimen/dimen_7f0700e3"
+                android:layout_height="@dimen/dimen_7f0700e3"
+                android:scaleType="centerInside"
+                android:tint="@drawable/drawable_7f0802d9"
+                android:importantForAccessibility="no" />
+        </FrameLayout>
+        <ImageView
+            android:id="@id/id_7f0b0591"
+            android:tag=".content-suggestion-primary-color"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"
+            android:alpha="0.4"
+            android:importantForAccessibility="no" />
+        <LinearLayout
+            android:gravity="center"
+            android:id="@id/id_7f0b0593"
+            android:layout_width="300.0dip"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true">
+            <ImageView
+                android:id="@id/id_7f0b0594"
+                android:tag=".content-suggestion-primary-color"
+                android:layout_width="35.0dip"
+                android:layout_height="35.0dip"
+                android:scaleType="centerInside"
+                android:importantForAccessibility="no"
+                android:layout_marginEnd="16.0dip" />
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <com.google.android.libraries.inputmethod.widgets.WrapWidthTextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@id/id_7f0b0595"
+                    android:maxLines="3"
+                    android:breakStrategy="balanced"
+                    style="?attr_7f0400b5" />
+                <android.support.v7.widget.AppCompatTextView
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@id/id_7f0b0596"
+                    android:padding="8.0dip"
+                    android:visibility="gone"
+                    android:text="@string/string_7f140858"
+                    android:maxLines="1"
+                    style="?attr_7f0400b4" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView
+        android:id="@id/id_7f0b00a6"
+        android:visibility="invisible"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingStart="8.0dip"
+        android:paddingEnd="8.0dip" />
+    <include
+        android:id="@id/id_7f0b0184"
+        layout="@layout/layout_7f0e0082" />
+</FrameLayout>

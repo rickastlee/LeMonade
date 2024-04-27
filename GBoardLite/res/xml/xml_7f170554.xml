@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        always_show_suggestions="true"
+        announce_auto_selected_candidate="true"
+        class="com.google.android.apps.inputmethod.libs.chinese.ime.AsyncChineseProcessorBasedIme"
+        display_app_completions="true"
+        indicator_label="教院"
+        inline_composing="false"
+        language="zh-HK"
+        language_specific_settings="@xml/xml_7f170fe8"
+        secondary_ime_def="@xml/xml_7f170557"
+        string_id="ime_zh_hk_cantonese"
+        use_ascii_password_keyboard="true">
+        <if
+            enable_chinese_inline_composing_zh_hk="true">
+            <if
+                pref_enable_chinese_inline_composing_hk="true">
+                <attrs
+                    inline_composing="true" />
+            </if>
+        </if>
+        <keyboard_group
+            pk_language_tag="en"
+            supports_split_mode="true"
+            variant="qwerty-cantonese"
+            variant_label="@string/string_7f141089"
+            variant_name_mandatory="true">
+            <if
+                enable_number_row="true">
+                <attrs
+                    layout_theme="@style/style_7f15031b" />
+            </if>
+            <layout_specific_settings
+                resource_id="@xml/xml_7f170fe9" />
+            <keyboard
+                def="@xml/xml_7f1707a6"
+                type="prime">
+                <merge
+                    def="@xml/xml_7f1705d7" />
+                <merge
+                    def="@xml/xml_7f1707ac" />
+                <if
+                    enable_number_row="true">
+                    <merge
+                        def="@xml/xml_7f17086d" />
+                </if>
+            </keyboard>
+            <include
+                href="@xml/xml_7f170a00" />
+        </keyboard_group>
+        <extra_values>
+            <item
+                id="@id/id_7f0b01da"
+                value="true" />
+            <item
+                id="@id/id_7f0b01d5"
+                value="true" />
+            <item
+                id="@id/id_7f0b01e7"
+                value="。" />
+            <item
+                id="@id/id_7f0b01d1"
+                value="@string/string_7f14068d" />
+            <item
+                id="@id/id_7f0b01e6"
+                value="hmm" />
+            <item
+                id="@id/id_7f0b01cd"
+                value="pinyin_standard_cantonese_pinyin" />
+            <item
+                id="@id/id_7f0b01ec"
+                value="@string/string_7f140467" />
+            <if
+                enable_transliteration_tablet_floating_ui_v2="true">
+                <item
+                    id="@id/id_7f0b01c7"
+                    res="@xml/xml_7f1705d5" />
+            </if>
+            <else>
+                <item
+                    id="@id/id_7f0b01c7"
+                    res="@xml/xml_7f1705d4" />
+            </else>
+        </extra_values>
+        <include
+            href="@xml/xml_7f170c7c" />
+    </ime>
+</framework>

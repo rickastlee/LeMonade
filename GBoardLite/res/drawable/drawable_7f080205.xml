@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset
+    android:drawable="@drawable/drawable_7f080233"
+    android:insetLeft="@dimen/dimen_7f070540"
+    android:insetRight="@dimen/dimen_7f070541"
+    android:insetTop="@dimen/dimen_7f070542"
+    android:insetBottom="@dimen/dimen_7f07053f"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

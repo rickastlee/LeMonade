@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_gravity="end|center"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.button.MaterialButton
+        android:textSize="@dimen/dimen_7f0700ce"
+        android:id="@id/id_7f0b0109"
+        android:tag=".tooltip.outlined_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dimen_7f0700cb"
+        android:text="@string/string_7f14035d"
+        android:fontFamily="@font/font_7f090012"
+        style="?attr_7f040654" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/id_7f0b010a"
+        android:text="@string/string_7f1400c3"
+        style="@style/style_7f1501f8" />
+</LinearLayout>

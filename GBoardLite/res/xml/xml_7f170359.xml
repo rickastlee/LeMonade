@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <ime
+        class="com.google.android.libraries.inputmethod.ime.DummyIme"
+        label="@string/string_7f1405b1"
+        language="und-Latn-x-number"
+        string_id="number"
+        supports_access_points="false">
+        <keyboard_group>
+            <keyboard
+                def="@xml/xml_7f1708b8"
+                type="prime" />
+        </keyboard_group>
+    </ime>
+</framework>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if
+        show_secondary_digits="true">
+        <if
+            language="tdd-CN">
+            <merge_key_mapping>
+                <merge
+                    key_id="@id/id_7f0b0eac"
+                    view_id="@id/key_pos_0_1" />
+                <merge
+                    key_id="@id/id_7f0b0ed0"
+                    view_id="@id/key_pos_0_2" />
+                <merge
+                    key_id="@id/id_7f0b0ec7"
+                    view_id="@id/key_pos_0_3" />
+                <merge
+                    key_id="@id/id_7f0b0e9a"
+                    view_id="@id/key_pos_0_4" />
+                <merge
+                    key_id="@id/id_7f0b0e91"
+                    view_id="@id/key_pos_0_5" />
+                <merge
+                    key_id="@id/id_7f0b0ebe"
+                    view_id="@id/key_pos_0_6" />
+                <merge
+                    key_id="@id/id_7f0b0eb5"
+                    view_id="@id/key_pos_0_7" />
+                <merge
+                    key_id="@id/id_7f0b0e88"
+                    view_id="@id/key_pos_0_8" />
+                <merge
+                    key_id="@id/id_7f0b0ea3"
+                    view_id="@id/key_pos_0_9" />
+                <merge
+                    key_id="@id/id_7f0b0ed9"
+                    view_id="@id/key_pos_0_10" />
+            </merge_key_mapping>
+        </if>
+        <else_if
+            language="bax-CM">
+            <merge_key_mapping>
+                <merge
+                    key_id="@id/id_7f0b0e54"
+                    view_id="@id/key_pos_0_1" />
+                <merge
+                    key_id="@id/id_7f0b0e53"
+                    view_id="@id/key_pos_0_2" />
+                <merge
+                    key_id="@id/id_7f0b0e58"
+                    view_id="@id/key_pos_0_3" />
+                <merge
+                    key_id="@id/id_7f0b0e52"
+                    view_id="@id/key_pos_0_4" />
+                <merge
+                    key_id="@id/id_7f0b0e57"
+                    view_id="@id/key_pos_0_5" />
+                <merge
+                    key_id="@id/id_7f0b0e55"
+                    view_id="@id/key_pos_0_6" />
+                <merge
+                    key_id="@id/id_7f0b0e56"
+                    view_id="@id/key_pos_0_7" />
+                <merge
+                    key_id="@id/id_7f0b0e4f"
+                    view_id="@id/key_pos_0_8" />
+                <merge
+                    key_id="@id/id_7f0b0e51"
+                    view_id="@id/key_pos_0_9" />
+                <merge
+                    key_id="@id/id_7f0b0e50"
+                    view_id="@id/key_pos_0_10" />
+            </merge_key_mapping>
+        </else_if>
+        <else_if
+            language="bqi-IR">
+            <merge_key_mapping>
+                <merge
+                    key_id="@id/id_7f0b0ee5"
+                    view_id="@id/key_pos_0_1" />
+                <merge
+                    key_id="@id/id_7f0b0ee9"
+                    view_id="@id/key_pos_0_2" />
+                <merge
+                    key_id="@id/id_7f0b0ee8"
+                    view_id="@id/key_pos_0_3" />
+                <merge
+                    key_id="@id/id_7f0b0ee3"
+                    view_id="@id/key_pos_0_4" />
+                <merge
+                    key_id="@id/id_7f0b0ee2"
+                    view_id="@id/key_pos_0_5" />
+                <merge
+                    key_id="@id/id_7f0b0ee7"
+                    view_id="@id/key_pos_0_6" />
+                <merge
+                    key_id="@id/id_7f0b0ee6"
+                    view_id="@id/key_pos_0_7" />
+                <merge
+                    key_id="@id/id_7f0b0ee1"
+                    view_id="@id/key_pos_0_8" />
+                <merge
+                    key_id="@id/id_7f0b0ee4"
+                    view_id="@id/key_pos_0_9" />
+                <merge
+                    key_id="@id/id_7f0b0eea"
+                    view_id="@id/key_pos_0_10" />
+            </merge_key_mapping>
+        </else_if>
+        <else>
+            <merge_key_mapping>
+                <merge
+                    key_id="@id/id_7f0b0ea6"
+                    view_id="@id/key_pos_0_1" />
+                <merge
+                    key_id="@id/id_7f0b0eca"
+                    view_id="@id/key_pos_0_2" />
+                <merge
+                    key_id="@id/id_7f0b0ec1"
+                    view_id="@id/key_pos_0_3" />
+                <merge
+                    key_id="@id/id_7f0b0e94"
+                    view_id="@id/key_pos_0_4" />
+                <merge
+                    key_id="@id/id_7f0b0e8b"
+                    view_id="@id/key_pos_0_5" />
+                <merge
+                    key_id="@id/id_7f0b0eb8"
+                    view_id="@id/key_pos_0_6" />
+                <merge
+                    key_id="@id/id_7f0b0eaf"
+                    view_id="@id/key_pos_0_7" />
+                <merge
+                    key_id="@id/id_7f0b0e82"
+                    view_id="@id/key_pos_0_8" />
+                <merge
+                    key_id="@id/id_7f0b0e9d"
+                    view_id="@id/key_pos_0_9" />
+                <merge
+                    key_id="@id/id_7f0b0ed3"
+                    view_id="@id/key_pos_0_10" />
+            </merge_key_mapping>
+        </else>
+    </if>
+</framework>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:tag=".autoshowbanner.bg"
+    android:background="@android:color/white"
+    android:paddingTop="20.0dip"
+    android:paddingBottom="8.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="16.0dip"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatTextView
+        android:textSize="15.0sp"
+        android:gravity="center"
+        android:id="@id/id_7f0b046c"
+        android:tag=".label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string_7f140057"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/id_7f0b0519"
+        android:tag=".tooltip.positive_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:text="@string/string_7f14006f"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405e5="id_7f0b1ecd"
+        app:attr_7f0405ed="@id/id_7f0b050a"
+        app:attr_7f0405f1="@id/id_7f0b046c" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@id/id_7f0b050a"
+        android:tag=".tooltip.outlined_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20.0dip"
+        android:text="@string/string_7f140070"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b0519"
+        app:attr_7f0405e5="id_7f0b1ecd"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f1="@id/id_7f0b046c"
+        style="?attr_7f040654" />
+</androidx.constraintlayout.widget.ConstraintLayout>

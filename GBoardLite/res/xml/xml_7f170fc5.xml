@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <softkeys>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f140176"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b1839"
+            layout="@layout/layout_7f0e075d">
+            <action
+                data="digit"
+                keycode="SWITCH_KEYBOARD"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@attr/attr_7f040114" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f140d49"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b183c"
+            layout="@layout/layout_7f0e075d">
+            <action
+                data="symbol"
+                keycode="SWITCH_KEYBOARD"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f0803ee" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f1401b0"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b183a"
+            layout="@layout/layout_7f0e075d">
+            <action
+                data="smiley"
+                keycode="SWITCH_KEYBOARD"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f080457" />
+        </softkey>
+        <softkey
+            alpha="@attr/attr_7f040103"
+            content_description="@string/string_7f1401db"
+            disable_lift_to_tap="true"
+            id="@id/id_7f0b183b"
+            layout="@layout/layout_7f0e075d">
+            <action
+                data="emoticon"
+                keycode="SWITCH_KEYBOARD"
+                type="PRESS" />
+            <icon
+                location="@id/id_7f0b026a"
+                value="@drawable/drawable_7f0803ea" />
+        </softkey>
+        <include
+            href="@xml/xml_7f170fc6" />
+    </softkeys>
+</framework>

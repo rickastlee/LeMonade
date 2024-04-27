@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f170b08" />
+    <include
+        href="@xml/xml_7f170b0d" />
+    <include
+        href="@xml/xml_7f170b0e" />
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b0c32"
+            view_id="@id/key_pos_number_line1_1" />
+        <mapping
+            key_id="@id/id_7f0b0c33"
+            view_id="@id/key_pos_number_line1_2" />
+        <mapping
+            key_id="@id/id_7f0b0c34"
+            view_id="@id/key_pos_number_line1_3" />
+        <mapping
+            key_id="@id/id_7f0b16f6"
+            view_id="@id/key_pos_number_line1_4" />
+        <mapping
+            key_id="@id/id_7f0b0c35"
+            view_id="@id/key_pos_number_line2_1" />
+        <mapping
+            key_id="@id/id_7f0b0c36"
+            view_id="@id/key_pos_number_line2_2" />
+        <mapping
+            key_id="@id/id_7f0b0c37"
+            view_id="@id/key_pos_number_line2_3" />
+        <mapping
+            key_id="@id/id_7f0b1a9b"
+            view_id="@id/key_pos_number_line2_4" />
+        <mapping
+            key_id="@id/id_7f0b0c38"
+            view_id="@id/key_pos_number_line3_1" />
+        <mapping
+            key_id="@id/id_7f0b0c39"
+            view_id="@id/key_pos_number_line3_2" />
+        <mapping
+            key_id="@id/id_7f0b0c3a"
+            view_id="@id/key_pos_number_line3_3" />
+        <mapping
+            key_id="@id/id_7f0b0b22"
+            view_id="@id/key_pos_number_line3_4" />
+        <mapping
+            key_id="@id/id_7f0b1a8e"
+            view_id="@id/key_pos_number_line4_1" />
+        <mapping
+            key_id="@id/id_7f0b0c31"
+            view_id="@id/key_pos_number_line4_2" />
+        <mapping
+            key_id="@id/id_7f0b1a4d"
+            view_id="@id/key_pos_number_line4_3" />
+    </key_mapping>
+    <key_mapping
+        state="INPUT_TYPE_DATE">
+        <mapping
+            key_id="@id/id_7f0b1a8d"
+            view_id="@id/key_pos_number_line4_1" />
+        <mapping
+            key_id="@id/id_7f0b1a4c"
+            view_id="@id/key_pos_number_line4_3" />
+    </key_mapping>
+    <key_mapping
+        state="INPUT_TYPE_TIME">
+        <mapping
+            key_id="@id/id_7f0b0a0f"
+            view_id="@id/key_pos_number_line4_1" />
+        <mapping
+            key_id="@id/id_7f0b1a4d"
+            view_id="@id/key_pos_number_line4_3" />
+    </key_mapping>
+</framework>

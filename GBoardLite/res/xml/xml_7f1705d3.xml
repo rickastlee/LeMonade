@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <include
+        href="@xml/xml_7f17059d" />
+    <include
+        href="@xml/xml_7f1708e1" />
+    <include
+        href="@xml/xml_7f170882" />
+    <keyboard>
+        <view
+            override="motion_event_handler"
+            type="body">
+            <motion_event_handler
+                class=".motioneventhandler.BasicMotionEventHandler"
+                preference_key="@string/string_7f1406b8"
+                reverse_preference="true" />
+            <motion_event_handler
+                class=".motioneventhandler.SpatialModelMotionEventHandler"
+                preference_key="@string/string_7f1406b8"
+                reverse_preference="false" />
+            <motion_event_handler
+                class=".inlinesuggestion.InlineSuggestionScrubSpaceMotionEventHandler" />
+            <motion_event_handler
+                class="com.google.android.libraries.inputmethod.motioneventhandler.ScrubMoveMotionEventHandler"
+                preference_key="@string/string_7f1406b1"
+                reverse_preference="false" />
+            <include
+                href="@xml/xml_7f170b06" />
+            <include
+                href="@xml/xml_7f170b1a" />
+        </view>
+    </keyboard>
+</framework>

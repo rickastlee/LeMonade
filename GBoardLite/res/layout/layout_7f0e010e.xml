@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    style="@style/style_7f1502c0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/id_7f0b0292"
+        android:importantForAccessibility="no"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b0295"
+        app:attr_7f0405ee="id_7f0b053e"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f1502bb" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0295"
+        android:tag=".inline-suggestion-tooltip-chip-text"
+        android:text="@string/string_7f140379"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b0294"
+        app:attr_7f0405ed="@id/id_7f0b0292"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f1502bf" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0294"
+        android:tag=".inline-suggestion-tooltip-chip-text.highlight"
+        android:text="@string/string_7f140378"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405db="@id/id_7f0b0293"
+        app:attr_7f0405ed="@id/id_7f0b0295"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f1502be" />
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@id/id_7f0b0293"
+        android:tag=".inline-suggestion-tooltip-chip-text"
+        android:text="@string/string_7f140377"
+        app:attr_7f0405d4="id_7f0b053e"
+        app:attr_7f0405da="id_7f0b053e"
+        app:attr_7f0405ed="@id/id_7f0b0294"
+        app:attr_7f0405f2="id_7f0b053e"
+        style="@style/style_7f1502bd" />
+</androidx.constraintlayout.widget.ConstraintLayout>

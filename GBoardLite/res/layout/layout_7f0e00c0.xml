@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.widgets.SoftKeyboardView
+    android:tag=".keyboard-body-area"
+    android:background="@color/color_7f0606c2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="?attr_7f040172"
+    android:paddingEnd="?attr_7f040171"
+    app:attr_7f0402d1="false"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:tag=".divider.horizontal.for-fast-access-bar"
+        android:background="@drawable/drawable_7f0802e3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ViewStub
+            android:id="@id/id_7f0b01f4"
+            android:layout="@layout/layout_7f0e00bb"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_7f07016a" />
+        <RelativeLayout
+            android:id="@id/id_7f0b01f6"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dimen_7f070164">
+            <com.google.android.libraries.inputmethod.recyclerview.BindingRecyclerView
+                android:scrollbarStyle="outsideOverlay"
+                android:id="@id/id_7f0b01f2"
+                android:scrollbars="none"
+                android:clipToPadding="false"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginStart="-3.0dip"
+                android:layout_marginEnd="-7.0dip" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.google.android.libraries.inputmethod.widgets.SoftKeyboardView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.inputmethod.popup.MaterialRectangularPopupView
+    android:id="@id/id_7f0b0553"
+    app:attr_7f040091="?attr_7f0401f7"
+    app:attr_7f040202="?attr_7f0401b8"
+    app:attr_7f04024f="?attr_7f040205"
+    app:attr_7f040250="?attr_7f040206"
+    balanced_placement="false"
+    first_key_as_default="false"
+    max_item_per_row="@integer/integer_7f0c00e0"
+    style="@style/style_7f15040e"
+    text_view="@layout/layout_7f0e0694"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@id/id_7f0b055e"
+        style="@style/style_7f150411" />
+    <FrameLayout
+        android:id="@id/id_7f0b055c"
+        style="@style/style_7f150410">
+        <LinearLayout
+            android:id="@id/id_7f0b055b"
+            style="@style/style_7f15040f" />
+    </FrameLayout>
+</com.google.android.libraries.inputmethod.popup.MaterialRectangularPopupView>

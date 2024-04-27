@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <if
+        split_keyboard_handedness_ja="right">
+        <include
+            href="@xml/xml_7f170a50" />
+        <include
+            href="@xml/xml_7f170a4c" />
+    </if>
+    <else_if
+        split_keyboard_handedness_ja="left">
+        <include
+            href="@xml/xml_7f170a51" />
+        <include
+            href="@xml/xml_7f170a4b" />
+    </else_if>
+    <else>
+        <include
+            href="@xml/xml_7f170a51" />
+        <include
+            href="@xml/xml_7f170a50" />
+    </else>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b11a9"
+            view_id="@id/key_pos_0_0" />
+        <mapping
+            key_id="@id/id_7f0b11c1"
+            view_id="@id/key_pos_1_0" />
+        <mapping
+            key_id="@id/id_7f0b11c0"
+            view_id="@id/key_pos_2_0" />
+        <mapping
+            key_id="@id/id_7f0b11c2"
+            view_id="@id/key_pos_3_0" />
+        <mapping
+            key_id="@id/id_7f0b11a8"
+            view_id="@id/key_pos_2_1" />
+        <mapping
+            key_id="@id/id_7f0b1af2"
+            view_id="@id/key_pos_3_1" />
+        <if
+            japanese_use_tri_state_mode="true">
+            <mapping
+                key_id="@id/id_7f0b1241"
+                view_id="@id/key_pos_switch_hiragana_alphabet" />
+        </if>
+        <else>
+            <mapping
+                key_id="@id/id_7f0b1ae3"
+                view_id="@id/key_pos_switch_hiragana_alphabet" />
+        </else>
+    </key_mapping>
+    <key_mapping
+        state="SHOW_LANGUAGE_SWITCH_KEY">
+        <mapping
+            key_id="@id/id_7f0b123d"
+            view_id="@id/key_pos_ja_12keys_sub_10" />
+    </key_mapping>
+    <if
+        split_keyboard_handedness_ja="left">
+        <key_mapping
+            state="COMPOSING">
+            <mapping
+                key_id="@id/id_7f0b1204"
+                view_id="@id/key_pos_ja_12keys_sub_10" />
+        </key_mapping>
+    </if>
+    <if
+        split_keyboard_handedness_ja="both">
+        <key_mapping>
+            <mapping
+                key_id="@id/id_7f0b1af2"
+                view_id="@id/key_pos_ja_12keys_10" />
+        </key_mapping>
+        <key_mapping
+            state="COMPOSING">
+            <mapping
+                key_id="@id/id_7f0b1204"
+                view_id="@id/key_pos_ja_12keys_10" />
+            <mapping
+                key_id="@id/id_7f0b1204"
+                view_id="@id/key_pos_ja_12keys_sub_10" />
+        </key_mapping>
+    </if>
+    <key_mapping
+        state="COMPOSING">
+        <mapping
+            key_id="@id/id_7f0b1a9a"
+            view_id="@id/key_pos_space" />
+    </key_mapping>
+</framework>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <keyboard
+        class=".latin.keyboard.LatinJapanesePrimeKeyboard"
+        popup="@attr/attr_7f0401f3"
+        session_states="CAPS_LOCK">
+        <if
+            ja_candidate_ux_v2="true">
+            <attrs
+                class=".latin.keyboard.LatinJapanesePrimeKeyboardV2" />
+            <view
+                direction="locale"
+                layout="@layout/layout_7f0e01d8"
+                scalable="false"
+                type="header">
+                <softkeys
+                    href="@xml/xml_7f170cc2" />
+                <include
+                    href="@xml/xml_7f170b37" />
+            </view>
+        </if>
+        <else>
+            <view
+                direction="locale"
+                layout="@layout/layout_7f0e058c"
+                scalable="false"
+                type="header" />
+        </else>
+        <if
+            device="tablet"
+            device_size="large"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e03c1"
+                type="body">
+                <if
+                    ja_candidate_ux_v2="true">
+                    <attrs
+                        layout="@layout/layout_7f0e03c2" />
+                </if>
+            </view>
+        </if>
+        <else_if
+            device="tablet"
+            enable_show_foldable_layout_on_small_tablet="false"
+            keyboard_mode="normal">
+            <view
+                layout="@layout/layout_7f0e03c0"
+                type="body">
+                <if
+                    ja_candidate_ux_v2="true">
+                    <attrs
+                        layout="@layout/layout_7f0e03c3" />
+                </if>
+            </view>
+        </else_if>
+        <else_if
+            keyboard_mode="split">
+            <if
+                split_with_duplicate_keys="true">
+                <view
+                    layout="@layout/layout_7f0e039a"
+                    type="body">
+                    <if
+                        ja_candidate_ux_v2="true">
+                        <attrs
+                            layout="@layout/layout_7f0e039d" />
+                    </if>
+                </view>
+            </if>
+            <else>
+                <view
+                    layout="@layout/layout_7f0e039b"
+                    type="body">
+                    <if
+                        ja_candidate_ux_v2="true">
+                        <attrs
+                            layout="@layout/layout_7f0e039c" />
+                    </if>
+                </view>
+            </else>
+        </else_if>
+        <else>
+            <view
+                layout="@layout/layout_7f0e0399"
+                type="body">
+                <if
+                    ja_candidate_ux_v2="true">
+                    <attrs
+                        layout="@layout/layout_7f0e039e" />
+                </if>
+            </view>
+        </else>
+        <view
+            type="body">
+            <include
+                href="@xml/xml_7f170c71" />
+            <softkeys
+                href="@xml/xml_7f170fd1" />
+            <softkeys
+                href="@xml/xml_7f170df2" />
+            <softkeys
+                href="@xml/xml_7f170cad" />
+            <softkeys
+                href="@xml/xml_7f170df0" />
+            <softkeys
+                href="@xml/xml_7f170c9f" />
+            <include
+                href="@xml/xml_7f170aa2" />
+            <include
+                href="@xml/xml_7f170be8" />
+            <include
+                href="@xml/xml_7f170b91" />
+            <include
+                href="@xml/xml_7f170b8a" />
+            <include
+                href="@xml/xml_7f170a3b" />
+            <include
+                href="@xml/xml_7f170a71" />
+            <include
+                href="@xml/xml_7f170b0b" />
+            <include
+                href="@xml/xml_7f170b18" />
+            <if
+                device="tablet"
+                device_size="large"
+                keyboard_mode="normal">
+                <softkeys
+                    href="@xml/xml_7f170fd8" />
+                <softkeys
+                    href="@xml/xml_7f170ca7" />
+                <softkeys
+                    href="@xml/xml_7f170fdd" />
+                <include
+                    href="@xml/xml_7f170b1b" />
+                <include
+                    href="@xml/xml_7f170be4" />
+                <include
+                    href="@xml/xml_7f170af6" />
+                <include
+                    href="@xml/xml_7f170b23" />
+                <include
+                    href="@xml/xml_7f170bde" />
+                <include
+                    href="@xml/xml_7f170ae2" />
+            </if>
+            <else_if
+                device="tablet"
+                enable_show_foldable_layout_on_small_tablet="false"
+                keyboard_mode="normal">
+                <softkeys
+                    href="@xml/xml_7f170fd8" />
+                <softkeys
+                    href="@xml/xml_7f170ca7" />
+                <include
+                    href="@xml/xml_7f170b1b" />
+                <include
+                    href="@xml/xml_7f170be4" />
+                <include
+                    href="@xml/xml_7f170af6" />
+                <include
+                    href="@xml/xml_7f170ae1" />
+            </else_if>
+            <else>
+                <softkeys
+                    href="@xml/xml_7f170ca6" />
+                <include
+                    href="@xml/xml_7f170af5" />
+                <include
+                    href="@xml/xml_7f170adf" />
+            </else>
+            <include
+                href="@xml/xml_7f170ad9" />
+        </view>
+    </keyboard>
+</framework>

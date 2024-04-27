@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<framework>
+    <key_mapping>
+        <mapping
+            key_id="@id/id_7f0b1b37"
+            view_id="@id/key_pos_shift" />
+        <mapping
+            key_id="@id/id_7f0b1b37"
+            view_id="@id/key_pos_right_side_3rd_key" />
+    </key_mapping>
+    <key_mapping
+        state="SUB_CATEGORY_1">
+        <mapping
+            key_id="@id/id_7f0b1715"
+            view_id="@id/key_pos_shift" />
+        <mapping
+            key_id="@id/id_7f0b1715"
+            view_id="@id/key_pos_right_side_3rd_key" />
+    </key_mapping>
+    <include
+        href="@xml/xml_7f170adb" />
+</framework>

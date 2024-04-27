@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    style="@style/style_7f15028f"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        style="@style/style_7f15049c">
+        <com.google.android.apps.inputmethod.libs.search.widget.SearchCandidateListHolderView
+            app:attr_7f04035b="@layout/layout_7f0e0772"
+            app:attr_7f04035c="?attr_7f04020d"
+            style="@style/style_7f150498" />
+        <ImageView
+            android:tag=".search-candidate-divider"
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:src="@drawable/drawable_7f080553"
+            android:importantForAccessibility="no" />
+        <include
+            layout="@layout/layout_7f0e06c8" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
